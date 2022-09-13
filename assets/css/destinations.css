@@ -1,0 +1,86 @@
+#heading {
+  margin-bottom: 50px;
+}
+
+#heading h2 {
+  color: white;
+  text-align: center;
+}
+
+
+/*states*/
+.state {
+  margin: 10px;
+  border-radius: 15px;
+  height: 126px;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.state h1 {
+  padding-top: 25px;
+}
+
+/*
+   .state1{
+     background-color: red;
+   }
+   .state2{
+     background-color: orange;
+   }
+   .state3{
+   
+   }
+   .state4{
+     background-color: cyan;
+   }
+   .state5{
+     background-color: palevioletred;
+   }
+   .state6{
+     background-color: lawngreen;
+   }
+   .state7{
+     background-color: violet;
+   }
+   .state8{
+     background-color: floralwhite;
+   }
+   .state9{
+     background-color: navajowhite;
+   }
+   .state10{
+     background-color: khaki;
+   }
+   */
+
+.container:hover .state {
+  opacity: 0.5;
+  filter: blur(3px);
+}
+
+.container .state:hover {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1.1);
+}
+
+.btn {
+  border: 3px solid black;
+  border-radius: 20px;
+  height: 40px;
+
+}
+
+.btn:hover {
+  background-color: blueviolet;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/*states*/
