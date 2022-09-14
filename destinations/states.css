@@ -64,7 +64,7 @@ input[type='checkbox']:checked+.card-container .card-flip {
 
 .btn {
   margin-left: 30px;
-  margin-top: 190px;
+  margin-top: 138px;
 }
 
 .head h1 {
@@ -83,4 +83,12 @@ input[type='checkbox']:checked+.card-container .card-flip {
 
 .card-header {
   background-color: #000;
+}
+
+.card-price{
+  color: #f3260b;
+}
+
+.card-text{
+  margin-bottom: -1rem;
 }
