@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <div class="content-wrapper">
     <header class="wrapper bg-soft-primaryheader">
       <nav class="navbar navbar-expand-lg center-nav transparent navbar-light;navbar-color:#FFB6C1">
@@ -54,6 +55,9 @@
             <!-- /.offcanvas-body -->
           </div>
           <!-- /.navbar-collapse -->
+          <!--if else for logout-->
+          <?php 
+          if(empty($_SESSSION)){ ?>
           <div class="navbar-other w-100 d-flex ms-auto">
             <ul class="navbar-nav flex-row align-items-center ms-auto">
               <li class="nav-item">
@@ -69,6 +73,9 @@
             <!-- /.navbar-nav -->
           </div>
           <!-- /.navbar-other -->
+          <?php } else{ echo "Hello" .$_SESSION["myname"];?>
+           <ul><li> <form action="logout.php"><input type="submit" name="logout" value="Logout"> </form></li></ul> 
+        <?php }?>
         </div>
         <!-- /.container -->
       </nav>
@@ -80,17 +87,17 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               <h2 class="mb-3 text-start">Welcome Back</h2>
               <p class="lead mb-6 text-start">Fill your email and password to sign in.</p>
-              <form class="text-start mb-3">
+              <form class="text-start mb-3" action="signin.php" method="post">
                 <div class="form-floating mb-4">
-                  <input type="email" class="form-control" placeholder="Email" id="loginEmail">
+                  <input type="email" class="form-control" placeholder="Email" id="Email" name="email">
                   <label for="loginEmail">Email</label>
                 </div>
                 <div class="form-floating password-field mb-4">
-                  <input type="password" class="form-control" placeholder="Password" id="loginPassword">
+                  <input type="password" class="form-control" placeholder="Password" id="Password" name="pwd">
                   <span class="password-toggle"><i class="uil uil-eye"></i></span>
                   <label for="loginPassword">Password</label>
                 </div>
-                <a class="btn btn-primary rounded-pill btn-login w-100 mb-2">Sign In</a>
+                <button class="btn btn-primary rounded-pill btn-login w-100 mb-2" name="signin">Sign In</button>
               </form>
               <!-- /form -->
               <p class="mb-1"><a href="#" class="hover">Forgot Password?</a></p>
@@ -117,7 +124,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               <h2 class="mb-3 text-start">Sign up to Shaadi Mubarak</h2>
               <p class="lead mb-6 text-start">Registration takes less than a minute.</p>
-              <form class="text-start mb-3" action="signup.php" method="post">
+              <form class="text-start mb-3" action="signup.php" method="post" onsubmit="return SignUpValidation()">
                 <div class="form-floating mb-4">
                   <input type="text" class="form-control" placeholder="Name" id="loginName" name="loginName">
                   <label for="loginName">Name</label>
@@ -136,9 +143,7 @@
                   <span class="password-toggle"><i class="uil uil-eye"></i></span>
                   <label for="loginPasswordConfirm">Confirm Password</label>
                 </div>
-                <div class="btn btn-primary rounded-pill btn-login w-100 mb-2">
-                  <input type="submit" name="signup" value="SignUp">
-                </div>
+                <button class="btn btn-primary rounded-pill btn-login w-100 mb-2" name="signup">SignUp</button>
                 
               </form>
               <!-- /form -->
@@ -159,3 +164,4 @@
       </div>
       <!--/.modal -->
     </header>
+    <script src="validate.js"></script>
