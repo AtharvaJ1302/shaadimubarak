@@ -5,8 +5,8 @@
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a href="./index.html">
-             <!-- <h1>Shaadi Mubarak</h1>-->
-             <img src="./assets/img/logo.png" alt="" height="200px" width="100%">
+           <h1>Shaadi Mubarak</h1>
+             
             </a>
           </div>
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
