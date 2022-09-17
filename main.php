@@ -113,7 +113,7 @@
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">02</span></span>
-        <h4 class="mb-1 text-inversetowhite">CHOOSE YOUR DESTINATION,DECORATION AND FOOD MENU</h4>
+        <h4 class="mb-1 text-inversetowhite">CHOOSE YOUR DESTINATION AND FOOD MENU </h4>
         <p class="mb-0">Search and choose for the best option from our endless varieties.</p>
       </div>
       <!--/column -->
