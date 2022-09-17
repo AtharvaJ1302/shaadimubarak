@@ -30,10 +30,10 @@
               
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">SERVICES</a>
                   <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="#">DESTINATIONS</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="food.html">FOOD</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="photography.html">PHOTOGRAPHY</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="sound-light.html">SOUND & LIGHTS</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="./destinations.html">DESTINATIONS</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="./food/food.html">FOOD</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="./photography/photography.html">PHOTOGRAPHY</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="./sound and light/sound-light.html">SOUND & LIGHTS</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="#">INVITATION</a></li>
                   </ul>
                 </li>
