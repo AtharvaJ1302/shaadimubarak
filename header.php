@@ -20,17 +20,23 @@
                 </li>
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">US</a>
                   <ul class="dropdown-menu">
-                    <li class="nav-item"><a class="dropdown-item" href="#">About Us</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="about-us.php">Our Team</a>
-                      </li>
-                    <li class="nav-item"><a class="dropdown-item" href="./contact-us.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="#">ABOUT US</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="about-us.php">OUR TEAM</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="./contact-us.html">CONTACT US</a></li>
                   </ul>
                 </li>
-                <li>
 
-                <li>
-                  <a class="nav-link" href="destinations.html" >DESTINATIONS</a>
+              
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">SERVICES</a>
+                  <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="dropdown-item" href="#">DESTINATIONS</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="food.html">FOOD</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="photography.html">PHOTOGRAPHY</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="sound-light.html">SOUND & LIGHTS</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">INVITATION</a></li>
+                  </ul>
                 </li>
+
                 <li>
                   <a class="nav-link" href="gallery.html" >GALLERY</a>
                 </li>
