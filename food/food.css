@@ -133,9 +133,9 @@ body{
    color:#444;
 }
 input{
-   float: left;
+   float: center;
    margin: 0px 0px;
-   width: 20px;
+   width: 40px;
    border: solid 1px;
 }
 .products-preview{
