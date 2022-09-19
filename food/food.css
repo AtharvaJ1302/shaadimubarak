@@ -216,31 +216,13 @@ input{
    gap:1.5rem;
    flex-wrap: wrap;
    margin-top: 1rem;
+   margin-left: 45%;
 }
 
-.products-preview .preview .buttons a{
-   flex:1 1 16rem;
-   padding:1rem;
-   font-size: 1.8rem;
-   color:#444;
-   border:.1rem solid #444;
+input[type="checkbox"]{
+   width: 30px;
+   height: 50px;
 }
-
-.products-preview .preview .buttons a.cart{
-   background: #444;
-   color:#fff;
-}
-
-.products-preview .preview .buttons a.cart:hover{
-   background: #111;
-}
-
-.products-preview .preview .buttons a.buy:hover{
-   background: #444;
-   color:#fff;
-}
-
-
 @media (max-width:991px){
 
    html{
@@ -264,3 +246,4 @@ input{
    }
 
 }
+
