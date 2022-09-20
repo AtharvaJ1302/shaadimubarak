@@ -1,3 +1,4 @@
+
 <?php session_start(); ?>
 <div class="content-wrapper">
     <header class="wrapper bg-soft-primaryheader">
@@ -5,8 +6,7 @@
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a href="./index.html">
-           <h1>Shaadi Mubarak</h1>
-             
+              <h1>Shaadi Mubarak</h1>
             </a>
           </div>
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -21,23 +21,17 @@
                 </li>
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">US</a>
                   <ul class="dropdown-menu">
-                    <li class="nav-item"><a class="dropdown-item" href="#">ABOUT US</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="about-us.php">OUR TEAM</a></li>
-                    <li class="nav-item"><a class="dropdown-item" href="./contact-us.html">CONTACT US</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="#">About Us</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="about-us.php">Our Team</a>
+                      </li>
+                    <li class="nav-item"><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
                   </ul>
                 </li>
+                <li>
 
-              
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">SERVICES</a>
-                  <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="./destinations.html">DESTINATIONS</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="./food/food.html">FOOD</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="./photography.html">PHOTOGRAPHY</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="./sound-light.html">SOUND & LIGHTS</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#">INVITATION</a></li>
-                  </ul>
+                <li>
+                  <a class="nav-link" href="destinations.html" >DESTINATIONS</a>
                 </li>
-
                 <li>
                   <a class="nav-link" href="gallery.html" >GALLERY</a>
                 </li>
@@ -62,9 +56,8 @@
             <!-- /.offcanvas-body -->
           </div>
           <!-- /.navbar-collapse -->
-          <!--if else for logout-->
-          <?php 
-          if(empty($_SESSSION)){ ?>
+          <?php
+          if(empty($_SESSION)){ ?>
           <div class="navbar-other w-100 d-flex ms-auto">
             <ul class="navbar-nav flex-row align-items-center ms-auto">
               <li class="nav-item">
@@ -83,7 +76,7 @@
           <?php } else{ echo "Hello" .$_SESSION["myname"];?>
            <ul><li> <form action="logout.php"><input type="submit" name="logout" value="Logout"> </form></li></ul> 
         <?php }?>
-        </div>
+          </div>
         <!-- /.container -->
       </nav>
       <!-- /.navbar -->
@@ -107,7 +100,7 @@
                 <button class="btn btn-primary rounded-pill btn-login w-100 mb-2" name="signin">Sign In</button>
               </form>
               <!-- /form -->
-              <p class="mb-1"><a href="#" class="hover">Forgot Password?</a></p>
+              <p class="mb-1"><a href="signup.php" class="hover">Forgot Password?</a></p>
               <p class="mb-0">Don't have an account? <a href="#" data-bs-target="#modal-signup" data-bs-toggle="modal" data-bs-dismiss="modal" class="hover">Sign up</a></p>
               <div class="divider-icon my-4">or</div>
               <nav class="nav social justify-content-center text-center">
@@ -134,7 +127,8 @@
               <form class="text-start mb-3" action="signup.php" method="post" onsubmit="return SignUpValidation()">
                 <div class="form-floating mb-4">
                   <input type="text" class="form-control" placeholder="Name" id="loginName" name="loginName">
-                  <label for="loginName">Name</label>
+                  <label for="loginName">Name</label> 
+                  <!-- <div id="msgName"></div> -->
                 </div>
                 <div class="form-floating mb-4">
                   <input type="email" class="form-control" placeholder="Email" id="loginEmail" name="loginEmail">
@@ -150,7 +144,9 @@
                   <span class="password-toggle"><i class="uil uil-eye"></i></span>
                   <label for="loginPasswordConfirm">Confirm Password</label>
                 </div>
-                <button class="btn btn-primary rounded-pill btn-login w-100 mb-2" name="signup">SignUp</button>
+                
+                  <button class="btn btn-primary rounded-pill btn-login w-100 mb-2" name="signup">SignUp</button>
+                
                 
               </form>
               <!-- /form -->
@@ -171,4 +167,8 @@
       </div>
       <!--/.modal -->
     </header>
-    <script src="validate.js"></script>
+  </div>
+  <script src="check.js"></script>
+  
+
+ 
