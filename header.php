@@ -24,7 +24,7 @@
                     <li class="nav-item"><a class="dropdown-item" href="#">About Us</a></li>
                       <li class="nav-item"><a class="dropdown-item" href="about-us.php">Our Team</a>
                       </li>
-                    <li class="nav-item"><a class="dropdown-item" href="./contact-us.php">Contact Us</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
                   </ul>
                 </li>
                 <li>
