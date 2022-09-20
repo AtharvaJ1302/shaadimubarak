@@ -1,3 +1,7 @@
+<?php
+session_start(); 
+include("session_check.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,11 +30,10 @@
 </head>
 
 <body>
-  <form action="soundandlights.php" method="post">
+  <form action="venuerajasthan.php" method="post">
   <section id="container">
-
     <div class="head">
-      <h1>SOUND AND LIGHTS</h1>
+      <h1>RAJASTHAN</h1>
     </div>
 
     <input type="checkbox" id="card-1" />
@@ -42,13 +45,13 @@
           <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./sound and lights/absolut lime/img1.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Umaid Bhawan Palace, Jodhpur/image121.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/absolut lime/img2.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Umaid Bhawan Palace, Jodhpur/image5.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/absolut lime/img3.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Umaid Bhawan Palace, Jodhpur/image87.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
@@ -63,10 +66,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Absolut Lime</h5>
-            
-
-
+            <h5 class="card-title">Umaid Bhawan Palace</h5>
+            <h6>LOCATION: Cantt Area, Jodhpur</h6>
 
           </div>
         </div>
@@ -79,8 +80,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio quo aliquam, ab voluptas natus. Ipsum inventore suscipit nostrum quod sint ducimus accusamus illo iste, corporis quam quis. Totam, distinctio. Corporis provident aliquid nemo ducimus, laboriosam quam recusandae doloribus quasi?</p>
-            <button class="btn btn-primary" name="light1" > Select </button>
+            <p class="card-text" style="text-align: center;">Home of Jodhpur’s erstwhile royal family and currently the world’s sixth-largest private residence, the Umaid Bhawan Palace affords views of the historical Blue City, vast dunes, as well as the nearby Mehrangarh Fort. Known for its rich heritage, yellow sandstone architecture, and luxurious amenities, this property managed by the Taj Group, has become a hot spot for celebrity weddings such as that of Priyanka Chopra Jonas and Nick Jonas. Wedding designer Ashish Bohra, of Perfexion Events, shares, “Strolling through the lush, landscaped Baradari Lawns with dancing peacocks at Umaid Bhawan is a magical experience, and the property is perfect for those who have always envisioned a fairy tale wedding.”</p>
+           <button class="btn btn-primary" name="venue1">Select</button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -102,13 +103,13 @@
           <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./sound and lights/d&s djs/img1.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/ITC Rajputana, Jaipur/image115.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/d&s djs/img2.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/ITC Rajputana, Jaipur/image14.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/d&s djs/img3.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/ITC Rajputana, Jaipur/image68.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
@@ -123,8 +124,9 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">D&S Djs </h5>
-            
+            <h5 class="card-title">ITC Rajputana</h5>
+            <h6>LOCATION: Dev Nagar, Jodhpur</h6>
+
 
           </div>
         </div>
@@ -137,8 +139,9 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium sint perspiciatis maxime voluptatibus quaerat animi iusto atque aperiam repellat, repudiandae accusantium minima eveniet officiis tempore porro quia eos nesciunt quae dolor vero aspernatur quas expedita! Nemo tempore numquam consequuntur nihil!</p>
-            <button class="btn btn-primary" name="light2" > Select </button>
+            <p class="card-text" style="text-align: center;">ITC Rajputana, an exotic and stylish red-brick heritage hotel in the capital city of Rajasthan, is symbolic of regal hospitality that harks back to a glorious past. The opulent hotel has many versatile venues, and the space can be further expanded for a large gathering by using a courtyard with the separate entrance. Siddhartha Chaturvedi, of Weddings by Event Crafter, shares, “ITC Rajputana has a classic and authentic appeal which attracts a lot of millennial couples wanting to host a destination wedding in Jaipur. It has adequate rooms to accommodate large wedding groups.”
+            </p>
+            <button class="btn btn-primary" name="venue2">Select</button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -161,13 +164,13 @@
           <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./sound and lights/dj ganesh/img1.jpeg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/The Ummed, Jodhpur/image103.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/dj ganesh/img2.jpeg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/The Ummed, Jodhpur/image52.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/dj ganesh/img3.jpeg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/rajasthan/The Ummed, Jodhpur/image103.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
@@ -182,8 +185,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Dj Ganesh</h5>
-            
+            <h5 class="card-title">The Ummed</h5>
+            <h6>LOCATION: Prem Nagar, Jodhpur</h6>
 
           </div>
         </div>
@@ -196,8 +199,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil pariatur iusto architecto aperiam! Consectetur voluptatum saepe, tenetur harum explicabo a ratione repellat enim magni exercitationem labore, natus in voluptatibus nisi praesentium. Ipsam voluptatum, impedit ea similique voluptas aliquid. Repellat, minus!</p>
-            <button class="btn btn-primary" name="light3" > Select </button>
+            <p class="card-text" style="text-align: center;">The Ummed Jodhpur, a Marwar palace with Rajasthani architectural elements, is tucked amidst acres of gardens. Its low-rise structures surround the expansive and impressive courtyard. From the palatial driveway to the luxurious rooms, everything makes guests feel like royalty. Wedding planner Ashish Bohra, of Perfexion Events, shares, “This property is a kaleidoscope of gracious facets – an exclusive porch, pathways for baraat processions, long private driveways, open spaces, and indoor venues. These make it perfect for hosting special occasions with luxury and grace, both on a grand or intimate scale.”</p>
+            <button class="btn btn-primary" name="venue3">Select</button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -219,13 +222,13 @@
           <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./sound and lights/dj santosh/img1.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Indana Hotels, Jodhpur/image17.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/dj santosh/img2.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Indana Hotels, Jodhpur/image47.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/dj santosh/img3.jpeg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Indana Hotels, Jodhpur/image67.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
@@ -240,8 +243,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Dj Santosh</h5>
-           
+            <h5 class="card-title">Indana Hotels</h5>
+            <h6>LOCATION: Shikargarh, Jodhpur</h6>
           </div>
         </div>
 
@@ -253,8 +256,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, et porro, a quis explicabo dolores, consequuntur sit dignissimos quam ullam necessitatibus blanditiis suscipit dicta eaque. Non dolorem maiores doloribus laboriosam, deserunt neque aliquid cum? Saepe molestias eligendi perferendis accusantium quae.</p>
-            <button class="btn btn-primary" name="light4" > Select </button>
+            <p class="card-text" style="text-align: center;">The regal heritage and history of Jodhpur and Jaipur comes alive in Indana Hotels’ architecture and interiors. Set against the stunning backdrops of heritage, Indana Palace Jodhpur is a magnificent structure that showcases nuances of the Royal Marwar heritage with exquisite columns, intricate jaali work, regal arches, domes, and wide-open courtyards. Indana Palace Jaipur, on the other hand, welcomes you into the world of Maharajas and Maharanis of yore with its grand stone entry porch and exquisite hand-crafted doorway.</p>
+            <button class="btn btn-primary" name="venue4">Select</button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -277,13 +280,13 @@
           <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./sound and lights/dj vibes/img1.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Taj Aravali Resort, Udaipur/image119.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/dj vibes/img2.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Taj Aravali Resort, Udaipur/image3.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/dj vibes/img3.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Taj Aravali Resort, Udaipur/image61.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
@@ -298,8 +301,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Dj Vibes</h5>
-            
+            <h5 class="card-title">Taj Aravali Resort</h5>
+            <h6>LOCATION: Forest Chowki, Bujra</h6>
           </div>
         </div>
 
@@ -311,8 +314,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quasi voluptas maxime harum porro eum perspiciatis ut, sint inventore asperiores quis rem quaerat. Necessitatibus quaerat, voluptas error minima, temporibus facere ullam quisquam odio fuga sit natus, doloribus cumque maxime libero!</p>
-            <button class="btn btn-primary" name="light5" > Select </button>
+            <p class="card-text" style="text-align: center;">Spread across gently rolling slopes, the Taj Aravali Resort & Spa, Udaipur, is a sprawling property in the foothills of the lush Aravali mountain range. Flanked by green landscaped spaces, this property showcases traditional Rajasthani art and design in enchanting ways. Luxurious villas comprising single-pole desert tents offer interesting local decor elements such as the ‘gokhra,’ (a low seating area by the window), and furnishings inspired by Mewar’s world-class equestrian heritage.</p>
+            <button class="btn btn-primary" name="venue5">Select</button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -337,13 +340,13 @@
           <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./sound and lights/dj wale babu/img1.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Welcomhotel Khimsar Fort and Dunes/image113.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/dj wale babu/img2.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Welcomhotel Khimsar Fort and Dunes/image29.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/dj wale babu/img3.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Welcomhotel Khimsar Fort and Dunes/image64.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
@@ -358,8 +361,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Dj Wale Babu</h5>
-           
+            <h5 class="card-title">Welcomhotel Khimsar Fort and Dunes</h5>
+            <h6>LOCATION: Khimsar, Rajasthan</h6>
           </div>
         </div>
 
@@ -371,8 +374,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laudantium voluptate atque facere vero aperiam? Facere ducimus quos iure vel culpa modi, error fuga labore eveniet animi odit aliquid quam explicabo deserunt magnam quibusdam, corporis optio perspiciatis! Porro, sed veniam.</p>
-            <button class="btn btn-primary" name="light6" > Select </button>
+            <p class="card-text" style="text-align: center;">Nestled on the edge of the Thar Desert lies a 16th-century fort with imposing walls and a majestic entrance. The Welcomhotel Khimsar Fort and Dunes is spread across 11 acres, and offers the option of luxe tents alongside well-furnished rooms. Wedding planner Niyati Khazanchi, of Desert Pearl Entertainment, shares, “With a year-round outdoor swimming pool, terrace, free parking, and on-site restaurant, this property provides both comfort and convenience to guests and visitors. Every room offers stunning views of the desert.”</p>
+<button class="btn btn-primary" name="venue6">Select</button>          
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -398,13 +401,13 @@
           <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./sound and lights/elite dj planners/img1.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Rambagh Palace, Jaipur/image22.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/elite dj planners/img2.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Rambagh Palace, Jaipur/image45.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/elite dj planners/img3.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Rambagh Palace, Jaipur/image81.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7"
@@ -419,8 +422,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Elite Dj Planners</h5>
-            
+            <h5 class="card-title">Rambagh Palace</h5>
+            <h6>LOCATION: Bhawani Singh Rd, Jaipur</h6>
           </div>
         </div>
 
@@ -432,8 +435,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat esse eos similique inventore laborum ea tempore est. Cupiditate blanditiis expedita dicta consectetur voluptatem aliquid quod odio dolorum excepturi a nam amet repellat earum, vitae eius corrupti facere doloribus aliquam! Voluptatem.</p>
-            <button class="btn btn-primary" name="light7" > Select </button>
+            <p class="card-text" style="text-align: center;">After years of being the Maharaja of Jaipur’s home, Rambagh Palace was the first palace to be converted into a heritage hotel in India. It is extravagantly decorated with hand-carved marble ‘jalis,’ sandstone balustrades, ‘chattris,’ and elaborate Mughal Gardens. Anant Khandelwal and Kartika Sharma of Indian Wedding Planners share, “This regal architectural marvel truly epitomizes royal hospitality. Managed by the Taj Group, Rambagh Palace offers regality and modernity at the same time, and is a highly sought after property for couples looking for a royal wedding experience.”</p>
+            <button class="btn btn-primary" name="venue7">Select</button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -458,13 +461,13 @@
           <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./sound and lights/miami djs/img1.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Udai Kothi, Udaipur/image124.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/miami djs/img2.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Udai Kothi, Udaipur/image128.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/miami djs/img3.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Udai Kothi, Udaipur/image41.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8"
@@ -479,8 +482,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Miami Djs</h5>
-            
+            <h5 class="card-title">Udai Kothi</h5>
+            <h6>LOCATION: Pichola, Udaipur</h6>
           </div>
         </div>
 
@@ -492,8 +495,9 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequuntur id, iure fugit veniam, blanditiis aspernatur, reiciendis magni suscipit quisquam exercitationem perferendis enim natus excepturi repudiandae ullam libero! Commodi dolores illo at doloribus iste accusantium ipsa quos alias id eaque!</p>
-            <button class="btn btn-primary" name="light8" > Select </button>
+            <p class="card-text" style="text-align: center;">A stunning rooftop pool surrounded by white arched marble pillars is just one of the highlights of the heritage boutique hotel Udai Kothi Udaipur. It lies a short distance from Lake Pichola, and offers guests 21st-century comforts coupled with an old-world charm. Awarded ‘The Best Wedding Venue In Rajasthan,’ by New York Times magazine, and the ‘Best Boutique Hotel In India,’ by National Geographic Traveller, this property guarantees memorable experiences at any event held here.
+            </p>
+            <button class="btn btn-primary" name="venue8">Select</button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -518,13 +522,13 @@
           <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./sound and lights/royal djs/img1.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Shahpura House, Jaipur/img1.webp" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/royal djs/img2.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Shahpura House, Jaipur/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/royal djs/img3.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Shahpura House, Jaipur/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9"
@@ -539,8 +543,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Royal Djs</h5>
-            
+            <h5 class="card-title">Shahpura House</h5>
+            <h6>LOCATION: Bani Park, Jaipur</h6>
           </div>
         </div>
 
@@ -552,8 +556,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam veritatis nemo a quod dignissimos, doloremque possimus quasi, asperiores autem similique quidem et magnam esse sit aperiam. Inventore a praesentium eum nesciunt hic nulla facere, qui aliquid cumque maxime sed?</p>
-            <button class="btn btn-primary" name="light9" > Select </button>
+            <p class="card-text" style="text-align: center;">If you want to get married amidst the hustle and bustle of Jaipur city, there isn’t a better venue than Shahpura House. Located just 4 km away from the famous landmark Hawa Mahal, the hotel is actually a palace inherited from the royals of Shahpura and preserved intact with world-class facilities. The insides are decorated with grand domes and frescoes and the outside offers the majestic view of the Aravalli hills. So, making a perfect backdrop for your indoor or outdoor wedding setup.</p>
+            <button class="btn btn-primary" name="venue9">Select</button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -578,13 +582,13 @@
           <div id="carouselExampleControls10" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./sound and lights/rp dj wale/img1.jpeg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Shakun Hotels & Resorts, Jaipur/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/rp dj wale/img2.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Shakun Hotels & Resorts, Jaipur/img2.jpeg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/rp dj wale/img3.jpg" class="d-block w-100" alt="...">
+                <img src="./images/rajasthan/Shakun Hotels & Resorts, Jaipur/img3.jpeg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls10"
@@ -599,8 +603,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">RP Dj Wale</h5>
-            
+            <h5 class="card-title">Shakun Hotels & Resorts</h5>
+            <h6>LOCATION: Ashok Nagar, Jaipur</h6>
           </div>
         </div>
 
@@ -612,8 +616,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet velit, quidem quasi at sapiente adipisci excepturi praesentium consectetur recusandae, cumque laudantium voluptas eum asperiores voluptate perspiciatis mollitia cum? In assumenda nobis nulla praesentium, architecto totam facere est esse nostrum impedit?</p>
-            <button class="btn btn-primary" name="light10" > Select </button>
+            <p class="card-text" style="text-align: center;">A newly developed property in Jaipur’s posh colony C-Scheme, the hotel is all about offering a luxurious, comfortable and memorable experience to their guests. I have personally been to this hotel for wedding and roka events and can vouch for the superb event halls inside their premises that speak volumes of the grandeur they provide.</p>
+            <button class="btn btn-primary" name="venue10">Select</button>
           </div>
         </div>
         <!-- End Card 10 Back -->

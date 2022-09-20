@@ -31,5 +31,5 @@ if(isset($_POST["photo1"])){
     $_SESSION["photographer"]="Vijayeesam Photography";
     $_SESSION["photographer_price"]=1;
 } 
-header("Location:sound-lights.html");
+header("Location:sound-light.php");
 ?>

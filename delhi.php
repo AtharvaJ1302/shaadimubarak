@@ -1,3 +1,7 @@
+<?php
+session_start(); 
+include("session_check.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,11 +30,11 @@
 </head>
 
 <body>
-  <form action="venuegujarat.php" method="post">
+  <form action="venuedelhi" method="post">
   <section id="container">
 
     <div class="head">
-      <h1>GUJARAT</h1>
+      <h1>DELHI</h1>
     </div>
 
     <input type="checkbox" id="card-1" />
@@ -42,13 +46,13 @@
           <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/gujarat/Laxmi Vilas Palace Banquets, gujarat/image120.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Delhi/Calista Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Laxmi Vilas Palace Banquets, gujarat/image26.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Delhi/Calista Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Laxmi Vilas Palace Banquets, gujarat/image4.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Delhi/Calista Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
@@ -63,8 +67,9 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Laxmi Vilas Palace Banquets</h5>
-            <h6>LOCATION: Ajwa Road, Baroda</h6>
+            <h5 class="card-title">Calista Resort</h5>
+            <h6>LOCATION: Kapashera - Samalkha - Rajokri, East Delhi</h6>
+
 
           </div>
         </div>
@@ -77,8 +82,13 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">The three centuries old palace provides a gorgeous backdrop for a jaw-dropping wedding venue. Located in the midst of a lush green lawn, LVP Banquets is truly nothing short of magical. If you want a romantic and picturesque wedding, this is your venue for the day! While their decorators set up the place, their caterers can whip up the most amazing wedding feast for you and your guests.
-              Prices Start at: Rs. 850 (veg) & Rs. 900 (n.veg)</p>
+            <p class="card-text" style="text-align: center; margin-bottom: 5.1rem;">
+              Calista Resort is located in Kapashera, South Delhi, and it is one of the most luxurious wedding venues in
+              the city. Its classy and elegant architecture combined with professional personnel will help you feel like
+              royalty on your big day. It has well-maintained and luxurious accommodation and has a professional
+              hospitality team to care for your every need. At Calista Resort, you can celebrate your big event, enhance
+              your well-being, and enter your new journey relaxed and rejuvenated.
+            </p>
             <button class="btn btn-primary" name="venue1" > Select </button>
           </div>
         </div>
@@ -101,13 +111,13 @@
           <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/gujarat/Aam Bagan, Ahmedabad/image107.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Veda Farms/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Aam Bagan, Ahmedabad/image39.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Veda Farms/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Aam Bagan, Ahmedabad/image6.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Veda Farms/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
@@ -122,9 +132,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Aam Bagan</h5>
-            <h6>LOCATION: Sindhu Bhavan Road, Ahmedabad</h6>
-
+            <h5 class="card-title">Veda Farms</h5>
+            <h6>LOCATION: 54, Bijwasan Rd, Kapas Hera Extension, Kapas Hera, New Delhi</h6>
 
           </div>
         </div>
@@ -137,9 +146,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Located amidst vast stretches of mango orchards, Aam Bagan in Bokadev is an ideal wedding venue for you if you want a picturesque wedding. If you are planning a destination wedding in Gujarat, you must check out Aam Bagan for its lavish amenities and beautiful grounds. You can also get your own caterer and decorator to customize the event as per your needs.
-              Prices Start at: Rs. 2200 (veg) & Rs. 2500 (n.veg)
-              </p>
+            <p class="card-text" style="text-align: center;">
+              Veda Farms is a famous wedding venue based in Bijwasan, Delhi. The platform is well-equipped with all the
+              latest facilities and services to give you the excellent wedding experience of your lives. Planning a
+              perfect wedding involves choosing the right venue as per the suitability of your occasion and its
+              approachability and budget. Therefore if you are looking for a place that offers you royal hospitality and
+              excellent services, then Veda Farms is one of the ideal options. Located in the city, it is a 10 acres
+              perfect destination with exquisite decor, suitable for hosting lavish weddings that last for a lifetime.
+            </p>
             <button class="btn btn-primary" name="venue2" > Select </button>
           </div>
         </div>
@@ -163,13 +177,13 @@
           <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/gujarat/Thaker Farm, Ahmedabad/img2.jpeg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Amrai Farms/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Thaker Farm, Ahmedabad/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Amrai Farms/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Thaker Farm, Ahmedabad/img4.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Amrai Farms/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
@@ -184,9 +198,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Thaker Farm</h5>
-            <h6>LOCATION: Gandhinagar, Ahmedabad</h6>
-
+            <h5 class="card-title">Amrai Farms</h5>
+            <h6>LOCATION: Kapashera - Samalkha - Rajokri, South Delhi</h6>
           </div>
         </div>
 
@@ -198,9 +211,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">With vast stretches of lush green lawns, Thaker Farm makes an idyllic wedding venue for a destination wedding in Gujarat. Their in-house decorators can set up canopies, tents and other party areas for you and your guests. You can get your own caterer to treat your guests to a sumptuous feast while their decorators light up the place with gorgeous decorative lights.
-              Prices Start at: Rs. 450 (veg) & Rs. 450 (n.veg)
-              </p>
+            <p class="card-text" style="text-align: center;">
+              Amrai Farms is a venue located in Kapashera, Delhi and is the one to choose for weddings, When
+              we talk about the wedding arrangement and planning, the first thing that pops in our minds is the venue as
+              it is the key element of any wedding functions. It sets the entire background for the ceremonies and even
+              the background for the photos and videos. If you are looking for a good venue to host any of your nuptial
+              ceremonies, then Amrai Farms is the choice that you should definitely make. Their staff will ensure to
+              make the wedding memorable for you and your guests.
+            </p>
             <button class="btn btn-primary" name="venue3" > Select </button>
           </div>
         </div>
@@ -223,13 +241,13 @@
           <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/gujarat/Maple Farm, Ahmedabad/image71.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Solitaire Garden and Banquet/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Maple Farm, Ahmedabad/image98.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Solitaire Garden and Banquet/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Maple Farm, Ahmedabad/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Solitaire Garden and Banquet/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
@@ -244,8 +262,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Maple Farm</h5>
-            <h6>LOCATION: Chharodi, Ahmedabad</h6>
+            <h5 class="card-title">Solitaire Garden and Banquet</h5>
+            <h6>LOCATION: Aruna Vartun Road ,North-West Delhi</h6>
           </div>
         </div>
 
@@ -257,9 +275,15 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">If you have always wanted a grand destination wedding in Gujarat, Maple Farm Party Plot might just be the one for you. With an elegant and spacious hall and a vast stretch of lawn, Maple Farm is truly an exquisite venue for a wedding. They also have an experienced team of decorators who can set up the place for your special day!
-              Prices Start at: Rs. 250 (veg)
-              </p>
+            <p class="card-text" style="text-align: center;">
+              Solitaire Garden and Banquet is a venue, where you can host and organise any and every special celebration
+              in your life and be assured that they would be one of a kind and the most beautiful occasions in your
+              life. Choosing the right kind of venue is one of the most significant decisions that a couple takes as
+              they plan the wedding of their dreams and hope to live all of their desires and aspirations associated
+              with it and hope it will be the most cherished and wonderful celebration of their lives. To make your
+              function seems more exciting and active, they provide truckloads for facilities like essential lighting,
+              electricity & backup, valet parking and a bridal room.
+            </p>
             <button class="btn btn-primary" name="venue4" > Select </button>
           </div>
         </div>
@@ -283,13 +307,13 @@
           <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/gujarat/Crowne Plaza, Ahmedabad/image101.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Araliayas Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Crowne Plaza, Ahmedabad/image126.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Araliayas Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Crowne Plaza, Ahmedabad/image13.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Araliayas Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
@@ -304,8 +328,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Crowne Plaza</h5>
-            <h6>LOCATION: Ahmedabad City Centre-read</h6>
+            <h5 class="card-title">Araliayas Resort </h5>
+            <h6>LOCATION: Ram-Krishna , South-East Delhi</h6>
           </div>
         </div>
 
@@ -317,9 +341,12 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Located in the Prashad Nagar area of Ahmedabad, Crowne Plaza in Ahmedabad City Centre is one of the most luxurious Gujarat destinations for a wedding. The place is so huge that you can easily host all the events of a wedding here, be it the Mehndi, Sangeet, Cocktail or reception party. The centre can host up to 2000 people, making it a viable option for people who have lots of guests to invite. Their in-house team caters to all your needs with the utmost care. The experienced chefs can prepare local and international cuisines with incredible precision.
-              With all the services, the per plate cost here is ₹ 1800 and the average budget for 1000 guests would be close to ₹ 20,00,000.
-              </p>
+            <p class="card-text" style="text-align: center;">
+              Araliayas Resort offers you with a great venue space to host and organize your special occasions like
+              wedding ceremonies and related functions, providing a serene atmosphere, a peaceful ambience and a quiet
+              demeanour of the lush green landscape. It is believed to be one of the most culturally rich and romantic
+              place where anyone would desire of a destination wedding.
+            </p>
             <button class="btn btn-primary" name="venue5" > Select </button>
           </div>
         </div>
@@ -345,13 +372,13 @@
           <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/gujarat/Narayani Heights/image105.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px" width="538px" height="358px">
+                <img src="./images/Delhi/Ramada Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Narayani Heights/image21.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px" width="538px" height="358px">
+                <img src="./images/Delhi/Ramada Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Narayani Heights/image99.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px" width="538px" height="358px">
+                <img src="./images/Delhi/Ramada Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
@@ -366,8 +393,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Narayani Heights</h5>
-            <h6>LOCATION: Dummy</h6>
+            <h5 class="card-title">Ramada Resort</h5>
+            <h6>LOCATION: Central Delhi</h6>
           </div>
         </div>
 
@@ -379,10 +406,12 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Narayani Heights is one of the best Gujarat destinations to host a Gujarati wedding. All the décor at the venue is completely customisable, making it possible for you to personalise the wedding aesthetic as per your wishes.
-              There are 109 rooms available with tariffs ranging from ₹ 5,000 to ₹ 20,000. The per-plate cost ranges from ₹ 800 to 5,000. This variety of options in the price range just tells you how nicely the resort caters to the needs of people from different walks of life. Additionally, they offer multiple cuisines from around the world. They also customise the cooking process according to the Jain traditions. All these facilities make it a part of the list of ideal Gujarat destinations for a wedding.
-              
-              </p>
+            <p class="card-text" style="text-align: center;">
+              Central is the most wanted destination for having a blissful and romantic wedding experience and Ramada
+              Resort & Spa offers you with the most scenic and beautiful suites and resorts location to organize your
+              marriage functions. The management and staff of Ramada Resort & Spa make sure that you and your guests
+              have a great hospitality experience.
+            </p>
             <button class="btn btn-primary" name="venue6" > Select </button>
           </div>
         </div>
@@ -409,13 +438,13 @@
           <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/gujarat/The House of MG/image20.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px">
+                <img src="./images/Delhi/Yadu Greens/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/The House of MG/image57.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px">
+                <img src="./images/Delhi/Yadu Greens/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/The House of MG/image70.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px">
+                <img src="./images/Delhi/Yadu Greens/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7"
@@ -430,8 +459,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">The House of MG</h5>
-            <h6>LOCATION: Lal Darwaja, Ahmedabad</h6>
+            <h5 class="card-title">Yadu Greens</h5>
+            <h6>LOCATION: GT Karnal Road - Alipur, North Delhi</h6>
           </div>
         </div>
 
@@ -443,9 +472,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">The House of Mangaldas Girdhardas is a heritage hotel that is one of the top Gujarat destinations for weddings with fewer guests. This venue is ideal for an intimate wedding, as they allow their venue to be booked for a party that has as little as 50 guests. This makes it perfect for someone looking for a destination wedding with just a handful of close relatives and friends.
-              The hotel specialises in creating décor exactly the way you want, making it just perfect for people. The per-plate cost is around ₹ 900. The hotel has multiple event spaces like a sprawling terrace, banquet hall and the lawn area.
-              </p>
+            <p class="card-text" style="text-align: center;">
+              Yadu Greens is a stunning farmhouse on the GT Karnal Road of Delhi. This magnificent property offers its
+              discerning visitors a unique opportunity to celebrate their most special occasions with élan and ease.
+              This wedding venue offers multiple Stunning wedding venues with Exquisite Décor & Ambience combined with
+              Impeccable Hospitality and Lavish Catering. The banquets: Pratishtha, Yuvraj and Night Club-themed BLING,
+              are amongst Delhi NCR’s most upmarket and grand wedding venues. It is the only venue with Exclusive entry
+              from NH-1 (Left side from Delhi to Karnal).
+            </p>
             <button class="btn btn-primary" name="venue7" > Select </button>
           </div>
         </div>
@@ -471,13 +505,13 @@
           <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/gujarat/The Gateway Hotel Athwalines/image117.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Mohan Vilaas/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/The Gateway Hotel Athwalines/image23.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Mohan Vilaas/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/The Gateway Hotel Athwalines/image85.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Mohan Vilaas/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8"
@@ -492,8 +526,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">The Gateway Hotel Athwalines</h5>
-            <h6>LOCATION: Ambika Niketan Road, Surat</h6>
+            <h5 class="card-title">Mohan Vilaas</h5>
+            <h6>LOCATION: </h6>
           </div>
         </div>
 
@@ -505,9 +539,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">The Gateway Hotel Athwalines is a luxurious 5-star hotel in Surat. It is perfect for an upscale wedding with famous dignitaries as guests. This 5-star hotel has everything planned down to the T. You do not have to worry about anything at all as the hotel’s in-house team will look after everything. It can host anywhere between 750-1500 people in one go.
-              They offer multiple cuisines from India, like Mughlai, North Indian, South Indian, Street food and international cuisines like Italian, Continental and Chinese as well. Their per-plate cost is around ₹ 1,500.
-              </p>
+            <p class="card-text" style="text-align: center;">
+              Mohan Vilaas, situated in the busiest wedding destination of G.T. Karnal Road, serves as an ideal venue to
+              host any of your special events starting from the pre-wedding ceremonies to your grand wedding function.
+              The venue is easily accessible from all parts of Delhi NCR and has exquisite interiors to attract the
+              attention of all your guests. Mohan Vilaas is your destination for a wedding event that will be both
+              starry and filled with positive vibes for you to cherish it for the rest of your lives with your partner.
+              Offering the pinnacle of luxury and comfort, Mohan Vilaas is a popular choice for hosting grand functions.
+            </p>
             <button class="btn btn-primary" name="venue8" > Select </button>
           </div>
         </div>
@@ -533,13 +572,13 @@
           <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/gujarat/Green YMCA Banquets & Lawn/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/lden Ring Motel And Resorts/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Green YMCA Banquets & Lawn/img2.webp" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/lden Ring Motel And Resorts/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Green YMCA Banquets & Lawn/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/lden Ring Motel And Resorts/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9"
@@ -554,8 +593,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Green YMCA Banquets & Lawn</h5>
-            <h6>LOCATION: Makarba, Ahmedabad</h6>
+            <h5 class="card-title">Elden Ring Motel And Resorts</h5>
+            <h6>LOCATION: GT Karnal Road - Alipur, North Delhi</h6>
           </div>
         </div>
 
@@ -567,7 +606,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Green YMCA Banquets And Lawn, Ahmedabad is taken care of by Green Leaves Management. It is an ideal venue for hosting your grand wedding, reception ceremony, and celebrations or events of any type. Green YMCA Banquets And Lawn, Makarba, Ahmedabad is a very well known place in the locality. So you can imagine how grand your event is going to be. The staff at this venue are professionals and skilled in their respective job, they make sure your function is executed well. YMCA Banquet Hall Ahmedabad serves palatable vegetarian delicacies to their guests. The stunning décor of the venue gives a special touch to your big day.</p>
+            <p class="card-text" style="text-align: center;">
+              Golden Ring Motel And Resorts is a magnificent venue for hosting a grand event located in the heart of
+              North Delhi. It has several spaces for indoor and outdoor ceremonies and features an amiable staff to
+              assist you with everything related to arranging a successful wedding. Whether a pre-wedding event or grand
+              reception party, there is no other place more suitable than Golden Ring Motel And Resorts. Be it any
+              pre-wedding ceremony, wedding ceremony, or post-wedding ceremony, you can hold these ceremonies
+              comfortably here and be assured that your wedding will be a memorable one.
+            </p>
             <button class="btn btn-primary" name="venue9" > Select </button>
           </div>
         </div>
@@ -593,13 +639,13 @@
           <div id="carouselExampleControls10" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/gujarat/Jade Luxury Banquets, Ahmedabad/img1.webp" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Hilltop Greens/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Jade Luxury Banquets, Ahmedabad/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Hilltop Greens/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/gujarat/Jade Luxury Banquets, Ahmedabad/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Delhi/Hilltop Greens/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls10"
@@ -614,8 +660,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Jade Luxury Banquets</h5>
-            <h6>LOCATION: Bodakdev, Ahmedabad</h6>
+            <h5 class="card-title">Hilltop Greens</h5>
+            <h6>LOCATION: Suraj Kund, Faridabad, Faridabad</h6>
           </div>
         </div>
 
@@ -627,7 +673,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Jade Banquets is India’s premier destination to host exquisite events that symbolize grandeur & style. It operates multiple beautifully appointed banquet venues across India, offering world class hospitality and award winning catering to add elegance to your most treasured occasions. Jade Banquets has perfected the ‘Art of Hospitality and enjoys a reputation of providing it’s guests with unique and memorable experiences that are highly regarded by the patrons. With world-class amenities and a responsive team that customizes and designs every part of the service, Jade is one of the most eminent venues in India. It is managed by professionals trained in the highest standards of international hospitality.</p>
+            <p class="card-text" style="text-align: center;">
+              Hilltop Greens is a wedding lawn farmhouse located in Faridabad. It's a blissful experience to find your
+              soul-mate finally, and to celebrate this auspicious union, we at Hilltop Greens provide the perfect choice
+              of spacious venues along with complete planning of even the minutest of details. The widespread venues
+              ranging from the luxurious Banquet Hall to versatile outdoor party lawns cater to minor parties and grand
+              weddings. They are designed in the most contemporary style combined with traditional aesthetics and
+              elegance to lend the perfect ambience for your dream celebration.
+            </p>
             <button class="btn btn-primary" name="venue10" > Select </button>
           </div>
         </div>
@@ -636,7 +689,7 @@
     </label>
     <!-- End Card 10 -->
   </section>
-    </form>
+</form>
 </body>
 
 </html>

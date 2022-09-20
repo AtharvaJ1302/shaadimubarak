@@ -1,3 +1,7 @@
+<?php
+session_start(); 
+include("session_check.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,11 +30,11 @@
 </head>
 
 <body>
-  <form action="venuedelhi" method="post">
+  <form action="venuepunjab.php" method="post">
   <section id="container">
 
     <div class="head">
-      <h1>DELHI</h1>
+      <h1>PUNJAB</h1>
     </div>
 
     <input type="checkbox" id="card-1" />
@@ -42,13 +46,13 @@
           <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/Delhi/Calista Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Stallone Manor, Ludhiana/image35.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="images/Delhi/Calista Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Stallone Manor, Ludhiana/image46.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="images/Delhi/Calista Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Stallone Manor, Ludhiana/image48.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
@@ -63,8 +67,9 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Calista Resort</h5>
-            <h6>LOCATION: Kapashera - Samalkha - Rajokri, East Delhi</h6>
+            <h5 class="card-title">Stallone Manor</h5>
+            <h6>LOCATION: Pakhowal Road, Ludhiana</h6>
+
 
 
           </div>
@@ -78,14 +83,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center; margin-bottom: 5.1rem;">
-              Calista Resort is located in Kapashera, South Delhi, and it is one of the most luxurious wedding venues in
-              the city. Its classy and elegant architecture combined with professional personnel will help you feel like
-              royalty on your big day. It has well-maintained and luxurious accommodation and has a professional
-              hospitality team to care for your every need. At Calista Resort, you can celebrate your big event, enhance
-              your well-being, and enter your new journey relaxed and rejuvenated.
-            </p>
-            <button class="btn btn-primary" name="venue1" > Select </button>
+            <p class="card-text" style="text-align: center;">This is one of the largest banquet halls in the city with a 200 ft x 130 ft AC hall that matches the grandeur and grace of the Roman. They also have a spacious 200 ft x 130 ft lawn outside with the beautifully lit cascading fountain that will add more charisma to the decor. The types of cuisines on the offer are Mughlai, Avadhi, Punjabi Frontier, Marwari, Kashmiri, Hyderabadi, Chinese, Thai, Mexican, Lebanese, Italian, Mediterranean, and more.</p>
+            <button class="btn btn-primary" name="venue1">Select</button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -107,13 +106,13 @@
           <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Delhi/Veda Farms/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Grand Wedding Villa, Ludhiana/image100.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Veda Farms/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Grand Wedding Villa, Ludhiana/image111.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Veda Farms/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Grand Wedding Villa, Ludhiana/image90.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
@@ -128,8 +127,9 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Veda Farms</h5>
-            <h6>LOCATION: 54, Bijwasan Rd, Kapas Hera Extension, Kapas Hera, New Delhi</h6>
+            <h5 class="card-title">Grand Wedding Villa </h5>
+            <h6>LOCATION: Pakhowal Road, Ludhiana</h6>
+
 
           </div>
         </div>
@@ -142,15 +142,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Veda Farms is a famous wedding venue based in Bijwasan, Delhi. The platform is well-equipped with all the
-              latest facilities and services to give you the excellent wedding experience of your lives. Planning a
-              perfect wedding involves choosing the right venue as per the suitability of your occasion and its
-              approachability and budget. Therefore if you are looking for a place that offers you royal hospitality and
-              excellent services, then Veda Farms is one of the ideal options. Located in the city, it is a 10 acres
-              perfect destination with exquisite decor, suitable for hosting lavish weddings that last for a lifetime.
-            </p>
-            <button class="btn btn-primary" name="venue2" > Select </button>
+            <p class="card-text" style="text-align: center;">As the name suggests, Grand Wedding Villa in Ludhiana is one of the prime choices for hosting a wedding in Punjab. This famous hotel is designed to host functions like wedding, ring ceremony and reception with large gatherings. The fully air-conditioned banquet hall can easily accommodate hundreds of guests. The villa has furnished rooms, kitchens along with a reception hall, and a marvelous lobby. The hotel has trained chefs that serve finger-licking cuisine to their guests.</p>
+            <button class="btn btn-primary" name="venue2">Select</button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -173,13 +166,13 @@
           <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Delhi/Amrai Farms/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Bath Castle, Ludhiana/image18.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Amrai Farms/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Bath Castle, Ludhiana/image24.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Amrai Farms/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Bath Castle, Ludhiana/image97.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
@@ -194,8 +187,9 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Amrai Farms</h5>
-            <h6>LOCATION: Kapashera - Samalkha - Rajokri, South Delhi</h6>
+            <h5 class="card-title">Bath Castle</h5>
+            <h6>LOCATION: Pakhowal Road, Ludhiana</h6>
+
           </div>
         </div>
 
@@ -207,15 +201,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Amrai Farms is a venue located in Kapashera, Delhi and is the one to choose for weddings, When
-              we talk about the wedding arrangement and planning, the first thing that pops in our minds is the venue as
-              it is the key element of any wedding functions. It sets the entire background for the ceremonies and even
-              the background for the photos and videos. If you are looking for a good venue to host any of your nuptial
-              ceremonies, then Amrai Farms is the choice that you should definitely make. Their staff will ensure to
-              make the wedding memorable for you and your guests.
-            </p>
-            <button class="btn btn-primary" name="venue3" > Select </button>
+            <p class="card-text" style="text-align: center;">Bath Castle is one of the top wedding venues in Punjab. You will feel like you have reached your dream destination with the entrance that highlights beautiful fountains and a grand castle structure. It is spread over 7 acres of luxurious land with an impressive exterior as well as grandiose interior and a hall spread over 22,000 sq ft. that feels like you have entered a Mughal Fort with a modern touch. They provide you in-house catering, experienced & well-groomed staff & huge parking space.</p>
+            <button class="btn btn-primary" name="venue3">Select</button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -237,13 +224,13 @@
           <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Delhi/Solitaire Garden and Banquet/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Hyatt Regency, Chandigarh/image118.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Solitaire Garden and Banquet/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Hyatt Regency, Chandigarh/image55.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Solitaire Garden and Banquet/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Hyatt Regency, Chandigarh/image62.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
@@ -258,8 +245,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Solitaire Garden and Banquet</h5>
-            <h6>LOCATION: Aruna Vartun Road ,North-West Delhi</h6>
+            <h5 class="card-title">Hyatt Regency</h5>
+            <h6>LOCATION: Business Park Phase 1, Chandigarh</h6>
           </div>
         </div>
 
@@ -271,16 +258,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Solitaire Garden and Banquet is a venue, where you can host and organise any and every special celebration
-              in your life and be assured that they would be one of a kind and the most beautiful occasions in your
-              life. Choosing the right kind of venue is one of the most significant decisions that a couple takes as
-              they plan the wedding of their dreams and hope to live all of their desires and aspirations associated
-              with it and hope it will be the most cherished and wonderful celebration of their lives. To make your
-              function seems more exciting and active, they provide truckloads for facilities like essential lighting,
-              electricity & backup, valet parking and a bridal room.
-            </p>
-            <button class="btn btn-primary" name="venue4" > Select </button>
+            <p class="card-text" style="text-align: center;">Located at the heart of the tri-city of Chandigarh, it is easily accessible from the other two key areas, Mohali and Panchkula, and 16 kilometers away from the Chandigarh International Airport and 4 kilometers from the Chandigarh Railway Station. The 5-star hotel wows you with its spacious and luxurious spaces, the fascinating interiors of which is inspired by French architect Le Corbusier with a brise-soleil façadeour hotel with rooms of area 36 to 200 square meters. They offer you Creative menus, imaginative settings, beautifully designed wedding locations, and professional wedding services.</p>
+            <button class="btn btn-primary" name="venue4">Select</button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -303,13 +282,13 @@
           <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Delhi/Araliayas Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/JW Marriott, Chandigarh/image110.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Araliayas Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/JW Marriott, Chandigarh/image125.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Araliayas Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/JW Marriott, Chandigarh/image42.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
@@ -324,8 +303,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Araliayas Resort </h5>
-            <h6>LOCATION: Ram-Krishna , South-East Delhi</h6>
+            <h5 class="card-title"> JW Marriott</h5>
+            <h6>LOCATION: Dakshin Marg, Chandigarh</h6>
           </div>
         </div>
 
@@ -337,13 +316,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Araliayas Resort offers you with a great venue space to host and organize your special occasions like
-              wedding ceremonies and related functions, providing a serene atmosphere, a peaceful ambience and a quiet
-              demeanour of the lush green landscape. It is believed to be one of the most culturally rich and romantic
-              place where anyone would desire of a destination wedding.
-            </p>
-            <button class="btn btn-primary" name="venue5" > Select </button>
+            <p class="card-text" style="text-align: center;">Their splendor Ballroom having a space of 8,407 sq ft. glows with radiance and is a perfect venue for your fairy tale wedding. With lush green lawns, that can accommodate up to 1,000 guests and situated in the city’s business district, the hotel greets you with refined luxury and a modern sense of style. Their wedding planners will make sure that you get the best day of your life with the delicious wedding menu and wedding hosts.</p>
+            <button class="btn btn-primary" name="venue5">Select</button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -368,13 +342,13 @@
           <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Delhi/Ramada Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Vivanta by Taj, Chandigarh/image127.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Ramada Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Vivanta by Taj, Chandigarh/image51.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Ramada Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Vivanta by Taj, Chandigarh/image89.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
@@ -389,8 +363,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Ramada Resort</h5>
-            <h6>LOCATION: Central Delhi</h6>
+            <h5 class="card-title">Vivanta by Taj</h5>
+            <h6>LOCATION: Block No. 9 Sector 17, Chandigarh</h6>
           </div>
         </div>
 
@@ -402,13 +376,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Central is the most wanted destination for having a blissful and romantic wedding experience and Ramada
-              Resort & Spa offers you with the most scenic and beautiful suites and resorts location to organize your
-              marriage functions. The management and staff of Ramada Resort & Spa make sure that you and your guests
-              have a great hospitality experience.
-            </p>
-            <button class="btn btn-primary" name="venue6" > Select </button>
+            <p class="card-text" style="text-align: center;">Vivanta by Taj is one of the top wedding venues in Punjab.They offer you a couple of marvelous and lush spaces for your wedding to choose from. The ballroom I with an area of 1664.00 sq. ft. has also an additional pre-function space, ballroom II has the area of 2808.00 sq. ft. with grand green lawns attached to its side. The Capitol venue has a space of 552.75 sq. ft. and The Ballroom Annexe is ideal for your small intimate ceremonies. The best part is that they have an extravagant terrace lawn so you can get married under the blanket of stars.</p>
+            <button class="btn btn-primary" name="venue6">Select</button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -434,13 +403,13 @@
           <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Delhi/Yadu Greens/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Hyatt, Amritsar/image11.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Yadu Greens/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Hyatt, Amritsar/image112.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Yadu Greens/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Hyatt, Amritsar/image75.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7"
@@ -455,8 +424,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Yadu Greens</h5>
-            <h6>LOCATION: GT Karnal Road - Alipur, North Delhi</h6>
+            <h5 class="card-title"> Hyatt</h5>
+            <h6>LOCATION: G. T. Road, Amritsar</h6>
           </div>
         </div>
 
@@ -468,15 +437,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Yadu Greens is a stunning farmhouse on the GT Karnal Road of Delhi. This magnificent property offers its
-              discerning visitors a unique opportunity to celebrate their most special occasions with élan and ease.
-              This wedding venue offers multiple Stunning wedding venues with Exquisite Décor & Ambience combined with
-              Impeccable Hospitality and Lavish Catering. The banquets: Pratishtha, Yuvraj and Night Club-themed BLING,
-              are amongst Delhi NCR’s most upmarket and grand wedding venues. It is the only venue with Exclusive entry
-              from NH-1 (Left side from Delhi to Karnal).
-            </p>
-            <button class="btn btn-primary" name="venue7" > Select </button>
+            <p class="card-text" style="text-align: center;">What could be better than having your wedding venue next to the Golden Temple? The hotel is just 30 minutes from the Guru Ram Das International Airport and holds the largest rooms inventory with 248 elegant guestrooms including 10 suites and a Presidential Suite. Their indoor banqueting with over 11647 sq ft space has the most elegant interiors and the mesmerizing outdoor venue Tented gardens can hold a grand wedding. They have a team of world-class wedding specialists to make your wedding just like how you want.</p>
+            <button class="btn btn-primary" name="venue7">Select</button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -501,13 +463,13 @@
           <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Delhi/Mohan Vilaas/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Kingsville Resort, Ludhiana/image130.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Mohan Vilaas/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Kingsville Resort, Ludhiana/image59.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Mohan Vilaas/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Kingsville Resort, Ludhiana/image84.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8"
@@ -522,8 +484,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Mohan Vilaas</h5>
-            <h6>LOCATION: </h6>
+            <h5 class="card-title">Kingsville Resort</h5>
+            <h6>LOCATION: Ferozepur Road Ludhiana</h6>
           </div>
         </div>
 
@@ -535,15 +497,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Mohan Vilaas, situated in the busiest wedding destination of G.T. Karnal Road, serves as an ideal venue to
-              host any of your special events starting from the pre-wedding ceremonies to your grand wedding function.
-              The venue is easily accessible from all parts of Delhi NCR and has exquisite interiors to attract the
-              attention of all your guests. Mohan Vilaas is your destination for a wedding event that will be both
-              starry and filled with positive vibes for you to cherish it for the rest of your lives with your partner.
-              Offering the pinnacle of luxury and comfort, Mohan Vilaas is a popular choice for hosting grand functions.
-            </p>
-            <button class="btn btn-primary" name="venue8" > Select </button>
+            <p class="card-text" style="text-align: center;">A five-star wedding venue in Punjab, Kingsville Resorts is known for providing premium facilities to their guests. The resort is surrounded with lush green lawn which can be a great option for hosting mehendi or haldi ceremony. The resort consists of fully air-conditioned hall, parking lot and a marriage hall. Kingsville Resort aims at providing with the best of their services. When it comes to cuisine, they offer options including Indian, Chinese, Continental, Italian, Mexican, Mangolian and so much more. The staff take pleasure in serving your guest with the best of everything</p>
+            <button class="btn btn-primary" name="venue8">Select</button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -568,13 +523,13 @@
           <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Delhi/lden Ring Motel And Resorts/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Marrievilla Resorts/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/lden Ring Motel And Resorts/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Marrievilla Resorts/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/lden Ring Motel And Resorts/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/Marrievilla Resorts/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9"
@@ -589,8 +544,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Elden Ring Motel And Resorts</h5>
-            <h6>LOCATION: GT Karnal Road - Alipur, North Delhi</h6>
+            <h5 class="card-title">Marrievilla Resorts</h5>
+            <h6>LOCATION: Gill road, Ludhiana</h6>
           </div>
         </div>
 
@@ -602,15 +557,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Golden Ring Motel And Resorts is a magnificent venue for hosting a grand event located in the heart of
-              North Delhi. It has several spaces for indoor and outdoor ceremonies and features an amiable staff to
-              assist you with everything related to arranging a successful wedding. Whether a pre-wedding event or grand
-              reception party, there is no other place more suitable than Golden Ring Motel And Resorts. Be it any
-              pre-wedding ceremony, wedding ceremony, or post-wedding ceremony, you can hold these ceremonies
-              comfortably here and be assured that your wedding will be a memorable one.
-            </p>
-            <button class="btn btn-primary" name="venue9" > Select </button>
+            <p class="card-text" style="text-align: center;">MarrieVilla Resorts, Ferozepur, Ludhiana is a gorgeous venue to celebrate the victory of your love with your better half. This venue is located on Ferozepur Road near the Pandori Play Ground which makes it convenient for all to reach there by either private and public transportation modes. MarrieVilla Resorts Ludhiana know that when it comes to weddings, you expect nothing but perfection. Therefore, It has a sprawling lawn and multiple banquet halls of contrasting sizes to take care of all your requirements. The lawn at Grand MarrieVilla Resorts is simply spectacular and can hold a huge crowd of guests, so you don't need to worry about shortening the guest list.</p>
+            <button class="btn btn-primary" name="venue9">Select</button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -635,13 +583,13 @@
           <div id="carouselExampleControls10" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Delhi/Hilltop Greens/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/B.R. Resorts/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Hilltop Greens/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/B.R. Resorts/img2.jpeg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Delhi/Hilltop Greens/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/punjab/B.R. Resorts/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls10"
@@ -656,8 +604,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Hilltop Greens</h5>
-            <h6>LOCATION: Suraj Kund, Faridabad, Faridabad</h6>
+            <h5 class="card-title">B.R. Resorts</h5>
+            <h6>LOCATION: Gill road, Ludhiana</h6>
           </div>
         </div>
 
@@ -669,15 +617,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Hilltop Greens is a wedding lawn farmhouse located in Faridabad. It's a blissful experience to find your
-              soul-mate finally, and to celebrate this auspicious union, we at Hilltop Greens provide the perfect choice
-              of spacious venues along with complete planning of even the minutest of details. The widespread venues
-              ranging from the luxurious Banquet Hall to versatile outdoor party lawns cater to minor parties and grand
-              weddings. They are designed in the most contemporary style combined with traditional aesthetics and
-              elegance to lend the perfect ambience for your dream celebration.
-            </p>
-            <button class="btn btn-primary" name="venue10" > Select </button>
+            <p class="card-text" style="text-align: center;">BR Resorts, Amritsar is a farmhouse located on the Chheharta Bypass of the city. When you plan a lifetime event, like your wedding, you need to be considerate of a lot of things and choosing the venue is one of the main things to organise the perfect wedding. If you are looking for one such venue which can fulfil all your needs for the functions, then BR Resorts, Amritsar is the one-stop destination for you. Offering a plethora of services and amenities, this venue makes for an exemplary choice for any of your nuptial ceremonies.</p>
+            <button class="btn btn-primary" name="venue10">Select</button>
           </div>
         </div>
         <!-- End Card 10 Back -->
@@ -685,7 +626,7 @@
     </label>
     <!-- End Card 10 -->
   </section>
-</form>
+  </form>
 </body>
 
 </html>

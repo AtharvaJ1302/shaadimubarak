@@ -1,3 +1,7 @@
+<?php
+session_start(); 
+include("session_check.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,11 +30,11 @@
 </head>
 
 <body>
-  <form action="venuetelangana.php" method="post">
+  <form action="jk.php" method="post">
   <section id="container">
 
     <div class="head">
-      <h1>TELANGANA</h1>
+      <h1>JAMMU & KASHMIR</h1>
     </div>
 
     <input type="checkbox" id="card-1" />
@@ -42,13 +46,13 @@
           <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/telangana/Taj Falaknuma Palace/image114.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Unique Resorts Banquet Hall/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Taj Falaknuma Palace/image65.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Unique Resorts Banquet Hall/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Taj Falaknuma Palace/image77.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Unique Resorts Banquet Hall/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
@@ -63,8 +67,11 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Taj Falaknuma Palace</h5>
-            <h6>LOCATION: Engine Bowli, Hyderabad</h6>
+            <h5 class="card-title">Unique Resorts Banquet Hall</h5>
+            <h6>LOCATION: Jammu City, Jammu</h6>
+
+
+
           </div>
         </div>
 
@@ -76,8 +83,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Taj Falaknuma Palace is one of the most opulent heritage hotels in India, where you can host wedding and pre-wedding ceremonies. This heritage hotel is also a popular spot for hosting destination weddings in India. At Taj Falaknuma Palace you can choose to hold ceremonies for your wedding at the indoor or outdoor venues depending on your preference. The hotel also provides you with options ranging from splendid lawns, magnificent Rajasthani Gardens, a lavish Durbar Hall to the iconic Coronation Hall to host the wedding celebrations. Each of these venues at Taj Falaknuma Palace has a different seating capacity, ranging from a minimum of 60 guests to a maximum of 15000 guests.</p>
-            <button class="btn btn-primary" name="venue1">Select</button>
+            <p class="card-text" style="text-align: center;">Unique Resorts Banquet Hall is a banquet hall and marriage garden based out in the drool-worthy city of Jammu. This wedding venue has a kind of ambience that will steal your gaze and fixate on its interior decor and infrastructure. Their ambience style is contemporary with a touch of minimalism and refinement. They are a team of dedicated, passionate and hardworking staff who strive to fulfil their customers' needs and would ensure that your wedding is the most unforgettable experience with memories you can cherish.</p>
+             <button class="btn btn-primary" name="venue1">Select</button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -99,13 +106,13 @@
           <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/telangana/Chowmahalla Palace/image108.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Windmill Resorts/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Chowmahalla Palace/image34.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Windmill Resorts/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Chowmahalla Palace/image78.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Windmill Resorts/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
@@ -120,8 +127,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Chowmahalla Palace</h5>
-            <h6>LOCATION:  Motigalli, Khilwat, Hyderabad</h6>
+            <h5 class="card-title">Windmill Resorts</h5>
+            <h6>LOCATION: Amritsar Junction, Amritsar</h6>
 
 
           </div>
@@ -135,12 +142,7 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">On your special day if you want to feel like a Prince or a Princess, then the grand wedding venue at Chowmahalla Palace is a perfect choice for you. Experience royalty at its best on the lush green lawn of Chowmahalla Palace, which is adorned with large fountains and the banquet hall that spells royalty of the by-gone era.
-              The decor and menu of the wedding ceremonies at Chowmahalla Palace can be customised by hiring wedding decorators and catering services of your choice.Price per plate:
-              Vegetarian: Approximately ₹900 onwards
-              Non-vegetarian: Approximately ₹1100 onwards
-              
-              </p>
+            <p class="card-text" style="text-align: center;">Windmill Resorts Amritsar is a wedding venue based out of Amritsar. Indian weddings are one of the most glorious and exciting days for every couple in which everything from decor to food has to be planned carefully. One such detail is the venue where each of your ceremonies will be taking place you will be making tonnes of memories. So if you are searching for a fantastic venue to have all your pre and post-wedding functions hosted in teh most perfect manner then your search ends here with Windmill Resorts Amritsar. They have a wonderful banquet hall which is apt for any of your nuptial ceremonies.</p>
             <button class="btn btn-primary" name="venue2">Select</button>
           </div>
         </div>
@@ -164,13 +166,13 @@
           <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/telangana/Fort Grand/image122.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Kolu Group Of Houseboats/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Fort Grand/image32.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Kolu Group Of Houseboats/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Fort Grand/image94.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Kolu Group Of Houseboats/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
@@ -185,8 +187,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Fort Grand</h5>
-            <h6>LOCATION: Shamshabad, Hyderabad</h6>
+            <h5 class="card-title">Kolu Group Of Houseboats</h5>
+            <h6>LOCATION: Srinagar (North), Srinagar</h6>
 
           </div>
         </div>
@@ -199,12 +201,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">If you are looking for a quaint and serene space for your wedding venue, then Fort Grand in Hyderabad is a perfect wedding venue. This picturesque location blends royal architecture and modern amenities for both indoor as well as outdoor venues. Whether it is a grand celebration or an intimate celebration, Fort Grand has something to offer to everyone according to their preference. Their extensive menu has plenty of options for both vegetarian and non-vegetarian meals.
-              Price per plate:
-              Vegetarian: Approximately ₹900 onwards
-              Non-vegetarian: Approximately ₹1200 onwards
-              </p>
-            <button class="btn btn-primary" name="venue3">Select</button>
+            <p class="card-text" style="text-align: center;">Kolu Group Of Houseboats is a wedding venue based out of Srinagar. It was in the year 1962, the very first Deluxe Luxury Houseboat was built in Dal lake which was named as Pride Of Kashmir which earned a lot of fame and is still pride to the owners. Kolu Group Of Houseboats is an embodiment of the family bond and as a result, the management through the years are been taken over by the following ages. At present we are proud of announcing the largest number of deluxe luxury houseboats in Kashmir. The entire control is taken care of by the management of Kolu brother which is led by Nazir Ahmed Kolu and brothers.</p>
+             <button class="btn btn-primary" name="venue3">Select</button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -226,13 +224,13 @@
           <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/telangana/Taj Krishna/image10.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/The Wedding University/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Taj Krishna/image109.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/The Wedding University/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Taj Krishna/image76.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/The Wedding University/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
@@ -247,8 +245,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Taj Krishna</h5>
-            <h6>LOCATION: Banjara Hills, Hyderabad</h6>
+            <h5 class="card-title">The Wedding University</h5>
+            <h6>LOCATION: Srinagar (North), Srinagar</h6>
           </div>
         </div>
 
@@ -260,11 +258,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Taj Krishna is one of the most elegant luxury hotels in Hyderabad that has ample venue options for hosting wedding celebrations. The six indoor event venues at Taj Krishna provides you with a sophisticated space for organising pre-wedding ceremonies and wedding receptions. To make the hassle-free experience of hosting pre-wedding, wedding and post-wedding ceremonies at Taj Krishna, the in-house decorating and catering staff ensures that they fulfil all minute requirements for your big day.The plush surroundings, classy interiors and elegant rooms and suites at Taj Krishna make it a popular choice for wedding venues.Price per plate:
-              Veg:Approximately ₹2500 onwards
-              Non-veg:Approximately ₹3000 onwards
-              </p>
-            <button class="btn btn-primary" name="venue4">Select</button>
+            <p class="card-text" style="text-align: center;">The Wedding University is a stunning wedding resort located in Srinagar. To plan a perfect wedding, you need to choose the right venue as it is the critical element of organising a wedding flawlessly and in the best possible manner, and it should be the one which suits all your needs do hosting each of your weddings ceremonies the way you want. The Wedding University is the choice you should make if you are looking for a one-stop destination for all your requirements for a suitable wedding venue at a reasonable price range. It is well-equipped, and its staff ensures that your wedding is eventful and memorable for you and your guests</p>
+             <button class="btn btn-primary" name="venue4">Select</button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -283,17 +278,17 @@
         <!-- Card 5 Front -->
 
 
-        <div class="card front" >
+        <div class="card front">
           <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/telangana/Courtyard by Marriot/image116.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/KC Emporia/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Courtyard by Marriot/image123.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/KC Emporia/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Courtyard by Marriot/image8.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/KC Emporia/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
@@ -308,25 +303,21 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Courtyard by Marriot</h5>
-            <h6>LOCATION:  Kavadiguda, Hyderabad</h6>
+            <h5 class="card-title">KC Emporia, Jammu</h5>
+            <h6>LOCATION: Jammu City, Jammu</h6>
           </div>
         </div>
 
         <!-- End Card 5 Front -->
 
         <!-- Card 5 Back -->
-        <div class="card back" >
+        <div class="card back">
           <div class="card-header">
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">To make your wedding memorable, the staff at Courtyard by Marriot delivers exceptional service and hospitality. The experienced wedding planners staff leave no stone unturned in assisting and customising your wedding celebrations according to your preferences. Courtyard offers you to choose any venue from the 19 lavish wedding venues that include both indoor as well as outdoor venues. Whether you are planning to host a grand wedding for about 1000 guests or an intimate wedding for less than a 100 guests, you can opt for an indoor or outdoor venue at Courtyard that will suit your requirements as per your gathering. Price per plate:
-              Veg:Approximately ₹1400 onwards
-              Non-veg:Approximately ₹1500 onwards
-               
-              </p>
-            <button class="btn btn-primary" name="venue5">Select</button>
+            <p class="card-text" style="text-align: center;">KC Emporia is a luxury banquet & resort based out of Jammu. The property is a modern piece of art that has a world-class hall room. The food catering is the best In town and the decor services will mesmerise you with its beauty and charm. The property has Grand lawns named Emporia Greens for hosting all your special functions. A wedding venue is one of the most famous places to host all kind of matrimonial events and if you want an ideal setting where you can take all your nuptials vows peacefully with your soulmates then you can opt for this venue you can book them for all your wedding commemorations so that you can have the most spectacular time with all your near and dear ones. They also make sure that all your celebrations are observed with great entertainment.</p>
+             <button class="btn btn-primary" name="venue5">Select</button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -351,13 +342,13 @@
           <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/telangana/The Golkonda Resorts and Spa/image49.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Blue Moon Banquets/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/The Golkonda Resorts and Spa/image54.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Blue Moon Banquets/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/The Golkonda Resorts and Spa/image72.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Blue Moon Banquets/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
@@ -372,26 +363,21 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">The Golkonda Resorts</h5>
-            <h6>LOCATION: Gandipet, Hyderabad</h6>
+            <h5 class="card-title">Blue Moon Banquets</h5>
+            <h6>LOCATION: Jammu City, Jammu </h6>
           </div>
         </div>
 
         <!-- End Card 6 Front -->
 
         <!-- Card 6 Back -->
-        <div class="card back" >
+        <div class="card back">
           <div class="card-header">
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">The Golkonda Resorts is a great venue for those who are looking to host a wedding amidst the scenic surrounds of this resort. It is equipped with 44 luxury villas and 24 premium rooms to accommodate your guests along with providing them with spaces such as a poolside bar, a poolside kitchen, all-day dining restaurants and spa services to pamper themselves.
-              The extensive lawns and elegant banquet halls at The Golkonda make it a perfect venue for an intimate wedding experience. Price per plate:
-              Veg: Approximately ₹1800 onwards
-              Non-veg: Approximately ₹2000 onwards
-              
-              </p>
-           <button class="btn btn-primary" name="venue6">Select</button>
+            <p class="card-text" style="text-align: center;margin-bottom: 2rem;">Blue Moon Banquets is located in the city of Jammu. Weddings can be the most beautiful and special occasions in a person's life where they embark on a new journey with the ones they love. During all the wedding preparations, one of the most important decisions to make is the wedding venue, which speaks volumes about the kind of event that you want to have. If you are looking for a venue where you can host your wedding and all its other related functions without any hassle, then your search can end here. Blue Moon Banquets will ensure to provide you with quality services and hospitality to make your big day much more special.</p>
+             <button class="btn btn-primary" name="venue6">Select</button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -417,13 +403,13 @@
           <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/telangana/Aalankrita Resort And Convention/image2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/G R Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Aalankrita Resort And Convention/image36.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/G R Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Aalankrita Resort And Convention/image9.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/G R Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7"
@@ -438,8 +424,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Aalankrita Resort</h5>
-            <h6>LOCATION: Shamirpet, Secunderabad</h6>
+            <h5 class="card-title">G R Resort</h5>
+            <h6>LOCATION: Jammu City, Jammu </h6>
           </div>
         </div>
 
@@ -451,13 +437,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">This tastefully designed resort blends lush green surroundings and modern amenities. The extensive area of the resort boasts of rooms, suites, penthouse rooms, cottage rooms and pool villa rooms to accommodate the guests.
-              There are several venues to conduct the ceremonies and parties related to weddings at Aalankrita Resort And Convention. The spacious lawns and banquet halls provide you with catering services and other in-house services for a memorable wedding celebration. The event spaces can accommodate from a minimum of 100 guests and a maximum of 800 guests at one time. Price per plate:
-              Veg: Approximately ₹800 onwards
-              Non-veg: Approximately ₹800 onwards
-              
-              </p>
-            <button class="btn btn-primary" name="venue7">Select</button>
+            <p class="card-text" style="text-align: center;">G R Resort is a hotel and a wedding venue based out in the city of Jammu. It is one of the preferential venue partners to host corporate events as well as intimate gatherings and wedding functions. If you are finding the right venue where you can host your pre-wedding, wedding and post-wedding functions, then your search can end here. It is an ideal hotel wedding destination. They will ensure that your wedding is a gala event which is worth remembering a lifetime with an amazing bunch of highly-personalized services.</p>
+             <button class="btn btn-primary" name="venue7">Select</button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -482,16 +463,16 @@
           <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/telangana/Sri Venkateswara Garden/image104.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Fortune Resort Heevan/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Sri Venkateswara Garden/image131.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Fortune Resort Heevan/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Sri Venkateswara Garden/image83.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Fortune Resort Heevan/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
               data-bs-slide="prev" value="click" onclick="flip">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -503,8 +484,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Sri Venkateswara Garden</h5>
-            <h6>LOCATION: Kompally, Hyderabad</h6>
+            <h5 class="card-title">Fortune Resort Heaven</h5>
+            <h6>LOCATION: Srinagar (North), Srinagar </h6>
           </div>
         </div>
 
@@ -516,12 +497,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">The spacious lawn at Sri Venkateswara Garden is one of the grandest venues in Hyderabad to host a wedding on a lawn under the sky and the stars. The lush greenery and splendid ambience of this wedding venue makes it a popular choice for many in Hyderabad and Secunderabad.
-              The splendid 90,000 square feet lawn along with ample parking space, a function hall, dining halls and air-conditioned rooms will ensure that you enjoy indoor and outdoor facilities for various wedding ceremonies. You can also deck up the lawn area of Sri Venkateswara Garden for your dream wedding with innovative decor and lighting that are available at the premises.Price per plate:
-              Veg: Approximately ₹300 onwards
-              
-              </p>
-            <button class="btn btn-primary" name="venue8">Select</button>
+            <p class="card-text" style="text-align: center;">Fortune Resort Heevan in Srinagar offers you with a venue in the valleys of Kashmir with a graceful vibe and appeal that makes your stay and your event especially a destination wedding very much dreamlike. The management staff attends to all your needs and demands so as to offer you with best services making your event truly memorable. The natural beauty of Srinagar just adds to the charm of the event</p>
+             <button class="btn btn-primary" name="venue8">Select</button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -546,13 +523,13 @@
           <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/telangana/Imperial Gardens/image40.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Kingsville - Banquet & Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Imperial Gardens/image44.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Kingsville - Banquet & Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Imperial Gardens/image79.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Kingsville - Banquet & Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9"
@@ -567,8 +544,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Imperial Gardens</h5>
-            <h6>LOCATION: Sikh Road, Secunderabad</h6>
+            <h5 class="card-title">Kingsville - Banquet & Resort</h5>
+            <h6>LOCATION: Jammu City, Jammu</h6>
           </div>
         </div>
 
@@ -580,13 +557,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">The four wedding venues at Imperial Gardens look like a wedding venue right out of the storybooks. The elegant architecture, tastefully designed spaces, exotic plants and ample space of each of the wedding venues at Imperial Gardens is sure to make a picture-perfect venue for wedding celebrations.
-              The outdoor event venues at Imperial Gardens are perfect for pre-wedding and wedding ceremonies. You can easily turn each of the spaces into your dream wedding venue with the help of the event planners. The courteous staff at Imperial Gardens are renowned for their impeccable service
-              . Price per plate:
-              Veg: Approximately ₹350 onwards
-              Non-veg: Approximately ₹450 onwards
-              </p>
-            <button class="btn btn-primary" name="venue9">Select</button>
+            <p class="card-text" style="text-align: center;">Kingsville - Banquet & Resort is a wedding venue based in the city of Jammu. It offers you a fully air-conditioned indoor space where you can host all of your wedding celebrations and be assured that your function is the most fanatic one and you can host all sorts of functions with your family members as well. They have been into this hospitality industry from quite a long time and has a solid reputation for the kind of work that they offer. Kingsville - Banquet & Resort is a place that can be ideal for hosting large and grand functions in a great manner.</p>
+             <button class="btn btn-primary" name="venue9">Select</button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -611,13 +583,13 @@
           <div id="carouselExampleControls10" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/telangana/Summer Green Resort Palm Groves/image102.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Mascot Houseboats/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Summer Green Resort Palm Groves/image30.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Mascot Houseboats/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/telangana/Summer Green Resort Palm Groves/image69.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Jammu & Kashmir/Mascot Houseboats/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls10"
@@ -632,8 +604,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Summer Green Resort Palm Groves</h5>
-            <h6>LOCATION: Shamirpet Mandal, Hyderabad</h6>
+            <h5 class="card-title">Mascot Houseboats</h5>
+            <h6>LOCATION: Srinagar (North), Srinagar</h6>
           </div>
         </div>
 
@@ -645,13 +617,7 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Summer Green Resort blends the lush greenery of the surroundings along with splendid blue waters of the swimming pools and a soothing ambience. This elegant resort has facilities to host pre-wedding and wedding ceremonies along with accommodation facilities for the guests. The luxurious Kerala Cottage Room and Honeymoon Room are perfect for newlyweds.
-              For your dream wedding at this resort, you can opt for a lawn or a wedding hall as your wedding venue depending on the number of guests. The wedding venues can accommodate a minimum of 100 guests and a maximum of 1500 guests.
-              Price per plate:
-              Veg: Approximately ₹650 onwards
-              Non-veg: Approximately ₹750 onwards
-              
-              </p>
+            <p class="card-text" style="text-align: center;">Mascot Houseboats is a wedding venue based in Srinagar. Indian weddings are pleasant occasions which are celebrated with grandeur and elegance in which each detail is picked up carefully. One such essential detail is the venue where each of your ceremonies will be taking place. So if you are on a lookout for a wedding venue that offers you the best services and impressive hospitality for all your wedding celebrations then your search ends here with Mascot Houseboats. It's an ideal venue to host all your wedding functions with all your near and dear ones.?</p>
             <button class="btn btn-primary" name="venue10">Select</button>
           </div>
         </div>
@@ -660,7 +626,7 @@
     </label>
     <!-- End Card 10 -->
   </section>
-  </form>
+     </form>
 </body>
 
 </html>

@@ -1,3 +1,7 @@
+<?php
+session_start(); 
+include("session_check.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,11 +30,11 @@
 </head>
 
 <body>
-  <form action="venuebengal.php" method="post">
+  <form action="venuegujarat.php" method="post">
   <section id="container">
 
     <div class="head">
-      <h1>BENGAL</h1>
+      <h1>GUJARAT</h1>
     </div>
 
     <input type="checkbox" id="card-1" />
@@ -42,13 +46,13 @@
           <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/bengal/Hyatt Regency/image43.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Laxmi Vilas Palace Banquets, gujarat/image120.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Hyatt Regency/image56.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Laxmi Vilas Palace Banquets, gujarat/image26.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Hyatt Regency/image66.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Laxmi Vilas Palace Banquets, gujarat/image4.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
@@ -63,8 +67,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Hyatt Regency</h5>
-            <h6>LOCATION: Near Salt lake Stadium, Kolkata</h6>
+            <h5 class="card-title">Laxmi Vilas Palace Banquets</h5>
+            <h6>LOCATION: Ajwa Road, Baroda</h6>
 
           </div>
         </div>
@@ -77,9 +81,8 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">The big fat weddings in Kolkata go bigger and fatter in Hyatt Regency. There are two venue areas, one on the poolside, and the other on the palatial end, called Regency Ballroom. The Poolside is an open-air venue featuring the largest landscape pool of the city.
-              The pillarless Regency Ballroom on the other hand boasts of an open terrace. Lightings and decor are adapted to match themes as demanded by the client. Hyatt Regency tops the list of best wedding venues in Kolkata, giving cut-throat competition to others.
-              </p>
+            <p class="card-text" style="text-align: center;">The three centuries old palace provides a gorgeous backdrop for a jaw-dropping wedding venue. Located in the midst of a lush green lawn, LVP Banquets is truly nothing short of magical. If you want a romantic and picturesque wedding, this is your venue for the day! While their decorators set up the place, their caterers can whip up the most amazing wedding feast for you and your guests.
+              Prices Start at: Rs. 850 (veg) & Rs. 900 (n.veg)</p>
             <button class="btn btn-primary" name="venue1" > Select </button>
           </div>
         </div>
@@ -102,13 +105,13 @@
           <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/bengal/Taj Bengal/image12.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Aam Bagan, Ahmedabad/image107.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Taj Bengal/image129.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Aam Bagan, Ahmedabad/image39.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Taj Bengal/image96.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Aam Bagan, Ahmedabad/image6.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
@@ -123,8 +126,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Taj Bengal</h5>
-            <h6>LOCATION: Alipore, Kolkata</h6>
+            <h5 class="card-title">Aam Bagan</h5>
+            <h6>LOCATION: Sindhu Bhavan Road, Ahmedabad</h6>
 
 
           </div>
@@ -138,8 +141,9 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Taj Bengal has more than six wedding venues in Kolkata, namely- Portico, Oriental, Terrace Garden, Mandarin, Crystal Hall, and banquet lawns. The capacity ranges between 25 to 700 guests, and each of the venue areas have their own distinct features and decor.
-            </p>
+            <p class="card-text" style="text-align: center;">Located amidst vast stretches of mango orchards, Aam Bagan in Bokadev is an ideal wedding venue for you if you want a picturesque wedding. If you are planning a destination wedding in Gujarat, you must check out Aam Bagan for its lavish amenities and beautiful grounds. You can also get your own caterer and decorator to customize the event as per your needs.
+              Prices Start at: Rs. 2200 (veg) & Rs. 2500 (n.veg)
+              </p>
             <button class="btn btn-primary" name="venue2" > Select </button>
           </div>
         </div>
@@ -163,13 +167,13 @@
           <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/bengal/ITC Sonar/image1.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Thaker Farm, Ahmedabad/img2.jpeg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/ITC Sonar/image37.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Thaker Farm, Ahmedabad/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/ITC Sonar/image53.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Thaker Farm, Ahmedabad/img4.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
@@ -184,8 +188,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">ITC Sonar</h5>
-            <h6>LOCATION: Tangra, Kolkata,</h6>
+            <h5 class="card-title">Thaker Farm</h5>
+            <h6>LOCATION: Gandhinagar, Ahmedabad</h6>
 
           </div>
         </div>
@@ -198,8 +202,9 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">The ITC Sonar features in this list of best wedding venues in Kolkata no just for the decor and services, but because of its enviable location. Away from hustle and bustle of the city, it hosts the most lavish wedding of Kolkata. The Pala (indoor venue area) steals the show away with its soft lighting and candles. The outdoor venue, called Sundarban Lawns is a lovely landscape garden suitable for an open air affair.
-            </p>
+            <p class="card-text" style="text-align: center;">With vast stretches of lush green lawns, Thaker Farm makes an idyllic wedding venue for a destination wedding in Gujarat. Their in-house decorators can set up canopies, tents and other party areas for you and your guests. You can get your own caterer to treat your guests to a sumptuous feast while their decorators light up the place with gorgeous decorative lights.
+              Prices Start at: Rs. 450 (veg) & Rs. 450 (n.veg)
+              </p>
             <button class="btn btn-primary" name="venue3" > Select </button>
           </div>
         </div>
@@ -222,13 +227,13 @@
           <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/bengal/The Oberoi Grand Hotel/image38.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Maple Farm, Ahmedabad/image71.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/The Oberoi Grand Hotel/image50.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Maple Farm, Ahmedabad/image98.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/The Oberoi Grand Hotel/image93.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Maple Farm, Ahmedabad/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
@@ -243,8 +248,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">The Oberoi Grand Hotel</h5>
-            <h6>LOCATION: Taltala, Kolkata</h6>
+            <h5 class="card-title">Maple Farm</h5>
+            <h6>LOCATION: Chharodi, Ahmedabad</h6>
           </div>
         </div>
 
@@ -256,7 +261,9 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">The Oberoi Grand Hotel has hosted luxe parties for erstwhile kings and British Bureaucrats in the olden days. Even today its grandeur as an elite wedding venue hasn’t faded! It is among the best wedding venues in Kolkata having city’s largest ballroom spanning over 19,000 sq ft of area. It is also one of the best hotels in Kolkata.</p>
+            <p class="card-text" style="text-align: center;">If you have always wanted a grand destination wedding in Gujarat, Maple Farm Party Plot might just be the one for you. With an elegant and spacious hall and a vast stretch of lawn, Maple Farm is truly an exquisite venue for a wedding. They also have an experienced team of decorators who can set up the place for your special day!
+              Prices Start at: Rs. 250 (veg)
+              </p>
             <button class="btn btn-primary" name="venue4" > Select </button>
           </div>
         </div>
@@ -280,13 +287,13 @@
           <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/bengal/P C Chandra Garden/image27.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Crowne Plaza, Ahmedabad/image101.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/P C Chandra Garden/image60.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Crowne Plaza, Ahmedabad/image126.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/P C Chandra Garden/image80.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Crowne Plaza, Ahmedabad/image13.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
@@ -301,8 +308,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">P C Chandra Garden</h5>
-            <h6>LOCATION: Eastern Metropolitan Bypass, Kolkata</h6>
+            <h5 class="card-title">Crowne Plaza</h5>
+            <h6>LOCATION: Ahmedabad City Centre-read</h6>
           </div>
         </div>
 
@@ -314,7 +321,9 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">One of most lavish and best wedding venues in Kolkata, PC Chandra Garden has three venue areas with both indoor and outdoor seating. The halls can host up to 850 guests, while the lawns have a capacity of 2100 guests. Catering and service are both impeccable, just like the decor that’ll simply blow your mind.</p>
+            <p class="card-text" style="text-align: center;">Located in the Prashad Nagar area of Ahmedabad, Crowne Plaza in Ahmedabad City Centre is one of the most luxurious Gujarat destinations for a wedding. The place is so huge that you can easily host all the events of a wedding here, be it the Mehndi, Sangeet, Cocktail or reception party. The centre can host up to 2000 people, making it a viable option for people who have lots of guests to invite. Their in-house team caters to all your needs with the utmost care. The experienced chefs can prepare local and international cuisines with incredible precision.
+              With all the services, the per plate cost here is ₹ 1800 and the average budget for 1000 guests would be close to ₹ 20,00,000.
+              </p>
             <button class="btn btn-primary" name="venue5" > Select </button>
           </div>
         </div>
@@ -340,13 +349,13 @@
           <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/bengal/Vedic Village/image28.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Narayani Heights/image105.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px" width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Vedic Village/image63.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Narayani Heights/image21.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px" width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Vedic Village/image92.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Narayani Heights/image99.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px" width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
@@ -361,8 +370,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Vedic Village</h5>
-            <h6>LOCATION: Newtown, Kolkata</h6>
+            <h5 class="card-title">Narayani Heights</h5>
+            <h6>LOCATION: Dummy</h6>
           </div>
         </div>
 
@@ -374,9 +383,10 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">The Vedic Village is always listed among the most extravagant wedding places in Kolkata. It is also one of the most luxurious villas in Kolkata. The authorities take pride in being known as masters of exclusive themes such as big fat organic weddings, outdoor adventure weddings, exotic traditional weddings, and chic country weddings; and their wedding venues serve to these very well.
-              One of the best wedding resorts in Kolkata, the Vedic Village alongside four venue areas provides accommodation that’s backed up with dining, spa, sports and other world-class facilities.
-            </p>
+            <p class="card-text" style="text-align: center;">Narayani Heights is one of the best Gujarat destinations to host a Gujarati wedding. All the décor at the venue is completely customisable, making it possible for you to personalise the wedding aesthetic as per your wishes.
+              There are 109 rooms available with tariffs ranging from ₹ 5,000 to ₹ 20,000. The per-plate cost ranges from ₹ 800 to 5,000. This variety of options in the price range just tells you how nicely the resort caters to the needs of people from different walks of life. Additionally, they offer multiple cuisines from around the world. They also customise the cooking process according to the Jain traditions. All these facilities make it a part of the list of ideal Gujarat destinations for a wedding.
+              
+              </p>
             <button class="btn btn-primary" name="venue6" > Select </button>
           </div>
         </div>
@@ -403,13 +413,13 @@
           <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/bengal/Club Verde Vista/image16.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/The House of MG/image20.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Club Verde Vista/image82.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/The House of MG/image57.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Club Verde Vista/image95.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/The House of MG/image70.png" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7"
@@ -424,8 +434,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Club Verde Vista</h5>
-            <h6>LOCATION: Upohar, Kolkata</h6>
+            <h5 class="card-title">The House of MG</h5>
+            <h6>LOCATION: Lal Darwaja, Ahmedabad</h6>
           </div>
         </div>
 
@@ -437,7 +447,9 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Pumped up to make D-day the most memorable day of your life, Club Verde Vista features among the top open air wedding venues in Kolkata. There are both indoor and outdoor venues, with in-house decorators and caterers. With the venue, you can also consider a stay for guests as you get rooms (4 rooms available) for an average cost of INR 4,000 per room (above the venue charges).</p>
+            <p class="card-text" style="text-align: center;">The House of Mangaldas Girdhardas is a heritage hotel that is one of the top Gujarat destinations for weddings with fewer guests. This venue is ideal for an intimate wedding, as they allow their venue to be booked for a party that has as little as 50 guests. This makes it perfect for someone looking for a destination wedding with just a handful of close relatives and friends.
+              The hotel specialises in creating décor exactly the way you want, making it just perfect for people. The per-plate cost is around ₹ 900. The hotel has multiple event spaces like a sprawling terrace, banquet hall and the lawn area.
+              </p>
             <button class="btn btn-primary" name="venue7" > Select </button>
           </div>
         </div>
@@ -463,13 +475,13 @@
           <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/bengal/Mangalam Banquets/image15.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/The Gateway Hotel Athwalines/image117.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Mangalam Banquets/image19.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/The Gateway Hotel Athwalines/image23.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Mangalam Banquets/image33.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/The Gateway Hotel Athwalines/image85.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8"
@@ -484,8 +496,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title"> Mangalam Banquets</h5>
-            <h6>LOCATION: Gobra, Kolkata</h6>
+            <h5 class="card-title">The Gateway Hotel Athwalines</h5>
+            <h6>LOCATION: Ambika Niketan Road, Surat</h6>
           </div>
         </div>
 
@@ -497,7 +509,9 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">One of the excellent yet somewhat cheap banquet halls in Kolkata for weddings, Mangalam Banquets is among the mid-sized wedding halls in South Kolkata that can host up to 300 guests. There’s an open road parking available with complimentary valet. If it is a comparatively small affair, this is the best choice for your special day.</p>
+            <p class="card-text" style="text-align: center;">The Gateway Hotel Athwalines is a luxurious 5-star hotel in Surat. It is perfect for an upscale wedding with famous dignitaries as guests. This 5-star hotel has everything planned down to the T. You do not have to worry about anything at all as the hotel’s in-house team will look after everything. It can host anywhere between 750-1500 people in one go.
+              They offer multiple cuisines from India, like Mughlai, North Indian, South Indian, Street food and international cuisines like Italian, Continental and Chinese as well. Their per-plate cost is around ₹ 1,500.
+              </p>
             <button class="btn btn-primary" name="venue8" > Select </button>
           </div>
         </div>
@@ -523,13 +537,13 @@
           <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/bengal/Royal Bengal Room/image25.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Green YMCA Banquets & Lawn/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Royal Bengal Room/image31.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Green YMCA Banquets & Lawn/img2.webp" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Royal Bengal Room/image91.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Green YMCA Banquets & Lawn/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9"
@@ -544,8 +558,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Royal Bengal Room</h5>
-            <h6>LOCATION: Bidhannagar, Kolkata</h6>
+            <h5 class="card-title">Green YMCA Banquets & Lawn</h5>
+            <h6>LOCATION: Makarba, Ahmedabad</h6>
           </div>
         </div>
 
@@ -557,7 +571,7 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Whatever the theme be for your wedding, all you need to do is to tell the decorators and you can have it. Not kidding, these people are the best in business and the Royal Bengal Room is beautiful and very spacious and somewhere where you should plan your dream wedding at. If your tastes are subtle then this is the place for you.</p>
+            <p class="card-text" style="text-align: center;">Green YMCA Banquets And Lawn, Ahmedabad is taken care of by Green Leaves Management. It is an ideal venue for hosting your grand wedding, reception ceremony, and celebrations or events of any type. Green YMCA Banquets And Lawn, Makarba, Ahmedabad is a very well known place in the locality. So you can imagine how grand your event is going to be. The staff at this venue are professionals and skilled in their respective job, they make sure your function is executed well. YMCA Banquet Hall Ahmedabad serves palatable vegetarian delicacies to their guests. The stunning décor of the venue gives a special touch to your big day.</p>
             <button class="btn btn-primary" name="venue9" > Select </button>
           </div>
         </div>
@@ -583,13 +597,13 @@
           <div id="carouselExampleControls10" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/bengal/Smriti Banquets/image106.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Jade Luxury Banquets, Ahmedabad/img1.webp" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Smriti Banquets/image7.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Jade Luxury Banquets, Ahmedabad/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/bengal/Smriti Banquets/image74.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/gujarat/Jade Luxury Banquets, Ahmedabad/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls10"
@@ -604,8 +618,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Smriti Banquets</h5>
-            <h6>LOCATION: Newtown, Kolkata</h6>
+            <h5 class="card-title">Jade Luxury Banquets</h5>
+            <h6>LOCATION: Bodakdev, Ahmedabad</h6>
           </div>
         </div>
 
@@ -617,8 +631,7 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">If you wish to serve alcohol to guests because you are a good host then Smriti Banquets is your best bet and offers the best solution to all your wedding related queries and doubts. Be it decor, food or anything else this wedding venue in Kolkata does everything right and is tucked away from the bustling city, offering quaint settings for your big day.
-            </p>
+            <p class="card-text" style="text-align: center;">Jade Banquets is India’s premier destination to host exquisite events that symbolize grandeur & style. It operates multiple beautifully appointed banquet venues across India, offering world class hospitality and award winning catering to add elegance to your most treasured occasions. Jade Banquets has perfected the ‘Art of Hospitality and enjoys a reputation of providing it’s guests with unique and memorable experiences that are highly regarded by the patrons. With world-class amenities and a responsive team that customizes and designs every part of the service, Jade is one of the most eminent venues in India. It is managed by professionals trained in the highest standards of international hospitality.</p>
             <button class="btn btn-primary" name="venue10" > Select </button>
           </div>
         </div>
@@ -627,7 +640,7 @@
     </label>
     <!-- End Card 10 -->
   </section>
-  </form>
+    </form>
 </body>
 
 </html>
