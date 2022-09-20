@@ -31,5 +31,5 @@ if(isset($_SESSION["light1"])){
     $_SESSION["light"]="RP Dj Wale";
     $_SESSION["light_price"]=1;
 }
-header("Location:"); 
+header("Location:dummyreceipt.html"); 
 ?>

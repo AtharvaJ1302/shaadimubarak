@@ -31,5 +31,5 @@ if(isset($_POST["venue1"])){
     $_SESSION["venue"]="Dos Equis Exotic Lounge, Bardez";
     $_SESSION["venue_price"]=1;
 }
-header("Location:")
+header("Location:dummyfood.html")
 ?>
