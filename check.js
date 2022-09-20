@@ -1,5 +1,3 @@
-
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 function SignUpValidation(){
     var name= document.getElementById("loginName").value;
     var email=document.getElementById("loginEmail").value;
@@ -24,11 +22,6 @@ function SignUpValidation(){
         alert("Passwords don't match!!");
         return false;
     }
-    swal({
-        title: "SignUp Successfull!",
-        text: "SignIn to continue",
-        icon: "success",
-        button: "SignIn!",
-      });
+
     return true;
 }
