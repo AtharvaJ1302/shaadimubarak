@@ -1,3 +1,7 @@
+<?php
+session_start(); 
+include("session_check.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,11 +30,11 @@
 </head>
 
 <body>
-  <form action="venuepunjab.php" method="post">
+  <form action="venuekerala.php" method="post">
   <section id="container">
 
     <div class="head">
-      <h1>PUNJAB</h1>
+      <h1>KERALA</h1>
     </div>
 
     <input type="checkbox" id="card-1" />
@@ -42,13 +46,13 @@
           <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/punjab/Stallone Manor, Ludhiana/image35.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Trident, Cochin/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Stallone Manor, Ludhiana/image46.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Trident, Cochin/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Stallone Manor, Ludhiana/image48.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Trident, Cochin/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
@@ -63,9 +67,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Stallone Manor</h5>
-            <h6>LOCATION: Pakhowal Road, Ludhiana</h6>
-
+            <h5 class="card-title">Trident, Cochin</h5>
+            <h6>LOCATION: Willingdon Island, Koch</h6>
 
 
           </div>
@@ -79,7 +82,12 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">This is one of the largest banquet halls in the city with a 200 ft x 130 ft AC hall that matches the grandeur and grace of the Roman. They also have a spacious 200 ft x 130 ft lawn outside with the beautifully lit cascading fountain that will add more charisma to the decor. The types of cuisines on the offer are Mughlai, Avadhi, Punjabi Frontier, Marwari, Kashmiri, Hyderabadi, Chinese, Thai, Mexican, Lebanese, Italian, Mediterranean, and more.</p>
+            <p class="card-text" style="text-align: center;">
+              When you have a desire for hosting your wedding at a summery and serene destination then, Trident Cochin
+              is one such venue that provides you with the apt ambience, feel and atmosphere. The management and staff
+              of Trident Cochin provide you with complete hospitality and banqueting facilities in order to offer you
+              with a great wedding venture or any other event that you and your guests will enjoy.
+            </p>
             <button class="btn btn-primary" name="venue1">Select</button>
           </div>
         </div>
@@ -102,13 +110,13 @@
           <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/punjab/Grand Wedding Villa, Ludhiana/image100.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Mayfair Banquets/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Grand Wedding Villa, Ludhiana/image111.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Mayfair Banquets/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Grand Wedding Villa, Ludhiana/image90.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Mayfair Banquets/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
@@ -123,9 +131,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Grand Wedding Villa </h5>
-            <h6>LOCATION: Pakhowal Road, Ludhiana</h6>
-
+            <h5 class="card-title">Mayfair Banquets</h5>
+            <h6>LOCATION: Dr. Basant Bapat rd, Kasaragod</h6>
 
           </div>
         </div>
@@ -138,8 +145,17 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">As the name suggests, Grand Wedding Villa in Ludhiana is one of the prime choices for hosting a wedding in Punjab. This famous hotel is designed to host functions like wedding, ring ceremony and reception with large gatherings. The fully air-conditioned banquet hall can easily accommodate hundreds of guests. The villa has furnished rooms, kitchens along with a reception hall, and a marvelous lobby. The hotel has trained chefs that serve finger-licking cuisine to their guests.</p>
+            <p class="card-text" style="text-align: center;">
+              With an ambition that promises to change market trends, hospitality standards and the concept of luxury
+              fusing with comfort and class, we present to you Mayfair Banquets Kerala, the largest luxury pillar less
+              banquet hall in Kerala.
+              We also have our own wedding planners, and event managers that have a long term experience in working with
+              a number of successful thematic weddings and events. This is what sets us apart as a one of the most
+              innovative banquet halls in Kolkata for marriage.
+
+            </p>
             <button class="btn btn-primary" name="venue2">Select</button>
+           
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -162,13 +178,13 @@
           <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/punjab/Bath Castle, Ludhiana/image18.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Ramada Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Bath Castle, Ludhiana/image24.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Ramada Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Bath Castle, Ludhiana/image97.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Ramada Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
@@ -183,9 +199,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Bath Castle</h5>
-            <h6>LOCATION: Pakhowal Road, Ludhiana</h6>
-
+            <h5 class="card-title">Ramada Resort, Kochi</h5>
+            <h6>LOCATION: Ernakulam City, Ernakulam</h6>
           </div>
         </div>
 
@@ -197,8 +212,17 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Bath Castle is one of the top wedding venues in Punjab. You will feel like you have reached your dream destination with the entrance that highlights beautiful fountains and a grand castle structure. It is spread over 7 acres of luxurious land with an impressive exterior as well as grandiose interior and a hall spread over 22,000 sq ft. that feels like you have entered a Mughal Fort with a modern touch. They provide you in-house catering, experienced & well-groomed staff & huge parking space.</p>
+            <p class="card-text" style="text-align: center;">
+              Ramada Resort, Kochi is one the most sought-after venues in the city of Kumbalam and is well-known for
+              hosting extravagant and elegant events and parties. This venue is easily accessible for all your guests to
+              reach at your venue without any problems. Choosing the right venue is the first step to organize a
+              flawless wedding and it should be chosen while keeping in mind all the requirements for your functions
+              that you want to host here. Ramada Resort, Kochi offers you a range of services with a stunning ambience
+              to plan a wonderful celebration. They will ensure to make your wedding an event which is worth remembering
+              a lifetime.
+            </p>
             <button class="btn btn-primary" name="venue3">Select</button>
+           
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -220,13 +244,13 @@
           <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/punjab/Hyatt Regency, Chandigarh/image118.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Southern Panorama Indriya Resort & Spa/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Hyatt Regency, Chandigarh/image55.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Southern Panorama Indriya Resort & Spa/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Hyatt Regency, Chandigarh/image62.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Southern Panorama Indriya Resort & Spa/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
@@ -241,8 +265,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Hyatt Regency</h5>
-            <h6>LOCATION: Business Park Phase 1, Chandigarh</h6>
+            <h5 class="card-title">Southern Panorama Indriya Resort & Spa</h5>
+            <h6>LOCATION: Munnar, Idukki</h6>
           </div>
         </div>
 
@@ -254,7 +278,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Located at the heart of the tri-city of Chandigarh, it is easily accessible from the other two key areas, Mohali and Panchkula, and 16 kilometers away from the Chandigarh International Airport and 4 kilometers from the Chandigarh Railway Station. The 5-star hotel wows you with its spacious and luxurious spaces, the fascinating interiors of which is inspired by French architect Le Corbusier with a brise-soleil façadeour hotel with rooms of area 36 to 200 square meters. They offer you Creative menus, imaginative settings, beautifully designed wedding locations, and professional wedding services.</p>
+            <p class="card-text" style="text-align: center;">
+              Southern Panorama Indriya Resorts & Spa is a wedding venue which is located in Munnar. It is one of the
+              fastest-growing hospitality brands in India. The venue has numerous banquet halls with a modern yet classy
+              interior. The overall vibe of the hotel has a touch of style and is a perfect place to host all your
+              wedding functions. They are the one who values the comfort of their guests also offering you with great
+              cuisine. Southern Panorama Indriya Resorts & Spa has that distinctly warm Indian hospitality that makes
+              you feel at home and the team put efforts to create value for money.
+            </p>
             <button class="btn btn-primary" name="venue4">Select</button>
           </div>
         </div>
@@ -278,13 +309,13 @@
           <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/punjab/JW Marriott, Chandigarh/image110.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Emarald Ayurvedic Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/JW Marriott, Chandigarh/image125.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Emarald Ayurvedic Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/JW Marriott, Chandigarh/image42.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Emarald Ayurvedic Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
@@ -299,8 +330,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title"> JW Marriott</h5>
-            <h6>LOCATION: Dakshin Marg, Chandigarh</h6>
+            <h5 class="card-title">Emarald Ayurvedic Resort, Perinthalmanna</h5>
+            <h6>LOCATION: Malappuram City, Malappuram</h6>
           </div>
         </div>
 
@@ -312,8 +343,16 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Their splendor Ballroom having a space of 8,407 sq ft. glows with radiance and is a perfect venue for your fairy tale wedding. With lush green lawns, that can accommodate up to 1,000 guests and situated in the city’s business district, the hotel greets you with refined luxury and a modern sense of style. Their wedding planners will make sure that you get the best day of your life with the delicious wedding menu and wedding hosts.</p>
+            <p class="card-text" style="text-align: center;">
+              Emarald Ayurvedic Resort, Perinthalmanna is a banquet hall located in Malappuram and within close
+              proximity to Calicut Airport, it gives everyone a chance to be at your wedding without losing their way.
+              Within the name lies the experience that you can expect when you a relaxing and rejuvenating ambience.
+              Emarald Ayurvedic Resort, Perinthalmanna have services that are exceptional and they work hard to see all
+              their guests carry fond memories from the event. Pleasant and opulent against a scenic background will
+              nourish all your senses, and the wedding functions can be performed with delight and zeal.
+            </p>
             <button class="btn btn-primary" name="venue5">Select</button>
+            
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -338,13 +377,13 @@
           <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/punjab/Vivanta by Taj, Chandigarh/image127.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Lalit Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Vivanta by Taj, Chandigarh/image51.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Lalit Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Vivanta by Taj, Chandigarh/image89.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Lalit Res.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
@@ -359,8 +398,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Vivanta by Taj</h5>
-            <h6>LOCATION: Block No. 9 Sector 17, Chandigarh</h6>
+            <h5 class="card-title">Lalit Resort, Kochi</h5>
+            <h6>LOCATION: Ernakulam City, Ernakulam</h6>
           </div>
         </div>
 
@@ -372,8 +411,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Vivanta by Taj is one of the top wedding venues in Punjab.They offer you a couple of marvelous and lush spaces for your wedding to choose from. The ballroom I with an area of 1664.00 sq. ft. has also an additional pre-function space, ballroom II has the area of 2808.00 sq. ft. with grand green lawns attached to its side. The Capitol venue has a space of 552.75 sq. ft. and The Ballroom Annexe is ideal for your small intimate ceremonies. The best part is that they have an extravagant terrace lawn so you can get married under the blanket of stars.</p>
+            <p class="card-text" style="text-align: center;">
+              Lalit Resort, Kochi is one the most sought-after venues in the city of Kumbalam and is well-known for
+              hosting extravagant and elegant events and parties. Lalit Resort, Kochi offers you a range of services
+              with a stunning ambience to plan a wonderful celebration. They will ensure to make your wedding an event
+              which is worth remembering a lifetime.
+            </p>
             <button class="btn btn-primary" name="venue6">Select</button>
+           
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -399,13 +444,13 @@
           <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/punjab/Hyatt, Amritsar/image11.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Vasco Dagama Beach Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Hyatt, Amritsar/image112.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Vasco Dagama Beach Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Hyatt, Amritsar/image75.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Vasco Dagama Beach Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7"
@@ -420,8 +465,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title"> Hyatt</h5>
-            <h6>LOCATION: G. T. Road, Amritsar</h6>
+            <h5 class="card-title">Vasco Dagama Beach Resort, Kozhikode</h5>
+            <h6>LOCATION: Kozhikode City, Kozhikode</h6>
           </div>
         </div>
 
@@ -433,7 +478,15 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">What could be better than having your wedding venue next to the Golden Temple? The hotel is just 30 minutes from the Guru Ram Das International Airport and holds the largest rooms inventory with 248 elegant guestrooms including 10 suites and a Presidential Suite. Their indoor banqueting with over 11647 sq ft space has the most elegant interiors and the mesmerizing outdoor venue Tented gardens can hold a grand wedding. They have a team of world-class wedding specialists to make your wedding just like how you want.</p>
+            <p class="card-text" style="text-align: center;">
+              Vasco Da Gama Beach Resort is a venue located in the city of Kozhikode and it is a gorgeous place to host
+              your festivities elegantly. The wedding venue is a non-negotiable part of the wedding planning and also
+              one of the major aspects of wedding planning because it is that one place that hosts your wedding
+              ceremonies and furthermore your relatives and companions who originate from everywhere throughout the
+              world to bless you and grace your fresh starts. Alongside being a wonderful retreat by the shoreline that
+              is tastefully engaging the faculties, Vasco Da Gama Beach Resort is fit for making astonishing courses of
+              action for your wedding.
+            </p>
             <button class="btn btn-primary" name="venue7">Select</button>
           </div>
         </div>
@@ -459,13 +512,13 @@
           <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/punjab/Kingsville Resort, Ludhiana/image130.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/The Lalit Resort & Spa Bekal/img1.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Kingsville Resort, Ludhiana/image59.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/The Lalit Resort & Spa Bekal/img2.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Kingsville Resort, Ludhiana/image84.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/The Lalit Resort & Spa Bekal/img3.png" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8"
@@ -480,8 +533,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Kingsville Resort</h5>
-            <h6>LOCATION: Ferozepur Road Ludhiana</h6>
+            <h5 class="card-title">The Lalit Resort & Spa Bekal</h5>
+            <h6>LOCATION: Kasaragod City, Kasaragod </h6>
           </div>
         </div>
 
@@ -493,8 +546,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">A five-star wedding venue in Punjab, Kingsville Resorts is known for providing premium facilities to their guests. The resort is surrounded with lush green lawn which can be a great option for hosting mehendi or haldi ceremony. The resort consists of fully air-conditioned hall, parking lot and a marriage hall. Kingsville Resort aims at providing with the best of their services. When it comes to cuisine, they offer options including Indian, Chinese, Continental, Italian, Mexican, Mangolian and so much more. The staff take pleasure in serving your guest with the best of everything</p>
-            <button class="btn btn-primary" name="venue8">Select</button>
+            <p class="card-text" style="text-align: center;">
+              Located in Kerala, near the Arabian Sea, surrounded by river Nombilli, The Lalit Resort & Spa Bekal is a
+              gem of a venue in God's own Country. With landscaped gardens, private lagoon, and touched by pristine
+              sandy beaches, The Lalit Resort & Spa Bekal can be rightfully described as a heavenly escape of luxury and
+              tranquillity. It is a perfect location for a magnificent wedding, blessed by serene ambience and
+              traditional, mesmerising settings.
+            </p>
+           <button class="btn btn-primary" name="venue8">Select</button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -519,13 +578,13 @@
           <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/punjab/Marrievilla Resorts/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/The Raviz Kadavu/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Marrievilla Resorts/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/The Raviz Kadavu/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/Marrievilla Resorts/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/The Raviz Kadavu/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9"
@@ -540,8 +599,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Marrievilla Resorts</h5>
-            <h6>LOCATION: Gill road, Ludhiana</h6>
+            <h5 class="card-title">The Raviz Kadavu</h5>
+            <h6>LOCATION: Kozhikode City, Kozhikode</h6>
           </div>
         </div>
 
@@ -553,8 +612,16 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">MarrieVilla Resorts, Ferozepur, Ludhiana is a gorgeous venue to celebrate the victory of your love with your better half. This venue is located on Ferozepur Road near the Pandori Play Ground which makes it convenient for all to reach there by either private and public transportation modes. MarrieVilla Resorts Ludhiana know that when it comes to weddings, you expect nothing but perfection. Therefore, It has a sprawling lawn and multiple banquet halls of contrasting sizes to take care of all your requirements. The lawn at Grand MarrieVilla Resorts is simply spectacular and can hold a huge crowd of guests, so you don't need to worry about shortening the guest list.</p>
-            <button class="btn btn-primary" name="venue9">Select</button>
+            <p class="card-text" style="text-align: center;">
+              The Raviz Kadavu is a luxury is a wedding setting based in Kozhikode that is wonderful to have your
+              wedding a lot of related festivities to make your weddings a never-ending one. Be it pre-wedding, wedding
+              or post-wedding assistance, they can make every one of your jobs effective one. They are amazing with
+              regards to facilitating huge Indian bridal functions as they offer magnificent chairs with warm
+              friendship. So in the event that you are searching for a spot that offers you an excellent scope of
+              guidance and help then you can choose them. They additionally offer a lot of other services to make your
+              function a deep one.
+            </p>
+           <button class="btn btn-primary" name="venue9">Select</button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -579,13 +646,13 @@
           <div id="carouselExampleControls10" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/punjab/B.R. Resorts/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Summit Hampton Hotel/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/B.R. Resorts/img2.jpeg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Summit Hampton Hotel/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/punjab/B.R. Resorts/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Kerala/Summit Hampton Hotel/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls10"
@@ -600,8 +667,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">B.R. Resorts</h5>
-            <h6>LOCATION: Gill road, Ludhiana</h6>
+            <h5 class="card-title">Summit Hampton Hotel</h5>
+            <h6>LOCATION: Idukki City, Idukki </h6>
           </div>
         </div>
 
@@ -613,7 +680,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">BR Resorts, Amritsar is a farmhouse located on the Chheharta Bypass of the city. When you plan a lifetime event, like your wedding, you need to be considerate of a lot of things and choosing the venue is one of the main things to organise the perfect wedding. If you are looking for one such venue which can fulfil all your needs for the functions, then BR Resorts, Amritsar is the one-stop destination for you. Offering a plethora of services and amenities, this venue makes for an exemplary choice for any of your nuptial ceremonies.</p>
+            <p class="card-text" style="text-align: center;">
+              Summit Hampton Hotel is a wedding venue situated in Idukki City. It is a one-stop destination for all your
+              needs for a suitable wedding venue. If you are looking for a great platform at a reasonable price range,
+              then this hotel is the choice that you should make. Choosing the right venue as per the suitability of
+              your occasion is a challenging task to do. Summit Hampton Hotel offers a beautiful lawn area to hold all
+              of your wedding rituals and ceremonies. Arrange the most beautiful event for you and your guests in this
+              space. Get ready for a dreamy wedding amongst the beautiful scenarios of Idukki.
+            </p>
             <button class="btn btn-primary" name="venue10">Select</button>
           </div>
         </div>

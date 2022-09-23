@@ -1,3 +1,7 @@
+<?php
+session_start(); 
+include("session_check.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,11 +30,11 @@
 </head>
 
 <body>
-  <form action="kerala.php" method="post">
+  <form action="venuegoa.php" method="post">
   <section id="container">
 
     <div class="head">
-      <h1>KERALA</h1>
+      <h1>GOA</h1>
     </div>
 
     <input type="checkbox" id="card-1" />
@@ -42,13 +46,13 @@
           <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Kerala/Trident, Cochin/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Bay 15 Waterfront/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Trident, Cochin/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Bay 15 Waterfront/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Trident, Cochin/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Bay 15 Waterfront/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
@@ -63,8 +67,9 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Trident, Cochin</h5>
-            <h6>LOCATION: Willingdon Island, Koch</h6>
+            <h5 class="card-title">Bay 15 Waterfront</h5>
+            <h6>LOCATION: Odxel Beach, Dona Paula, Panaji, Goa </h6>
+
 
 
           </div>
@@ -79,12 +84,14 @@
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">
-              When you have a desire for hosting your wedding at a summery and serene destination then, Trident Cochin
-              is one such venue that provides you with the apt ambience, feel and atmosphere. The management and staff
-              of Trident Cochin provide you with complete hospitality and banqueting facilities in order to offer you
-              with a great wedding venture or any other event that you and your guests will enjoy.
+              Just 6 kms from the capital city of Panjim, the Bay 15 Waterfront is located at the famous Odxel beach
+              which provides for breathtaking views of the Arabian Sea. It is a stand-alone venue which is one of Goa's
+              largest waterfront wedding lawns offering its own in-house catering services at a 5-star level. It is a
+              beautiful, hospitable place for tourists and for people, who are looking lovely venue for their wedding
+              ceremony.
             </p>
-            <button class="btn btn-primary" name="venue1">Select</button>
+            <button class="btn btn-primary" name="venue1" > Select </button>
+           <!-- <a href="#" class="btn btn-primary" style="text-align: center;">Add to cart</a> -->
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -106,13 +113,13 @@
           <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Kerala/Mayfair Banquets/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Silva Heritage/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Mayfair Banquets/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Silva Heritage/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Mayfair Banquets/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Silva Heritage/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
@@ -127,8 +134,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Mayfair Banquets</h5>
-            <h6>LOCATION: Dr. Basant Bapat rd, Kasaragod</h6>
+            <h5 class="card-title">Silva Heritage</h5>
+            <h6>LOCATION: Silva Heritage, Cana, Benaulim, Goa, India</h6>
 
           </div>
         </div>
@@ -141,17 +148,18 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              With an ambition that promises to change market trends, hospitality standards and the concept of luxury
-              fusing with comfort and class, we present to you Mayfair Banquets Kerala, the largest luxury pillar less
-              banquet hall in Kerala.
-              We also have our own wedding planners, and event managers that have a long term experience in working with
-              a number of successful thematic weddings and events. This is what sets us apart as a one of the most
-              innovative banquet halls in Kolkata for marriage.
-
+            <p class="card-text" style="text-align: center;margin-bottom: -4rem;">
+              Silva Heritage in Goa is one of the most sought-after banqueting facilities in the city. It was set up
+              with a view to providing an elegant and superior banqueting space to cater to the varied requirements of
+              their clients. Whatever the celebration may be, big or small, it is their endeavor to make each
+              celebration, a grand success. They are perfect when it comes to hosting wedding ceremonies as they offer
+              heavenly views combined with lavish hospitality. Their warm welcoming nature and hospitality make your
+              wedding experience very special. The location adds another level of desire to this venue as it is situated
+              on the outskirts, away from the noise and bustle of the city. The venue has outdoor spaces that can
+              accommodate up to 400 people. They have a flexible catering policy. They also provide ample parking space
+              for the guests.
             </p>
-            <button class="btn btn-primary" name="venue2">Select</button>
-           
+            <button class="btn btn-primary" name="venue2" > Select </button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -174,13 +182,13 @@
           <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Kerala/Ramada Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Prainha Beach Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Ramada Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Prainha Beach Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Ramada Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Prainha Beach Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
@@ -195,8 +203,9 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Ramada Resort, Kochi</h5>
-            <h6>LOCATION: Ernakulam City, Ernakulam</h6>
+            <h5 class="card-title">Prainha Beach Resort</h5>
+            <h6>LOCATION: Silva Heritage, Cana, Benaulim, Goa, India</h6>
+
           </div>
         </div>
 
@@ -209,16 +218,12 @@
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">
-              Ramada Resort, Kochi is one the most sought-after venues in the city of Kumbalam and is well-known for
-              hosting extravagant and elegant events and parties. This venue is easily accessible for all your guests to
-              reach at your venue without any problems. Choosing the right venue is the first step to organize a
-              flawless wedding and it should be chosen while keeping in mind all the requirements for your functions
-              that you want to host here. Ramada Resort, Kochi offers you a range of services with a stunning ambience
-              to plan a wonderful celebration. They will ensure to make your wedding an event which is worth remembering
-              a lifetime.
+              A Prainha wedding at any time of day is beautiful, but a Prainha sunset wedding is particularly
+              spectacular. Prainha Goa is a stunning location for a wedding as paradise awaits at Prainha Resort by the
+              Sea. A serene resort, nestled on a secluded cove in Dona Paula. Indulge in the tranquil sensation of this
+              quiet retreat, where nature’s supreme beauty creates a mesmerizing backdrop for your sublime relaxation.
             </p>
-            <button class="btn btn-primary" name="venue3">Select</button>
-           
+             <button class="btn btn-primary" name="venue3" > Select </button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -240,13 +245,13 @@
           <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Kerala/Southern Panorama Indriya Resort & Spa/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/DoubleTree by Hilton/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Southern Panorama Indriya Resort & Spa/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/DoubleTree by Hilton/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Southern Panorama Indriya Resort & Spa/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/DoubleTree by Hilton/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
@@ -261,8 +266,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Southern Panorama Indriya Resort & Spa</h5>
-            <h6>LOCATION: Munnar, Idukki</h6>
+            <h5 class="card-title">DoubleTree by Hilton, Panaji</h5>
+            <h6>LOCATION: Kadamba Plateau Panjim, Old Goa Rd, Goa Velha, Goa</h6>
           </div>
         </div>
 
@@ -274,15 +279,18 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Southern Panorama Indriya Resorts & Spa is a wedding venue which is located in Munnar. It is one of the
-              fastest-growing hospitality brands in India. The venue has numerous banquet halls with a modern yet classy
-              interior. The overall vibe of the hotel has a touch of style and is a perfect place to host all your
-              wedding functions. They are the one who values the comfort of their guests also offering you with great
-              cuisine. Southern Panorama Indriya Resorts & Spa has that distinctly warm Indian hospitality that makes
-              you feel at home and the team put efforts to create value for money.
+            <p class="card-text" style="text-align: center;margin-bottom: -5rem;">
+              Enjoy 5-star service at the DoubleTree by Hilton, Panaji. Set on the Old Goa Road, just minutes from
+              jewels of India like the Anjuna Beach, their luxury hotel offers easy access to all points of interest.
+              Take a dip in their pool or break a sweat in the state-of-the-art fitness center. Their 'City of Love'
+              location is ideal for vacations, weddings, getaways and even for business. Convenient to Goa Airport, this
+              5-star hotel welcomes you with traditional Indian hospitality in a modern setting. Fully equipped with
+              work class facilities, they offer 160 luxurious room & suites for comfortable accommodation and stay for
+              everyone. For the celebration area, they offer customized spaces that include one indoor hall, one outdoor
+              lawn space, and a poolside space. The banquet is spacious and well ventilated to ensure a lavish
+              experience. They are focused to deliver the best value, quality, and royal hospitality service.
             </p>
-            <button class="btn btn-primary" name="venue4">Select</button>
+            <button class="btn btn-primary" name="venue4" > Select </button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -305,13 +313,13 @@
           <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Kerala/Emarald Ayurvedic Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Radisson Blu Resort Goa, Cavelossim Beach/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Emarald Ayurvedic Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Radisson Blu Resort Goa, Cavelossim Beach/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Emarald Ayurvedic Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Radisson Blu Resort Goa, Cavelossim Beach/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
@@ -326,8 +334,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Emarald Ayurvedic Resort, Perinthalmanna</h5>
-            <h6>LOCATION: Malappuram City, Malappuram</h6>
+            <h5 class="card-title">Radisson Blu Resort Goa, Cavelossim Beach</h5>
+            <h6>LOCATION: Cavelossim, Beach, Mobor Beach, Goa </h6>
           </div>
         </div>
 
@@ -340,15 +348,15 @@
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">
-              Emarald Ayurvedic Resort, Perinthalmanna is a banquet hall located in Malappuram and within close
-              proximity to Calicut Airport, it gives everyone a chance to be at your wedding without losing their way.
-              Within the name lies the experience that you can expect when you a relaxing and rejuvenating ambience.
-              Emarald Ayurvedic Resort, Perinthalmanna have services that are exceptional and they work hard to see all
-              their guests carry fond memories from the event. Pleasant and opulent against a scenic background will
-              nourish all your senses, and the wedding functions can be performed with delight and zeal.
+              Radisson Blu Resort Goa is located just 45 minutes from Dabolim International Airport and is near popular
+              beaches like Colva, Palolem and Calangute. The whole hotel is designed keeping in mind Goan-Portugese
+              architecture. Guests appreciate the in-house spa and large swimming pool which the hotel has to offer.
+              There are 132 rooms and suites which portray mesemrizing views of the pool or lawn, and all accommodations
+              are contained with chic furnishings and modern amenities. They also offer 4,000 square meters of event
+              space for weddings and corporate events. They also have grand lawns which accommodate upto 750 attendees
+              for outdoor weddings.
             </p>
-            <button class="btn btn-primary" name="venue5">Select</button>
-            
+           <button class="btn btn-primary" name="venue5" > Select </button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -373,13 +381,13 @@
           <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Kerala/Lalit Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Taj Fort Aguada Resort & Spa/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Lalit Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Taj Fort Aguada Resort & Spa/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Lalit Res.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Taj Fort Aguada Resort & Spa/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
@@ -394,8 +402,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Lalit Resort, Kochi</h5>
-            <h6>LOCATION: Ernakulam City, Ernakulam</h6>
+            <h5 class="card-title">Taj Fort Aguada Resort & Spa, Goa</h5>
+            <h6>LOCATION: Beach Sinquerim, Candolim, Goa</h6>
           </div>
         </div>
 
@@ -407,14 +415,18 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Lalit Resort, Kochi is one the most sought-after venues in the city of Kumbalam and is well-known for
-              hosting extravagant and elegant events and parties. Lalit Resort, Kochi offers you a range of services
-              with a stunning ambience to plan a wonderful celebration. They will ensure to make your wedding an event
-              which is worth remembering a lifetime.
+            <p class="card-text" style="text-align: center;margin-bottom: -5rem;">
+              Taj Fort Aguada Resort & Spa, Goa is at its best. Romantic. Charming. Vibrant. It has history woven in its
+              walls. It's where royalty, heads of government and the biggest celebrities are known to frequent. For the
+              luxury Goa experience, which no other place has been able to recreate. Not much has changed. The
+              picturesque settings creates a fantastic backdrop to the entire experience, added to which the nouvelle
+              restaurants and the Jiva spa will make you go Ah! Soak in the space that showcases the spirit of Goa. The
+              45 km drive from the airport will have you delighting in backseat surprises (we're not revealing here).
+              Explore the horizon as you look over the infinity pool, beyond the 16th century ramparts of the Portuguese
+              Fort, and wave back to the tide as it works its way across the Arabian Sea to joyfully greet the Sinquerim
+              beach below. Explore Goa in a vivid, vibrant way.
             </p>
-            <button class="btn btn-primary" name="venue6">Select</button>
-           
+           <button class="btn btn-primary" name="venue6" > Select </button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -440,13 +452,13 @@
           <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Kerala/Vasco Dagama Beach Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/The Fort Ramgarh/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Vasco Dagama Beach Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/The Fort Ramgarh/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Vasco Dagama Beach Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/The Fort Ramgarh/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7"
@@ -461,8 +473,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Vasco Dagama Beach Resort, Kozhikode</h5>
-            <h6>LOCATION: Kozhikode City, Kozhikode</h6>
+            <h5 class="card-title">The Fort Ramgarh</h5>
+            <h6>LOCATION: The Fort Ramgarh, National Highway</h6>
           </div>
         </div>
 
@@ -474,16 +486,18 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Vasco Da Gama Beach Resort is a venue located in the city of Kozhikode and it is a gorgeous place to host
-              your festivities elegantly. The wedding venue is a non-negotiable part of the wedding planning and also
-              one of the major aspects of wedding planning because it is that one place that hosts your wedding
-              ceremonies and furthermore your relatives and companions who originate from everywhere throughout the
-              world to bless you and grace your fresh starts. Alongside being a wonderful retreat by the shoreline that
-              is tastefully engaging the faculties, Vasco Da Gama Beach Resort is fit for making astonishing courses of
-              action for your wedding.
+            <p class="card-text" style="text-align: center;margin-bottom: -5rem;">
+              Marriages are made in the heaven which we formalize on the Earth! A Royal wedding is an ideal way to
+              respect the beginning of your married life. A Royal Wedding experience is one of its kind, a Dreamland of
+              King’s & Queen’s, Maharajas & Maharani’s with elegantly decorated well lit Palace, a Patiala backdrop
+              giving the real Royal touch feeling to you and your guest for A Grand Celebration! - Tikka ceremony,
+              Garland’s will receive your esteemed guests through the Tallest Wooden Gate in the country (Recorded in
+              Limca Book of Records). The only destination to turn your dream wedding into reality & memorable day of
+              your life with a touch of perfection and Royal Hospitality. A Fairytale Royal Wedding experience with the
+              processions of caparisoned Elephants & Entertainment by Folk dancers, Musicians, Shehnai Vadan, Fire
+              Performers, Dhol Wales and much more.
             </p>
-            <button class="btn btn-primary" name="venue7">Select</button>
+           <button class="btn btn-primary" name="venue7" > Select </button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -508,13 +522,13 @@
           <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Kerala/The Lalit Resort & Spa Bekal/img1.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Redwood Resorts/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/The Lalit Resort & Spa Bekal/img2.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Redwood Resorts/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/The Lalit Resort & Spa Bekal/img3.png" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Redwood Resorts/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8"
@@ -529,8 +543,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">The Lalit Resort & Spa Bekal</h5>
-            <h6>LOCATION: Kasaragod City, Kasaragod </h6>
+            <h5 class="card-title">Redwood Resorts</h5>
+            <h6>LOCATION: Morni Road</h6>
           </div>
         </div>
 
@@ -543,13 +557,14 @@
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">
-              Located in Kerala, near the Arabian Sea, surrounded by river Nombilli, The Lalit Resort & Spa Bekal is a
-              gem of a venue in God's own Country. With landscaped gardens, private lagoon, and touched by pristine
-              sandy beaches, The Lalit Resort & Spa Bekal can be rightfully described as a heavenly escape of luxury and
-              tranquillity. It is a perfect location for a magnificent wedding, blessed by serene ambience and
-              traditional, mesmerising settings.
+              Redwood Resort, situated amidst the serene backdrop of Morni town. A haven of tranquility where the only
+              sounds being the wind softly rustling among the trees and the distant calls of birds. Wide stretches of
+              greens meet the eye at length with sights as soothing as the dancing and joyous peacocks. Redwood offers
+              comfort and luxury in nature’s lap, with 23 well equipped rooms perfectly suited for your needs, then
+              Redwood Resorts can be the perfect location. Redwood resorts has illustrious impeccable décors, elite
+              services, unrivaled array of amenities and striking venues, at economical prices.
             </p>
-           <button class="btn btn-primary" name="venue8">Select</button>
+           <button class="btn btn-primary" name="venue8" > Select </button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -574,13 +589,13 @@
           <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Kerala/The Raviz Kadavu/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Kanha Banquet Hall/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/The Raviz Kadavu/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Kanha Banquet Hall/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/The Raviz Kadavu/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Kanha Banquet Hall/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9"
@@ -595,8 +610,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">The Raviz Kadavu</h5>
-            <h6>LOCATION: Kozhikode City, Kozhikode</h6>
+            <h5 class="card-title">Kanha Banquet Hall</h5>
+            <h6>LOCATION: Kanha Banquet Hall IMA Bhawan, Karamtoli Chowk </h6>
           </div>
         </div>
 
@@ -608,16 +623,18 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              The Raviz Kadavu is a luxury is a wedding setting based in Kozhikode that is wonderful to have your
-              wedding a lot of related festivities to make your weddings a never-ending one. Be it pre-wedding, wedding
-              or post-wedding assistance, they can make every one of your jobs effective one. They are amazing with
-              regards to facilitating huge Indian bridal functions as they offer magnificent chairs with warm
-              friendship. So in the event that you are searching for a spot that offers you an excellent scope of
-              guidance and help then you can choose them. They additionally offer a lot of other services to make your
-              function a deep one.
+            <p class="card-text" style="text-align: center;margin-bottom: -4rem;">
+              Kanha Banquet Hall is one of the most sought-after banqueting facilities in the city. It was set up with a
+              view to providing an elegant and superior banqueting space to cater to the varied requirements of their
+              clients. Whatever the celebration may be, big or small, it is their endeavor to make each celebration, a
+              grand success. They are perfect when it comes to hosting wedding ceremonies as they offer heavenly views
+              combined with lavish hospitality. The venue has indoor and outdoor spaces which can accommodate up to 500
+              people. They have a flexible catering policy. They also provide ample parking space for the guests. Their
+              warm welcoming nature and hospitality make your wedding experience very special. The location adds another
+              level of desire to this venue as it is situated on the outskirts, away from the noise and bustle of the
+              city.
             </p>
-           <button class="btn btn-primary" name="venue9">Select</button>
+            <button class="btn btn-primary" name="venue9" > Select </button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -642,13 +659,13 @@
           <div id="carouselExampleControls10" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Kerala/Summit Hampton Hotel/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Dos Equis Exotic Lounge/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Summit Hampton Hotel/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Dos Equis Exotic Lounge/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Kerala/Summit Hampton Hotel/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Goa/Dos Equis Exotic Lounge/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls10"
@@ -663,8 +680,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Summit Hampton Hotel</h5>
-            <h6>LOCATION: Idukki City, Idukki </h6>
+            <h5 class="card-title">Dos Equis Exotic Lounge, Bardez</h5>
+            <h6>LOCATION: Arrao Road, Olaulim-Pomburpa, Bardez, Goa </h6>
           </div>
         </div>
 
@@ -676,15 +693,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">
-              Summit Hampton Hotel is a wedding venue situated in Idukki City. It is a one-stop destination for all your
-              needs for a suitable wedding venue. If you are looking for a great platform at a reasonable price range,
-              then this hotel is the choice that you should make. Choosing the right venue as per the suitability of
-              your occasion is a challenging task to do. Summit Hampton Hotel offers a beautiful lawn area to hold all
-              of your wedding rituals and ceremonies. Arrange the most beautiful event for you and your guests in this
-              space. Get ready for a dreamy wedding amongst the beautiful scenarios of Idukki.
-            </p>
-            <button class="btn btn-primary" name="venue10">Select</button>
+            <p class="card-text" style="text-align: center;">Famous for its beaches and sunsets, Goa never fails to be a
+              top ranking city to host your special occasions. No doubt there are a multitude of venues available in Goa
+              for events of all budgets. Dos Equis Exotic Lounge is one such exotic property. This lounge is a large
+              spread of green lawn which has gained a reputation for itself for fantastic food and facilities. Their
+              excellent services and value attract the clients to book this venue for their big day and important
+              events. This sought after venue is sure to make your event memorable and give you memories to last a
+              lifetime.</p>
+            <button class="btn btn-primary" name="venue10" > Select </button>
           </div>
         </div>
         <!-- End Card 10 Back -->

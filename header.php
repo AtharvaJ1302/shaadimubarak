@@ -30,7 +30,7 @@
                 <li>
 
                 <li>
-                  <a class="nav-link" href="destinations.html" >DESTINATIONS</a>
+                  <a class="nav-link" href="destinations.php" >DESTINATIONS</a>
                 </li>
                 <li>
                   <a class="nav-link" href="gallery.html" >GALLERY</a>

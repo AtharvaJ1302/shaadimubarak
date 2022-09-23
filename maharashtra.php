@@ -1,3 +1,7 @@
+<?php
+session_start(); 
+include("session_check.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,11 +30,11 @@
 </head>
 
 <body>
-  <form action="jk.php" method="post">
+  <form action="venuemaharashtra.php" method="post">
   <section id="container">
 
     <div class="head">
-      <h1>JAMMU & KASHMIR</h1>
+      <h1>MAHARASHTRA</h1>
     </div>
 
     <input type="checkbox" id="card-1" />
@@ -42,13 +46,13 @@
           <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Jammu & Kashmir/Unique Resorts Banquet Hall/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/GCC hotel/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Unique Resorts Banquet Hall/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/GCC hotel/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Unique Resorts Banquet Hall/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/GCC hotel/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
@@ -63,10 +67,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Unique Resorts Banquet Hall</h5>
-            <h6>LOCATION: Jammu City, Jammu</h6>
-
-
+            <h5 class="card-title">GCC Hotel and Club</h5>
+<h6>LOCATION: Mira Road, Mumbai</h6>
 
           </div>
         </div>
@@ -79,8 +81,17 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Unique Resorts Banquet Hall is a banquet hall and marriage garden based out in the drool-worthy city of Jammu. This wedding venue has a kind of ambience that will steal your gaze and fixate on its interior decor and infrastructure. Their ambience style is contemporary with a touch of minimalism and refinement. They are a team of dedicated, passionate and hardworking staff who strive to fulfil their customers' needs and would ensure that your wedding is the most unforgettable experience with memories you can cherish.</p>
-             <button class="btn btn-primary" name="venue1">Select</button>
+            <p class="card-text" style="text-align: center;">
+              Since 1933, GCC Hotel and Club is amidst the 3-star hotels in the city of Mumbai which provides
+              best-in-class services to its clients.
+              GCC Hotel and Club is a spectacular place for all kinds of events. Whether it is a big fat Indian wedding
+              or a small cocktail party, its modern facilities and the sophisticated interiors will definitely impress
+              you. GCC Hotel and Club offers more than 90,000 sq. ft. lawn space to take your wedding party to the next
+              level. Its three spacious banquet halls can accommodate 50 to 500 people any time. With more than one
+              event space, they also provide you with guest accommodation and basic facilities like valet parking.
+            </p>
+            <!-- <a href="#" class="btn btn-primary" style="text-align: center;">Add to cart</a> -->
+            <button class="btn btn-primary" name="venue1">Select</button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -102,13 +113,13 @@
           <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Jammu & Kashmir/Windmill Resorts/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/Eskay Resorts/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Windmill Resorts/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/Eskay Resorts/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Windmill Resorts/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/Eskay Resorts/./images/" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
@@ -123,9 +134,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Windmill Resorts</h5>
-            <h6>LOCATION: Amritsar Junction, Amritsar</h6>
-
+            <h5 class="card-title">Eskay Resorts</h5>
+            <h6>LOCATION: Borivali - Kandivali, Mumbai</h6>
 
           </div>
         </div>
@@ -138,7 +148,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Windmill Resorts Amritsar is a wedding venue based out of Amritsar. Indian weddings are one of the most glorious and exciting days for every couple in which everything from decor to food has to be planned carefully. One such detail is the venue where each of your ceremonies will be taking place you will be making tonnes of memories. So if you are searching for a fantastic venue to have all your pre and post-wedding functions hosted in teh most perfect manner then your search ends here with Windmill Resorts Amritsar. They have a wonderful banquet hall which is apt for any of your nuptial ceremonies.</p>
+            <p class="card-text" style="text-align: center;">
+              Eskay Resorts is located in Borivali West, Mumbai. The hotel has a lush green lawn, a capacious banquet
+              hall, a terrace as well as a poolside. It holds a capacity to accommodate around 2000 guests. Their
+              combination of indoor and outdoor spaces make a perfect venue to celebrate any occasion. The hotel
+              provides all the modern technologies and amenities for all kinds of events. They have a dedicated bridal
+              room, basic lighting and electricity, and modern facilities to ensure -that all your events are carried
+              out in a dedicated and hassle-free manner.
+            </p>
             <button class="btn btn-primary" name="venue2">Select</button>
           </div>
         </div>
@@ -162,13 +179,13 @@
           <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Jammu & Kashmir/Kolu Group Of Houseboats/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/Novotel/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Kolu Group Of Houseboats/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/Novotel/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Kolu Group Of Houseboats/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/Novotel/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
@@ -183,9 +200,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Kolu Group Of Houseboats</h5>
-            <h6>LOCATION: Srinagar (North), Srinagar</h6>
-
+            <h5 class="card-title">Novotel</h5>
+            <h6>LOCATION: Balraj Sahni Marg, RB Beach, Konkan</h6>
           </div>
         </div>
 
@@ -197,8 +213,16 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Kolu Group Of Houseboats is a wedding venue based out of Srinagar. It was in the year 1962, the very first Deluxe Luxury Houseboat was built in Dal lake which was named as Pride Of Kashmir which earned a lot of fame and is still pride to the owners. Kolu Group Of Houseboats is an embodiment of the family bond and as a result, the management through the years are been taken over by the following ages. At present we are proud of announcing the largest number of deluxe luxury houseboats in Kashmir. The entire control is taken care of by the management of Kolu brother which is led by Nazir Ahmed Kolu and brothers.</p>
-             <button class="btn btn-primary" name="venue3">Select</button>
+            <p class="card-text" style="text-align: center;">
+              They come up with a number of facilities and amenities to call your marriage ceremony the most luxurious
+              time of your life. With everything under one roof, it becomes really easy for you to book this venue for
+              your wedding night. Welcome to this paradise with open arms and celebrate each day and function in their
+              beautiful and full of splendid architecture in their wedding halls. With their in-house salon services,
+              half
+              of your burden of a makeup artist gets lowered down! A perfect venue with the best quality and everything
+              worth the price you’ve paid for your wedding.
+            </p>
+            <button class="btn btn-primary" name="venue3">Select</button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -220,13 +244,13 @@
           <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Jammu & Kashmir/The Wedding University/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/The Tamarind Tree/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/The Wedding University/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/The Tamarind Tree/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/The Wedding University/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/The Tamarind Tree/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
@@ -241,8 +265,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">The Wedding University</h5>
-            <h6>LOCATION: Srinagar (North), Srinagar</h6>
+            <h5 class="card-title">The Tamarind Tree</h5>
+<h6>LOCATION: 88, Kanakapura Road, Nashik </h6>
           </div>
         </div>
 
@@ -254,8 +278,17 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">The Wedding University is a stunning wedding resort located in Srinagar. To plan a perfect wedding, you need to choose the right venue as it is the critical element of organising a wedding flawlessly and in the best possible manner, and it should be the one which suits all your needs do hosting each of your weddings ceremonies the way you want. The Wedding University is the choice you should make if you are looking for a one-stop destination for all your requirements for a suitable wedding venue at a reasonable price range. It is well-equipped, and its staff ensures that your wedding is eventful and memorable for you and your guests</p>
-             <button class="btn btn-primary" name="venue4">Select</button>
+            <p class="card-text" style="text-align: center;margin-bottom: -4rem;">
+              The Tamarind Tree , is a place where the old, the new, and someplace magical are crafted into an exquisite
+              tapestry. Nestled in a five-acre garden of beautiful trees including the original tamarind tree after
+              which it was named, a natural pond, colonial Bandstand, elegant pavilions, and ample open spaces, The
+              Tamarind Tree is a place like none other. It is the perfect place for a celebration, your wedding. A
+              wedding is one of the best days of your life and you surely want to have a great time, since you are about
+              to start a new life ahead with your better half. You wish to look out for the best venue where you can
+              accommodate your guests, serve with awesome, lip-smacking food and yes, you surely look forward to a
+              location with a number of facilities.
+            </p>
+            <button class="btn btn-primary" name="venue4">Select</button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -278,17 +311,17 @@
           <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Jammu & Kashmir/KC Emporia/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/The Groves/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/KC Emporia/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/The Groves/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/KC Emporia/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/The Groves/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5"
-              data-bs-slide="prev" value="click" onclick="flip">
+            data-bs-slide="next">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
@@ -299,8 +332,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">KC Emporia, Jammu</h5>
-            <h6>LOCATION: Jammu City, Jammu</h6>
+            <h5 class="card-title">The Groves</h5>
+            <h6>LOCATION: The Groves, Kada Agrahara Main Road, Rampura, Amravati</h6>
           </div>
         </div>
 
@@ -312,8 +345,15 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">KC Emporia is a luxury banquet & resort based out of Jammu. The property is a modern piece of art that has a world-class hall room. The food catering is the best In town and the decor services will mesmerise you with its beauty and charm. The property has Grand lawns named Emporia Greens for hosting all your special functions. A wedding venue is one of the most famous places to host all kind of matrimonial events and if you want an ideal setting where you can take all your nuptials vows peacefully with your soulmates then you can opt for this venue you can book them for all your wedding commemorations so that you can have the most spectacular time with all your near and dear ones. They also make sure that all your celebrations are observed with great entertainment.</p>
-             <button class="btn btn-primary" name="venue5">Select</button>
+            <p class="card-text" style="text-align: center;">
+              The Groves is a stunning venue and can be a wonderful location for the biggest day of your life. It
+              presents an opportunity for a couple to hold a wedding at a romantic location without spending a fortune,
+              surrounded by lush green mango trees and thick vegetation. The venue harmoniously combines nature with
+              modernity, Swaggering voguish plushy rooms, each coming with its own balcony facing the pool and crisp air
+              from the verdure of trees. Delightful cocktail parties with the sunken bar in the pool for the guests, an
+              enclosed area connecting three main spaces together. <br><br>
+            </p>
+            <button class="btn btn-primary" name="venue5">Select</button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -338,13 +378,13 @@
           <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Jammu & Kashmir/Blue Moon Banquets/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/Arena100 Sports and Recreation/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Blue Moon Banquets/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/Arena100 Sports and Recreation/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Blue Moon Banquets/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/Arena100 Sports and Recreation/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
@@ -359,8 +399,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Blue Moon Banquets</h5>
-            <h6>LOCATION: Jammu City, Jammu </h6>
+            <h5 class="card-title">Arena100 Sports and Recreation</h5>
+            <h6>LOCATION: Arena100 Sports and Recreation City ,Bypass Road, Aurangabad</h6>
           </div>
         </div>
 
@@ -372,8 +412,17 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;margin-bottom: 2rem;">Blue Moon Banquets is located in the city of Jammu. Weddings can be the most beautiful and special occasions in a person's life where they embark on a new journey with the ones they love. During all the wedding preparations, one of the most important decisions to make is the wedding venue, which speaks volumes about the kind of event that you want to have. If you are looking for a venue where you can host your wedding and all its other related functions without any hassle, then your search can end here. Blue Moon Banquets will ensure to provide you with quality services and hospitality to make your big day much more special.</p>
-             <button class="btn btn-primary" name="venue6">Select</button>
+            <p class="card-text" style="text-align: center; margin-bottom: -6rem;">
+              Arena100 Sports and Recreation is one of the most
+              sought-after banqueting facilities in the city. It was set up with a view to providing an elegant and
+              superior banqueting space to cater to the varied requirements of their clients. Whatever the celebration
+              may be, big or small, it is their endeavor to make each celebration, a grand success. They are perfect
+              when it comes to hosting wedding ceremonies as they offer heavenly views combined with lavish hospitality.
+              Their warm welcoming nature and hospitality make your wedding experience very special. The location adds
+              another level of desire to this venue as it is situated on the outskirts, away from the noise and bustle
+              of the city. The venue has outdoor spaces that can accommodate up to 800 people. They have a flexible
+              catering policy. They also provide ample parking space for the guests.</p>
+              <button class="btn btn-primary" name="venue6">Select</button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -399,13 +448,13 @@
           <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Jammu & Kashmir/G R Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/Conrad Pune/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/G R Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/Conrad Pune/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/G R Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/Conrad Pune/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7"
@@ -420,8 +469,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">G R Resort</h5>
-            <h6>LOCATION: Jammu City, Jammu </h6>
+            <h5 class="card-title">Conrad Pune</h5>
+            <h6>LOCATION: Conrad, 7, Mangaldas Road, Sangamvadi, Pune</h6>
           </div>
         </div>
 
@@ -433,8 +482,15 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">G R Resort is a hotel and a wedding venue based out in the city of Jammu. It is one of the preferential venue partners to host corporate events as well as intimate gatherings and wedding functions. If you are finding the right venue where you can host your pre-wedding, wedding and post-wedding functions, then your search can end here. It is an ideal hotel wedding destination. They will ensure that your wedding is a gala event which is worth remembering a lifetime with an amazing bunch of highly-personalized services.</p>
-             <button class="btn btn-primary" name="venue7">Select</button>
+            <p class="card-text" style="text-align: center;margin-bottom: -4rem;">Conrad Pune is the Hilton company's first luxury hotel in
+              India. An iconic structure in the heart of Pune's dynamic central business district, the striking Conrad
+              Pune is only minutes from major corporations, key government institutions and premier residential
+              neighborhoods. It is a place to stay inspired. They offer their guests one-of-a-kind experiences with
+              sophisticated, locally inspire the surroundings. Service offered is more than personal, it's intuitive.
+              While your stay at hote, your connections to people and places around the corner, and half way around the
+              world will be at best. The hotel takes the responsibility of meeting every couple need. The wedding at
+              this place will help you to pile memories bit by bit in an organised manner.</p>
+              <button class="btn btn-primary" name="venue7">Select</button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -459,16 +515,16 @@
           <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Jammu & Kashmir/Fortune Resort Heevan/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/Dhepe Wada/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Fortune Resort Heevan/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/Dhepe Wada/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Fortune Resort Heevan/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./images/Maharashtra/Dhepe Wada/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8"
               data-bs-slide="prev" value="click" onclick="flip">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -480,8 +536,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Fortune Resort Heaven</h5>
-            <h6>LOCATION: Srinagar (North), Srinagar </h6>
+            <h5 class="card-title">Dhepe Wada</h5>
+            <h6>LOCATION: Erandwane, Pune</h6>
           </div>
         </div>
 
@@ -493,8 +549,13 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Fortune Resort Heevan in Srinagar offers you with a venue in the valleys of Kashmir with a graceful vibe and appeal that makes your stay and your event especially a destination wedding very much dreamlike. The management staff attends to all your needs and demands so as to offer you with best services making your event truly memorable. The natural beauty of Srinagar just adds to the charm of the event</p>
-             <button class="btn btn-primary" name="venue8">Select</button>
+            <p class="card-text" style="text-align: center;">Dhepe Wada is a banquet hall located in the city of Pune.
+              Choosing a venue for your wedding and all its other related events is not an easy decision to make. You
+              have to search for multiple options, visit them, compare everything. To ensure that all your wedding
+              functions area a successful one, Dhepe Wada offers all the facilities and services which you might require
+              to host your perfect wedding and forge happy and everlasting reminiscences with your loved ones. You will
+              get a whole set of services and facilities to make your function as a smooth one.</p>
+              <button class="btn btn-primary" name="venue8">Select</button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -519,13 +580,13 @@
           <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Jammu & Kashmir/Kingsville - Banquet & Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/Prathamesh Resorts/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Kingsville - Banquet & Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/Prathamesh Resorts/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Kingsville - Banquet & Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/Prathamesh Resorts/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9"
@@ -540,8 +601,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Kingsville - Banquet & Resort</h5>
-            <h6>LOCATION: Jammu City, Jammu</h6>
+            <h5 class="card-title">Prathamesh Resorts</h5>
+            <h6>LOCATION: Prathamesh Resorts, Khed Shivapur</h6>
           </div>
         </div>
 
@@ -553,8 +614,11 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Kingsville - Banquet & Resort is a wedding venue based in the city of Jammu. It offers you a fully air-conditioned indoor space where you can host all of your wedding celebrations and be assured that your function is the most fanatic one and you can host all sorts of functions with your family members as well. They have been into this hospitality industry from quite a long time and has a solid reputation for the kind of work that they offer. Kingsville - Banquet & Resort is a place that can be ideal for hosting large and grand functions in a great manner.</p>
-             <button class="btn btn-primary" name="venue9">Select</button>
+            <p class="card-text" style="text-align: center;">Nestled in the Sahyadri ranges Prathamesh Resorts is the
+              ideal destination for your fairytale wedding. Experience the magic of nature and wedding rituals with
+              breathtaking locale. We provide customized packages to make your wedding look like one dreamy affair. Your
+              Perfect wedding destination is just a click away!</p>
+              <button class="btn btn-primary" name="venue9">Select</button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -579,13 +643,13 @@
           <div id="carouselExampleControls10" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Jammu & Kashmir/Mascot Houseboats/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/TouchWood Resort/img1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Mascot Houseboats/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/TouchWood Resort/img2.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="./images/Jammu & Kashmir/Mascot Houseboats/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="images/Maharashtra/TouchWood Resort/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls10"
@@ -600,8 +664,8 @@
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Mascot Houseboats</h5>
-            <h6>LOCATION: Srinagar (North), Srinagar</h6>
+            <h5 class="card-title">TouchWood Resort </h5>
+            <h6>LOCATION: Igatpuri, Nashik</h6>
           </div>
         </div>
 
@@ -613,8 +677,14 @@
             Description
           </div>
           <div class="card-block">
-            <p class="card-text" style="text-align: center;">Mascot Houseboats is a wedding venue based in Srinagar. Indian weddings are pleasant occasions which are celebrated with grandeur and elegance in which each detail is picked up carefully. One such essential detail is the venue where each of your ceremonies will be taking place. So if you are on a lookout for a wedding venue that offers you the best services and impressive hospitality for all your wedding celebrations then your search ends here with Mascot Houseboats. It's an ideal venue to host all your wedding functions with all your near and dear ones.?</p>
-            <button class="btn btn-primary" name="venue10">Select</button>
+            <p class="card-text" style="text-align: center;">Located in the mystic hills of Igatpuri, surrounded by
+              green mountains; enriched with fog & waterfalls, Touchwood Bliss is a nature-inspired banquet hall and
+              wellness destination located in Igatpuri. With 6 Fully Equipped AC Glamping Tents and, 4 Courtyard
+              Villas,4 Farmside Villas, this venue hopes to bring you closer to nature while providing a comfortable
+              stay and a pure veg restaurant serving some delicious food, including Jain preparations. It is a venue
+              with a serene ambience and spacious interiors that one would need for events of all sizes. This venue is
+              perfect for grandly hosting your pre-wedding, wedding, and post-wedding functions.</p>
+              <button class="btn btn-primary" name="venue10">Select</button>
           </div>
         </div>
         <!-- End Card 10 Back -->
@@ -622,7 +692,7 @@
     </label>
     <!-- End Card 10 -->
   </section>
-     </form>
+</form>
 </body>
 
 </html>

@@ -1,3 +1,7 @@
+<?php
+session_start(); 
+include("session_check.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,43 +81,43 @@
     <div class="container">
     <div class="state state1">
         <h1>Maharashtra</h1>
-        <button class="btn"><a href="maharashtra.html"><span>More</span></a></button>
+        <button class="btn"><a href="maharashtra.php"><span>More</span></a></button>
         </div>
     <div class="state state2">
         <h1>Goa</h1>
-        <button class="btn"><a href="goa.html"><span>More</span></a></button>
+        <button class="btn"><a href="goa.php"><span>More</span></a></button>
     </div>
     <div class="state state3">
         <h1>Jammu & Kashmir</h1>
-        <button class="btn"><a href="jk.html"><span>More</span></a></button>
+        <button class="btn"><a href="jk.php"><span>More</span></a></button>
     </div>
     <div class="state state4">
         <h1>Delhi</h1>
-        <button class="btn"><a href="delhi.html"><span>More</span></a></button>
+        <button class="btn"><a href="delhi.php"><span>More</span></a></button>
     </div>
     <div class="state state5">
         <h1>Kerala</h1>
-        <button class="btn"><a href="kerala.html"><span>More</span></a></button>
+        <button class="btn"><a href="kerala.php"><span>More</span></a></button>
     </div>
     <div class="state state6">
         <h1>West Bengal</h1>
-        <button class="btn"><a href="bengal.html"><span>More</span></a></button>
+        <button class="btn"><a href="bengal.php"><span>More</span></a></button>
     </div>
     <div class="state state7">
         <h1>Punjab</h1>
-        <button class="btn"><a href="punjab.html"><span>More</span></a></button>
+        <button class="btn"><a href="punjab.php"><span>More</span></a></button>
     </div>
     <div class="state state8">
         <h1>Gujarat</h1>
-        <button class="btn"><a href="gujarat.html"><span>More</span></a></button>
+        <button class="btn"><a href="gujarat.php"><span>More</span></a></button>
     </div>
     <div class="state state9">
         <h1>Telangana</h1>
-        <button class="btn"><a href="telangana.html"><span>More</span></a></button>
+        <button class="btn"><a href="telangana.php"><span>More</span></a></button>
     </div>
     <div class="state state10">
         <h1>Rajasthan</h1>
-        <button class="btn"><a href="rajasthan.html"><span>More</span></a></button>
+        <button class="btn"><a href="rajasthan.php"><span>More</span></a></button>
     </div>
 </div>
 </body>
