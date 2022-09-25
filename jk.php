@@ -30,7 +30,7 @@ include("session_check.php")
 </head>
 
 <body>
-  <form action="jk.php" method="post">
+  <form action="venuejammu.php" method="post">
   <section id="container">
 
     <div class="head">
