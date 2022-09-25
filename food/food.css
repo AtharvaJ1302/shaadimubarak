@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
 
 *{
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Philosopher', sans-serif;
    margin:0; padding:0;
    box-sizing: border-box;
    outline: none; border:none;
@@ -27,10 +27,11 @@ body{
 
 .container .title{
    font-size: 3.5rem;
-   color:#444;
+   color:black;
    margin-bottom: 3rem;
    text-transform: uppercase;
    text-align: center;
+   
 }
 
 .container .products-container,
@@ -228,10 +229,10 @@ input[type="checkbox"]{
    margin-left: 46%;
    text-align: center;
    border: 2px solid black;
-   margin-top: 3%;
-   width: 135px;
+   margin-top: 2%;
+   width: 140px;
    border-radius: 15px;
-   background-color: yellow;
+   background-color: pink;
 }
 
 .submit-btn h1{
