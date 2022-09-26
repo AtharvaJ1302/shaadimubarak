@@ -1,3 +1,7 @@
+<?php 
+// session_start();
+// include("session_check.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +18,13 @@
    <!-- custom js file link  -->
    <script src="food.js" defer></script>
 
+   <?php include("./head.php"); ?>
+	
+
 </head>
 <body style ="background-color: #C21E56";>
+<?php require("./header.php"); ?>
+
    <form action="foodback.php" method="post" class="food-form">
 <div class="container">
 
@@ -1518,5 +1527,10 @@
 </button>
 
    </form>
+   <?php require("./footer.php"); ?>
+
 </body>
+<?php require("./progress-wrap.php"); ?>
+
+<?php require("./javascript.php"); ?>
 </html>

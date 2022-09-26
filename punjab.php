@@ -631,7 +631,7 @@ include("session_check.php")
   </section>
   </form>
 
-  <?php include("./header.php"); ?>
+  <?php include("./footer.php"); ?>
 </body>
 <?php include("./progress-wrap.php"); ?>
 
