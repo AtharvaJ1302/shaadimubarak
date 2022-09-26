@@ -1,4 +1,5 @@
 <?php 
+session_start();
 $main_title = "Shaadi Mubarak";
 ?>
 <!DOCTYPE html>

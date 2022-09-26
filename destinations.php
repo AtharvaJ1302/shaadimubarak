@@ -9,6 +9,8 @@ include("session_check.php")
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <?php include("./head.php"); ?>
+
     <!--Bootstrap CSS-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -74,6 +76,8 @@ include("session_check.php")
 
 </head>
 <body>
+<?php include("./header.php"); ?>
+
     <section id="heading" >
         <h2>Destinations</h2>
     </section>
@@ -120,5 +124,12 @@ include("session_check.php")
         <button class="btn"><a href="rajasthan.php"><span>More</span></a></button>
     </div>
 </div>
+
+<?php include("./footer.php"); ?>
 </body>
+
+<?php include("./progress-wrap.php"); ?>
+
+<?php include("./javascript.php"); ?>
+
 </html>

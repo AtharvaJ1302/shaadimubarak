@@ -1,4 +1,4 @@
-function SignUpValidation(){
+ function SignUpValidation(){
     var name= document.getElementById("loginName").value;
     var email=document.getElementById("loginEmail").value;
     var pass=document.getElementById("loginPassword").value;

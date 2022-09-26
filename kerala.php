@@ -10,6 +10,8 @@ include("session_check.php")
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <?php include("./head.php"); ?>
+
 
   <!--Bootstrap CSS-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -30,6 +32,9 @@ include("session_check.php")
 </head>
 
 <body>
+
+<?php include("./header.php"); ?>
+
   <form action="venuekerala.php" method="post">
   <section id="container">
 
@@ -697,6 +702,11 @@ include("session_check.php")
     <!-- End Card 10 -->
   </section>
   </form>
+
+  <?php include("./header.php"); ?>
 </body>
+<?php include("./progress-wrap.php"); ?>
+
+<?php include("./javascript.php"); ?>
 
 </html>

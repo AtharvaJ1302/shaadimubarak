@@ -1,5 +1,4 @@
 
-<?php session_start(); ?>
 <div class="content-wrapper">
     <header class="wrapper bg-soft-primaryheader">
       <nav class="navbar navbar-expand-lg center-nav transparent navbar-light;navbar-color:#FFB6C1">
