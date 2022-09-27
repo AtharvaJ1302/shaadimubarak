@@ -1,12 +1,18 @@
+<?php
+session_start(); 
+include("session_check.php")
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
+  <?php include("./head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="./assets/css/gallery.css">
   
 </head>
 <body>
-
+<?php include("./header.php"); ?>
   <div class="container">
     <div class="heading">
       <h3>BEST <span>MOMENTS</span></h3>
@@ -45,13 +51,16 @@
 
 
     </div>
-    <?php include("./footer.php"); ?>
+    
 
 
 
 
 
   </div>
-
+  <?php include("./footer.php"); ?>
 </body>
+<?php include("./progress-wrap.php"); ?>
+
+<?php include("./javascript.php"); ?>
 </html>

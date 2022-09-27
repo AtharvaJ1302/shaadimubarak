@@ -1,3 +1,7 @@
+<?php
+session_start(); 
+include("session_check.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <?php include("./head.php"); ?>
 
     <link rel="stylesheet" href="./assets/css/contact.css">
 
@@ -26,6 +31,7 @@
 </head>
 
 <body>
+<?php include("./header.php"); ?>
     <section>
         <div class="container">
             <h2>Contact us</h2>
@@ -80,6 +86,10 @@
             </div>
         </div>
     </section>
+    <?php include("./footer.php"); ?>
 </body>
+<?php include("./progress-wrap.php"); ?>
+
+<?php include("./javascript.php"); ?>
 
 </html>
