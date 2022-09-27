@@ -27,7 +27,11 @@ include("session_check.php")
 
 
   <link rel="stylesheet" href="states.css">
-
+  <style>
+  .back{
+    margin-left: -130px;
+  }
+</style>
 </head>
 
 <body>

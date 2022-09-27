@@ -50,6 +50,7 @@ input[type='checkbox'] {
   background-color: #08b227;
   color: white;
   width: 35rem;
+  margin-left: -130px;
 }
 
 input[type='checkbox']:checked+.card-container .card-flip {
