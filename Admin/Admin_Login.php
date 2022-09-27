@@ -17,8 +17,10 @@ require("Connection.php");
         header("Location:Admin_index.php");
     }
     else {
-    //   echo "<script>alert(incorrect password);</script>" ;
-    echo "incorrect";
+    echo "<script>
+    alert('incorrect username or password');
+    </script>" ;
+    //echo "incorrect";
     }
 
  }
