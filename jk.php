@@ -26,11 +26,13 @@ include("session_check.php")
     crossorigin="anonymous"></script>
 
 
-  <link rel="stylesheet" href="states.css">
+    <link rel="stylesheet" href="./assets/css/states.css">
   <style>
   .back{
     margin-left: -130px;
   }
+
+ 
 </style>
 </head>
 
@@ -51,7 +53,7 @@ include("session_check.php")
 
       <div class="card-flip">
         <!-- Card 1 Front -->
-        <div class="card front">
+        <div class="card front" >
           <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">

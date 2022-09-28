@@ -26,11 +26,13 @@ include("session_check.php")
     crossorigin="anonymous"></script>
 
 
-  <link rel="stylesheet" href="states.css">
+    <link rel="stylesheet" href="./assets/css/states.css">
   <style>
   .back{
     margin-left: -130px;
   }
+
+
 </style>
 </head>
 
@@ -139,7 +141,7 @@ include("session_check.php")
           </div>
           <div class="card-body">
             <h5 class="card-title">Veda Farms</h5>
-            <h6>LOCATION: 54, Bijwasan Rd, Kapas Hera Extension, Kapas Hera, New Delhi</h6>
+            <h6>LOCATION: 54, Bijwasan Rd, Kapas Hera Extension, New Delhi</h6>
 
           </div>
         </div>
@@ -696,7 +698,7 @@ include("session_check.php")
     <!-- End Card 10 -->
   </section>
 </form>
-<?php include("./header.php"); ?>
+<?php include("./footer.php"); ?>
 </body>
 
 <?php include("./progress-wrap.php"); ?>

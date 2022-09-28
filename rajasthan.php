@@ -26,7 +26,7 @@ include("session_check.php")
     crossorigin="anonymous"></script>
 
 
-  <link rel="stylesheet" href="states.css">
+    <link rel="stylesheet" href="./assets/css/states.css">
   <style>
   .back{
     margin-left: -130px;

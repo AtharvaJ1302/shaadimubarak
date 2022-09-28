@@ -71,7 +71,13 @@ include("session_check.php")
     background-size: 100% 100%;
    }
 
+.state h1{
+    padding-top: 10px;
+}
 
+.btn{
+    line-height: 0.5;
+}
   </style>
 
 </head>

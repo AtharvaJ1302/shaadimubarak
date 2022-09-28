@@ -26,10 +26,14 @@ include("session_check.php")
     crossorigin="anonymous"></script>
 
 
-  <link rel="stylesheet" href="states.css">
+    <link rel="stylesheet" href="./assets/css/states.css">
   <style>
   .back{
     margin-left: -130px;
+  }
+
+  .btn{
+    position: relative;
   }
 </style>
 </head>
@@ -295,8 +299,7 @@ include("session_check.php")
               5-star hotel welcomes you with traditional Indian hospitality in a modern setting. Fully equipped with
               work class facilities, they offer 160 luxurious room & suites for comfortable accommodation and stay for
               everyone. For the celebration area, they offer customized spaces that include one indoor hall, one outdoor
-              lawn space, and a poolside space. The banquet is spacious and well ventilated to ensure a lavish
-              experience. They are focused to deliver the best value, quality, and royal hospitality service.
+              lawn space, and a poolside space.
             </p>
             <button class="btn btn-primary" name="venue4" > Select </button>
           </div>
@@ -317,7 +320,7 @@ include("session_check.php")
         <!-- Card 5 Front -->
 
 
-        <div class="card front">
+        <div class="card front" >
           <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -432,7 +435,7 @@ include("session_check.php")
               45 km drive from the airport will have you delighting in backseat surprises (we're not revealing here).
               Explore the horizon as you look over the infinity pool, beyond the 16th century ramparts of the Portuguese
               Fort, and wave back to the tide as it works its way across the Arabian Sea to joyfully greet the Sinquerim
-              beach below. Explore Goa in a vivid, vibrant way.
+              beach below.
             </p>
            <button class="btn btn-primary" name="venue6" > Select </button>
           </div>
