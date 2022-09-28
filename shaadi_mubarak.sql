@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 18, 2022 at 03:15 AM
+-- Generation Time: Sep 28, 2022 at 12:59 PM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -20,6 +20,80 @@ SET time_zone = "+00:00";
 --
 -- Database: `shaadi_mubarak`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `food`
+--
+
+DROP TABLE IF EXISTS `food`;
+CREATE TABLE IF NOT EXISTS `food` (
+  `food_id` int(2) NOT NULL AUTO_INCREMENT,
+  `food_name` varchar(500) NOT NULL,
+  `food_price` int(4) NOT NULL,
+  `type` varchar(500) NOT NULL,
+  PRIMARY KEY (`food_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=54 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `food`
+--
+
+INSERT INTO `food` (`food_id`, `food_name`, `food_price`, `type`) VALUES
+(1, 'Kurkuri Amchoori Bhindi Chaat', 200, 'Appetizer'),
+(2, 'Beetroot and Feta Tikki', 180, 'Appetizers'),
+(3, 'Stuffed Tandoori Platter', 170, 'Appetizers'),
+(4, 'Assorted Vegetable Pakoras', 165, 'Appetizers'),
+(5, 'Paneer Chandini Seekh', 170, 'Appetizers'),
+(6, 'Amravati Kozhi Varuval', 195, 'Appetizers'),
+(7, 'Tawa Shrimp Roast', 180, 'Appetizers'),
+(8, 'Amritsari Fish Fry', 180, 'Appetizers'),
+(9, 'Mughlai Paneer Tikka', 175, 'Tandoori and Grills'),
+(10, 'Peshwari Bharwan Aloo', 170, 'Tandoori and Grills'),
+(11, 'Tandoori Subzi Platter', 180, 'Tandoori and Grills'),
+(12, 'Tandoori Chicken', 210, 'Tandoori and Grills'),
+(13, 'Chicken Chops Afghani', 165, 'Tandoori and Grills'),
+(14, 'Murg Makhan Malai', 160, 'Tandoori and Grills'),
+(15, 'Classic Chicken Tikka', 170, 'Tandoori and Grills'),
+(16, 'Murgh Reshmi Kabab', 180, 'Tandoori and Grills'),
+(17, 'Tandoori Shrimp', 200, 'Tandoori and Grills'),
+(18, 'Moghul Signature Malai Kofta', 210, 'Main Course'),
+(19, 'Chukunder Sham Savera', 200, 'Main Course'),
+(20, 'Paneer Jalfrezi', 220, 'Main Course'),
+(21, 'Old Delhi Butter Paneer', 180, 'Main Course'),
+(22, 'Paneer Mirch Ka Salan', 190, 'Main Course'),
+(23, 'Methi Malai Mattar', 190, 'Main Course'),
+(24, 'Channa Amritsari', 185, 'Main Course'),
+(25, 'Subzi Diwani Handi', 180, 'Main Course'),
+(26, 'Classic Bhindi Masala', 175, 'Main Course'),
+(27, 'Old Delhi Butter Chicken', 200, 'Main Course'),
+(28, 'Murg Tikka Masala', 210, 'Main Course'),
+(29, 'Badshai Murgh ka Salan', 200, 'Main Course'),
+(30, 'Murgh Hyderabadi Curry', 220, 'Main Course'),
+(31, 'Naan/Butter Naan/Roti', 25, 'Rotis'),
+(32, 'Aloo Paratha/Pudina Paratha/ Kabuli Paratha', 30, 'Rotis'),
+(33, 'Kandhari Naan', 25, 'Rotis'),
+(34, 'Chilli Cheese Naan/Kheema Naan', 30, 'Rotis'),
+(35, 'Bullet Naan', 35, 'Rotis'),
+(36, 'Chapati', 20, 'Rotis'),
+(37, 'Plain Basmati', 140, 'Rice'),
+(38, 'Kashmiri Pulao', 170, 'Rice'),
+(39, 'Veg Biryani', 180, 'Rice'),
+(40, 'Lachnawi Veg Dum Biryani', 185, 'Rice'),
+(41, 'Lachnawi Murgh Dum Biryani', 200, 'Rice'),
+(42, 'Shrimp Biryani', 240, 'Rice'),
+(43, 'Goat Dum Biryani', 280, 'Rice'),
+(44, 'Raita', 120, 'Accompaniments'),
+(45, 'Dahi Bhalla', 130, 'Accompaniments'),
+(46, 'Green Salad', 125, 'Accompaniments'),
+(47, 'Masala Papad', 80, 'Accompaniments'),
+(48, 'Kulfi Falooda', 90, 'Desserts'),
+(49, 'Gulab Jamun', 90, 'Desserts'),
+(50, 'Ice Creams', 100, 'Desserts'),
+(51, 'Gajjar Halwa', 110, 'Desserts'),
+(52, 'Lava Cake', 140, 'Desserts'),
+(53, 'Casata Ice Cream', 140, 'Desserts');
 
 -- --------------------------------------------------------
 
