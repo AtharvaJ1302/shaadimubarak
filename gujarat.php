@@ -649,7 +649,7 @@ include("session_check.php")
     <!-- End Card 10 -->
   </section>
     </form>
-    <?php include("./header.php"); ?>
+    <?php include("./footer.php"); ?>
 </body>
 
 <?php include("./progress-wrap.php"); ?>
