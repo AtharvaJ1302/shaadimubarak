@@ -32,7 +32,9 @@ include("session_check.php")
     margin-left: -130px;
   }
 
-
+.btn{
+  position: relative;
+}
 </style>
 </head>
 
@@ -97,7 +99,7 @@ include("session_check.php")
               hospitality team to care for your every need. At Calista Resort, you can celebrate your big event, enhance
               your well-being, and enter your new journey relaxed and rejuvenated.
             </p>
-            <button class="btn btn-primary" name="venue1" > Select </button>
+            <button class="btn btn-primary" name="venue1" style="top: 3rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -162,7 +164,7 @@ include("session_check.php")
               excellent services, then Veda Farms is one of the ideal options. Located in the city, it is a 10 acres
               perfect destination with exquisite decor, suitable for hosting lavish weddings that last for a lifetime.
             </p>
-            <button class="btn btn-primary" name="venue2" > Select </button>
+            <button class="btn btn-primary" name="venue2" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -227,7 +229,7 @@ include("session_check.php")
               ceremonies, then Amrai Farms is the choice that you should definitely make. Their staff will ensure to
               make the wedding memorable for you and your guests.
             </p>
-            <button class="btn btn-primary" name="venue3" > Select </button>
+            <button class="btn btn-primary" name="venue3" style="top: 7.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -292,7 +294,7 @@ include("session_check.php")
               function seems more exciting and active, they provide truckloads for facilities like essential lighting,
               electricity & backup, valet parking and a bridal room.
             </p>
-            <button class="btn btn-primary" name="venue4" > Select </button>
+            <button class="btn btn-primary" name="venue4" style="top: 4.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -355,7 +357,7 @@ include("session_check.php")
               demeanour of the lush green landscape. It is believed to be one of the most culturally rich and romantic
               place where anyone would desire of a destination wedding.
             </p>
-            <button class="btn btn-primary" name="venue5" > Select </button>
+            <button class="btn btn-primary" name="venue5" style="top: 10.5rem"> Select </button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -420,7 +422,7 @@ include("session_check.php")
               marriage functions. The management and staff of Ramada Resort & Spa make sure that you and your guests
               have a great hospitality experience.
             </p>
-            <button class="btn btn-primary" name="venue6" > Select </button>
+            <button class="btn btn-primary" name="venue6" style="top: 12rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -488,7 +490,7 @@ include("session_check.php")
               are amongst Delhi NCR’s most upmarket and grand wedding venues. It is the only venue with Exclusive entry
               from NH-1 (Left side from Delhi to Karnal).
             </p>
-            <button class="btn btn-primary" name="venue7" > Select </button>
+            <button class="btn btn-primary" name="venue7" style="top: 7.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -555,7 +557,7 @@ include("session_check.php")
               starry and filled with positive vibes for you to cherish it for the rest of your lives with your partner.
               Offering the pinnacle of luxury and comfort, Mohan Vilaas is a popular choice for hosting grand functions.
             </p>
-            <button class="btn btn-primary" name="venue8" > Select </button>
+            <button class="btn btn-primary" name="venue8" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -622,7 +624,7 @@ include("session_check.php")
               pre-wedding ceremony, wedding ceremony, or post-wedding ceremony, you can hold these ceremonies
               comfortably here and be assured that your wedding will be a memorable one.
             </p>
-            <button class="btn btn-primary" name="venue9" > Select </button>
+            <button class="btn btn-primary" name="venue9" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -689,7 +691,7 @@ include("session_check.php")
               weddings. They are designed in the most contemporary style combined with traditional aesthetics and
               elegance to lend the perfect ambience for your dream celebration.
             </p>
-            <button class="btn btn-primary" name="venue10" > Select </button>
+            <button class="btn btn-primary" name="venue10" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 10 Back -->

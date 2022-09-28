@@ -31,6 +31,10 @@ include("session_check.php")
   .back{
     margin-left: -130px;
   }
+
+  .btn{
+    position: relative;
+  }
 </style>
 </head>
 
@@ -90,8 +94,8 @@ include("session_check.php")
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">The three centuries old palace provides a gorgeous backdrop for a jaw-dropping wedding venue. Located in the midst of a lush green lawn, LVP Banquets is truly nothing short of magical. If you want a romantic and picturesque wedding, this is your venue for the day! While their decorators set up the place, their caterers can whip up the most amazing wedding feast for you and your guests.
-              Prices Start at: Rs. 850 (veg) & Rs. 900 (n.veg)</p>
-            <button class="btn btn-primary" name="venue1" > Select </button>
+              </p>
+            <button class="btn btn-primary" name="venue1" style="top: 10.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -150,9 +154,8 @@ include("session_check.php")
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Located amidst vast stretches of mango orchards, Aam Bagan in Bokadev is an ideal wedding venue for you if you want a picturesque wedding. If you are planning a destination wedding in Gujarat, you must check out Aam Bagan for its lavish amenities and beautiful grounds. You can also get your own caterer and decorator to customize the event as per your needs.
-              Prices Start at: Rs. 2200 (veg) & Rs. 2500 (n.veg)
               </p>
-            <button class="btn btn-primary" name="venue2" > Select </button>
+            <button class="btn btn-primary" name="venue2" style="top: 12rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -211,9 +214,9 @@ include("session_check.php")
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">With vast stretches of lush green lawns, Thaker Farm makes an idyllic wedding venue for a destination wedding in Gujarat. Their in-house decorators can set up canopies, tents and other party areas for you and your guests. You can get your own caterer to treat your guests to a sumptuous feast while their decorators light up the place with gorgeous decorative lights.
-              Prices Start at: Rs. 450 (veg) & Rs. 450 (n.veg)
+          
               </p>
-            <button class="btn btn-primary" name="venue3" > Select </button>
+            <button class="btn btn-primary" name="venue3" style="top: 10.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -270,9 +273,9 @@ include("session_check.php")
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">If you have always wanted a grand destination wedding in Gujarat, Maple Farm Party Plot might just be the one for you. With an elegant and spacious hall and a vast stretch of lawn, Maple Farm is truly an exquisite venue for a wedding. They also have an experienced team of decorators who can set up the place for your special day!
-              Prices Start at: Rs. 250 (veg)
+              
               </p>
-            <button class="btn btn-primary" name="venue4" > Select </button>
+            <button class="btn btn-primary" name="venue4" style="top: 12rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -330,9 +333,8 @@ include("session_check.php")
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Located in the Prashad Nagar area of Ahmedabad, Crowne Plaza in Ahmedabad City Centre is one of the most luxurious Gujarat destinations for a wedding. The place is so huge that you can easily host all the events of a wedding here, be it the Mehndi, Sangeet, Cocktail or reception party. The centre can host up to 2000 people, making it a viable option for people who have lots of guests to invite. Their in-house team caters to all your needs with the utmost care. The experienced chefs can prepare local and international cuisines with incredible precision.
-              With all the services, the per plate cost here is ₹ 1800 and the average budget for 1000 guests would be close to ₹ 20,00,000.
               </p>
-            <button class="btn btn-primary" name="venue5" > Select </button>
+            <button class="btn btn-primary" name="venue5" style="top: 7.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -392,10 +394,10 @@ include("session_check.php")
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Narayani Heights is one of the best Gujarat destinations to host a Gujarati wedding. All the décor at the venue is completely customisable, making it possible for you to personalise the wedding aesthetic as per your wishes.
-              There are 109 rooms available with tariffs ranging from ₹ 5,000 to ₹ 20,000. The per-plate cost ranges from ₹ 800 to 5,000. This variety of options in the price range just tells you how nicely the resort caters to the needs of people from different walks of life. Additionally, they offer multiple cuisines from around the world. They also customise the cooking process according to the Jain traditions. All these facilities make it a part of the list of ideal Gujarat destinations for a wedding.
+              There are 109 rooms available with tariffs ranging from ₹ 5,000 to ₹ 20,000. This variety of options in the price range just tells you how nicely the resort caters to the needs of people from different walks of life. Additionally, they offer multiple cuisines from around the world. They also customise the cooking process according to the Jain traditions. All these facilities make it a part of the list of ideal Gujarat destinations for a wedding.
               
               </p>
-            <button class="btn btn-primary" name="venue6" > Select </button>
+            <button class="btn btn-primary" name="venue6" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -458,7 +460,7 @@ include("session_check.php")
             <p class="card-text" style="text-align: center;">The House of Mangaldas Girdhardas is a heritage hotel that is one of the top Gujarat destinations for weddings with fewer guests. This venue is ideal for an intimate wedding, as they allow their venue to be booked for a party that has as little as 50 guests. This makes it perfect for someone looking for a destination wedding with just a handful of close relatives and friends.
               The hotel specialises in creating décor exactly the way you want, making it just perfect for people. The per-plate cost is around ₹ 900. The hotel has multiple event spaces like a sprawling terrace, banquet hall and the lawn area.
               </p>
-            <button class="btn btn-primary" name="venue7" > Select </button>
+            <button class="btn btn-primary" name="venue7" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -520,7 +522,7 @@ include("session_check.php")
             <p class="card-text" style="text-align: center;">The Gateway Hotel Athwalines is a luxurious 5-star hotel in Surat. It is perfect for an upscale wedding with famous dignitaries as guests. This 5-star hotel has everything planned down to the T. You do not have to worry about anything at all as the hotel’s in-house team will look after everything. It can host anywhere between 750-1500 people in one go.
               They offer multiple cuisines from India, like Mughlai, North Indian, South Indian, Street food and international cuisines like Italian, Continental and Chinese as well. Their per-plate cost is around ₹ 1,500.
               </p>
-            <button class="btn btn-primary" name="venue8" > Select </button>
+            <button class="btn btn-primary" name="venue8" style="top: 7.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -580,7 +582,7 @@ include("session_check.php")
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Green YMCA Banquets And Lawn, Ahmedabad is taken care of by Green Leaves Management. It is an ideal venue for hosting your grand wedding, reception ceremony, and celebrations or events of any type. Green YMCA Banquets And Lawn, Makarba, Ahmedabad is a very well known place in the locality. So you can imagine how grand your event is going to be. The staff at this venue are professionals and skilled in their respective job, they make sure your function is executed well. YMCA Banquet Hall Ahmedabad serves palatable vegetarian delicacies to their guests. The stunning décor of the venue gives a special touch to your big day.</p>
-            <button class="btn btn-primary" name="venue9" > Select </button>
+            <button class="btn btn-primary" name="venue9" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -640,7 +642,7 @@ include("session_check.php")
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Jade Banquets is India’s premier destination to host exquisite events that symbolize grandeur & style. It operates multiple beautifully appointed banquet venues across India, offering world class hospitality and award winning catering to add elegance to your most treasured occasions. Jade Banquets has perfected the ‘Art of Hospitality and enjoys a reputation of providing it’s guests with unique and memorable experiences that are highly regarded by the patrons. With world-class amenities and a responsive team that customizes and designs every part of the service, Jade is one of the most eminent venues in India. It is managed by professionals trained in the highest standards of international hospitality.</p>
-            <button class="btn btn-primary" name="venue10" > Select </button>
+            <button class="btn btn-primary" name="venue10" style="top: 4.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 10 Back -->

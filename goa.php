@@ -102,8 +102,7 @@ include("session_check.php")
               beautiful, hospitable place for tourists and for people, who are looking lovely venue for their wedding
               ceremony.
             </p>
-            <button class="btn btn-primary" name="venue1" > Select </button>
-           <!-- <a href="#" class="btn btn-primary" style="text-align: center;">Add to cart</a> -->
+            <button class="btn btn-primary" name="venue1" style="top: 10.5rem;"> Select </button>           <!-- <a href="#" class="btn btn-primary" style="text-align: center;">Add to cart</a> -->
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -171,7 +170,7 @@ include("session_check.php")
               accommodate up to 400 people. They have a flexible catering policy. They also provide ample parking space
               for the guests.
             </p>
-            <button class="btn btn-primary" name="venue2" > Select </button>
+            <button class="btn btn-primary" name="venue2" style="top: 4.8rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -235,7 +234,7 @@ include("session_check.php")
               Sea. A serene resort, nestled on a secluded cove in Dona Paula. Indulge in the tranquil sensation of this
               quiet retreat, where nature’s supreme beauty creates a mesmerizing backdrop for your sublime relaxation.
             </p>
-             <button class="btn btn-primary" name="venue3" > Select </button>
+             <button class="btn btn-primary" name="venue3" style="top: 10.6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -301,7 +300,7 @@ include("session_check.php")
               everyone. For the celebration area, they offer customized spaces that include one indoor hall, one outdoor
               lawn space, and a poolside space.
             </p>
-            <button class="btn btn-primary" name="venue4" > Select </button>
+            <button class="btn btn-primary" name="venue4" style="top: 7rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -367,7 +366,7 @@ include("session_check.php")
               space for weddings and corporate events. They also have grand lawns which accommodate upto 750 attendees
               for outdoor weddings.
             </p>
-           <button class="btn btn-primary" name="venue5" > Select </button>
+           <button class="btn btn-primary" name="venue5" style="top: 4rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -437,7 +436,7 @@ include("session_check.php")
               Fort, and wave back to the tide as it works its way across the Arabian Sea to joyfully greet the Sinquerim
               beach below.
             </p>
-           <button class="btn btn-primary" name="venue6" > Select </button>
+           <button class="btn btn-primary" name="venue6" style="top: 5.3rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -508,7 +507,7 @@ include("session_check.php")
               processions of caparisoned Elephants & Entertainment by Folk dancers, Musicians, Shehnai Vadan, Fire
               Performers, Dhol Wales and much more.
             </p>
-           <button class="btn btn-primary" name="venue7" > Select </button>
+           <button class="btn btn-primary" name="venue7" style="top: 5.7rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -575,7 +574,7 @@ include("session_check.php")
               Redwood Resorts can be the perfect location. Redwood resorts has illustrious impeccable décors, elite
               services, unrivaled array of amenities and striking venues, at economical prices.
             </p>
-           <button class="btn btn-primary" name="venue8" > Select </button>
+           <button class="btn btn-primary" name="venue8" style="top: 6.2rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -645,7 +644,7 @@ include("session_check.php")
               level of desire to this venue as it is situated on the outskirts, away from the noise and bustle of the
               city.
             </p>
-            <button class="btn btn-primary" name="venue9" > Select </button>
+            <button class="btn btn-primary" name="venue9" style="top: 4.7rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -711,7 +710,7 @@ include("session_check.php")
               excellent services and value attract the clients to book this venue for their big day and important
               events. This sought after venue is sure to make your event memorable and give you memories to last a
               lifetime.</p>
-            <button class="btn btn-primary" name="venue10" > Select </button>
+            <button class="btn btn-primary" name="venue10" style="top: 7.8rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 10 Back -->
