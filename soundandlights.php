@@ -1,84 +1,35 @@
 <?php
 session_start();
-function check()
-{
-    if(empty($_SESSION))
-    {
-        echo "<script>
-alert('Signin To Start Booking!');
-window.location.href='';
-</script>";
-return false;
-    }else{return true; }
+if(isset($_SESSION["light1"])){
+    $_SESSION["light"]="Absolute Lime";
+    $_SESSION["light_price"]=1;
+}else if(isset($_SESSION["light2"])){
+    $_SESSION["light"]="D&S Djs";
+    $_SESSION["light_price"]=1;
+}else if(isset($_SESSION["light3"])){
+    $_SESSION["light"]="Dj Ganesh";
+    $_SESSION["light_price"]=1;
+}else if(isset($_SESSION["light4"])){
+    $_SESSION["light"]="Dj Santosh";
+    $_SESSION["light_price"]=1;
+}else if(isset($_SESSION["light5"])){
+    $_SESSION["light"]="Dj Vibes";
+    $_SESSION["light_price"]=1;
+}else if(isset($_SESSION["light6"])){
+    $_SESSION["light"]="Dj Wale Babu";
+    $_SESSION["light_price"]=1;
+}else if(isset($_SESSION["light7"])){
+    $_SESSION["light"]="Elite Dj Planners";
+    $_SESSION["light_price"]=1;
+}else if(isset($_SESSION["light8"])){
+    $_SESSION["light"]="Miami Djs";
+    $_SESSION["light_price"]=1;
+}else if(isset($_SESSION["light9"])){
+    $_SESSION["light"]="Royal Djs";
+    $_SESSION["light_price"]=1;
+}else if(isset($_SESSION["light10"])){
+    $_SESSION["light"]="RP Dj Wale";
+    $_SESSION["light_price"]=1;
 }
-if(isset($_POST["venue1"])){
-    if(check()){
-        $_SESSION["venue"]="";
-        $_SESSION["venue_price"]=1;
-        header("Location:dummyfood.html");
-    }
-}else if(isset($_POST["venue2"])){
-    if(check()){
-        $_SESSION["venue"]="";
-        $_SESSION["venue_price"]=1;
-        header("Location:dummyfood.html");
-    }
-    
-}else if(isset($_POST["venue3"])){
-    if(check()){
-        $_SESSION["venue"]="";
-        $_SESSION["venue_price"]=1;
-        header("Location:dummyfood.html");
-    }
-}else if(isset($_POST["venue4"])){
-    if(check()){
-        $_SESSION["venue"]="";
-        $_SESSION["venue_price"]=1;
-        header("Location:dummyfood.html");
-    }
-    
-}else if(isset($_POST["venue5"])){
-    if(check()){
-        $_SESSION["venue"]="";
-        $_SESSION["venue_price"]=1;
-        header("Location:dummyfood.html");
-    }
-    
-}else if(isset($_POST["venue6"])){
-    if(check()){
-        $_SESSION["venue"]="";
-        $_SESSION["venue_price"]=1;
-        header("Location:dummyfood.html");
-    }
-    
-}else if(isset($_POST["venue7"])){
-    if(check()){
-        $_SESSION["venue"]="";
-        $_SESSION["venue_price"]=1;
-        header("Location:dummyfood.html");
-    }
-    
-}else if(isset($_POST["venue8"])){
-    if(check()){
-        $_SESSION["venue"]="";
-        $_SESSION["venue_price"]=1;
-        header("Location:dummyfood.html");
-    }
-    
-}else if(isset($_POST["venue9"])){
-    if(check()){
-        $_SESSION["venue"]="";
-        $_SESSION["venue_price"]=1;
-        header("Location:dummyfood.html");
-    }
-
-}else if(isset($_POST["venue10"])){
-    if(check()){
-        $_SESSION["venue"]="";
-        $_SESSION["venue_price"]=1;
-        header("Location:dummyfood.html");
-    }
-    
-}
-    
+header("Location:dummyreceipt.html"); 
 ?>
