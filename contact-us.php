@@ -1,6 +1,8 @@
 <?php
+/*
 session_start(); 
 include("session_check.php")
+*/
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +14,7 @@ include("session_check.php")
     <title>Document</title>
     <?php include("./head.php"); ?>
 
-    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./contact.css">
 
 <style>
     section{
@@ -32,8 +34,9 @@ include("session_check.php")
 
 <body>
 <?php include("./header.php"); ?>
+
     <section>
-        <div class="container">
+        <div class="container-con">
             <h2>Contact us</h2>
 
             <div class="row100">
@@ -86,6 +89,9 @@ include("session_check.php")
             </div>
         </div>
     </section>
+
+
+
     <?php include("./footer.php"); ?>
 </body>
 <?php include("./progress-wrap.php"); ?>

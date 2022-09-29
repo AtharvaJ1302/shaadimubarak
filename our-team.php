@@ -15,12 +15,13 @@
     <script src="https://kit.fontawesome.com/ed6a667071.js" crossorigin="anonymous"></script>
 
     <!--CSS-->
-    <link rel="stylesheet" href="./assets/css/about-us.css">
+    <link rel="stylesheet" href="./about-us.css">
 
 </head>
 
 <body>
 <?php include("./header.php"); ?>
+<!-- 
     <h1>Our Team</h1>
     <section class="container">
 
@@ -176,6 +177,132 @@
         </div>
 
     </section>
+    -->
+
+
+    <!-- new our team-->
+<section class="team-section">
+     <div class="container">
+         <div class="row">
+             <div class="section-title">
+                 <h1>Our Team</h1>
+                 <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+             </div>
+         </div>
+         <div class="row">
+             <div class="team-items">
+                  <div class="item">
+                      <img src="./assets/img/team-1.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Sarita Sharma</h5>
+                               <p>Designer</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="./assets/img/team-2.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Sonu Gupta</h5>
+                               <p>Designer</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="./assets/img/team-3.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Chahar Singh</h5>
+                               <p>Designer</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="./assets/img/team-4.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Soshiv Upreti</h5>
+                               <p>Designer</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="./assets/img/team-4.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Soshiv Upreti</h5>
+                               <p>Designer</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="./assets/img/team-4.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Soshiv Upreti</h5>
+                               <p>Designer</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <img src="./assets/img/team-4.jpg" alt="team" />
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Soshiv Upreti</h5>
+                               <p>Designer</p>
+                               <div class="social-links">
+                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                   <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+             </div>
+         </div>
+     </div>
+  </section>
+<!-- new our team-->
+
+
     <?php include("./footer.php"); ?>
 </body>
 <?php include("./progress-wrap.php"); ?>

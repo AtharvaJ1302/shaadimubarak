@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 /*
 body{
     overflow: hidden;
@@ -21,7 +17,7 @@ section{
 
 }
 
-.container{
+.container-con{
     position: relative;
     z-index: 1000;
     width: 100%;
@@ -37,7 +33,7 @@ section{
     backdrop-filter: blur(6px);
 }
 
-.container::before{
+.container-con::before{
     content: '';
     position: absolute;
     top: 0;
@@ -49,7 +45,7 @@ section{
     transform: skewX(-15deg);
 }
 
-.container h2{
+.container-con h2{
     width: 100%;
     text-align: center;
     font-size: 36px;
@@ -57,29 +53,29 @@ section{
     color: black;
 }
 
-.container .row100{
+.container-con .row100{
     position: relative;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
 }
 
-.container .row100 .col{
+.container-con .row100 .col{
     position: relative;
     width: 100%;
     padding: 0 10px;
     margin: 30px 0 20px;
 }
 
-.container .row100 .col .inputBox{
+.container-con .row100 .col .inputBox{
     position: relative;
     width: 100%;
     height: 40px;
     color: #fff;
 }
 
-.container .row100 .col .inputBox input,
-.container .row100 .col .inputBox textarea
+.container-con .row100 .col .inputBox input,
+.container-con .row100 .col .inputBox textarea
 {
     position: absolute;
     width: 100%;
@@ -94,7 +90,7 @@ section{
     color: #000;
 }
 
-.container .row100 .col .inputBox .text{
+.container-con .row100 .col .inputBox .text{
     position: absolute;
     top: 0;
     left: 0;
@@ -107,15 +103,15 @@ section{
     color: #000;
 }
 
-.container .row100 .col .inputBox input:focus +.text,
-.container .row100 .col .inputBox input:valid + .text,
-.container .row100 .col .inputBox textarea:focus + .text,
-.container .row100 .col .inputBox textarea:valid + .text{
+.container-con .row100 .col .inputBox input:focus +.text,
+.container-con .row100 .col .inputBox input:valid + .text,
+.container-con .row100 .col .inputBox textarea:focus + .text,
+.container-con .row100 .col .inputBox textarea:valid + .text{
     top: -35px;
     left: -10px;
 }
 
-.container .row100 .col .inputBox .line{
+.container-con .row100 .col .inputBox .line{
     position: absolute;
     bottom: 0;
     display: block;
@@ -127,24 +123,24 @@ section{
     pointer-events: none;
 }
 
-.container .row100 .col .inputBox input:focus ~ .line,
-.container .row100 .col .inputBox input:valid  ~ .line{
+.container-con .row100 .col .inputBox input:focus ~ .line,
+.container-con .row100 .col .inputBox input:valid  ~ .line{
  height: 100%;
 }
 
-.container .row100 .col .inputBox .textarea{
+.container-con .row100 .col .inputBox .textarea{
     position: relative;
     width: 100%;
     height: 100px;
     padding: 10px 0;
 }
 
-.container .row100 .col .inputBox textarea:focus ~ .line,
-.container .row100 .col .inputBox textarea:valid  ~ .line{
+.container-con .row100 .col .inputBox textarea:focus ~ .line,
+.container-con .row100 .col .inputBox textarea:valid  ~ .line{
     height: 100%;
 }
 
-.container .row100 .col input[type="submit"]{
+.container-con .row100 .col input[type="submit"]{
     border: none;
     padding: 10px 40px;
     cursor: pointer;
@@ -163,10 +159,10 @@ section{
     section::after{
         transform: translate(220px,180px);
     }
-    .container{
+    .container-con{
         padding: 20px;
     }
-    .container h2{
+    .container-con h2{
     font-size: 28px;
     }
 }

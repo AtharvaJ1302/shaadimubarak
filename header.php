@@ -16,14 +16,14 @@
             <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
               <ul class="navbar-nav">
               <li>
-                  <a class="nav-link" href="#" >HOME</a>
+                  <a class="nav-link" href="./index.php" >HOME</a>
                 </li>
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">US</a>
                   <ul class="dropdown-menu">
                     <li class="nav-item"><a class="dropdown-item" href="#">About Us</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="about-us.php">Our Team</a>
+                      <li class="nav-item"><a class="dropdown-item" href="./our-team.php">Our Team</a>
                       </li>
-                    <li class="nav-item"><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="./contact-us.php">Contact Us</a></li>
                   </ul>
                 </li>
                 <li>
