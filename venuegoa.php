@@ -6,75 +6,75 @@ function check()
     {
         echo "<script>
 alert('Signin To Start Booking!');
-window.location.href='';
+window.location.href='goa.php';
 </script>";
 return false;
     }else{return true; }
 }
 if(isset($_POST["venue1"])){
     if(check()){
-        $_SESSION["venue"]="";
+        $_SESSION["venue"]="Bay 15 Waterfront";
         $_SESSION["venue_price"]=1;
         header("Location:dummyfood.html");
     }
 }else if(isset($_POST["venue2"])){
     if(check()){
-        $_SESSION["venue"]="";
+        $_SESSION["venue"]="Silva Heritage";
         $_SESSION["venue_price"]=1;
         header("Location:dummyfood.html");
     }
     
 }else if(isset($_POST["venue3"])){
     if(check()){
-        $_SESSION["venue"]="";
+        $_SESSION["venue"]="Prainha Beach Resort";
         $_SESSION["venue_price"]=1;
         header("Location:dummyfood.html");
     }
 }else if(isset($_POST["venue4"])){
     if(check()){
-        $_SESSION["venue"]="";
+        $_SESSION["venue"]="DoubleTree by Hilton, Panaji";
         $_SESSION["venue_price"]=1;
         header("Location:dummyfood.html");
     }
     
 }else if(isset($_POST["venue5"])){
     if(check()){
-        $_SESSION["venue"]="";
+        $_SESSION["venue"]="Radisson Blu Resort Goa, Cavelossim Beach";
         $_SESSION["venue_price"]=1;
         header("Location:dummyfood.html");
     }
     
 }else if(isset($_POST["venue6"])){
     if(check()){
-        $_SESSION["venue"]="";
+        $_SESSION["venue"]="Taj Fort Aguada Resort & Spa, Goa";
         $_SESSION["venue_price"]=1;
         header("Location:dummyfood.html");
     }
     
 }else if(isset($_POST["venue7"])){
     if(check()){
-        $_SESSION["venue"]="";
+        $_SESSION["venue"]="The Fort Ramgarh";
         $_SESSION["venue_price"]=1;
         header("Location:dummyfood.html");
     }
     
 }else if(isset($_POST["venue8"])){
     if(check()){
-        $_SESSION["venue"]="";
+        $_SESSION["venue"]="Redwood Resorts";
         $_SESSION["venue_price"]=1;
         header("Location:dummyfood.html");
     }
     
 }else if(isset($_POST["venue9"])){
     if(check()){
-        $_SESSION["venue"]="";
+        $_SESSION["venue"]="Kanha Banquet Hall";
         $_SESSION["venue_price"]=1;
         header("Location:dummyfood.html");
     }
 
 }else if(isset($_POST["venue10"])){
     if(check()){
-        $_SESSION["venue"]="";
+        $_SESSION["venue"]="Dos Equis Exotic Lounge, Bardez";
         $_SESSION["venue_price"]=1;
         header("Location:dummyfood.html");
     }
