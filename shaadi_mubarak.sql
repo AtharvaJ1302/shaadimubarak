@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 28, 2022 at 12:59 PM
+-- Generation Time: Sep 29, 2022 at 02:45 PM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -20,6 +20,25 @@ SET time_zone = "+00:00";
 --
 -- Database: `shaadi_mubarak`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admin_login`
+--
+
+DROP TABLE IF EXISTS `admin_login`;
+CREATE TABLE IF NOT EXISTS `admin_login` (
+  `Admin_Name` varchar(10) NOT NULL,
+  `Admin_Password` varchar(10) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `admin_login`
+--
+
+INSERT INTO `admin_login` (`Admin_Name`, `Admin_Password`) VALUES
+('No User', '12345');
 
 -- --------------------------------------------------------
 
