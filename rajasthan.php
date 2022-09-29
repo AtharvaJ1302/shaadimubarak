@@ -372,7 +372,7 @@ session_start();
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Welcomhotel Khimsar Fort and Dunes</h5>
+            <h5 class="card-title">Welcom hotel Khimsar Fort and Dunes</h5>
             <h6>LOCATION: Khimsar, Rajasthan</h6>
           </div>
         </div>
