@@ -936,7 +936,7 @@ session_start();
        <i class="fas fa-star-half-alt"></i>
        <span>( 250 )</span>
     </div>
-    <p><Curried chickpeas cooked in a combination of fresh spices and herbs - Amritsari style </p>
+    <p>Curried chickpeas cooked in a combination of fresh spices and herbs - Amritsari style </p>
     <div class="price">₹185</div>
     <div class="form-check text-center">
        
@@ -1216,7 +1216,7 @@ session_start();
     <div class="price">₹170</div>
     <div class="form-check text-center">
        
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
     </div>
 </div>
 
