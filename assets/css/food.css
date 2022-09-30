@@ -26,12 +26,13 @@ body{
 }
 
 .container .title{
-   font-size: 3rem;
+   font-size: 2rem;
    color:black;
-   margin-bottom: 3rem;
+   margin-bottom: 1.5rem;
    text-transform: uppercase;
    text-align: center;
    
+
 }
 
 .container .products-container,
@@ -57,9 +58,9 @@ body{
 {
    text-align: center;
    padding:2rem 1rem;
-   background: #fff;
+   background: rgb(11, 11, 11);
    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-   outline: .1rem solid #ccc;
+   outline: .1rem solid rgb(224, 39, 125);
    outline-offset: -1.5rem;
    cursor: pointer;
 }
@@ -72,7 +73,7 @@ body{
 .container .products-container6 .product:hover,
 .container .products-container7 .product:hover
 {
-   outline: .2rem solid #222;
+   outline: .2rem solid rgb(214, 30, 116);
    outline-offset: 0;
 }
 
@@ -106,9 +107,9 @@ body{
 .container .products-container6 .product h3,
 .container .products-container7 .product h3
 {
-   padding:.5rem 0;
-   font-size: 1rem;
-   color:#444;
+   padding:.6rem 0;
+   font-size: 0.9rem;
+   color:rgb(228, 44, 142);
 }
 
 .container .products-container .product:hover h3,
@@ -119,7 +120,7 @@ body{
 .container .products-container6 .product:hover h3,
 .container .products-container7 .product:hover h3
 {
-   color:#27ae60;
+   color:#bd1b6e;
 }
 
 .container .products-container .product .price,
@@ -130,19 +131,15 @@ body{
 .container .products-container6 .product .price,
 .container .products-container7 .product .price
 {
-   font-size: 1rem;
-   color:#444;
+   font-size: 1.2rem;
+   color:rgb(228, 44, 142);
+
 }
-input{
-   float: center;
-   margin: 0px 0px;
-   width: 30px;
-   border: solid 1px;
-}
+
 .products-preview{
    position: fixed;
    top:0; left:0;
-   min-height: 50vh;
+   min-height: 110vh;
    width: 100%;
    background: rgba(0,0,0,.8);
    display: none;
@@ -152,12 +149,12 @@ input{
 
 .products-preview .preview{
    display: none;
-   padding:2rem;
+   padding:1rem;
    text-align: center;
-   background: #fff;
+   background: rgb(120, 1, 66);
    position: relative;
-   margin:2rem;
-   width: 40rem;
+   margin:0rem;
+   width: 24rem;
 }
 
 .products-preview .preview.active{
@@ -165,15 +162,15 @@ input{
 }
 
 .products-preview .preview img{
-   height: 20rem;
+   height: 15rem;
 }
 
 .products-preview .preview .fa-times{
    position: absolute;
    top:1rem; right:1.5rem;
    cursor: pointer;
-   color:#444;
-   font-size: 1rem;
+   color:rgb(0, 0, 0);
+   font-size: 2rem;
 }
 
 .products-preview .preview .fa-times:hover{
@@ -181,35 +178,35 @@ input{
 }
 
 .products-preview .preview h3{
-   color:#444;
-   padding:.2rem 0;
-   font-size: 2.5rem;
+   color:rgb(5, 5, 5);
+   padding:.5rem 0;
+   font-size: 1.2rem;
 }
 
 .products-preview .preview .stars{
-   padding:1rem 0;
-   font-size: 1.7rem;
+   padding:0rem 0;
+   font-size: 0.7rem;
 }
 
 .products-preview .preview .stars i{
-   color:#27ae60;
+   color:#060606;
 }
 
 .products-preview .preview .stars span{
-   color:#999;
+   color:rgb(5, 5, 5);
 }
 
 .products-preview .preview p{
    line-height: 1.5;
-   padding:1rem 0;
-   font-size: 1.6rem;
-   color:#777;
+   padding:0rem 0;
+   font-size: 0.8rem;
+   color:rgb(7, 7, 7);
 }
 
 .products-preview .preview .price{
-   padding:1rem 0;
-   font-size: 2.5rem;
-   color:#27ae60;
+   padding:0rem 0;
+   font-size: 1rem;
+   color:#050505;
 }
 
 .products-preview .preview .buttons{
@@ -220,33 +217,30 @@ input{
    margin-left: 45%;
 }
 
-input[type="checkbox"]{
-   width: 30px;
-   height: 50px;
-}
 
 .submit-btn{
-   margin-left: 46%;
    text-align: center;
-   border: 2px solid black;
-   margin-top: 2%;
+   border: 2px solid rgb(230, 53, 136);
    width: 140px;
-   border-radius: 15px;
-   background-color: pink;
+   border-radius: 25px;
+   background-color: rgb(6, 6, 6);
 }
 
 .submit-btn h1{
+   margin-top: 10px;
+   color: #FFFFFF;
    font-weight: 500;
 }
+
 
 .food-form{
 margin-bottom: 3%;
 }
 
-@media (max-width:891px){
+@media (max-width:991px){
 
    html{
-      font-size: 35%;
+      font-size: 55%;
    }
 
 }

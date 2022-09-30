@@ -3249,12 +3249,13 @@ textarea.form-control-lg {
   margin-bottom: 0.125rem;
 }
 .form-check .form-check-input {
-  float: left;
+  float: center;
   margin-left: -1.55rem;
 }
+
 .form-check-input {
-  width: 1.05rem;
-  height: 1.05rem;
+  width: 1.5rem;
+  height: 1.5rem;
   margin-top: 0.325rem;
   vertical-align: top;
   background-color: #fefefe;
