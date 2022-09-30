@@ -30,10 +30,10 @@
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
                   <ul class="dropdown-menu">
                     <li class="nav-item"><a class="dropdown-item" href="./destinations.php">Destinations</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="./sound-light.php">Sound and Lights</a>
+                      <li class="nav-item"><a class="dropdown-item" href="./food.php">Food</a>
                       </li>
+                    <li class="nav-item"><a class="dropdown-item" href="./sound-light.php">Sound and Lights</a></li>
                     <li class="nav-item"><a class="dropdown-item" href="./photography.php">Photography</a></li>
-                    <li class="nav-item"><a class="dropdown-item" href="./food.php">Food</a></li>
                   </ul>
                 </li>
                 

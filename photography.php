@@ -36,7 +36,7 @@ session_start();
   <section id="container">
 
     <div class="head">
-      <h1>DESTINATIONS</h1>
+      <h1>PHOTOGRAPHY</h1>
     </div>
 
     <input type="checkbox" id="card-1" />
