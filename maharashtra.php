@@ -34,8 +34,13 @@ session_start();
   }
 
   .btn{
-   
     position: relative;
+    left:14rem;
+  }
+
+  .price{
+    position:relative;
+    right:15rem;
   }
 </style>
 
@@ -105,8 +110,9 @@ session_start();
               level. Its three spacious banquet halls can accommodate 50 to 500 people any time. With more than one
               event space, they also provide you with guest accommodation and basic facilities like valet parking.
             </p>
+            <div class="price" style="top:7rem;" >₹87000</div>
             <!-- <a href="#" class="btn btn-primary" style="text-align: center;">Add to cart</a> -->
-            <button class="btn btn-primary" name="venue1" style=" top: 6rem;">Select</button>
+            <button class="btn btn-primary" name="venue1" style=" top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -171,7 +177,8 @@ session_start();
               room, basic lighting and electricity, and modern facilities to ensure -that all your events are carried
               out in a dedicated and hassle-free manner.
             </p>
-            <button class="btn btn-primary" name="venue2" style=" top: 7.6rem;">Select</button>
+            <div class="price" style="top:8rem;" >₹110000</div>
+            <button class="btn btn-primary" name="venue2" style=" top: 6rem;">Select</button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -237,7 +244,8 @@ session_start();
               of your burden of a makeup artist gets lowered down! A perfect venue with the best quality and everything
               worth the price you’ve paid for your wedding.
             </p>
-            <button class="btn btn-primary" name="venue3" style=" top: 7.6rem;">Select</button>
+            <div class="price" style="top:8rem;" >₹91000</div>
+            <button class="btn btn-primary" name="venue3" style=" top: 6rem;">Select</button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -303,7 +311,8 @@ session_start();
               accommodate your guests, serve with awesome, lip-smacking food and yes, you surely look forward to a
               location with a number of facilities.
             </p>
-            <button class="btn btn-primary" name="venue4" style=" top: 6.2rem;">Select</button>
+            <div class="price" style="top:7rem;" >₹94000</div>
+            <button class="btn btn-primary" name="venue4" style=" top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -368,7 +377,8 @@ session_start();
               from the verdure of trees. Delightful cocktail parties with the sunken bar in the pool for the guests, an
               enclosed area connecting three main spaces together. <br><br>
             </p>
-            <button class="btn btn-primary" name="venue5" style=" top: 7.5rem;">Select</button>
+            <div class="price" style="top:8rem;" >₹99000</div>
+            <button class="btn btn-primary" name="venue5" style=" top: 6rem;">Select</button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -437,7 +447,8 @@ session_start();
               another level of desire to this venue as it is situated on the outskirts, away from the noise and bustle
               of the city. The venue has outdoor spaces that can accommodate up to 800 people. They have a flexible
               catering policy. They also provide ample parking space for the guests.</p>
-              <button class="btn btn-primary" name="venue6" style=" top: 8rem;">Select</button>
+              <div class="price" style="top:8rem;" >₹100000</div>
+              <button class="btn btn-primary" name="venue6" style=" top: 6.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -505,7 +516,8 @@ session_start();
               While your stay at hote, your connections to people and places around the corner, and half way around the
               world will be at best. The hotel takes the responsibility of meeting every couple need. The wedding at
               this place will help you to pile memories bit by bit in an organised manner.</p>
-              <button class="btn btn-primary" name="venue7" style=" top: 6rem;">Select</button>
+              <div class="price" style="top:7rem;" >₹89000</div>
+              <button class="btn btn-primary" name="venue7" style=" top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -570,7 +582,8 @@ session_start();
               functions area a successful one, Dhepe Wada offers all the facilities and services which you might require
               to host your perfect wedding and forge happy and everlasting reminiscences with your loved ones. You will
               get a whole set of services and facilities to make your function as a smooth one.</p>
-              <button class="btn btn-primary" name="venue8" style=" top: 7.6rem;">Select</button>
+              <div class="price" style="top:8rem;" >₹120000</div>
+              <button class="btn btn-primary" name="venue8" style=" top: 6rem;">Select</button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -633,7 +646,8 @@ session_start();
               ideal destination for your fairytale wedding. Experience the magic of nature and wedding rituals with
               breathtaking locale. We provide customized packages to make your wedding look like one dreamy affair. Your
               Perfect wedding destination is just a click away!</p>
-              <button class="btn btn-primary" name="venue9" style=" top: 12rem;">Select</button>
+              <div class="price" style="top:12.5rem;" >₹88500</div>
+              <button class="btn btn-primary" name="venue9" style=" top: 11rem;">Select</button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -699,7 +713,8 @@ session_start();
               stay and a pure veg restaurant serving some delicious food, including Jain preparations. It is a venue
               with a serene ambience and spacious interiors that one would need for events of all sizes. This venue is
               perfect for grandly hosting your pre-wedding, wedding, and post-wedding functions.</p>
-              <button class="btn btn-primary" name="venue10" style=" top: 6.2rem;">Select</button>
+              <div class="price" style="top:7rem;" >₹100000</div>
+              <button class="btn btn-primary" name="venue10" style=" top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 10 Back -->

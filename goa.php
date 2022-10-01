@@ -34,6 +34,12 @@ session_start();
 
   .btn{
     position: relative;
+    left:14rem;
+  }
+
+  .price{
+    position:relative;
+    right:15rem;
   }
 </style>
 </head>
@@ -102,7 +108,8 @@ session_start();
               beautiful, hospitable place for tourists and for people, who are looking lovely venue for their wedding
               ceremony.
             </p>
-            <button class="btn btn-primary" name="venue1" style="top: 10.5rem;"> Select </button>           <!-- <a href="#" class="btn btn-primary" style="text-align: center;">Add to cart</a> -->
+            <div class="price" style="top:10.5rem;" >₹80000</div>
+            <button class="btn btn-primary" name="venue1" style="top: 9rem;"> Select </button>           <!-- <a href="#" class="btn btn-primary" style="text-align: center;">Add to cart</a> -->
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -170,7 +177,8 @@ session_start();
               accommodate up to 400 people. They have a flexible catering policy. They also provide ample parking space
               for the guests.
             </p>
-            <button class="btn btn-primary" name="venue2" style="top: 4.8rem;"> Select </button>
+            <div class="price" style="top:5rem;" >₹92000</div>
+            <button class="btn btn-primary" name="venue2" style="top:3rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -234,7 +242,8 @@ session_start();
               Sea. A serene resort, nestled on a secluded cove in Dona Paula. Indulge in the tranquil sensation of this
               quiet retreat, where nature’s supreme beauty creates a mesmerizing backdrop for your sublime relaxation.
             </p>
-             <button class="btn btn-primary" name="venue3" style="top: 10.6rem;"> Select </button>
+            <div class="price" style="top:11rem;" >₹100000</div>
+             <button class="btn btn-primary" name="venue3" style="top: 9rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -300,7 +309,8 @@ session_start();
               everyone. For the celebration area, they offer customized spaces that include one indoor hall, one outdoor
               lawn space, and a poolside space.
             </p>
-            <button class="btn btn-primary" name="venue4" style="top: 7rem;"> Select </button>
+            <div class="price" style="top:7.5rem;" >₹85000</div>
+            <button class="btn btn-primary" name="venue4" style="top: 5.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -366,7 +376,8 @@ session_start();
               space for weddings and corporate events. They also have grand lawns which accommodate upto 750 attendees
               for outdoor weddings.
             </p>
-           <button class="btn btn-primary" name="venue5" style="top: 4rem;"> Select </button>
+            <div class="price" style="top:5rem;" >₹98000</div>
+           <button class="btn btn-primary" name="venue5" style="top: 3rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -436,7 +447,8 @@ session_start();
               Fort, and wave back to the tide as it works its way across the Arabian Sea to joyfully greet the Sinquerim
               beach below.
             </p>
-           <button class="btn btn-primary" name="venue6" style="top: 5.3rem;"> Select </button>
+            <div class="price" style="top:6rem;" >₹120000</div>
+           <button class="btn btn-primary" name="venue6" style="top: 4rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -507,7 +519,8 @@ session_start();
               processions of caparisoned Elephants & Entertainment by Folk dancers, Musicians, Shehnai Vadan, Fire
               Performers, Dhol Wales and much more.
             </p>
-           <button class="btn btn-primary" name="venue7" style="top: 5.7rem;"> Select </button>
+            <div class="price" style="top:6rem;" >₹130000</div>
+           <button class="btn btn-primary" name="venue7" style="top: 4.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -574,7 +587,8 @@ session_start();
               Redwood Resorts can be the perfect location. Redwood resorts has illustrious impeccable décors, elite
               services, unrivaled array of amenities and striking venues, at economical prices.
             </p>
-           <button class="btn btn-primary" name="venue8" style="top: 6.2rem;"> Select </button>
+            <div class="price" style="top:6.5rem;" >₹99000</div>
+           <button class="btn btn-primary" name="venue8" style="top: 5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -644,7 +658,8 @@ session_start();
               level of desire to this venue as it is situated on the outskirts, away from the noise and bustle of the
               city.
             </p>
-            <button class="btn btn-primary" name="venue9" style="top: 4.7rem;"> Select </button>
+            <div class="price" style="top:5rem;" >₹100000</div>
+            <button class="btn btn-primary" name="venue9" style="top: 3rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -710,7 +725,8 @@ session_start();
               excellent services and value attract the clients to book this venue for their big day and important
               events. This sought after venue is sure to make your event memorable and give you memories to last a
               lifetime.</p>
-            <button class="btn btn-primary" name="venue10" style="top: 7.8rem;"> Select </button>
+              <div class="price" style="top:7.8rem;" >₹110000</div>
+            <button class="btn btn-primary" name="venue10" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 10 Back -->

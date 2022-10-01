@@ -32,6 +32,15 @@ session_start();
   .back{
     margin-left: -130px;
   }
+ .btn{
+  position: relative;
+  left:14rem;
+}
+
+ .price{
+    position:relative;
+    right:15rem;
+}
 
 </style>
 </head>
@@ -98,7 +107,8 @@ session_start();
               of Trident Cochin provide you with complete hospitality and banqueting facilities in order to offer you
               with a great wedding venture or any other event that you and your guests will enjoy.
             </p>
-            <button class="btn btn-primary" name="venue1">Select</button>
+            <div class="price" style="top:11rem;" >₹320000</div>
+            <button class="btn btn-primary" name="venue1" style="top: 9rem;">Select</button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -164,7 +174,8 @@ session_start();
               innovative banquet halls in Kolkata for marriage.
 
             </p>
-            <button class="btn btn-primary" name="venue2">Select</button>
+            <div class="price" style="top:10rem;" >₹350000</div>
+            <button class="btn btn-primary" name="venue2" style="top: 8rem;">Select</button>
            
           </div>
         </div>
@@ -231,7 +242,8 @@ session_start();
               to plan a wonderful celebration. They will ensure to make your wedding an event which is worth remembering
               a lifetime.
             </p>
-            <button class="btn btn-primary" name="venue3">Select</button>
+            <div class="price" style="top:7rem;" >₹250000</div>
+            <button class="btn btn-primary" name="venue3" style="top: 5rem;">Select</button>
            
           </div>
         </div>
@@ -296,7 +308,8 @@ session_start();
               cuisine. Southern Panorama Indriya Resorts & Spa has that distinctly warm Indian hospitality that makes
               you feel at home and the team put efforts to create value for money.
             </p>
-            <button class="btn btn-primary" name="venue4">Select</button>
+            <div class="price" style="top:7rem;" >₹180000</div>
+            <button class="btn btn-primary" name="venue4" style="top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -361,7 +374,8 @@ session_start();
               their guests carry fond memories from the event. Pleasant and opulent against a scenic background will
               nourish all your senses, and the wedding functions can be performed with delight and zeal.
             </p>
-            <button class="btn btn-primary" name="venue5">Select</button>
+            <div class="price" style="top:7rem;" >₹135000</div>
+            <button class="btn btn-primary" name="venue5" style="top: 5rem;">Select</button>
             
           </div>
         </div>
@@ -427,7 +441,8 @@ session_start();
               with a stunning ambience to plan a wonderful celebration. They will ensure to make your wedding an event
               which is worth remembering a lifetime.
             </p>
-            <button class="btn btn-primary" name="venue6">Select</button>
+            <div class="price" style="top:13rem;" >₹125000</div>
+            <button class="btn btn-primary" name="venue6" style="top: 11rem;">Select</button>
            
           </div>
         </div>
@@ -497,7 +512,8 @@ session_start();
               is tastefully engaging the faculties, Vasco Da Gama Beach Resort is fit for making astonishing courses of
               action for your wedding.
             </p>
-            <button class="btn btn-primary" name="venue7">Select</button>
+            <div class="price" style="top:7rem;" >₹98000</div>
+            <button class="btn btn-primary" name="venue7" style="top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -563,7 +579,8 @@ session_start();
               tranquillity. It is a perfect location for a magnificent wedding, blessed by serene ambience and
               traditional, mesmerising settings.
             </p>
-           <button class="btn btn-primary" name="venue8">Select</button>
+            <div class="price" style="top:10rem;" >₹150000</div>
+            <button class="btn btn-primary" name="venue8" style="top: 8rem;">Select</button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -631,7 +648,8 @@ session_start();
               guidance and help then you can choose them. They additionally offer a lot of other services to make your
               function a deep one.
             </p>
-           <button class="btn btn-primary" name="venue9">Select</button>
+            <div class="price" style="top:7rem;" >₹180000</div>
+            <button class="btn btn-primary" name="venue9" style="top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -698,7 +716,8 @@ session_start();
               of your wedding rituals and ceremonies. Arrange the most beautiful event for you and your guests in this
               space. Get ready for a dreamy wedding amongst the beautiful scenarios of Idukki.
             </p>
-            <button class="btn btn-primary" name="venue10">Select</button>
+            <div class="price" style="top:7rem;" >₹200000</div>
+            <button class="btn btn-primary" name="venue10" style="top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 10 Back -->
