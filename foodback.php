@@ -24,14 +24,14 @@ if(isset($_POST["submit"])){
         $_SESSION["food"]=$food;
         
         //check if valus passed to session variable 
-         foreach($_SESSION["food"] as $val )
-         {
-             echo $val."<br>".gettype($val);
-         }
+        //  foreach($_SESSION["food"] as $val )
+        //  {
+        //      echo $val."<br>".gettype($val);
+        //  }
     
         //head to next page
     
-        //header("Location:photography.php");
+        header("Location:photography.php");
     }
 
 
