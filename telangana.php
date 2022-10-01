@@ -34,6 +34,12 @@ session_start();
 
   .btn{
     position: relative;
+    left: 14rem;
+  }
+
+  .price{
+    position: relative;
+    right: 15rem;
   }
 </style>
 </head>
@@ -91,7 +97,8 @@ session_start();
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Taj Falaknuma Palace is one of the most opulent heritage hotels in India, where you can host wedding and pre-wedding ceremonies. This heritage hotel is also a popular spot for hosting destination weddings in India. At Taj Falaknuma Palace you can choose to hold ceremonies for your wedding at the indoor or outdoor venues depending on your preference. The hotel also provides you with options ranging from splendid lawns, magnificent Rajasthani Gardens, a lavish Durbar Hall to the iconic Coronation Hall to host the wedding celebrations. Each of these venues at Taj Falaknuma Palace has a different seating capacity, ranging from a minimum of 60 guests to a maximum of 15000 guests.</p>
-            <button class="btn btn-primary" name="venue1" style="top: 4.5rem;">Select</button>
+            <div class="price" style="top: 5.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue1" style="top: 3.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -155,7 +162,8 @@ session_start();
               Non-vegetarian: Approximately ₹1100 onwards
               
               </p>
-            <button class="btn btn-primary" name="venue2" style="top: 6rem;">Select</button>
+              <div class="price" style="top: 7rem;">$500</div>
+            <button class="btn btn-primary" name="venue2" style="top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -218,7 +226,8 @@ session_start();
               Vegetarian: Approximately ₹900 onwards
               Non-vegetarian: Approximately ₹1200 onwards
               </p>
-            <button class="btn btn-primary" name="venue3" style="top: 6rem;">Select</button>
+              <div class="price" style="top: 7rem;">$500</div>
+            <button class="btn btn-primary" name="venue3" style="top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -278,7 +287,8 @@ session_start();
               Veg:Approximately ₹2500 onwards
               Non-veg:Approximately ₹3000 onwards
               </p>
-            <button class="btn btn-primary" name="venue4" style="top: 4.5rem;">Select</button>
+              <div class="price" style="top: 5.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue4" style="top: 3.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -340,7 +350,8 @@ session_start();
               Non-veg:Approximately ₹1500 onwards
                
               </p>
-            <button class="btn btn-primary" name="venue5" style="top: 4.5rem;">Select</button>
+              <div class="price" style="top: 5.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue5" style="top: 3.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -405,7 +416,8 @@ session_start();
               Non-veg: Approximately ₹2000 onwards
               
               </p>
-           <button class="btn btn-primary" name="venue6" style="top: 7.5rem;">Select</button>
+              <div class="price" style="top: 8.5rem;">$500</div>
+           <button class="btn btn-primary" name="venue6" style="top: 6.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -471,7 +483,8 @@ session_start();
               Non-veg: Approximately ₹800 onwards
               
               </p>
-            <button class="btn btn-primary" name="venue7" style="top: 4.5rem;">Select</button>
+              <div class="price" style="top: 5.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue7" style="top: 3.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -535,7 +548,8 @@ session_start();
               Veg: Approximately ₹300 onwards
               
               </p>
-            <button class="btn btn-primary" name="venue8" style="top: 4.5rem;">Select</button>
+              <div class="price" style="top: 5.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue8" style="top: 3.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -600,7 +614,8 @@ session_start();
               Veg: Approximately ₹350 onwards
               Non-veg: Approximately ₹450 onwards
               </p>
-            <button class="btn btn-primary" name="venue9" style="top: 4.5rem;">Select</button>
+              <div class="price" style="top: 5.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue9" style="top: 3.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -666,7 +681,8 @@ session_start();
               Non-veg: Approximately ₹750 onwards
               
               </p>
-            <button class="btn btn-primary" name="venue10" style="top: 4.5rem;">Select</button>
+              <div class="price" style="top: 5.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue10" style="top: 3.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 10 Back -->

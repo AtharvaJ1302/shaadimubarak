@@ -34,6 +34,12 @@ session_start();
 
   .btn{
     position: relative;
+    left: 14rem;
+  }
+
+  .price{
+    position: relative;
+    right: 15rem;
   }
 </style>
 </head>
@@ -95,7 +101,8 @@ session_start();
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">This is one of the largest banquet halls in the city with a 200 ft x 130 ft AC hall that matches the grandeur and grace of the Roman. They also have a spacious 200 ft x 130 ft lawn outside with the beautifully lit cascading fountain that will add more charisma to the decor. The types of cuisines on the offer are Mughlai, Avadhi, Punjabi Frontier, Marwari, Kashmiri, Hyderabadi, Chinese, Thai, Mexican, Lebanese, Italian, Mediterranean, and more.</p>
-            <button class="btn btn-primary" name="venue1" style="top: 9rem;">Select</button>
+            <div class="price" style="top: 10rem;">$500</div>
+            <button class="btn btn-primary" name="venue1" style="top: 8rem;">Select</button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -154,7 +161,8 @@ session_start();
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">As the name suggests, Grand Wedding Villa in Ludhiana is one of the prime choices for hosting a wedding in Punjab. This famous hotel is designed to host functions like wedding, ring ceremony and reception with large gatherings. The fully air-conditioned banquet hall can easily accommodate hundreds of guests. The villa has furnished rooms, kitchens along with a reception hall, and a marvelous lobby. The hotel has trained chefs that serve finger-licking cuisine to their guests.</p>
-            <button class="btn btn-primary" name="venue2" style="top: 9rem;">Select</button>
+            <div class="price" style="top: 10rem;">$500</div>
+            <button class="btn btn-primary" name="venue2" style="top: 8rem;">Select</button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -213,7 +221,8 @@ session_start();
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Bath Castle is one of the top wedding venues in Punjab. You will feel like you have reached your dream destination with the entrance that highlights beautiful fountains and a grand castle structure. It is spread over 7 acres of luxurious land with an impressive exterior as well as grandiose interior and a hall spread over 22,000 sq ft. that feels like you have entered a Mughal Fort with a modern touch. They provide you in-house catering, experienced & well-groomed staff & huge parking space.</p>
-            <button class="btn btn-primary" name="venue3" style="top: 9rem;">Select</button>
+            <div class="price" style="top: 10rem;">$500</div>
+            <button class="btn btn-primary" name="venue3" style="top: 8rem;">Select</button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -270,7 +279,8 @@ session_start();
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Located at the heart of the tri-city of Chandigarh, it is easily accessible from the other two key areas, Mohali and Panchkula, and 16 kilometers away from the Chandigarh International Airport and 4 kilometers from the Chandigarh Railway Station. The 5-star hotel wows you with its spacious and luxurious spaces, the fascinating interiors of which is inspired by French architect Le Corbusier with a brise-soleil façadeour hotel with rooms of area 36 to 200 square meters. They offer you Creative menus, imaginative settings, beautifully designed wedding locations, and professional wedding services.</p>
-            <button class="btn btn-primary" name="venue4" style="top: 6rem;">Select</button>
+            <div class="price" style="top: 7rem;">$500</div>
+            <button class="btn btn-primary" name="venue4" style="top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -328,7 +338,8 @@ session_start();
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Their splendor Ballroom having a space of 8,407 sq ft. glows with radiance and is a perfect venue for your fairy tale wedding. With lush green lawns, that can accommodate up to 1,000 guests and situated in the city’s business district, the hotel greets you with refined luxury and a modern sense of style. Their wedding planners will make sure that you get the best day of your life with the delicious wedding menu and wedding hosts.</p>
-            <button class="btn btn-primary" name="venue5" style="top: 10.5rem;">Select</button>
+            <div class="price" style="top: 11.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue5" style="top: 9.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -388,7 +399,8 @@ session_start();
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Vivanta by Taj is one of the top wedding venues in Punjab.They offer you a couple of marvelous and lush spaces for your wedding to choose from. The ballroom I with an area of 1664.00 sq. ft. has also an additional pre-function space, ballroom II has the area of 2808.00 sq. ft. with grand green lawns attached to its side. The Capitol venue has a space of 552.75 sq. ft. and The Ballroom Annexe is ideal for your small intimate ceremonies. The best part is that they have an extravagant terrace lawn so you can get married under the blanket of stars.</p>
-            <button class="btn btn-primary" name="venue6" style="top: 7.5rem;">Select</button>
+            <div class="price" style="top: 8.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue6" style="top: 6.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -449,7 +461,8 @@ session_start();
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">What could be better than having your wedding venue next to the Golden Temple? The hotel is just 30 minutes from the Guru Ram Das International Airport and holds the largest rooms inventory with 248 elegant guestrooms including 10 suites and a Presidential Suite. Their indoor banqueting with over 11647 sq ft space has the most elegant interiors and the mesmerizing outdoor venue Tented gardens can hold a grand wedding. They have a team of world-class wedding specialists to make your wedding just like how you want.</p>
-            <button class="btn btn-primary" name="venue7" style="top: 7.5rem;">Select</button>
+            <div class="price" style="top: 8rem;">$500</div>
+            <button class="btn btn-primary" name="venue7" style="top: 6rem;">Select</button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -509,7 +522,8 @@ session_start();
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">A five-star wedding venue in Punjab, Kingsville Resorts is known for providing premium facilities to their guests. The resort is surrounded with lush green lawn which can be a great option for hosting mehendi or haldi ceremony. The resort consists of fully air-conditioned hall, parking lot and a marriage hall. Kingsville Resort aims at providing with the best of their services. When it comes to cuisine, they offer options including Indian, Chinese, Continental, Italian, Mexican, Mangolian and so much more. The staff take pleasure in serving your guest with the best of everything</p>
-            <button class="btn btn-primary" name="venue8" style="top: 7.5rem;">Select</button>
+            <div class="price" style="top: 8.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue8" style="top: 6rem;">Select</button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -569,7 +583,8 @@ session_start();
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">MarrieVilla Resorts, Ferozepur, Ludhiana is a gorgeous venue to celebrate the victory of your love with your better half. This venue is located on Ferozepur Road near the Pandori Play Ground which makes it convenient for all to reach there by either private and public transportation modes. MarrieVilla Resorts Ludhiana know that when it comes to weddings, you expect nothing but perfection. Therefore, It has a sprawling lawn and multiple banquet halls of contrasting sizes to take care of all your requirements. The lawn at Grand MarrieVilla Resorts is simply spectacular and can hold a huge crowd of guests, so you don't need to worry about shortening the guest list.</p>
-            <button class="btn btn-primary" name="venue9" style="top: 4.5rem;">Select</button>
+            <div class="price" style="top: 5.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue9" style="top: 3rem;">Select</button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -629,7 +644,8 @@ session_start();
           </div>
           <div class="card-block">
             <p class="card-text" style="text-align: center;">BR Resorts, Amritsar is a farmhouse located on the Chheharta Bypass of the city. When you plan a lifetime event, like your wedding, you need to be considerate of a lot of things and choosing the venue is one of the main things to organise the perfect wedding. If you are looking for one such venue which can fulfil all your needs for the functions, then BR Resorts, Amritsar is the one-stop destination for you. Offering a plethora of services and amenities, this venue makes for an exemplary choice for any of your nuptial ceremonies.</p>
-            <button class="btn btn-primary" name="venue10" style="top: 7.5rem;">Select</button>
+            <div class="price" style="top: 8.5rem;">$500</div>
+            <button class="btn btn-primary" name="venue10" style="top: 6rem;">Select</button>
           </div>
         </div>
         <!-- End Card 10 Back -->
