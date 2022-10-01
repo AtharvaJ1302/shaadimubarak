@@ -30,7 +30,10 @@ session_start();
 
    <h2 class="title"> FOOD MENU</h2>
    <h3 class="title"> APPETIZERS</h3>
-
+   <div class="text-center mb-7">
+      <button name="submit" class="submit-btn">
+         <h1>Submit</h1>
+      </button>
    
    <!---->
    <div class="products-container">
@@ -467,7 +470,7 @@ session_start();
       <div class="price">₹200</div>
       
       <div class="form-check text-center">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="1" id="flexCheckDefault" name="food[]">
    </div>
 
 </div>   
@@ -488,7 +491,7 @@ session_start();
       <div class="price">₹180</div>
       <div class="form-check text-center">
          
-         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+         <input class="form-check-input" type="checkbox" value="2" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -508,7 +511,7 @@ session_start();
       <div class="price">₹170</div>
       <div class="form-check text-center">
          
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <input class="form-check-input" type="checkbox" value="3" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -528,7 +531,7 @@ session_start();
       <div class="price">₹165</div>
       <div class="form-check text-center">
          
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <input class="form-check-input" type="checkbox" value="4" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -548,7 +551,7 @@ session_start();
       <div class="price">₹165</div>
       <div class="form-check text-center">
          
-         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+         <input class="form-check-input" type="checkbox" value="5" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -568,7 +571,7 @@ session_start();
       <div class="price">₹195</div>
       <div class="form-check text-center">
          
-         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+         <input class="form-check-input" type="checkbox" value="6" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -588,7 +591,7 @@ session_start();
       <div class="price">₹180</div>
       <div class="form-check text-center">
          
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <input class="form-check-input" type="checkbox" value="7" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -608,7 +611,7 @@ session_start();
       <div class="price">₹180</div>
       <div class="form-check text-center">
          
-         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+         <input class="form-check-input" type="checkbox" value="8" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -628,7 +631,7 @@ session_start();
       <div class="price">₹175</div>
       <div class="form-check text-center">
          
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <input class="form-check-input" type="checkbox" value="9" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -649,7 +652,7 @@ session_start();
     <div class="price">₹170</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="10" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -670,7 +673,7 @@ session_start();
     <div class="price">₹180</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="11" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -691,7 +694,7 @@ session_start();
    <div class="price">₹210</div>
    <div class="form-check text-center">
       
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="12" id="flexCheckDefault" name="food[]">
    </div>
 </div>
 
@@ -712,7 +715,7 @@ session_start();
    <div class="price">₹165</div>
    <div class="form-check text-center">
       
-     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+     <input class="form-check-input" type="checkbox" value="13" id="flexCheckDefault" name="food[]">
    </div>
 </div>
 
@@ -733,7 +736,7 @@ session_start();
       <div class="price">₹160</div>
       <div class="form-check text-center">
          
-         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+         <input class="form-check-input" type="checkbox" value="14" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -754,7 +757,7 @@ session_start();
       <div class="price">₹170</div>
       <div class="form-check text-center">
          
-         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+         <input class="form-check-input" type="checkbox" value="15" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -775,7 +778,7 @@ session_start();
       <div class="price">₹180</div>
       <div class="form-check text-center">
          
-         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+         <input class="form-check-input" type="checkbox" value="16" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -796,7 +799,7 @@ session_start();
       <div class="price">₹200</div>
       <div class="form-check text-center">
          
-         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+         <input class="form-check-input" type="checkbox" value="17" id="flexCheckDefault" name="food[]">
       </div>
 </div>
 
@@ -816,7 +819,7 @@ session_start();
     <div class="price">₹210</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="18" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -836,7 +839,7 @@ session_start();
     <div class="price">₹200</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="19" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -857,7 +860,7 @@ session_start();
     <div class="price">₹220</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="20" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -877,7 +880,7 @@ session_start();
     <div class="price">₹180</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="21" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -898,7 +901,7 @@ session_start();
     <div class="price">₹190</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="22" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -919,7 +922,7 @@ session_start();
     <div class="price">₹190</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="23" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -940,7 +943,7 @@ session_start();
     <div class="price">₹185</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="24" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -960,7 +963,7 @@ session_start();
     <div class="price">₹180</div>
     <div class="form-check text-center">
        
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="25" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -980,7 +983,7 @@ session_start();
     <div class="price">₹175</div>
     <div class="form-check text-center">
        
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="26" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1000,7 +1003,7 @@ session_start();
    <div class="price">₹200</div>
    <div class="form-check text-center">
       
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="27" id="flexCheckDefault" name="food[]">
    </div>
 </div>
 
@@ -1020,7 +1023,7 @@ session_start();
    <div class="price">₹210</div>
    <div class="form-check text-center">
       
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="28" id="flexCheckDefault" name="food[]">
    </div>
 </div>
 
@@ -1040,7 +1043,7 @@ session_start();
    <div class="price">₹200</div>
    <div class="form-check text-center">
       
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="29" id="flexCheckDefault" name="food[]">
    </div>
 </div>
 
@@ -1060,7 +1063,7 @@ session_start();
    <div class="price">₹220</div>
    <div class="form-check text-center">
       
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="30" id="flexCheckDefault" name="food[]">
    </div>
 </div>
 
@@ -1079,7 +1082,7 @@ session_start();
     <div class="price">₹25</div>
     <div class="form-check text-center">
        
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="31" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1098,7 +1101,7 @@ session_start();
     <div class="price">₹30</div>
     <div class="form-check text-center">
        
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="32" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1117,7 +1120,7 @@ session_start();
     <div class="price">₹25</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="33" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1136,7 +1139,7 @@ session_start();
     <div class="price">₹30</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="34" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1156,7 +1159,7 @@ session_start();
     <div class="price">₹35</div>
     <div class="form-check text-center">
        
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="35" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1176,7 +1179,7 @@ session_start();
     <div class="price">₹20</div>
     <div class="form-check text-center">
        
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="36" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1196,7 +1199,7 @@ session_start();
     <div class="price">₹140</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="37" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1216,7 +1219,7 @@ session_start();
     <div class="price">₹170</div>
     <div class="form-check text-center">
        
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+      <input class="form-check-input" type="checkbox" value="38" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1236,7 +1239,7 @@ session_start();
     <div class="price">₹180</div>
     <div class="form-check text-center">
        
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="39" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1256,7 +1259,7 @@ session_start();
     <div class="price">₹185</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="40" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1276,7 +1279,7 @@ session_start();
    <div class="price">₹200</div>
    <div class="form-check text-center">
       
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="41" id="flexCheckDefault" name="food[]">
    </div>
 </div>
 
@@ -1296,7 +1299,7 @@ session_start();
    <div class="price">₹240</div>
    <div class="form-check text-center">
       
-     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+     <input class="form-check-input" type="checkbox" value="42" id="flexCheckDefault" name="food[]">
    
    </div>
 </div>
@@ -1317,7 +1320,7 @@ session_start();
     <div class="price">₹280</div>
       <div class="form-check text-center">
       
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="43" id="flexCheckDefault" name="food[]">
       
       </div>
 </div>
@@ -1338,7 +1341,7 @@ session_start();
     <div class="price">₹120</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="44" id="flexCheckDefault" name="food[]">
    
    </div>
 </div>
@@ -1359,7 +1362,7 @@ session_start();
     <div class="price">₹130</div>
     <div class="form-check text-center">
        
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="45" id="flexCheckDefault" name="food[]">
    </div>
 </div>
 
@@ -1379,7 +1382,7 @@ session_start();
     <div class="price">₹125</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="46" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1399,7 +1402,7 @@ session_start();
     <div class="price">₹80</div>
     <div class="form-check text-center">
        
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="47" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1419,7 +1422,7 @@ session_start();
     <div class="price">₹90</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="48" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1439,7 +1442,7 @@ session_start();
     <div class="price">₹90</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="49" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1459,7 +1462,7 @@ session_start();
     <div class="price">₹100</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="50" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1479,7 +1482,7 @@ session_start();
     <div class="price">₹110</div>
     <div class="form-check text-center">
        
-       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+       <input class="form-check-input" type="checkbox" value="51" id="flexCheckDefault" name="food[]">
     </div>
 </div>
 
@@ -1499,7 +1502,7 @@ session_start();
     <div class="price">₹140</div>
     </form>
     <div class="form-check">
-   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"> 
+   <input class="form-check-input" type="checkbox" value="52" id="flexCheckChecked" name="food[]"> 
 </div>
 
 </div>
@@ -1518,13 +1521,12 @@ session_start();
     </div>
     <p>Cake genoise layered sandwich with vanilla,strawberry and pistachio ice cream</p>
     <div class="price">₹135</div>
-   
+    <div class="form-check">
+   <input class="form-check-input" type="checkbox" value="53" id="flexCheckChecked" name="food[]"> 
 </div>
 </div>
-      <div class="text-center mb-7">
-      <button class="submit-btn">
-         <h1>Submit</h1>
-      </button>
+</div>
+      
 </div>
 </div>
 
