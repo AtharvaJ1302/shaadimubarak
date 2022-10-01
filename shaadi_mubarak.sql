@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 29, 2022 at 02:45 PM
+-- Generation Time: Oct 01, 2022 at 12:44 PM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -142,6 +142,35 @@ INSERT INTO `state` (`state_id`, `state_name`) VALUES
 (8, 'gujarat'),
 (9, 'telangana'),
 (10, 'rajasthan');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `transaction`
+--
+
+DROP TABLE IF EXISTS `transaction`;
+CREATE TABLE IF NOT EXISTS `transaction` (
+  `receipt_id` varchar(200) NOT NULL,
+  `venue_name` varchar(200) NOT NULL,
+  `venue_price` int(100) NOT NULL,
+  `light_name` varchar(200) NOT NULL,
+  `light_price` int(100) NOT NULL,
+  `photo_name` varchar(200) NOT NULL,
+  `photo_price` int(100) NOT NULL,
+  `food_total` int(100) NOT NULL,
+  `id_user` int(10) NOT NULL,
+  PRIMARY KEY (`receipt_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `transaction`
+--
+
+INSERT INTO `transaction` (`receipt_id`, `venue_name`, `venue_price`, `light_name`, `light_price`, `photo_name`, `photo_price`, `food_total`, `id_user`) VALUES
+('121664628211', 'The Wedding University', 1, 'Dj Ganesh', 1, 'Banga Studio', 1, 1060, 12),
+('111664628130', 'Maple Farm', 1, 'Royal Djs', 1, 'Technovision', 1, 975, 11),
+('141664627842', 'Hyatt Regency', 1, 'Absolut Lime', 1, 'Parak Studio', 1, 625, 14);
 
 -- --------------------------------------------------------
 

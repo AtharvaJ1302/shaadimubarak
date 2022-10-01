@@ -19,7 +19,7 @@ if(isset($_POST["signin"])){
 	if($cnt == 1){
 		$row=mysqli_fetch_array($result, MYSQLI_ASSOC);	
 		$_SESSION["myname"] = $row["name"];
-		//$_SESSION["logged"] = "TRUE";
+		$_SESSION["user_id"] = $row["id"];
 		header("Location: index.php");
 	} else {
 		echo "Username and or password incorrect. Check again";
