@@ -43,7 +43,7 @@
                 </li>
               -->
                 <li>
-                  <a class="nav-link" href="gallery.html" >GALLERY</a>
+                  <a class="nav-link" href="./gallery.php" >GALLERY</a>
                 </li>
               </ul>
               <!-- /.navbar-nav -->

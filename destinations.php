@@ -19,7 +19,9 @@ session_start();
 <script src="https://kit.fontawesome.com/ed6a667071.js" crossorigin="anonymous"></script>
 
 <!--CSS stylesheet-->
-<link rel="stylesheet" href="./assets/css/destinations.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="./destinations.css">
+
 
 <!--Jquuery cdn-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
@@ -30,45 +32,38 @@ session_start();
 
 
     body{
-        background-image: url("./assets/img/pink\ bg.jpeg");
+        background-color: orange;
     }
 
-    .state1{
-     background-image: url(./assets/img/maharashtra.jpg);
-     object-fit: cover;
+   .state1{
+   background-color: red;
    }
-
    .state2{
-    background: url(./assets/img/goa.jpg);
+   background-color: red;
    }
    .state3{
-    background: url(./assets/img/j\ &\ k.jpg); 
+   background-color: red;
    }
    .state4{
-    background: url(./assets/img/delhi.jpg); 
-    background-repeat: no-repeat;
-    background-size:100% 100%;
+   background-color: red;
    }
    .state5{
-    background: url(./assets/img/kerala.jpg); 
+   background-color: red;
    }
    .state6{
-    background: url(./assets/img/west\ bengal.jpg); 
+   background-color: red;
    }
    .state7{
-    background: url(./assets/img/punjab.jpg); 
-    
+   background-color: red;
    }
    .state8{
-    background: url(./assets/img/gujarat.jpg); 
+   background-color: red;
    }
    .state9{
-    background: url(./assets/img/telangana.jpg); 
+   background-color: red;
    }
    .state10{
-    background: url(./assets/img/rajasthan.jpg); 
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+   background-color: red;
    }
 
 .state h1{
@@ -85,7 +80,7 @@ session_start();
 <?php include("./header.php"); ?>
 
     <section id="heading" >
-        <h2>Destinations</h2>
+        <h2 style="position: relative; top: 60%;color: #000;">Destinations</h2>
     </section>
  
     <div class="container">

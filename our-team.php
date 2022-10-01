@@ -18,12 +18,17 @@ session_start();
     <script src="https://kit.fontawesome.com/ed6a667071.js" crossorigin="anonymous"></script>
 
     <!--CSS-->
-    <link rel="stylesheet" href="./about-us.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/about-us.css">
+
+<style>
+
+</style>
 
 </head>
-
-<body>
 <?php include("./header.php"); ?>
+<body>
+
 
     <!-- new our team-->
 <section class="team-section">
@@ -40,7 +45,7 @@ session_start();
                       <img src="./assets/img/team-1.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
-                               <h5>Sarita Sharma</h5>
+                               <h5>Aditi Palkar</h5>
                                <p>Designer</p>
                                <div class="social-links">
                                    <a href=""><span class="fa fa-facebook"></span></a>
@@ -55,7 +60,7 @@ session_start();
                       <img src="./assets/img/team-2.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
-                               <h5>Sonu Gupta</h5>
+                               <h5>Komal Shrimal</h5>
                                <p>Designer</p>
                                <div class="social-links">
                                    <a href=""><span class="fa fa-facebook"></span></a>
@@ -70,7 +75,7 @@ session_start();
                       <img src="./assets/img/team-3.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
-                               <h5>Chahar Singh</h5>
+                               <h5>Sakshie Chikorde</h5>
                                <p>Designer</p>
                                <div class="social-links">
                                    <a href=""><span class="fa fa-facebook"></span></a>
@@ -85,7 +90,7 @@ session_start();
                       <img src="./assets/img/team-4.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
-                               <h5>Soshiv Upreti</h5>
+                               <h5>Huzaifa Faize</h5>
                                <p>Designer</p>
                                <div class="social-links">
                                    <a href=""><span class="fa fa-facebook"></span></a>
@@ -100,7 +105,7 @@ session_start();
                       <img src="./assets/img/team-4.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
-                               <h5>Soshiv Upreti</h5>
+                               <h5>Eeshan Vaidya</h5>
                                <p>Designer</p>
                                <div class="social-links">
                                    <a href=""><span class="fa fa-facebook"></span></a>
@@ -115,7 +120,7 @@ session_start();
                       <img src="./assets/img/team-4.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
-                               <h5>Soshiv Upreti</h5>
+                               <h5>Atharva Joshi</h5>
                                <p>Designer</p>
                                <div class="social-links">
                                    <a href=""><span class="fa fa-facebook"></span></a>
@@ -130,7 +135,7 @@ session_start();
                       <img src="./assets/img/team-4.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
-                               <h5>Soshiv Upreti</h5>
+                               <h5>Atharva Karkar</h5>
                                <p>Designer</p>
                                <div class="social-links">
                                    <a href=""><span class="fa fa-facebook"></span></a>

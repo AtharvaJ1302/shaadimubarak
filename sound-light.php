@@ -26,6 +26,7 @@ session_start();
     crossorigin="anonymous"></script>
 
 
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/states.css">
 
 </head>
@@ -167,13 +168,13 @@ session_start();
           <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./sound and lights/dj ganesh/img1.jpeg" class="d-block w-100" alt="...">
+                <img src="./sound and lights/dj ganesh/img1.jpeg" class="d-block w-100" alt="..."height="452px" width="680px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/dj ganesh/img2.jpeg" class="d-block w-100" alt="...">
+                <img src="./sound and lights/dj ganesh/img2.jpeg" class="d-block w-100" alt="..."height="452px" width="680px">
               </div>
               <div class="carousel-item">
-                <img src="./sound and lights/dj ganesh/img3.jpeg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="./sound and lights/dj ganesh/img3.jpeg" class="d-block w-100" alt="..." height="452px" width="680px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"

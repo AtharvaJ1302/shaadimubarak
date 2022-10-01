@@ -25,8 +25,9 @@ session_start();
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
 
-
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/states.css">
+
   <style>
   .back{
     margin-left: -130px;
@@ -40,6 +41,10 @@ session_start();
   .price{
     position:relative;
     right:15rem;
+  }
+
+  .front{
+    height: 25rem;
   }
 </style>
 </head>

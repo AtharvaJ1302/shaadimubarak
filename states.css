@@ -4,10 +4,10 @@
 }
 
 body {
-  background-color: #eeff06!important;
+  background-color: #eeff06;
 }
 
-.card-state {
+.card {
   margin: 10px 10px;
 }
 
@@ -16,7 +16,7 @@ input[type='checkbox'] {
 }
 
 /* Flip Cards CSS */
-.card-container-state {
+.card-container {
   perspective: 700px;
   margin-right: 80px;
 }

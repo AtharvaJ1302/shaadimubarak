@@ -26,6 +26,7 @@ session_start();
     crossorigin="anonymous"></script>
 
 
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/states.css">
   <style>
   .back{
@@ -42,6 +43,9 @@ session_start();
   right: 14rem;
 }
 
+.front{
+  height: 25rem;
+}
 </style>
 </head>
 

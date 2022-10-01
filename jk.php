@@ -26,6 +26,7 @@ include("session_check.php")
     crossorigin="anonymous"></script>
 
 
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/states.css">
   <style>
   .back{
@@ -40,6 +41,10 @@ include("session_check.php")
   .price{
     position:relative;
     right:15rem;
+}
+
+.front{
+  height: 25rem;
 }
 </style>
 </head>

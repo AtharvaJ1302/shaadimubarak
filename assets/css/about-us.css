@@ -1,5 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Hammersmith+One&family=Kaushan+Script&family=Oleo+Script+Swash+Caps&family=Oswald&family=Unna&display=swap');
 /*new our team*/
+.font-unna{
+	font-family: "Unna", cursive;
+}
+
 
 body{
 	margin:0;
@@ -10,7 +14,7 @@ body{
 }
 
 .team-section{
-	background-color:#036158;
+	background-color:#911c56;
 	min-height: 188vh;
 	padding:70px 15px 30px;
 }
@@ -71,7 +75,7 @@ body{
 	padding:0 15px;
 }
 .team-section .team-items .item .inner .info{
-	background-color:#009688;
+	background-color:#000;
 	text-align: center;
 	padding: 20px 15px;
 	border-radius:8px;

@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-include("session_check.php")
+//include("session_check.php")
 ?>
 
 <!DOCTYPE html>
@@ -8,6 +8,7 @@ include("session_check.php")
 <head>
 	<title></title>
   <?php include("./head.php"); ?>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/gallery.css">
   
 </head>
