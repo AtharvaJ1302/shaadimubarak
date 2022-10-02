@@ -20,7 +20,7 @@
                 </li>
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">US</a>
                   <ul class="dropdown-menu">
-                    <li class="nav-item"><a class="dropdown-item" href="#">About Us</a></li>
+          
                       <li class="nav-item"><a class="dropdown-item" href="./our-team.php">Our Team</a>
                       </li>
                     <li class="nav-item"><a class="dropdown-item" href="./contact-us.php">Contact Us</a></li>

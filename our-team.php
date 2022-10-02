@@ -55,13 +55,13 @@ color: #000;
          <div class="row">
              <div class="section-title">
                  <h1>Our Team</h1>
-                 <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+                 <p></p>
              </div>
          </div>
          <div class="row">
              <div class="team-items">
                   <div class="item">
-                      <img src="./assets/img/team-1.jpg" alt="team" />
+                      <img src="./profile photos/aditi.jpg" alt="team" width="255px" height="325px"/>
                       <div class="inner">
                           <div class="info">
                                <h5>Aditi Palkar</h5>
@@ -76,7 +76,7 @@ color: #000;
                       </div>
                   </div>
                   <div class="item">
-                      <img src="./assets/img/team-2.jpg" alt="team" />
+                  <img src="./profile photos/komal.jpg" alt="team" width="255px" height="325px"/>
                       <div class="inner">
                           <div class="info">
                                <h5>Komal Shrimal</h5>
@@ -90,10 +90,10 @@ color: #000;
                       </div>
                   </div>
                   <div class="item">
-                      <img src="./assets/img/team-3.jpg" alt="team" />
+                  <img src="./profile photos/sakshi.jpg" alt="team" width="255px" height="325px"/>
                       <div class="inner">
                           <div class="info">
-                               <h5>Sakshie Chikorde</h5>
+                               <h5>Sakshi Chikorde</h5>
                                <p>Designer</p>
                                <div class="social-links">
                                <a href=""><span class="fa fa-twitter"></span></a>
@@ -104,35 +104,7 @@ color: #000;
                       </div>
                   </div>
                   <div class="item">
-                      <img src="./assets/img/team-4.jpg" alt="team" />
-                      <div class="inner">
-                          <div class="info">
-                               <h5>Huzaifa Faize</h5>
-                               <p>Designer</p>
-                               <div class="social-links">
-                               <a href=""><span class="fa fa-twitter"></span></a>
-                                   <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
-                               </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="item">
-                      <img src="./assets/img/team-4.jpg" alt="team" />
-                      <div class="inner">
-                          <div class="info">
-                               <h5>Eeshan Vaidya</h5>
-                               <p>Designer</p>
-                               <div class="social-links">
-                               <a href=""><span class="fa fa-twitter"></span></a>
-                                   <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
-                               </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="item">
-                      <img src="./assets/img/team-4.jpg" alt="team" />
+                  <img src="./assets/img/team-4.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Atharva Joshi</h5>
@@ -146,7 +118,35 @@ color: #000;
                       </div>
                   </div>
                   <div class="item">
-                      <img src="./assets/img/team-4.jpg" alt="team" />
+                  <img src="./profile photos/eeshan.jpg" alt="team" width="255px" height="325px"/>
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Eeshan Vaidya</h5>
+                               <p>Designer</p>
+                               <div class="social-links">
+                               <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-instagram"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                  <img src="./profile photos/huzaifa.jpg" alt="team" width="255px" height="325px"/>
+                      <div class="inner">
+                          <div class="info">
+                               <h5>Huzaifa Faize</h5>
+                               <p>Designer</p>
+                               <div class="social-links">
+                               <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-instagram"></span></a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                  <img src="./profile photos/karkar.jpg" alt="team" width="255px" height="325px"/>
                       <div class="inner">
                           <div class="info">
                                <h5>Atharva Karkar</h5>
