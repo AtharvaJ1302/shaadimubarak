@@ -33,19 +33,21 @@
 }
 
 .btn {
-  border: 3px solid black;
+  border-color: #000;
   border-radius: 20px;
   height: 40px;
+background-color: #000;
 
 }
-/*
+
 .btn:hover {
-  background-color: blueviolet;
+  background-color: #000;
+  border-color: #000;
 }
-*/
+
 .btn a {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 
 

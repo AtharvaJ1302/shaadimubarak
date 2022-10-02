@@ -20,7 +20,7 @@ session_start();
 
 <!--CSS stylesheet-->
 <link rel="stylesheet" href="./assets/css/style.css">
-<link rel="stylesheet" href="./destinations.css">
+<link rel="stylesheet" href="./assets/css/destinations.css">
 
 
 <!--Jquuery cdn-->
@@ -72,6 +72,16 @@ session_start();
 
 .btn{
     line-height: 0.5;
+    background-color: #000;
+}
+
+.btn a{
+    color: #fff;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
 }
   </style>
 

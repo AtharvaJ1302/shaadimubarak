@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    height: auto;
+    font-family: 'Roboto';
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 600px;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+p {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #486255;
+}
+
+.btn {
+    width: 150px;
+    background: #486255;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'roboto';
+}
+
+.content form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+fieldset {
+    border: 1px solid black;
+    margin: 1px;
+    font-size: 10px;
+    background-color: whitesmoke;
+}
+
+h2 {
+    color: #000;
+    ;
+}
