@@ -36,24 +36,13 @@ session_start();
     width: 30rem;
   }
 
-.card-title{
-  bottom: 1.5rem;
-    position: relative;
-}
-
   .btn-state{
     position: relative;
     left:11rem;
-    bottom: 2rem;
-  }
-
-  .price{
-    position:relative;
-    right:13rem;
   }
 
   .front{
-    height: 34rem;
+   
     width: 30rem;
   }
   label{
@@ -61,47 +50,6 @@ session_start();
     margin-bottom: 20px;
   }
 
-  .btn{
-    background-color: #000;
-    border: none;
-  }
-
-  .btn:hover{
-    background-color: #000;
-  }
-
-  .nav-link:hover{
-    color: #000;
-  }
-
-  .dropdown-item:hover{
-    color: #000;
-  }
-
-  .btn{
-    background-color: #000;
-    border: none;
-  }
-
-  .btn:hover{
-    background-color: #000;
-  }
-
-  .nav-link:hover{
-    color: #000;
-  }
-
-  .dropdown-item:hover{
-    color: #000;
-  }
-
-  .form-floating>label{
-    top: -20px;
-  }
-
-  .modal .btn-close{
-    right: 1.7rem;
-  }
 </style>
 
 </head>
@@ -114,9 +62,8 @@ session_start();
     <div class="head">
       <h1>PHOTOGRAPHY</h1>
     </div>
-<!--
+
     <input type="checkbox" id="card-1" />
--->
     <label class="col-md-5 card-container" for='card-1'>
 
       <div class="card-flip">
@@ -147,12 +94,29 @@ session_start();
           </div>
           <div class="card-body">
             <h5 class="card-title">90'sBlack</h5>
-            <div class="price">$500</div>
-            <button class="btn-state btn-primary" name="photo1">Select</button>
+
+
+
           </div>
         </div>
 
         <!-- End Card 1 Front -->
+
+        <!-- Card 1 Back -->
+        <div class="card back">
+          <div class="card-header">
+            Description
+          </div>
+          <div class="card-block">
+            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur veritatis optio,
+              quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
+              velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
+              reprehenderit amet?</p>
+              <button class="btn-state btn-primary" name="photo1" > Select </button>
+          </div>
+        </div>
+        <!-- End Card 1 Back -->
       </div>
     </label>
     <!-- End Card 1 -->
@@ -160,9 +124,8 @@ session_start();
 
 
     <!--Card 2 starts-->
-<!--
-    <input type="checkbox" id="card-1" />
--->    <label class="col-md-5 card-container" for='card-2'>
+    <input type="checkbox" id="card-2" />
+    <label class="col-md-5 card-container" for='card-2'>
 
       <div class="card-flip">
         <!-- Card 2 Front -->
@@ -194,8 +157,6 @@ session_start();
           </div>
           <div class="card-body">
             <h5 class="card-title">Banga Studio</h5>
-            <div class="price">$500</div>
-            <button class="btn-state btn-primary" name="photo2">Select</button>
 
 
           </div>
@@ -203,6 +164,21 @@ session_start();
 
         <!-- End Card 2 Front -->
 
+        <!-- Card 2 Back -->
+        <div class="card back">
+          <div class="card-header">
+            Description
+          </div>
+          <div class="card-block">
+            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur veritatis optio,
+              quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
+              velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
+              reprehenderit amet?</p>
+              <button class="btn-photo btn-primary" name="photo2" > Select </button>
+          </div>
+        </div>
+        <!-- End Card 2 Back -->
       </div>
     </label>
     <!-- End Card 2 -->
@@ -211,9 +187,8 @@ session_start();
 
 
     <!--Card 3 starts-->
-<!--
-    <input type="checkbox" id="card-1" />
--->    <label class="col-md-5 card-container" for='card-3'>
+    <input type="checkbox" id="card-3" />
+    <label class="col-md-5 card-container" for='card-3'>
 
       <div class="card-flip">
         <!-- Card 3 Front -->
@@ -245,14 +220,27 @@ session_start();
           </div>
           <div class="card-body">
             <h5 class="card-title">Daas Photography</h5>
-            <div class="price">$500</div>
-            <button class="btn-state btn-primary" name="photo3">Select</button>
 
           </div>
         </div>
 
         <!-- End Card 3 Front -->
 
+        <!-- Card 3 Back -->
+        <div class="card back">
+          <div class="card-header">
+            Description
+          </div>
+          <div class="card-block">
+            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur veritatis optio,
+              quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
+              velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
+              reprehenderit amet?</p>
+              <button class="btn-photo btn-primary" name="photo3" > Select </button>
+          </div>
+        </div>
+        <!-- End Card 3 Back -->
       </div>
     </label>
     <!-- End Card 3 -->
@@ -260,9 +248,8 @@ session_start();
 
 
     <!--Card 4 starts-->
-<!--
-    <input type="checkbox" id="card-1" />
--->    <label class="col-md-5 card-container" for='card-4'>
+    <input type="checkbox" id="card-4" />
+    <label class="col-md-5 card-container" for='card-4'>
 
       <div class="card-flip">
         <!-- Card 4 Front -->
@@ -294,13 +281,26 @@ session_start();
           </div>
           <div class="card-body">
             <h5 class="card-title">Light Chamber</h5>
-            <div class="price">$500</div>
-            <button class="btn-state btn-primary" name="photo4">Select</button>
           </div>
         </div>
 
         <!-- End Card 4 Front -->
 
+        <!-- Card 4 Back -->
+        <div class="card back">
+          <div class="card-header">
+            Description
+          </div>
+          <div class="card-block">
+            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur veritatis optio,
+              quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
+              velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
+              reprehenderit amet?</p>
+              <button class="btn-photo btn-primary" name="photo4" > Select </button>
+          </div>
+        </div>
+        <!-- End Card 4 Back -->
       </div>
     </label>
     <!-- End Card 4 -->
@@ -309,9 +309,8 @@ session_start();
 
 
     <!--Card 5 starts-->
-<!--
-    <input type="checkbox" id="card-1" />
--->    <label class="col-md-5 card-container" for='card-5'>
+    <input type="checkbox" id="card-5" />
+    <label class="col-md-5 card-container" for='card-5'>
 
       <div class="card-flip">
         <!-- Card 5 Front -->
@@ -343,13 +342,26 @@ session_start();
           </div>
           <div class="card-body">
             <h5 class="card-title">Parak Studio</h5>
-            <div class="price">$500</div>
-            <button class="btn-state btn-primary" name="photo5">Select</button>
           </div>
         </div>
 
         <!-- End Card 5 Front -->
 
+        <!-- Card 5 Back -->
+        <div class="card back">
+          <div class="card-header">
+            Description
+          </div>
+          <div class="card-block">
+            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur veritatis optio,
+              quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
+              velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
+              reprehenderit amet?</p>
+              <button class="btn-photo btn-primary" name="photo5" > Select </button>
+          </div>
+        </div>
+        <!-- End Card 5 Back -->
       </div>
     </label>
     <!-- End Card 5 -->
@@ -360,9 +372,8 @@ session_start();
 
 
     <!--Card 6 starts-->
-<!--
-    <input type="checkbox" id="card-1" />
--->    <label class="col-md-5 card-container" for='card-6'>
+    <input type="checkbox" id="card-6" />
+    <label class="col-md-5 card-container" for='card-6'>
 
       <div class="card-flip">
         <!-- Card 6 Front -->
@@ -394,13 +405,26 @@ session_start();
           </div>
           <div class="card-body">
             <h5 class="card-title">Photo by the Wedding Ties</h5>
-            <div class="price">$500</div>
-            <button class="btn-state btn-primary" name="photo6">Select</button>
           </div>
         </div>
 
         <!-- End Card 6 Front -->
 
+        <!-- Card 6 Back -->
+        <div class="card back">
+          <div class="card-header">
+            Description
+          </div>
+          <div class="card-block">
+            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur veritatis optio,
+              quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
+              velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
+              reprehenderit amet?</p>
+              <button class="btn-photo btn-primary" name="photo6" > Select </button>
+          </div>
+        </div>
+        <!-- End Card 6 Back -->
       </div>
     </label>
     <!-- End Card 6 -->
@@ -412,9 +436,8 @@ session_start();
 
 
     <!--Card 7 starts-->
-<!--
-    <input type="checkbox" id="card-1" />
--->    <label class="col-md-5 card-container" for='card-7'>
+    <input type="checkbox" id="card-7" />
+    <label class="col-md-5 card-container" for='card-7'>
 
       <div class="card-flip">
         <!-- Card 7 Front -->
@@ -446,13 +469,26 @@ session_start();
           </div>
           <div class="card-body">
             <h5 class="card-title">Suraj Studio</h5>
-            <div class="price">$500</div>
-            <button class="btn-state btn-primary" name="photo7">Select</button>
           </div>
         </div>
 
         <!-- End Card 7 Front -->
 
+        <!-- Card 7 Back -->
+        <div class="card back">
+          <div class="card-header">
+            Description
+          </div>
+          <div class="card-block">
+            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur veritatis optio,
+              quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
+              velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
+              reprehenderit amet?</p>
+              <button class="btn-photo btn-primary" name="photo7" > Select </button>
+          </div>
+        </div>
+        <!-- End Card 7 Back -->
       </div>
     </label>
     <!-- End Card 7 -->
@@ -463,9 +499,8 @@ session_start();
 
 
     <!--Card 8 starts-->
-<!--
-    <input type="checkbox" id="card-1" />
--->    <label class="col-md-5 card-container" for='card-8'>
+    <input type="checkbox" id="card-8" />
+    <label class="col-md-5 card-container" for='card-8'>
 
       <div class="card-flip">
         <!-- Card 8 Front -->
@@ -497,13 +532,26 @@ session_start();
           </div>
           <div class="card-body">
             <h5 class="card-title">Technovision</h5>
-            <div class="price">$500</div>
-            <button class="btn-state btn-primary" name="photo8">Select</button>
           </div>
         </div>
 
         <!-- End Card 8 Front -->
 
+        <!-- Card 8 Back -->
+        <div class="card back">
+          <div class="card-header">
+            Description
+          </div>
+          <div class="card-block">
+            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur veritatis optio,
+              quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
+              velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
+              reprehenderit amet?</p>
+              <button class="btn-photo btn-primary" name="photo8" > Select </button>
+          </div>
+        </div>
+        <!-- End Card 8 Back -->
       </div>
     </label>
     <!-- End Card 8 -->
@@ -514,9 +562,8 @@ session_start();
 
 
     <!--Card 9 starts-->
-<!--
-    <input type="checkbox" id="card-1" />
--->    <label class="col-md-5 card-container" for='card-9'>
+    <input type="checkbox" id="card-9" />
+    <label class="col-md-5 card-container" for='card-9'>
 
       <div class="card-flip">
         <!-- Card 9 Front -->
@@ -548,13 +595,26 @@ session_start();
           </div>
           <div class="card-body">
             <h5 class="card-title">Varun Gavli Studio</h5>
-            <div class="price">$500</div>
-            <button class="btn-state btn-primary" name="photo9">Select</button>
           </div>
         </div>
 
         <!-- End Card 9 Front -->
 
+        <!-- Card 9 Back -->
+        <div class="card back">
+          <div class="card-header">
+            Description
+          </div>
+          <div class="card-block">
+            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur veritatis optio,
+              quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
+              velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
+              reprehenderit amet?</p>
+              <button class="btn-photo btn-primary" name="photo9" > Select </button>
+          </div>
+        </div>
+        <!-- End Card 9 Back -->
       </div>
     </label>
     <!-- End Card 9 -->
@@ -565,9 +625,8 @@ session_start();
 
 
     <!--Card 10 starts-->
-<!--
-    <input type="checkbox" id="card-1" />
--->    <label class="col-md-5 card-container" for='card-10'>
+    <input type="checkbox" id="card-10" />
+    <label class="col-md-5 card-container" for='card-10'>
 
       <div class="card-flip">
         <!-- Card 10 Front -->
@@ -599,12 +658,26 @@ session_start();
           </div>
           <div class="card-body">
             <h5 class="card-title">Vijayeesam Photography</h5>
-            <div class="price">$500</div>
-            <button class="btn-state btn-primary" name="photo10">Select</button>
           </div>
         </div>
 
         <!-- End Card 10 Front -->
+
+        <!-- Card 10 Back -->
+        <div class="card back">
+          <div class="card-header">
+            Description
+          </div>
+          <div class="card-block">
+            <p class="card-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur veritatis optio,
+              quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
+              velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
+              reprehenderit amet?</p>
+              <button class="btn-photo btn-primary" name="photo10" > Select </button>
+          </div>
+        </div>
+        <!-- End Card 10 Back -->
       </div>
     </label>
     <!-- End Card 10 -->

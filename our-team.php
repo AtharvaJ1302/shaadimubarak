@@ -42,15 +42,16 @@ session_start();
          <div class="row">
              <div class="team-items">
                   <div class="item">
-                      <img src="./profile photos/aditi.jpg" alt="team" width="255px" height="325px"/>
+                      <img src="./assets/img/team-1.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Aditi Palkar</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                                   <a href=""><span class="fa fa-facebook"></span></a>
                                    <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
                                </div>
                           </div>
                       </div>
@@ -62,37 +63,40 @@ session_start();
                                <h5>Komal Shrimal</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                                   <a href=""><span class="fa fa-facebook"></span></a>
                                    <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
                                </div>
                           </div>
                       </div>
                   </div>
                   <div class="item">
-                  <img src="./profile photos/sakshi.jpg" alt="team" width="255px" height="325px"/>
+                      <img src="./assets/img/team-3.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Sakshie Chikorde</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                                   <a href=""><span class="fa fa-facebook"></span></a>
                                    <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
                                </div>
                           </div>
                       </div>
                   </div>
                   <div class="item">
-                  <img src="./profile photos/huzaifa.jpg" alt="team" width="255px" height="325px"/>
+                      <img src="./assets/img/team-4.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Huzaifa Faize</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                                   <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                                   <a href=""><span class="fa fa-facebook"></span></a>
                                    <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
                                </div>
                           </div>
                       </div>
@@ -104,9 +108,10 @@ session_start();
                                <h5>Eeshan Vaidya</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                                   <a href=""><span class="fa fa-facebook"></span></a>
                                    <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
                                </div>
                           </div>
                       </div>
@@ -118,23 +123,25 @@ session_start();
                                <h5>Atharva Joshi</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                                   <a href=""><span class="fa fa-facebook"></span></a>
                                    <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
                                </div>
                           </div>
                       </div>
                   </div>
                   <div class="item">
-                  <img src="./profile photos/karkar.jpg" alt="team" width="255px" height="325px"/>
+                      <img src="./assets/img/team-4.jpg" alt="team" />
                       <div class="inner">
                           <div class="info">
                                <h5>Atharva Karkar</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                                   <a href=""><span class="fa fa-facebook"></span></a>
                                    <a href=""><span class="fa fa-twitter"></span></a>
+                                   <a href=""><span class="fa fa-linkedin"></span></a>
+                                   <a href=""><span class="fa fa-youtube"></span></a>
                                </div>
                           </div>
                       </div>

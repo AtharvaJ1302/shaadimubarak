@@ -54,31 +54,6 @@ session_start();
     margin-bottom: 20px;
   }
 
-
-  .btn{
-    background-color: #000;
-    border: none;
-  }
-
-  .btn:hover{
-    background-color: #000;
-  }
-
-  .nav-link:hover{
-    color: #000;
-  }
-
-  .dropdown-item:hover{
-    color: #000;
-  }
-
-  .form-floating>label{
-    top: -20px;
-  }
-
-  .modal .btn-close{
-    right: 1.7rem;
-  }
 </style>
 </head>
 
