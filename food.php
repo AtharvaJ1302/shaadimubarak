@@ -20,6 +20,14 @@ session_start();
 
    <?php include("./head.php"); ?>
 	
+   <style>
+      .submit-btn{
+         position: relative;
+    top: 1rem;
+    left: 29rem;
+}
+      
+   </style>
 
 </head>
 <body style ="background-color: #C21E56";>
@@ -31,9 +39,7 @@ session_start();
    <h2 class="title"> FOOD MENU</h2>
    <h3 class="title"> APPETIZERS</h3>
    <div class="text-center mb-7">
-      <button name="submit" class="submit-btn">
-         <h1>Submit</h1>
-      </button>
+      
 
    <!---->
    <div class="products-container">
@@ -457,6 +463,9 @@ session_start();
   
    </div>
    <!---->
+   <button name="submit" class="submit-btn">
+         <h1>Submit</h1>
+      </button>
 
 </div>
 
