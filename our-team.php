@@ -22,7 +22,26 @@ session_start();
     <link rel="stylesheet" href="./assets/css/about-us.css">
 
 <style>
+.nav-link:hover{
+color: #000;
+}
 
+.dropdown-item:hover{
+color: #000;
+}
+
+.btn{
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn:hover{
+    background-color: #000;
+    border-color: #000;
+}
+.modal .btn-close{
+    right: 1.7rem;
+}
 </style>
 
 </head>
@@ -48,10 +67,10 @@ session_start();
                                <h5>Aditi Palkar</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                                   <a href=""><span class="fa fa-facebook"></span></a>
+                                
                                    <a href=""><span class="fa fa-twitter"></span></a>
                                    <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-youtube"></span></a>
+                                   <a href=""><span class="fa fa-instagram"></span></a>
                                </div>
                           </div>
                       </div>
@@ -63,10 +82,9 @@ session_start();
                                <h5>Komal Shrimal</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                                   <a href=""><span class="fa fa-facebook"></span></a>
-                                   <a href=""><span class="fa fa-twitter"></span></a>
+                               <a href=""><span class="fa fa-twitter"></span></a>
                                    <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-youtube"></span></a>
+                                   <a href=""><span class="fa fa-instagram"></span></a>
                                </div>
                           </div>
                       </div>
@@ -78,10 +96,9 @@ session_start();
                                <h5>Sakshie Chikorde</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                                   <a href=""><span class="fa fa-facebook"></span></a>
-                                   <a href=""><span class="fa fa-twitter"></span></a>
+                               <a href=""><span class="fa fa-twitter"></span></a>
                                    <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-youtube"></span></a>
+                                   <a href=""><span class="fa fa-instagram"></span></a>
                                </div>
                           </div>
                       </div>
@@ -93,10 +110,9 @@ session_start();
                                <h5>Huzaifa Faize</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                                   <a href=""><span class="fa fa-facebook"></span></a>
-                                   <a href=""><span class="fa fa-twitter"></span></a>
+                               <a href=""><span class="fa fa-twitter"></span></a>
                                    <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-youtube"></span></a>
+                                   <a href=""><span class="fa fa-instagram"></span></a>
                                </div>
                           </div>
                       </div>
@@ -108,10 +124,9 @@ session_start();
                                <h5>Eeshan Vaidya</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                                   <a href=""><span class="fa fa-facebook"></span></a>
-                                   <a href=""><span class="fa fa-twitter"></span></a>
+                               <a href=""><span class="fa fa-twitter"></span></a>
                                    <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-youtube"></span></a>
+                                   <a href=""><span class="fa fa-instagram"></span></a>
                                </div>
                           </div>
                       </div>
@@ -123,10 +138,9 @@ session_start();
                                <h5>Atharva Joshi</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                                   <a href=""><span class="fa fa-facebook"></span></a>
-                                   <a href=""><span class="fa fa-twitter"></span></a>
+                               <a href=""><span class="fa fa-twitter"></span></a>
                                    <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-youtube"></span></a>
+                                   <a href=""><span class="fa fa-instagram"></span></a>
                                </div>
                           </div>
                       </div>
@@ -138,10 +152,9 @@ session_start();
                                <h5>Atharva Karkar</h5>
                                <p>Designer</p>
                                <div class="social-links">
-                                   <a href=""><span class="fa fa-facebook"></span></a>
-                                   <a href=""><span class="fa fa-twitter"></span></a>
+                               <a href=""><span class="fa fa-twitter"></span></a>
                                    <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-youtube"></span></a>
+                                   <a href=""><span class="fa fa-instagram"></span></a>
                                </div>
                           </div>
                       </div>

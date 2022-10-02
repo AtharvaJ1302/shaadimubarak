@@ -73,6 +73,14 @@ session_start();
 .btn{
     line-height: 0.5;
 }
+
+.nav-link:hover{
+color: #000;
+}
+
+.dropdown-item:hover{
+color: #000;
+}
   </style>
 
 </head>
@@ -80,7 +88,7 @@ session_start();
 <?php include("./header.php"); ?>
 
     <section id="heading" >
-        <h2 style="position: relative; top: 60%;color: #000;">Destinations</h2>
+        <h2 style="position: relative; top: 60%;color: #fff;">Destinations</h2>
     </section>
  
     <div class="container">

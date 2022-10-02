@@ -28,14 +28,14 @@ session_start();
 
 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/states.css">
+    <link rel="stylesheet" href="./states.css">
   <style>
   .back{
     margin-left: -20px;
     width: 30rem;
   }
 
-  .btn{
+  .btn-state{
     position: relative;
     left:11rem;
   }
@@ -120,7 +120,7 @@ session_start();
               with a great wedding venture or any other event that you and your guests will enjoy.
             </p>
             <div class="price" style="top:11rem;" >₹320000</div>
-            <button class="btn btn-primary" name="venue1" style="top: 9rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue1" style="top: 9rem;">Select</button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -187,7 +187,7 @@ session_start();
 
             </p>
             <div class="price" style="top:10rem;" >₹350000</div>
-            <button class="btn btn-primary" name="venue2" style="top: 8rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue2" style="top: 8rem;">Select</button>
            
           </div>
         </div>
@@ -255,7 +255,7 @@ session_start();
               a lifetime.
             </p>
             <div class="price" style="top:7rem;" >₹250000</div>
-            <button class="btn btn-primary" name="venue3" style="top: 5rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue3" style="top: 5rem;">Select</button>
            
           </div>
         </div>
@@ -321,7 +321,7 @@ session_start();
               you feel at home and the team put efforts to create value for money.
             </p>
             <div class="price" style="top:7rem;" >₹180000</div>
-            <button class="btn btn-primary" name="venue4" style="top: 5rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue4" style="top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -387,7 +387,7 @@ session_start();
               nourish all your senses, and the wedding functions can be performed with delight and zeal.
             </p>
             <div class="price" style="top:7rem;" >₹135000</div>
-            <button class="btn btn-primary" name="venue5" style="top: 5rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue5" style="top: 5rem;">Select</button>
             
           </div>
         </div>
@@ -454,7 +454,7 @@ session_start();
               which is worth remembering a lifetime.
             </p>
             <div class="price" style="top:13rem;" >₹125000</div>
-            <button class="btn btn-primary" name="venue6" style="top: 11rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue6" style="top: 11rem;">Select</button>
            
           </div>
         </div>
@@ -525,7 +525,7 @@ session_start();
               action for your wedding.
             </p>
             <div class="price" style="top:7rem;" >₹98000</div>
-            <button class="btn btn-primary" name="venue7" style="top: 5rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue7" style="top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -592,7 +592,7 @@ session_start();
               traditional, mesmerising settings.
             </p>
             <div class="price" style="top:10rem;" >₹150000</div>
-            <button class="btn btn-primary" name="venue8" style="top: 8rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue8" style="top: 8rem;">Select</button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -661,7 +661,7 @@ session_start();
               function a deep one.
             </p>
             <div class="price" style="top:7rem;" >₹180000</div>
-            <button class="btn btn-primary" name="venue9" style="top: 5rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue9" style="top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -729,7 +729,7 @@ session_start();
               space. Get ready for a dreamy wedding amongst the beautiful scenarios of Idukki.
             </p>
             <div class="price" style="top:7rem;" >₹200000</div>
-            <button class="btn btn-primary" name="venue10" style="top: 5rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue10" style="top: 5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 10 Back -->

@@ -27,7 +27,7 @@ session_start();
 
 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/states.css">
+    <link rel="stylesheet" href="./states.css">
   <style>
 .back{
     margin-left: -20px;
@@ -428,7 +428,7 @@ session_start();
               
               </p>
               <div class="price" style="top: 8.5rem;">$500</div>
-           <button class="btn btn-primary" name="venue6" style="top: 6.5rem;">Select</button>
+           <button class="btn-state btn-primary" name="venue6" style="top: 6.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -495,7 +495,7 @@ session_start();
               
               </p>
               <div class="price" style="top: 5.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue7" style="top: 3.5rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue7" style="top: 3.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -560,7 +560,7 @@ session_start();
               
               </p>
               <div class="price" style="top: 5.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue8" style="top: 3.5rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue8" style="top: 3.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -626,7 +626,7 @@ session_start();
               Non-veg: Approximately ₹450 onwards
               </p>
               <div class="price" style="top: 5.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue9" style="top: 3.5rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue9" style="top: 3.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -693,7 +693,7 @@ session_start();
               
               </p>
               <div class="price" style="top: 5.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue10" style="top: 3.5rem;">Select</button>
+            <button class="btn-state btn-primary" name="venue10" style="top: 3.5rem;">Select</button>
           </div>
         </div>
         <!-- End Card 10 Back -->

@@ -214,7 +214,7 @@
       <!-- /.swiper -->
     </div>
         <div class="text-center">
-            <a href="gallery.html" class="btn btn-lg btn-primary rounded-pill">View Gallery</a>
+            <a href="gallery.php" class="btn btn-lg btn-primary rounded-pill">View Gallery</a>
          </div>
     <!-- /.swiper-container -->
   </div>

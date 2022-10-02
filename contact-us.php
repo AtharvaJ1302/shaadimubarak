@@ -28,6 +28,19 @@ session_start();
     background-repeat: no-repeat;
    background-size: cover;
 }
+
+.nav-link:hover{
+color: #000;
+}
+
+.dropdown-item:hover{
+color: #000;
+}
+
+#btn-sub{
+    position: relative;
+    left: 20rem;
+}
 </style>
 
 </head>
@@ -84,7 +97,7 @@ session_start();
 
             <div class="row100">
                 <div class="col">
-                    <input type="submit" value="send">
+                    <input type="submit" value="send" id="btn-sub">
                 </div>
             </div>
         </div>

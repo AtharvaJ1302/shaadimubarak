@@ -27,14 +27,14 @@ session_start();
 
 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/states.css">
+    <link rel="stylesheet" href="./states.css">
   <style>
   .back{
     margin-left: -20px;
     width: 30rem;
   }
 
-  .btn{
+  .btn-state{
     position: relative;
     left:11rem;
   }
@@ -113,7 +113,7 @@ session_start();
             <p class="card-text" style="text-align: center;">The three centuries old palace provides a gorgeous backdrop for a jaw-dropping wedding venue. Located in the midst of a lush green lawn, LVP Banquets is truly nothing short of magical. If you want a romantic and picturesque wedding, this is your venue for the day! While their decorators set up the place, their caterers can whip up the most amazing wedding feast for you and your guests.
               </p>
               <div class="price" style="top: 11rem;">$500</div>
-            <button class="btn btn-primary" name="venue1" style="top: 9rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue1" style="top: 9rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -174,7 +174,7 @@ session_start();
             <p class="card-text" style="text-align: center;">Located amidst vast stretches of mango orchards, Aam Bagan in Bokadev is an ideal wedding venue for you if you want a picturesque wedding. If you are planning a destination wedding in Gujarat, you must check out Aam Bagan for its lavish amenities and beautiful grounds. You can also get your own caterer and decorator to customize the event as per your needs.
               </p>
               <div class="price" style="top: 13rem;">$500</div>
-            <button class="btn btn-primary" name="venue2" style="top: 11rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue2" style="top: 11rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -236,7 +236,7 @@ session_start();
           
               </p>
               <div class="price" style="top: 11.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue3" style="top: 9rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue3" style="top: 9rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -296,7 +296,7 @@ session_start();
               
               </p>
               <div class="price" style="top: 13rem;">$500</div>
-            <button class="btn btn-primary" name="venue4" style="top: 11rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue4" style="top: 11rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -356,7 +356,7 @@ session_start();
             <p class="card-text" style="text-align: center;">Located in the Prashad Nagar area of Ahmedabad, Crowne Plaza in Ahmedabad City Centre is one of the most luxurious Gujarat destinations for a wedding. The place is so huge that you can easily host all the events of a wedding here, be it the Mehndi, Sangeet, Cocktail or reception party. The centre can host up to 2000 people, making it a viable option for people who have lots of guests to invite. Their in-house team caters to all your needs with the utmost care. The experienced chefs can prepare local and international cuisines with incredible precision.
               </p>
               <div class="price" style="top: 8.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue5" style="top: 6.5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue5" style="top: 6.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -420,7 +420,7 @@ session_start();
               
               </p>
               <div class="price" style="top: 7rem;">$500</div>
-            <button class="btn btn-primary" name="venue6" style="top: 4.5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue6" style="top: 4.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -484,7 +484,7 @@ session_start();
               The hotel specialises in creating décor exactly the way you want, making it just perfect for people. The per-plate cost is around ₹ 900. The hotel has multiple event spaces like a sprawling terrace, banquet hall and the lawn area.
               </p>
               <div class="price" style="top: 7rem;">$500</div>
-            <button class="btn btn-primary" name="venue7" style="top: 4.5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue7" style="top: 4.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -547,7 +547,7 @@ session_start();
               They offer multiple cuisines from India, like Mughlai, North Indian, South Indian, Street food and international cuisines like Italian, Continental and Chinese as well. Their per-plate cost is around ₹ 1,500.
               </p>
               <div class="price" style="top: 8.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue8" style="top: 6rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue8" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -608,7 +608,7 @@ session_start();
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Green YMCA Banquets And Lawn, Ahmedabad is taken care of by Green Leaves Management. It is an ideal venue for hosting your grand wedding, reception ceremony, and celebrations or events of any type. Green YMCA Banquets And Lawn, Makarba, Ahmedabad is a very well known place in the locality. So you can imagine how grand your event is going to be. The staff at this venue are professionals and skilled in their respective job, they make sure your function is executed well. YMCA Banquet Hall Ahmedabad serves palatable vegetarian delicacies to their guests. The stunning décor of the venue gives a special touch to your big day.</p>
             <div class="price" style="top: 7rem;">$500</div>
-            <button class="btn btn-primary" name="venue9" style="top: 5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue9" style="top: 5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -669,7 +669,7 @@ session_start();
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Jade Banquets is India’s premier destination to host exquisite events that symbolize grandeur & style. It operates multiple beautifully appointed banquet venues across India, offering world class hospitality and award winning catering to add elegance to your most treasured occasions. Jade Banquets has perfected the ‘Art of Hospitality and enjoys a reputation of providing it’s guests with unique and memorable experiences that are highly regarded by the patrons. With world-class amenities and a responsive team that customizes and designs every part of the service, Jade is one of the most eminent venues in India. It is managed by professionals trained in the highest standards of international hospitality.</p>
             <div class="price" style="top: 5.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue10" style="top: 3.5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue10" style="top: 3.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 10 Back -->

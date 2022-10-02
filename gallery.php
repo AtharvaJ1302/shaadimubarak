@@ -9,8 +9,33 @@ session_start();
 	<title></title>
   <?php include("./head.php"); ?>
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/gallery.css">
+	<link rel="stylesheet" type="text/css" href="./gallery.css">
   
+<style>
+
+.nav-link:hover{
+color: #000;
+}
+
+.dropdown-item:hover{
+color: #000;
+}
+
+.btn{
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn:hover{
+    background-color: #000;
+    border-color: #000;
+}
+.modal .btn-close{
+    right: 1.7rem;
+}
+
+</style>
+
 </head>
 <body>
 <?php include("./header.php"); ?>

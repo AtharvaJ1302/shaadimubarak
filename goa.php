@@ -26,7 +26,7 @@ session_start();
     crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/states.css">
+    <link rel="stylesheet" href="./states.css">
 
   <style>
   .back{

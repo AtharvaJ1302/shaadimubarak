@@ -27,7 +27,7 @@ session_start();
 
 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/states.css">
+    <link rel="stylesheet" href="./states.css">
   <style>
   .back{
     margin-left: -20px;

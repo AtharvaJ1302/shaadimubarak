@@ -27,14 +27,14 @@ session_start();
 
 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/states.css">
+    <link rel="stylesheet" href="./states.css">
   <style>
   .back{
     margin-left: -20px;
     width: 30rem;
   }
 
-  .btn{
+  .btn-state{
     position: relative;
     left:11rem;
   }
@@ -112,7 +112,7 @@ session_start();
               The pillarless Regency Ballroom on the other hand boasts of an open terrace. Lightings and decor are adapted to match themes as demanded by the client. Hyatt Regency tops the list of best wedding venues in Kolkata, giving cut-throat competition to others.
               </p>
               <div class="price" style="top: 8rem;">$500</div>
-            <button class="btn btn-primary" name="venue1" style="top: 6rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue1" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -173,7 +173,7 @@ session_start();
             <p class="card-text" style="text-align: center;">Taj Bengal has more than six wedding venues in Kolkata, namely- Portico, Oriental, Terrace Garden, Mandarin, Crystal Hall, and banquet lawns. The capacity ranges between 25 to 700 guests, and each of the venue areas have their own distinct features and decor.
             </p>
             <div class="price" style="top: 14rem;">$500</div>
-            <button class="btn btn-primary" name="venue2" style="top: 12rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue2" style="top: 12rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -234,7 +234,7 @@ session_start();
             <p class="card-text" style="text-align: center;">The ITC Sonar features in this list of best wedding venues in Kolkata no just for the decor and services, but because of its enviable location. Away from hustle and bustle of the city, it hosts the most lavish wedding of Kolkata. The Pala (indoor venue area) steals the show away with its soft lighting and candles. The outdoor venue, called Sundarban Lawns is a lovely landscape garden suitable for an open air affair.
             </p>
             <div class="price" style="top: 11rem;">$500</div>
-            <button class="btn btn-primary" name="venue3" style="top: 9rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue3" style="top: 9rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -292,7 +292,7 @@ session_start();
           <div class="card-block">
             <p class="card-text" style="text-align: center;">The Oberoi Grand Hotel has hosted luxe parties for erstwhile kings and British Bureaucrats in the olden days. Even today its grandeur as an elite wedding venue hasn’t faded! It is among the best wedding venues in Kolkata having city’s largest ballroom spanning over 19,000 sq ft of area. It is also one of the best hotels in Kolkata.</p>
             <div class="price" style="top: 12.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue4" style="top: 10.5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue4" style="top: 10.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -351,7 +351,7 @@ session_start();
           <div class="card-block">
             <p class="card-text" style="text-align: center;">One of most lavish and best wedding venues in Kolkata, PC Chandra Garden has three venue areas with both indoor and outdoor seating. The halls can host up to 850 guests, while the lawns have a capacity of 2100 guests. Catering and service are both impeccable, just like the decor that’ll simply blow your mind.</p>
             <div class="price" style="top: 12.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue5" style="top: 10.5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue5" style="top: 10.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -414,7 +414,7 @@ session_start();
               One of the best wedding resorts in Kolkata, the Vedic Village alongside four venue areas provides accommodation that’s backed up with dining, spa, sports and other world-class facilities.
             </p>
             <div class="price" style="top: 8rem;">$500</div>
-            <button class="btn btn-primary" name="venue6" style="top: 6rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue6" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -476,7 +476,7 @@ session_start();
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Pumped up to make D-day the most memorable day of your life, Club Verde Vista features among the top open air wedding venues in Kolkata. There are both indoor and outdoor venues, with in-house decorators and caterers. With the venue, you can also consider a stay for guests as you get rooms (4 rooms available) for an average cost of INR 4,000 per room (above the venue charges).</p>
             <div class="price" style="top: 11rem;">$500</div>
-            <button class="btn btn-primary" name="venue7" style="top: 9rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue7" style="top: 9rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -537,7 +537,7 @@ session_start();
           <div class="card-block">
             <p class="card-text" style="text-align: center;">One of the excellent yet somewhat cheap banquet halls in Kolkata for weddings, Mangalam Banquets is among the mid-sized wedding halls in South Kolkata that can host up to 300 guests. There’s an open road parking available with complimentary valet. If it is a comparatively small affair, this is the best choice for your special day.</p>
             <div class="price" style="top: 12.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue8" style="top: 10.5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue8" style="top: 10.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -598,7 +598,7 @@ session_start();
           <div class="card-block">
             <p class="card-text" style="text-align: center;">Whatever the theme be for your wedding, all you need to do is to tell the decorators and you can have it. Not kidding, these people are the best in business and the Royal Bengal Room is beautiful and very spacious and somewhere where you should plan your dream wedding at. If your tastes are subtle then this is the place for you.</p>
             <div class="price" style="top: 12.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue9" style="top: 10.5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue9" style="top: 10.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -660,7 +660,7 @@ session_start();
             <p class="card-text" style="text-align: center;">If you wish to serve alcohol to guests because you are a good host then Smriti Banquets is your best bet and offers the best solution to all your wedding related queries and doubts. Be it decor, food or anything else this wedding venue in Kolkata does everything right and is tucked away from the bustling city, offering quaint settings for your big day.
             </p>
             <div class="price" style="top: 12.5rem;">$500</div>
-            <button class="btn btn-primary" name="venue10" style="top: 10.5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue10" style="top: 10.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 10 Back -->

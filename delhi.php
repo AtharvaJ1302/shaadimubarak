@@ -27,14 +27,14 @@ session_start();
 
 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/states.css">
+    <link rel="stylesheet" href="./states.css">
   <style>
   .back{
     margin-left: -20px;
     width: 30rem;
   }
 
-  .btn{
+  .btn-state{
     position: relative;
     left:11rem;
   }
@@ -117,7 +117,7 @@ session_start();
               your well-being, and enter your new journey relaxed and rejuvenated.
             </p>
             <div class="price" style="top:4rem;" >₹140000</div>
-            <button class="btn btn-primary" name="venue1" style="top: 2rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue1" style="top: 2rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -183,7 +183,7 @@ session_start();
               perfect destination with exquisite decor, suitable for hosting lavish weddings that last for a lifetime.
             </p>
             <div class="price" style="top:7rem;" >₹145000</div>
-            <button class="btn btn-primary" name="venue2" style="top: 5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue2" style="top: 5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -249,7 +249,7 @@ session_start();
               make the wedding memorable for you and your guests.
             </p>
             <div class="price" style="top:8rem;" >₹200000</div>
-            <button class="btn btn-primary" name="venue3" style="top: 6rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue3" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -315,7 +315,7 @@ session_start();
               electricity & backup, valet parking and a bridal room.
             </p>
             <div class="price" style="top:5rem;" >₹230000</div>
-            <button class="btn btn-primary" name="venue4" style="top: 3rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue4" style="top: 3rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -379,7 +379,7 @@ session_start();
               place where anyone would desire of a destination wedding.
             </p>
             <div class="price" style="top:11rem;" >₹180000</div>
-            <button class="btn btn-primary" name="venue5" style="top: 9rem"> Select </button>
+            <button class="btn-state btn-primary" name="venue5" style="top: 9rem"> Select </button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -445,7 +445,7 @@ session_start();
               have a great hospitality experience.
             </p>
             <div class="price" style="top:12rem;" >₹220000</div>
-            <button class="btn btn-primary" name="venue6" style="top: 10rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue6" style="top: 10rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -514,7 +514,7 @@ session_start();
               from NH-1 (Left side from Delhi to Karnal).
             </p>
             <div class="price" style="top:8rem;" >₹320000</div>
-            <button class="btn btn-primary" name="venue7" style="top: 6rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue7" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -582,7 +582,7 @@ session_start();
               Offering the pinnacle of luxury and comfort, Mohan Vilaas is a popular choice for hosting grand functions.
             </p>
             <div class="price" style="top:7rem;" >₹280000</div>
-            <button class="btn btn-primary" name="venue8" style="top: 5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue8" style="top: 5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -650,7 +650,7 @@ session_start();
               comfortably here and be assured that your wedding will be a memorable one.
             </p>
             <div class="price" style="top:7rem;" >₹170000</div>
-            <button class="btn btn-primary" name="venue9" style="top: 5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue9" style="top: 5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -718,7 +718,7 @@ session_start();
               elegance to lend the perfect ambience for your dream celebration.
             </p>
             <div class="price" style="top:7rem;" >₹180000</div>
-            <button class="btn btn-primary" name="venue10" style="top: 5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue10" style="top: 5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 10 Back -->

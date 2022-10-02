@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-lg center-nav transparent navbar-light;navbar-color:#FFB6C1">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
-            <a href="./index.html">
+            <a href="./index.php">
               <h1>Shaadi Mubarak</h1>
             </a>
           </div>
@@ -20,7 +20,7 @@
                 </li>
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">US</a>
                   <ul class="dropdown-menu">
-                    <li class="nav-item"><a class="dropdown-item" href="#">About Us</a></li>
+                    
                       <li class="nav-item"><a class="dropdown-item" href="./our-team.php">Our Team</a>
                       </li>
                     <li class="nav-item"><a class="dropdown-item" href="./contact-us.php">Contact Us</a></li>
