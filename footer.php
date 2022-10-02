@@ -1,5 +1,5 @@
 <footer class="bg-dark text-inverse">
-  <div class="container pb-5">
+  <div class="container pb-5 md-5">
     <!--/.row -->
     <hr class="mt-13 mt-md-0 mb-4" />
     <div class="d-md-flex align-items-center justify-content-between">

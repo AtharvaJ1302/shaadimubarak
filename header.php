@@ -4,13 +4,13 @@
       <nav class="navbar navbar-expand-lg center-nav transparent navbar-light;navbar-color:#FFB6C1">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
-            <a href="./index.php">
-              <h1>Shaadi Mubarak</h1>
+            <a href="./index.html">
+              <img src="./assets/img/logof.png" alt="logo" srcset="./assets/img/logof.png 4x">
             </a>
           </div>
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
             <div class="offcanvas-header d-lg-none">
-              <h3 class="text-black fs-30 mb-0">Shaadi Mubarak</h3>
+              <h3 class="text-black fs-30 mb-0 text-white">Shaadi Mubarak</h3>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
@@ -20,7 +20,7 @@
                 </li>
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">US</a>
                   <ul class="dropdown-menu">
-                    
+                    <li class="nav-item"><a class="dropdown-item" href="#">About Us</a></li>
                       <li class="nav-item"><a class="dropdown-item" href="./our-team.php">Our Team</a>
                       </li>
                     <li class="nav-item"><a class="dropdown-item" href="./contact-us.php">Contact Us</a></li>

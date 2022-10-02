@@ -21229,7 +21229,7 @@ figure img {
   background-color: #fa7294 !important;
 }
 .bg-soft-primaryheader {
-  background-color: #ef8eaa !important;
+  background-color: #eb8fa7 !important;
 }
 .text-soft-primary {
   color: #080808 !important;
@@ -26352,7 +26352,7 @@ button:focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: #3f78e0;
+  background-color: #ffffff;
   border-color: #3f78e0;
 }
 .btn-primary:hover {
@@ -26362,8 +26362,8 @@ button:focus {
 }
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
-  color: #fff;
-  background-color: #3f78e0;
+  color: #000000;
+  background-color: #000000;
   border-color: #3f78e0;
 }
 .btn-check:checked+.btn-primary,
@@ -30170,7 +30170,7 @@ header {
 }
 .navbar-stick:not(.navbar-dark) {
   box-shadow: 0rem 0rem 1.25rem rgba(30, 34, 40, 0.06);
-  background: rgba(255, 255, 255, 0.97);
+  background-color: #eb8fa7 !important;
 }
 button.hamburger {
   cursor: pointer;

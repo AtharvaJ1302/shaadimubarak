@@ -23,9 +23,10 @@
         <p class="solid">
         </style>
         </head>
+        
   
 <section class="wrapper bg-darkpink text-inversetowhite">
-  <div class="container py-14 py-md-0">
+  <div class="container py-14 py-md-10 mb-10">
     <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
       <div class="col-lg-6 position-relative order-lg-2">
         <div class="shape bg-dot primary rellax w-16 h-20" data-rellax-speed="1" style="top: 3rem; left: 5.5rem"></div>
@@ -103,11 +104,11 @@
 
 
 <section class="wrapper bg-darkpink text-inversetowhite">
-  <div class="container py-14 py-md-5">
-  <h1 style="text-align:center;font-size:50px;text-color:#e4d00a">SERVICES</h1>
+  <div class="container py-14 py-md-10">
+  <h1 class="text-center display-1">SERVICES</h1>
     <p class="lead fs-lg mb-8 text-inversetowhite">We make your big wedding planning stress-free for you to have the perfect time to live with your loved ones.</p>
     <div class="row gx-lg-8 gx-xl-12 gy-6 process-wrapper line">
-      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">01</span></span>
+    <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">01</span></span>
         <h4 class="mb-1 text-inversetowhite">SIGN UP</h4>
         <p class="mb-0"> Get with us.</p>
       </div>
@@ -117,27 +118,27 @@
         <p class="mb-0">Choose your dream venue.</p>
       </div>
       <!--/column -->
-      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">03</span></span>
+      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">03</span></span>
         <h4 class="mb-1 text-inversetowhite">FOOD </h4>
         <p class="mb-0">Choosing the best taste for your palate.</p>
       </div>
       <!--/column -->
-      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">04</span></span>
+      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">04</span></span>
         <h4 class="mb-1 text-inversetowhite">SOUND AND LIGHT</h4>
         <p class="mb-0">Best beat for your event.</p>
       </div>
       <!--/column -->
-      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">05</span></span>
+      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">05</span></span>
         <h4 class="mb-1 text-inversetowhite">PHOTOGRAPHY</h4>
         <p class="mb-0">Capture as much as you can.</p>
       </div>
       <!--/column -->
-      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">06</span></span>
+      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">06</span></span>
         <h4 class="mb-1 text-inversetowhite">INVITATION CARDS</h4>
         <p class="mb-0">Share your day with your loved ones.</p>
       </div>
       <!--/column -->
-      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">07</span></span>
+      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">07</span></span>
         <h4 class="mb-1 text-inversetowhite">PAYMENT</h4>
         <p class="mb-0">Finalize with the best deal.</p>
       </div>
@@ -167,8 +168,8 @@
   <div class="container pt-14 pt-md-10">
     <div class="row">
       <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
-      <h1 style="text-color:#e4d00a;text-align:center;font-size:50px;">GALLERY</h1>
-        <h3 class="display-4 mb-10 text-inversetowhite">Captured the best moments.</h3>
+      <h1 class="display-1"">GALLERY</h1>
+        <h4 class="mb-10 text-inversetowhite">Captured the best moments...</h4>
       </div>
       <!-- /column -->
     </div>
@@ -214,7 +215,7 @@
       <!-- /.swiper -->
     </div>
         <div class="text-center">
-            <a href="gallery.php" class="btn btn-lg btn-primary rounded-pill">View Gallery</a>
+            <a href="gallery.html" class="btn btn-lg btn-primary rounded-pill">View Gallery</a>
          </div>
     <!-- /.swiper-container -->
   </div>
@@ -224,6 +225,10 @@
 
   <!--small gallery on home page-->
 
+
+  <section class="bg-darkpink">
+  <div class="mb-12"></div>
+  </section
   
 
   <!--partners-->
@@ -263,7 +268,10 @@
 </section>
 <!-- /section -->
 
-    </p>
+<section class="bg-darkpink">
+  <div class="mb-9"></div>
+  </section
+ 
     </body>
     </html>
 

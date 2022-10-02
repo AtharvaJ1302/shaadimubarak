@@ -1,4 +1,3 @@
-
 a,
 a:hover,
 .dropdown-item:focus,
@@ -63,7 +62,7 @@ a:hover,
 .external:hover:after,
 .navbar-expand.navbar-light .navbar-nav .dropdown:not(.dropdown-submenu)>.dropdown-toggle:after,
 .navbar-light .language-select .dropdown-toggle:after {
-  color: #f7f1f1;
+  color: #000000;
 }
 .link-dark:hover,
 .text-primary,
@@ -76,7 +75,7 @@ a.text-reset:hover,
 .sidebar nav .nav-link.active,
 .plyr__control--overlaid:focus,
 .plyr__control--overlaid:hover {
-  color: #efe5e5 !important;
+  color: #000000 !important;
 }
 .form-control:focus {
   border-color: #9a9fa9;
@@ -104,11 +103,11 @@ a.text-reset:hover,
 .btn-outline-primary:active,
 .navbar.navbar-light.fixed .btn:not(.btn-expand),
 .text-line:before {
-  background-color: #f4f0f0;
+  background-color: #000000;
 }
 .bg-primary,
 .icon-list.bullet-bg i[class*=bullet-primary] {
-  background-color: #fcfafa !important;
+  background-color: #000000 !important;
 }
 .btn-primary.btn-circle.ripple::after,
 .btn-primary.btn-circle.ripple::before,
@@ -146,11 +145,11 @@ blockquote,
   border-color: #000000;
 }
 .border-primary {
-  border-color: white; !important;
+  border-color: #000000 !important;
 }
 .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before,
 .bs-tooltip-top .tooltip-arrow::before {
-  border-top-color: white;
+  border-top-color: #000000;
 }
 .bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow::before,
 .bs-tooltip-end .tooltip-arrow::before,
@@ -183,10 +182,10 @@ blockquote,
   fill: #000000;
 }
 .shape.soft-primary .svg-fill {
-  fill: #f0f1f2;
+  fill: #000000;
 }
 .shape.pale-primary .svg-fill {
-  fill: #dfe0e3;
+  fill: #000000;
 }
 ::-moz-selection {
   background: rgba(52, 63, 82, 0.7);
@@ -214,56 +213,56 @@ blockquote,
 }
 a.hover-2:before,
 a.hover-3:before {
-  background-color: #dfe0e3;
+  background-color: #000000;
 }
 .bg-soft-primary {
-  background-color: #f0f1f2 !important;
+  background-color: #000000 !important;
 }
 .text-soft-primary {
-  color: #f0f1f2 !important;
+  color: #000000 !important;
 }
 .bg-pale-primary {
-  background-color: #dfe0e3 !important;
+  background-color: #000000 !important;
 }
 .text-pale-primary {
-  color: #dfe0e3 !important;
+  color: #000000 !important;
 }
 .bg-gradient-primary {
-  background: linear-gradient(180deg, #f0f1f2, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(180deg, #000000, rgba(255, 255, 255, 0) 100%);
 }
 .bg-gradient-reverse-primary {
-  background: linear-gradient(0deg, #f0f1f2, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0) 100%);
 }
 .border-soft-primary {
-  border-color: #c2c5cb !important;
+  border-color: #000000 !important;
 }
 .wrapper.bg-soft-primary.angled.lower-start:after,
 .wrapper.bg-soft-primary.angled.upper-start:before {
-  border-left-color: #f0f1f2;
+  border-left-color: #000000;
 }
 .wrapper.bg-soft-primary.angled.lower-end:after,
 .wrapper.bg-soft-primary.angled.upper-end:before {
-  border-right-color: #f0f1f2;
+  border-right-color: #000000;
 }
 .wrapper.bg-pale-primary.angled.lower-start:after,
 .wrapper.bg-pale-primary.angled.upper-start:before {
-  border-left-color: #dfe0e3;
+  border-left-color: #000000;
 }
 .wrapper.bg-pale-primary.angled.lower-end:after,
 .wrapper.bg-pale-primary.angled.upper-end:before {
-  border-right-color: #dfe0e3;
+  border-right-color: #000000;
 }
 .icon-list.bullet-soft-primary.bullet-bg i {
-  background-color: #dadce0;
+  background-color: #000000;
 }
 .icon-list.bullet-bg i[class*=bullet-soft-primary] {
-  background-color: #dadce0 !important;
+  background-color: #000000 !important;
 }
 form.dark-fields .form-control:focus {
   border-color: rgba(52, 63, 82, 0.5);
 }
 .btn-soft-primary {
-  background-color: #dfe0e3;
+  background-color: #000000;
 }
 .btn-expand.btn-primary {
   color: #000000;
@@ -279,7 +278,7 @@ form.dark-fields .form-control:focus {
 }
 .btn-expand.btn-soft-primary:before {
   color: #000000;
-  background-color: #dfe0e3;
+  background-color: #000000;
 }
 .btn-expand.btn-soft-primary:hover {
   color: #000000;
@@ -296,7 +295,7 @@ form.dark-fields .form-control:focus {
 .alert-primary {
   color: #242c39;
   background-color: #ebecee;
-  border-color: #c2c5cb;
+  border-color: #000000;
 }
 .alert-primary .alert-link {
   color: #2a3242;
@@ -317,7 +316,7 @@ form.dark-fields .form-control:focus {
 }
 .btn-soft-primary.btn-circle.ripple::after,
 .btn-soft-primary.btn-circle.ripple::before {
-  background-color: #f0f1f2;
+  background-color: #000000;
 }
 .bg-dot.primary {
   background-image: radial-gradient(#000000 2px, transparent 2.5px);
