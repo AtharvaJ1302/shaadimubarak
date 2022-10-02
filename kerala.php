@@ -31,21 +31,28 @@ session_start();
     <link rel="stylesheet" href="./assets/css/states.css">
   <style>
   .back{
-    margin-left: -130px;
+    margin-left: -20px;
+    width: 30rem;
   }
- .btn{
-  position: relative;
-  left:14rem;
-}
 
- .price{
+  .btn{
+    position: relative;
+    left:11rem;
+  }
+
+  .price{
     position:relative;
-    right:15rem;
-}
+    right:13rem;
+  }
 
-.front{
-  height: 25rem;
-}
+  .front{
+    height: 25rem;
+    width: 30rem;
+  }
+  label{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
 </style>
 </head>

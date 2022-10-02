@@ -30,21 +30,27 @@ session_start();
 
   <style>
   .back{
-    margin-left: -130px;
+    margin-left: -20px;
+    width: 30rem;
   }
 
-  .btn{
+  .btn-state{
     position: relative;
-    left:14rem;
+    left:11rem;
   }
 
   .price{
     position:relative;
-    right:15rem;
+    right:13rem;
   }
 
   .front{
     height: 25rem;
+    width: 30rem;
+  }
+  label{
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 </style>
 </head>
@@ -114,7 +120,7 @@ session_start();
               ceremony.
             </p>
             <div class="price" style="top:10.5rem;" >₹80000</div>
-            <button class="btn btn-primary" name="venue1" style="top: 9rem;"> Select </button>           <!-- <a href="#" class="btn btn-primary" style="text-align: center;">Add to cart</a> -->
+            <button class="btn-state btn-primary" name="venue1" style="top: 9rem;"> Select </button>           <!-- <a href="#" class="btn btn-primary" style="text-align: center;">Add to cart</a> -->
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -183,7 +189,7 @@ session_start();
               for the guests.
             </p>
             <div class="price" style="top:5rem;" >₹92000</div>
-            <button class="btn btn-primary" name="venue2" style="top:3rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue2" style="top:3rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -248,7 +254,7 @@ session_start();
               quiet retreat, where nature’s supreme beauty creates a mesmerizing backdrop for your sublime relaxation.
             </p>
             <div class="price" style="top:11rem;" >₹100000</div>
-             <button class="btn btn-primary" name="venue3" style="top: 9rem;"> Select </button>
+             <button class="btn-state btn-primary" name="venue3" style="top: 9rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -315,7 +321,7 @@ session_start();
               lawn space, and a poolside space.
             </p>
             <div class="price" style="top:7.5rem;" >₹85000</div>
-            <button class="btn btn-primary" name="venue4" style="top: 5.5rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue4" style="top: 5.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -382,7 +388,7 @@ session_start();
               for outdoor weddings.
             </p>
             <div class="price" style="top:5rem;" >₹98000</div>
-           <button class="btn btn-primary" name="venue5" style="top: 3rem;"> Select </button>
+           <button class="btn-state btn-primary" name="venue5" style="top: 3rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -453,7 +459,7 @@ session_start();
               beach below.
             </p>
             <div class="price" style="top:6rem;" >₹120000</div>
-           <button class="btn btn-primary" name="venue6" style="top: 4rem;"> Select </button>
+           <button class="btn-state btn-primary" name="venue6" style="top: 4rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -525,7 +531,7 @@ session_start();
               Performers, Dhol Wales and much more.
             </p>
             <div class="price" style="top:6rem;" >₹130000</div>
-           <button class="btn btn-primary" name="venue7" style="top: 4.5rem;"> Select </button>
+           <button class="btn-state btn-primary" name="venue7" style="top: 4.5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -593,7 +599,7 @@ session_start();
               services, unrivaled array of amenities and striking venues, at economical prices.
             </p>
             <div class="price" style="top:6.5rem;" >₹99000</div>
-           <button class="btn btn-primary" name="venue8" style="top: 5rem;"> Select </button>
+           <button class="btn-state btn-primary" name="venue8" style="top: 5rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -664,7 +670,7 @@ session_start();
               city.
             </p>
             <div class="price" style="top:5rem;" >₹100000</div>
-            <button class="btn btn-primary" name="venue9" style="top: 3rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue9" style="top: 3rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -731,7 +737,7 @@ session_start();
               events. This sought after venue is sure to make your event memorable and give you memories to last a
               lifetime.</p>
               <div class="price" style="top:7.8rem;" >₹110000</div>
-            <button class="btn btn-primary" name="venue10" style="top: 6rem;"> Select </button>
+            <button class="btn-state btn-primary" name="venue10" style="top: 6rem;"> Select </button>
           </div>
         </div>
         <!-- End Card 10 Back -->

@@ -29,6 +29,29 @@ session_start();
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/states.css">
 
+<style>
+
+.back{
+    margin-left: -20px;
+    width: 30rem;
+  }
+
+  .btn-state{
+    position: relative;
+    left:11rem;
+  }
+
+  .front{
+   
+    width: 30rem;
+  }
+  label{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+</style>
+
 </head>
 
 <body>
@@ -90,7 +113,7 @@ session_start();
               quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
               velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
               reprehenderit amet?</p>
-              <button class="btn btn-primary" name="photo1" > Select </button>
+              <button class="btn-state btn-primary" name="photo1" > Select </button>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -152,7 +175,7 @@ session_start();
               quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
               velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
               reprehenderit amet?</p>
-              <button class="btn btn-primary" name="photo2" > Select </button>
+              <button class="btn-photo btn-primary" name="photo2" > Select </button>
           </div>
         </div>
         <!-- End Card 2 Back -->
@@ -214,7 +237,7 @@ session_start();
               quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
               velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
               reprehenderit amet?</p>
-              <button class="btn btn-primary" name="photo3" > Select </button>
+              <button class="btn-photo btn-primary" name="photo3" > Select </button>
           </div>
         </div>
         <!-- End Card 3 Back -->
@@ -274,7 +297,7 @@ session_start();
               quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
               velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
               reprehenderit amet?</p>
-              <button class="btn btn-primary" name="photo4" > Select </button>
+              <button class="btn-photo btn-primary" name="photo4" > Select </button>
           </div>
         </div>
         <!-- End Card 4 Back -->
@@ -335,7 +358,7 @@ session_start();
               quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
               velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
               reprehenderit amet?</p>
-              <button class="btn btn-primary" name="photo5" > Select </button>
+              <button class="btn-photo btn-primary" name="photo5" > Select </button>
           </div>
         </div>
         <!-- End Card 5 Back -->
@@ -398,7 +421,7 @@ session_start();
               quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
               velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
               reprehenderit amet?</p>
-              <button class="btn btn-primary" name="photo6" > Select </button>
+              <button class="btn-photo btn-primary" name="photo6" > Select </button>
           </div>
         </div>
         <!-- End Card 6 Back -->
@@ -462,7 +485,7 @@ session_start();
               quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
               velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
               reprehenderit amet?</p>
-              <button class="btn btn-primary" name="photo7" > Select </button>
+              <button class="btn-photo btn-primary" name="photo7" > Select </button>
           </div>
         </div>
         <!-- End Card 7 Back -->
@@ -525,7 +548,7 @@ session_start();
               quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
               velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
               reprehenderit amet?</p>
-              <button class="btn btn-primary" name="photo8" > Select </button>
+              <button class="btn-photo btn-primary" name="photo8" > Select </button>
           </div>
         </div>
         <!-- End Card 8 Back -->
@@ -588,7 +611,7 @@ session_start();
               quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
               velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
               reprehenderit amet?</p>
-              <button class="btn btn-primary" name="photo9" > Select </button>
+              <button class="btn-photo btn-primary" name="photo9" > Select </button>
           </div>
         </div>
         <!-- End Card 9 Back -->
@@ -651,7 +674,7 @@ session_start();
               quasi aliquid quas fuga unde modi tempora voluptatum ullam officia a similique laudantium molestiae cumque
               velit eos maiores fugiat quaerat consequatur quibusdam quod facere. Quod necessitatibus nulla
               reprehenderit amet?</p>
-              <button class="btn btn-primary" name="photo10" > Select </button>
+              <button class="btn-photo btn-primary" name="photo10" > Select </button>
           </div>
         </div>
         <!-- End Card 10 Back -->

@@ -64,7 +64,7 @@ input[type='checkbox']:checked+.card-container .card-flip {
   text-align: center;
 }
 
-.btn {
+.btn-photo {
   margin-left: 30px;
   /*margin-top: 138px;*/
 }
