@@ -109,22 +109,37 @@
     <div class="row gx-lg-8 gx-xl-12 gy-6 process-wrapper line">
       <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">01</span></span>
         <h4 class="mb-1 text-inversetowhite">SIGN UP</h4>
-        <p class="mb-0">First step to get with us.</p>
+        <p class="mb-0"> Get with us.</p>
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">02</span></span>
-        <h4 class="mb-1 text-inversetowhite">CHOOSE YOUR DESTINATION AND FOOD MENU </h4>
-        <p class="mb-0">Search and choose for the best option from our endless varieties.</p>
+        <h4 class="mb-1 text-inversetowhite">DESTINATION </h4>
+        <p class="mb-0">Choose your dream venue.</p>
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">03</span></span>
-        <h4 class="mb-1 text-inversetowhite">OTHER FACILITIES </h4>
-        <p class="mb-0">Choose for some fun and music by capturing your memories for life.</p>
+        <h4 class="mb-1 text-inversetowhite">FOOD </h4>
+        <p class="mb-0">Choosing the best taste for your palate.</p>
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">04</span></span>
+        <h4 class="mb-1 text-inversetowhite">SOUND AND LIGHT</h4>
+        <p class="mb-0">Best beat for your event.</p>
+      </div>
+      <!--/column -->
+      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">05</span></span>
+        <h4 class="mb-1 text-inversetowhite">PHOTOGRAPHY</h4>
+        <p class="mb-0">Capture as much as you can.</p>
+      </div>
+      <!--/column -->
+      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">06</span></span>
+        <h4 class="mb-1 text-inversetowhite">INVITATION CARDS</h4>
+        <p class="mb-0">Share your day with your loved ones.</p>
+      </div>
+      <!--/column -->
+      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary disabled mb-4"><span class="number">07</span></span>
         <h4 class="mb-1 text-inversetowhite">PAYMENT</h4>
-        <p class="mb-0">Get your whole wedding planned on a single platform.</p>
+        <p class="mb-0">Finalize with the best deal.</p>
       </div>
       <!--/column -->
     </div>

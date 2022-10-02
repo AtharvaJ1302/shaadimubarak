@@ -34,7 +34,7 @@ session_start();
       <button name="submit" class="submit-btn">
          <h1>Submit</h1>
       </button>
-   
+
    <!---->
    <div class="products-container">
 
@@ -94,12 +94,15 @@ session_start();
          
    </div>
 </div>
+</div>
+
 <!---->
 
 
       <h2 class="title"> TANDOORI AND GRILLS</h2>
 <!---->
       <div class="products-container2">
+
    <div class="product" data-name="p-9">
          <img src=".\assets\img\app6.jpg" alt="">
          <h3>MUGHLAI PANEER TIKKA</h3>
@@ -163,13 +166,15 @@ session_start();
       
    </div>
 </div>
+
 <!---->
 
      <h2 class="title"> MAIN COURSE</h2>
-      
+
 
 <!---->
       <div class="products-container3">
+
    <div class="product" data-name="p-18">
         <img src=".\assets\img\app9.jpg" alt="">
         <h3>MOGHUL SIGNATURE MALAI KOFTA  </h3>
@@ -261,6 +266,8 @@ session_start();
      
    </div>
       </div>
+
+
       <!---->
 
       
@@ -268,6 +275,7 @@ session_start();
 
      <!---->
 <div class="products-container4">
+
    <div class="product" data-name="p-31">
         <img src=".\assets\img\app18.jpg" alt="">
         <h3>NAAN/BUTTER NAAN/ROTI</h3>
