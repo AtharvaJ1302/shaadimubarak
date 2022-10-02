@@ -6203,7 +6203,7 @@ pre[class*="language-"] {
   font-style: normal
 }
 :root {
-  --swiper-theme-color: #007aff
+  --swiper-theme-color: #FFB6C1;
 }
 .swiper {
   margin-left: auto;

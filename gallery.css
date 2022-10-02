@@ -66,6 +66,10 @@ body{
    letter-spacing: 3px;
   }
   
+.heading{
+  margin-top: 2rem;
+}
+
   @media only screen and (max-width: 769px){
       .container .box{
      flex-direction: column;

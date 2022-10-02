@@ -20,7 +20,7 @@ session_start();
 
 <!--CSS stylesheet-->
 <link rel="stylesheet" href="./assets/css/style.css">
-<link rel="stylesheet" href="./destinations.css">
+<link rel="stylesheet" href="./assets/css/destinations.css">
 
 
 <!--Jquuery cdn-->
@@ -32,38 +32,38 @@ session_start();
 
 
     body{
-        background-color: orange;
+        background-color: black;
     }
 
    .state1{
-   background-color: red;
+   background-color: #FE036A;
    }
    .state2{
-   background-color: red;
+   background-color: #FE036A;
    }
    .state3{
-   background-color: red;
+   background-color: #F5347F ;
    }
    .state4{
-   background-color: red;
+   background-color: #F5347F;
    }
    .state5{
-   background-color: red;
+   background-color: #FF4DA5;
    }
    .state6{
-   background-color: red;
+   background-color: #FF4DA5;
    }
    .state7{
-   background-color: red;
+   background-color:#FF6EB4;
    }
    .state8{
-   background-color: red;
+   background-color:#FF6EB4;
    }
    .state9{
-   background-color: red;
+   background-color:#FF96C9;
    }
    .state10{
-   background-color: red;
+   background-color:#FF96C9 ;
    }
 
 .state h1{
@@ -72,6 +72,16 @@ session_start();
 
 .btn{
     line-height: 0.5;
+    background-color: #000;
+}
+
+.btn a{
+    color: #fff;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
 }
   </style>
 
