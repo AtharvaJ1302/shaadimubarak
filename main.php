@@ -185,27 +185,27 @@
           </div>
           <!--/.swiper-slide -->
           <div class="swiper-slide">
-            <figure class="rounded"><img src="./assets/img/p9.jpg" alt="" /></figure>
+            <figure class="rounded"><img src=".\assets\img\p9.jpg" alt="" /></figure>
           </div>
           <!--/.swiper-slide -->
           <div class="swiper-slide">
-            <figure class="rounded"><img src="./assets/img/p3.jpg" alt="" /></figure>
+            <figure class="rounded"><img src=".\assets\img\p3.jpg" alt="" /></figure>
           </div>
           <!--/.swiper-slide -->
           <div class="swiper-slide">
-            <figure class="rounded"><img src="./assets/img/p4.jpg" alt="" /></figure>
+            <figure class="rounded"><img src=".\assets\img\p4.jpg" alt="" /></figure>
           </div>
           <!--/.swiper-slide -->
           <div class="swiper-slide">
-            <figure class="rounded"><img src="./assets/img/p13.jpg" alt="" /></figure>
+            <figure class="rounded"><img src=".\assets\img\p13.jpg" alt="" /></figure>
           </div>
           <!--/.swiper-slide -->
           <div class="swiper-slide">
-            <figure class="rounded"><img src="./assets/img/p14.jpg" alt="" /></figure>
+            <figure class="rounded"><img src=".\assets\img\p14.jpg" alt="" /></figure>
           </div>
           <!--/.swiper-slide -->
           <div class="swiper-slide">
-            <figure class="rounded"><img src="./assets/img/p16.jpg" alt="" /></figure>
+            <figure class="rounded"><img src=".\assets\img\p16.jpg" alt="" /></figure>
           </div>
           <!--/.swiper-slide -->
         </div>

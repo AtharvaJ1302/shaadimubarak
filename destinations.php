@@ -32,38 +32,38 @@ session_start();
 
 
     body{
-        background-color: orange;
+        background-color: black;
     }
 
    .state1{
-   background-color: red;
+   background-color: #FE036A;
    }
    .state2{
-   background-color: red;
+   background-color: #FE036A;
    }
    .state3{
-   background-color: red;
+   background-color: #F5347F ;
    }
    .state4{
-   background-color: red;
+   background-color: #F5347F;
    }
    .state5{
-   background-color: red;
+   background-color: #FF4DA5;
    }
    .state6{
-   background-color: red;
+   background-color: #FF4DA5;
    }
    .state7{
-   background-color: red;
+   background-color:#FF6EB4;
    }
    .state8{
-   background-color: red;
+   background-color:#FF6EB4;
    }
    .state9{
-   background-color: red;
+   background-color:#FF96C9;
    }
    .state10{
-   background-color: red;
+   background-color:#FF96C9 ;
    }
 
 .state h1{

@@ -20246,7 +20246,7 @@ h6,
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 700;
-  color: #343f52;
+  color: black;
   word-spacing: 0.1rem;
   letter-spacing: -0.01rem;
 }
@@ -21226,13 +21226,13 @@ figure img {
   color: #efeff0 !important;
 }
 .bg-soft-primary {
-  background-color: #f1f5fd !important;
+  background-color: #fa7294 !important;
 }
 .bg-soft-primaryheader {
-  background-color: #FFB6C1 !important;
+  background-color: #ef8eaa !important;
 }
 .text-soft-primary {
-  color: #f1f5fd !important;
+  color: #080808 !important;
 }
 .bg-soft-gray {
   background: rgba(164, 174, 198, 0.2);
