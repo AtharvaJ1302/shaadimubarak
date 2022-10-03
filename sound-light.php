@@ -44,7 +44,7 @@ session_start();
   .price-sound{
     position:relative;
     right:13rem;
-    bottom: 1.5rem;
+    bottom: 3.5rem;
   }
 
   .front{

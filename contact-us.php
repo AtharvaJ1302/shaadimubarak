@@ -18,7 +18,7 @@ session_start();
 
 <style>
     section{
-    background: url(./assets/img/contact-bg.jpg);
+    background: url(./assets/img/contact-bg2.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ color: #000;
 
     <section>
         <div class="container-con">
-            <h2>Contact us</h2>
+            <h2 style="position: relative;">Contact us</h2>
 
             <div class="row100">
                 <div class="col">

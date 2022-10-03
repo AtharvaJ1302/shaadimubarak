@@ -104,7 +104,7 @@ color: #000;
                       </div>
                   </div>
                   <div class="item">
-                  <img src="./assets/img/team-4.jpg" alt="team" />
+                  <img src="./profile photos/atharva2.jpeg" alt="team" width="255px" height="325px"/>
                       <div class="inner">
                           <div class="info">
                                <h5>Atharva Joshi</h5>

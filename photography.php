@@ -54,7 +54,7 @@ session_start();
   .price{
     position:relative;
     right:13rem;
-    bottom: 1.5rem;
+    bottom: 3.5rem;
   }
 </style>
 
