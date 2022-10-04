@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-lg center-nav transparent navbar-light;navbar-color:#FFB6C1">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
-            <a href="./index.html">
+            <a href="./index.php">
               <img src="./assets/img/logof.png" alt="logo" srcset="./assets/img/logof.png 4x">
             </a>
           </div>
@@ -32,8 +32,8 @@
                     <li class="nav-item"><a class="dropdown-item" href="./destinations.php">Destinations</a></li>
                       <li class="nav-item"><a class="dropdown-item" href="./food.php">Food</a>
                       </li>
-                    <li class="nav-item"><a class="dropdown-item" href="./sound-light.php">Sound and Lights</a></li>
-                    <li class="nav-item"><a class="dropdown-item" href="./photography.php">Photography</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="./photography.php">Photography</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="./sound-light.php">Sound and Lights</a></li>
                   </ul>
                 </li>
                 

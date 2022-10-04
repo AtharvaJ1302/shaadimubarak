@@ -1,4 +1,4 @@
-<?
+<?php
 session_start();
 ?>
 <!DOCTYPE html>
@@ -65,12 +65,10 @@ color: #000;
                       <div class="inner">
                           <div class="info">
                                <h5>Aditi Palkar</h5>
-                               <p>Designer</p>
+                               <p>Front-End</p>
                                <div class="social-links">
                                 
-                                   <a href=""><span class="fa fa-twitter"></span></a>
-                                   <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                                   
                                </div>
                           </div>
                       </div>
@@ -80,11 +78,9 @@ color: #000;
                       <div class="inner">
                           <div class="info">
                                <h5>Komal Shrimal</h5>
-                               <p>Designer</p>
+                               <p>Front-End</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-twitter"></span></a>
-                                   <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                               
                                </div>
                           </div>
                       </div>
@@ -94,11 +90,9 @@ color: #000;
                       <div class="inner">
                           <div class="info">
                                <h5>Sakshi Chikorde</h5>
-                               <p>Designer</p>
+                               <p>Front-End</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-twitter"></span></a>
-                                   <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                               
                                </div>
                           </div>
                       </div>
@@ -108,11 +102,9 @@ color: #000;
                       <div class="inner">
                           <div class="info">
                                <h5>Atharva Joshi</h5>
-                               <p>Designer</p>
+                               <p>Front-End</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-twitter"></span></a>
-                                   <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                               
                                </div>
                           </div>
                       </div>
@@ -122,11 +114,9 @@ color: #000;
                       <div class="inner">
                           <div class="info">
                                <h5>Eeshan Vaidya</h5>
-                               <p>Designer</p>
+                               <p>Back-End</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-twitter"></span></a>
-                                   <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                              
                                </div>
                           </div>
                       </div>
@@ -136,11 +126,9 @@ color: #000;
                       <div class="inner">
                           <div class="info">
                                <h5>Huzaifa Faize</h5>
-                               <p>Designer</p>
+                               <p>Back-End</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-twitter"></span></a>
-                                   <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                              
                                </div>
                           </div>
                       </div>
@@ -150,11 +138,9 @@ color: #000;
                       <div class="inner">
                           <div class="info">
                                <h5>Atharva Karkar</h5>
-                               <p>Designer</p>
+                               <p>Back-End</p>
                                <div class="social-links">
-                               <a href=""><span class="fa fa-twitter"></span></a>
-                                   <a href=""><span class="fa fa-linkedin"></span></a>
-                                   <a href=""><span class="fa fa-instagram"></span></a>
+                               
                                </div>
                           </div>
                       </div>
