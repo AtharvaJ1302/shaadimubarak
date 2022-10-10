@@ -5,7 +5,7 @@ function check()
     if(empty($_SESSION))
     {
         echo "<script>
-alert('Signin To Start Booking!');
+alert('Please Sign in to Start Booking!');
 window.location.href='food.php';
 </script>";
 return false;
