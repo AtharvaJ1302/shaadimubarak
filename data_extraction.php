@@ -67,7 +67,6 @@ include("connection.php");
 
   <form action="venuemaharashtra.php" method="post">
   <section id="container">
-    
 
     <div class="head">
       <h1>MAHARASHTRA</h1>
@@ -82,47 +81,51 @@ include("connection.php");
     while($row=mysqli_fetch_array($result,MYSQLI_ASSOC))
     {
         $count++;
-        $image=explode(',',$row["images"]);        
+        $image=explode(',',$row["images"]);
+        $card_id="card_id".$count ; 
+        $data_bs_target="#carouselExampleControls".$count;      
+        $data_bs_id="carouselExampleControls".$count;
 
     ?>
-    <input type="checkbox" id="card-1" />
-    <label class="col-md-5 card-container" for='card-1'>
+    <input type="checkbox" id=<?php echo $card_id;?> />
+    <label class="col-md-5 card-container" for=<?php echo $card_id;?>>
 
       <div class="card-flip">
-        <!-- Card  Front -->
+        <!-- Card 1 Front -->
         <div class="card front">
-          <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+          <div id=<?php echo $data_bs_id;?> class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
+              <div class="carousel-item active">
+              <?php echo '<img src="./images/Maharashtra/GCC hotel/'.$image[0].'" class="d-block w-100" alt="..." width="538px" height="358px">';?>
+              </div>
               <div class="carousel-item">
-                <?php foreach($image as $i)
-                {
-                    ?>
-                    <img src=<?php echo "/images/Maharashtra/GCC hotel/".$i; ?> class="d-block w-100" alt="..." width="538px" height="358px">
-                    <?php } //end of foreach?>
-                
-                </div>
+                <?php echo '<img src="./images/Maharashtra/GCC hotel/'.$image[1].'" class="d-block w-100" alt="..." width="538px" height="358px">';?>
+              </div>
+              <div class="carousel-item">
+              <?php echo '<img src="./images/Maharashtra/GCC hotel/'.$image[2].'" class="d-block w-100" alt="..." width="538px" height="358px">';?>
+              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
+            <button class="carousel-control-prev" type="button" data-bs-target=<?php echo $data_bs_target;?>
               data-bs-slide="prev" value="click" onclick="flip">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
+            <button class="carousel-control-next" type="button" data-bs-target=<?php echo $data_bs_target;?>
               data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
           <div class="card-body">
-            <h5 class="card-title"> <?php echo $row["item_name"]; ?> </h5>
+            <h5 class="card-title"><?php echo $row["item_name"]; ?></h5>
 <h6>LOCATION:<?php echo $row["venue"]; ?></h6>
 
           </div>
         </div>
 
-        <!-- End Card Front -->
+        <!-- End Card 1 Front -->
 
-        <!-- Card  Back -->
+        <!-- Card 1 Back -->
         <div class="card back">
           <div class="card-header">
             Description
@@ -136,13 +139,12 @@ include("connection.php");
             <button class="btn-state btn-primary" name="venue1" style=" top: 5rem;">Select</button>
           </div>
         </div>
-        <!-- End Card  Back -->
+        <!-- End Card 1 Back -->
       </div>
     </label>
-    <!-- End Card -->
+    <!-- End Card 1 -->
 
-
-        <?php
+    <?php
     }//end of while
         ?>
 
