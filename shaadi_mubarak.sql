@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Oct 01, 2022 at 12:44 PM
+-- Generation Time: Oct 12, 2022 at 11:37 AM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -29,16 +29,17 @@ SET time_zone = "+00:00";
 
 DROP TABLE IF EXISTS `admin_login`;
 CREATE TABLE IF NOT EXISTS `admin_login` (
-  `Admin_Name` varchar(10) NOT NULL,
-  `Admin_Password` varchar(10) NOT NULL
+  `ID` int(11) NOT NULL,
+  `username` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `admin_login`
 --
 
-INSERT INTO `admin_login` (`Admin_Name`, `Admin_Password`) VALUES
-('No User', '12345');
+INSERT INTO `admin_login` (`ID`, `username`, `password`) VALUES
+(7, 'admin', 'ShaadiHoniChahiye@69420');
 
 -- --------------------------------------------------------
 
@@ -117,6 +118,37 @@ INSERT INTO `food` (`food_id`, `food_name`, `food_price`, `type`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `master_list`
+--
+
+DROP TABLE IF EXISTS `master_list`;
+CREATE TABLE IF NOT EXISTS `master_list` (
+  `item_category` varchar(500) NOT NULL,
+  `item_name` varchar(500) NOT NULL,
+  `item_description` mediumtext NOT NULL,
+  `price` int(10) NOT NULL,
+  `venue` varchar(500) DEFAULT NULL,
+  `state` varchar(500) DEFAULT NULL,
+  `city` varchar(500) DEFAULT NULL,
+  `food_category` varchar(500) DEFAULT NULL,
+  `food_type` varchar(500) DEFAULT NULL,
+  `images` varchar(500) DEFAULT NULL,
+  `status` varchar(500) NOT NULL DEFAULT 'Active'
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `master_list`
+--
+
+INSERT INTO `master_list` (`item_category`, `item_name`, `item_description`, `price`, `venue`, `state`, `city`, `food_category`, `food_type`, `images`, `status`) VALUES
+('', '', '', 1000, '', '', '', '', '', '', 'active'),
+('Food', 'Pizza', 'Delicious Italian Dish', 1000, '', '', '', 'Snacks', 'Veg', 'kdiosifposk', 'active'),
+('Food', 'Pizza', 'Delicious Italian Dish', -12, '', '', '', 'Snacks', 'Veg', 'kdiosifposk', 'active'),
+('Venue', 'JW Marriott', 'OIHoahdohcadncandc dp cdicoisjdocosdio cos dc oishdochosdpc osdh co sd ochiosd', 120000, 'SB Road', 'Maharashtra', 'Pune', '', '', 'https://epicgames.com', 'Active');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `state`
 --
 
@@ -185,7 +217,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `email` varchar(150) NOT NULL,
   `password` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=71 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=75 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
@@ -205,7 +237,11 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
 (47, 'Ujwal Mani', 'parminder39@nadig.org', '41a29e53e7f20ea416ef12ad2815ded2'),
 (46, 'Anannya Parikh', 'feroz.verma@yahoo.com', 'be818db43d2f5db01a3a04649e12e70b'),
 (38, 'Charlie Hayer', 'ubail@rediffmail.com', 'a23369bd115ecf51855b9b3bea43800e'),
-(63, 'Robert Davis', 'robertdavis@gmail.com', '684c851af59965b680086b7b4896ff98');
+(63, 'Robert Davis', 'robertdavis@gmail.com', '684c851af59965b680086b7b4896ff98'),
+(71, 'Eeshan', 'eeshan.vaidya.professional@gmail.com', 'e2975ecce841ca98e5368e9471619cda'),
+(72, 'eeshan.vaidya.professional@gmail.com', 'eeshan.vaidya.professional@gmail.com', '51aca628cbc7bb656eebc7aace9d98a1'),
+(73, 'eeshan.vaidya.professional@gmail.com', 'eeshan.vaidya.professional@gmail.com', 'e2975ecce841ca98e5368e9471619cda'),
+(74, 'eeshanvaidya14@gmail.com', 'eeshanvaidya14@gmail.com', '741051f1929216889aefe84d2a15cffa');
 
 -- --------------------------------------------------------
 
