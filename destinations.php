@@ -85,8 +85,9 @@ color: #000;
 
 </head>
 <body>
-<?php include("./header.php"); ?>
 
+<?php include("./header.php"); ?>
+<!-- <form action="venue.php" method="post"> -->
     <section id="heading" >
         <h2 style="position: relative; top: 60%;color: #fff;">Destinations</h2>
     </section>
@@ -94,46 +95,76 @@ color: #000;
     <div class="container">
     <div class="state state1">
         <h1>Maharashtra</h1>
-        <button class="btn"><a href="maharashtra.php"><span>More</span></a></button>
+        <form action="venue.php" method="post">
+        <input type="hidden" name="state" value="Maharashtra">
+        <button class="btn" name="submit"><span>More</span></button>
+    </form>
         </div>
     <div class="state state2">
         <h1>Goa</h1>
-        <button class="btn"><a href="goa.php"><span>More</span></a></button>
+        <form action="venue.php" method="post">
+        <input type="hidden" name="state" value="Goa">
+        <button class="btn" name="submit"><span>More</span></button>
+    </form>
     </div>
     <div class="state state3">
         <h1>Jammu & Kashmir</h1>
-        <button class="btn"><a href="jk.php"><span>More</span></a></button>
+        <form action="venue.php" method="post">
+        <input type="hidden" name="state" value="Jammu And Kashmir">
+        <button class="btn" name="submit"><span>More</span></button>
+    </form>
     </div>
     <div class="state state4">
         <h1>Delhi</h1>
-        <button class="btn"><a href="delhi.php"><span>More</span></a></button>
+        <form action="venue.php" method="post">
+        <input type="hidden" name="state" value="Delhi">
+        <button class="btn" name="submit"><span>More</span></button>
+    </form>
     </div>
     <div class="state state5">
         <h1>Kerala</h1>
-        <button class="btn"><a href="kerala.php"><span>More</span></a></button>
+        <form action="venue.php" method="post">
+        <input type="hidden" name="state" value="Kerala">
+        <button class="btn" name="submit"><span>More</span></button>
+    </form>
     </div>
     <div class="state state6">
         <h1>West Bengal</h1>
-        <button class="btn"><a href="bengal.php"><span>More</span></a></button>
+        <form action="venue.php" method="post">
+        <input type="hidden" name="state" value="West Bengal">
+        <button class="btn" name="submit"><span>More</span></button>
+    </form>
     </div>
     <div class="state state7">
         <h1>Punjab</h1>
-        <button class="btn"><a href="punjab.php"><span>More</span></a></button>
+        <form action="venue.php" method="post">
+        <input type="hidden" name="state" value="Punjab">
+        <button class="btn" name="submit"><span>More</span></button>
+    </form>
     </div>
     <div class="state state8">
         <h1>Gujarat</h1>
-        <button class="btn"><a href="gujarat.php"><span>More</span></a></button>
+        <form action="venue.php" method="post">
+        <input type="hidden" name="state" value="Gujarat">
+        <button class="btn" name="submit"><span>More</span></button>
+    </form>
     </div>
     <div class="state state9">
         <h1>Telangana</h1>
-        <button class="btn"><a href="telangana.php"><span>More</span></a></button>
+        <form action="venue.php" method="post">
+        <input type="hidden" name="state" value="Telangana">
+        <button class="btn" name="submit"><span>More</span></button>
+    </form>
     </div>
     <div class="state state10">
         <h1>Rajasthan</h1>
-        <button class="btn"><a href="rajasthan.php"><span>More</span></a></button>
+        <form action="venue.php" method="post">
+        <input type="hidden" name="state" value="Rajasthan">
+        <button class="btn" name="submit"><span>More</span></button>
+    </form>
     </div>
 </div>
-
+<!-- </form> -->
 <?php include("./footer.php"); ?>
 </body>
 
