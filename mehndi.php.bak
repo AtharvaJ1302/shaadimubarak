@@ -46,7 +46,7 @@ session_start();
 
   .front{
     height: 25rem;
-    width: 30rem;
+    width: 20rem;
   }
   label{
     margin-top: 20px;
@@ -69,7 +69,6 @@ session_start();
     <input type="checkbox" id="card-1" />
     <label class="col-md-5 card-container" for='card-1'>
 
-      
         <!-- Card 1 Front -->
         <div class="card front">
           <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
@@ -81,7 +80,7 @@ session_start();
                 <img src="mehndi/b1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="mehndi/im1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="mehndi/nim.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
@@ -150,13 +149,13 @@ session_start();
           <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="mehndi/img3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="mehndi/nimg1.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="mehndi/b3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="mehndi/nb3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="mehndi/im3.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="mehndi/nim.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
@@ -188,13 +187,13 @@ session_start();
           <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="mehndi/img4.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="mehndi/eimg.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="mehndi/b4.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="mehndi/4b.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="mehndi/im4.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="mehndi/4f.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
@@ -227,7 +226,7 @@ session_start();
           <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="mehndi/img5.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="mehndi/img8.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
                 <img src="mehndi/b5.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
@@ -268,13 +267,13 @@ session_start();
           <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="mehndi/img6.jpg" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px" width="538px" height="358px">
+                <img src="mehndi/img10.jpg" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px" width="538px" height="358px">
               </div>
               <div class="carousel-item">
                 <img src="mehndi/b6.jpg" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px" width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="mehndi/im6.jpg" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px" width="538px" height="358px">
+                <img src="mehndi/ef.jpg" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px" width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6"
@@ -313,7 +312,7 @@ session_start();
                 <img src="mehndi/img7.jpg" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="mehndi/b7.jpg" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px">
+                <img src="mehndi/ef1.jpg" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px">
               </div>
               <div class="carousel-item">
                 <img src="mehndi/im7.jpg" class="d-block w-100" alt="..." width="538px" height="358px" width="538px" height="358px">
@@ -357,7 +356,7 @@ session_start();
                 <img src="mehndi/b8.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="mehndi/im8.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="mehndi/eimg.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8"
@@ -394,7 +393,7 @@ session_start();
                 <img src="mehndi/img9.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
-                <img src="mehndi/b9.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
+                <img src="mehndi/nb.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
               </div>
               <div class="carousel-item">
                 <img src="mehndi/im9.jpg" class="d-block w-100" alt="..." width="538px" height="358px">
@@ -457,3 +456,16 @@ session_start();
       </div>
     </label>
     <!-- End Card 10 -->
+
+
+
+ </section>
+  </form>
+  <?php include("./footer.php"); ?>
+</body>
+<?php include("./progress-wrap.php"); ?>
+
+<?php include("./javascript.php"); ?>
+
+
+</html>
