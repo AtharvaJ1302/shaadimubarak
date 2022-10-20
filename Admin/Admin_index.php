@@ -1,3 +1,0 @@
-<?php
-//Admin Page here
-?>

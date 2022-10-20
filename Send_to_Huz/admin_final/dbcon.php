@@ -2,7 +2,7 @@
 
     $host = "localhost";
     $username = "root";
-    $password = "" ;
+    $password = "";
     $database = "shaadi_mubarak" ;
     // Creating database connection
     $con = mysqli_connect ( $host , $username , $password, $database);
@@ -14,6 +14,6 @@
 
     else
     {
-        echo "Connection successful";
+        echo "Connection successful motherfucker! Now go fo!!!";
     }
 ?>

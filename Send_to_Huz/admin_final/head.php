@@ -1,4 +1,4 @@
-<div class="header">
+<!-- <div class="header">
             <div class="nav">
                 <div class="search">
                     <input type="text" placeholder="Search..">
@@ -12,4 +12,4 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->

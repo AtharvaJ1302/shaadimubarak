@@ -12,7 +12,7 @@
 <body>
 
 <?php include('sidemenu.php'); ?>
-<?php include('head.php'); ?>
+
 
 
 </html>
