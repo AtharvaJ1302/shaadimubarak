@@ -1,10 +1,12 @@
 <?php
 include("connection.php");
 session_start(); 
-//include("session_check.php")
+
+
 if(isset($_POST["submit"]))
 {
-    $state=$_POST["state"];
+      $state=$_POST["state"];
+    
 }
 
 ?>
@@ -70,14 +72,14 @@ if(isset($_POST["submit"]))
 
   <?php include("./header.php"); ?>
 
-  <form action="venuemaharashtra.php" method="post">
+  
   <section id="container">
 
     <div class="head">
       <h1><?php echo $state;?></h1>
     </div>
     <?php
-    $sql="SELECT * FROM master_list WHERE item_category='Venue' and state='$state'  and status='Active'";
+    $sql="SELECT * FROM master_list WHERE item_category='venues' and state='$state'  and status='active'";
     $result=mysqli_query($conn,$sql);
     if(!$result){ 
         die("no elements found"); 
@@ -123,7 +125,7 @@ if(isset($_POST["submit"]))
           </div>
           <div class="card-body">
             <h5 class="card-title"><?php echo $row["item_name"]; ?></h5>
-<h6>LOCATION:<?php echo $row["venue"]; ?></h6>
+<h6>LOCATION:<?php echo $row["location"]; ?></h6>
 
           </div>
         </div>
@@ -141,7 +143,10 @@ if(isset($_POST["submit"]))
             </p>
             <div class="price" style="top:7rem;" ><?php echo $row["price"]; ?></div>
             <!-- <a href="#" class="btn btn-primary" style="text-align: center;">Add to cart</a> -->
-            <button class="btn-state btn-primary" name="venue1" style=" top: 5rem;">Select</button>
+            <form action="venueback.php" method="post">
+            <?php echo'<input type="hidden" name="venue" value='.$row["item_id"].'>'?>
+            <button class="btn-state btn-primary" name="select" style=" top: 5rem;">Select</button>
+            </form>
           </div>
         </div>
         <!-- End Card 1 Back -->
@@ -154,7 +159,7 @@ if(isset($_POST["submit"]))
         ?>
 
   </section>
-</form>
+
 
 <?php include("./footer.php"); ?>
 
