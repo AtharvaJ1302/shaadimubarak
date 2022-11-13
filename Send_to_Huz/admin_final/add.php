@@ -58,11 +58,13 @@ session_start();
 
         .butt
         {
-            border-radius: 25px;  
-            background-color: pink; 
-            margin-left: 210px;
+            border-radius: 6px;  
+            background-color: pink;
             color: black;
             cursor: pointer;
+            margin-top: 5px;
+            width: 18vw;
+            height: 5vh;
         }
 
         .butt:hover
@@ -129,7 +131,7 @@ session_start();
                     </div>
                       
                     <div class="form-input-style">
-                        <select class="accept" id="cat" name="f_cat">
+                        <select class="accept" id="cat" name="f_cat" style="margin-left:100px;">
                             <option value="select" disabled selected>Select Food category</option>
                             <option value="appetizers">Appetizers</option>
                             <option value="tandoori and grills">Tandoori and Grill</option>
@@ -138,22 +140,23 @@ session_start();
                             <option value="rice">Rice</option>
                             <option value="accompaniments">Accompaniments</option>
                             <option value="desserts">Desserts</option>
+                            <!-- <option value="beverages">Beverages</option> -->
                          </select>
                     </div>
 
                     <div class="form-input-style">
-                        <select class="accept" name="f_type">
+                        <select class="accept" name="f_type" style="margin-left:100px;">
                             <option value="select" disabled selected>Select Food Type</option>
                             <option value="veg">Veg</option>
                             <option value="non veg">Non Veg</option>
                     </div>
                       
-                    <div class="form-input-style"> 
+                    <div class="form-input-style" style="margin-left:60px;"> 
                         <input class="accept" type = "text" name="img_url" placeholder="Image URL">
                     </div>
                       
-                    <div class="form-input-style"> 
-                        <select class="accept" name="status" id="status">
+                    <div class="form-input-style" style="margin-left:50px;"> 
+                        <select class="accept" name="status" id="status" style="margin-left:100px;">
                             <option value="select" disabled selected>Status</option>
                             <option value="active">Active</option>
                             <option value="disabled">Disabled</option>
@@ -161,8 +164,8 @@ session_start();
 
                     <div class="form-input-style">
                      
-                        <input class="butt" type="submit" value="Add" name="add">                 
-                        <input class="butt" type="reset" value="Reset">
+                        <input class="butt" type="submit" value="Add" name="add" style="margin-left:100px;">                 
+                        <input class="butt" type="reset" value="Reset" style="margin-left:100px;">
                     </div>
                 </form>
             </div>

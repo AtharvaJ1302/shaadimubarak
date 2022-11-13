@@ -20,21 +20,22 @@ if(isset($_POST['add']))
     $img_url=strip_tags($_POST['img_url']);
     $status=strip_tags($_POST['status']);
 
-    $master_query = "INSERT INTO master_list(item_category, item_name, item_description, price, location, state, city, food_category, food_type, images, status) VALUES ('$cat','$name','$desc','$price','$location','$state','$city','$f_cat','$f_type','$img_url','$status')";
+    $master_query = "INSERT INTO master_list(item_category, item_name, item_description, price, location, state, city, food_category, food_type, images, status) VALUES ($cat ,$name ,$desc ,$price ,$location ,$state ,$city ,$f_cat ,$f_type ,$img_url ,$status)";
 
-    //$result = $con->query($master_query);
+    $result = $con->query($master_query);
     $run = mysqli_query($con, $master_query);
 
-    if($run)
+    if($result)
     {
-        //redirect("add.php", "Item added!");
+        echo 'Added Successfully!';
     }
 
     
     else
     {
-        redirect("add.php", "Something went wrong! Please add again motherfucker!");
+        redirect("add.php", "Somethin' went wrong 😣");
     }
 }
+
 
 ?>
