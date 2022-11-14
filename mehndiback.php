@@ -6,7 +6,7 @@ function check()
     {
         echo "<script>
         alert('Signin To Start Booking!');
-        window.location.href='photography.php';
+        window.location.href='mehndi.php';
         </script>";
 return false;
     }
@@ -22,14 +22,14 @@ if(isset($_POST["select"]))
         $user=$_SESSION["user_id"];
         $item=$_POST["photo"];
         //check venue is selected or not if no : redirect with alert if yes: fetch from master_list
-        $sql1="SELECT * FROM ongoing_orders WHERE user_id='$user' AND category='photography'";
+        $sql1="SELECT * FROM ongoing_orders WHERE user_id='$user' AND category='mehendi'";
         $result1=mysqli_query($conn,$sql1);
         $cnt = mysqli_num_rows($result1);
         if($cnt>=1){
             echo "<script>
-        alert('Photographer already selected, check in cart!');
+        alert('Mehndi already selected, check in cart!');
      
-        window.location.href='photography.php';
+        window.location.href='mehndi.php';
         </script>";
         }else{
             $sql="SELECT * FROM master_list WHERE item_id='$item'";
@@ -44,9 +44,9 @@ if(isset($_POST["select"]))
             if($result)
             {
                 echo "<script>
-            alert('Venue added to cart!');
+            alert('Mehndi added to cart!');
          
-            window.location.href='sound-light.php';
+            window.location.href='cart.php';
             </script>";
             }
             
