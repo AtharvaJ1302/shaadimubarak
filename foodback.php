@@ -1,5 +1,6 @@
 <?php
 session_start();
+include("connection.php");
 function check()
 {
     if(empty($_SESSION))
@@ -22,16 +23,25 @@ if(isset($_POST["submit"])){
         }
         //pass values to session variable
         $_SESSION["food"]=$food;
-        
-        //check if valus passed to session variable 
-        //  foreach($_SESSION["food"] as $val )
-        //  {
-        //      echo $val."<br>".gettype($val);
-        //  }
-    
         //head to next page
-    
-        header("Location:photography.php");
+        $user=$_SESSION["user_id"];
+        foreach($food as $f){
+            $sql="SELECT * FROM food WHERE food_id='$f'";
+            $result=mysqli_query($conn,$sql);
+            if($result){
+                $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
+                $name=$row["food_name"];
+                $price=$row["food_price"];
+                $sql="INSERT INTO ongoing_orders(user_id,item_id,category,name,price) VALUES('$user','00','food','$name','$price')";
+                $result=mysqli_query($conn,$sql);
+            }
+        }
+                echo "<script>
+            alert('Food added to cart!');
+         
+            window.location.href='photography.php';
+            </script>";  
+        
     }
 
 

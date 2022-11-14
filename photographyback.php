@@ -44,7 +44,7 @@ if(isset($_POST["select"]))
             if($result)
             {
                 echo "<script>
-            alert('Venue added to cart!');
+            alert('Photgraphy added to cart!');
          
             window.location.href='sound-light.php';
             </script>";

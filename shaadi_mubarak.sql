@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Oct 31, 2022 at 09:37 AM
+-- Generation Time: Nov 14, 2022 at 03:36 PM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -137,7 +137,7 @@ CREATE TABLE IF NOT EXISTS `master_list` (
   `status` varchar(500) NOT NULL DEFAULT 'Active',
   PRIMARY KEY (`item_id`) USING BTREE,
   UNIQUE KEY `item_name` (`item_name`)
-) ENGINE=MyISAM AUTO_INCREMENT=84 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=106 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `master_list`
@@ -195,7 +195,53 @@ INSERT INTO `master_list` (`item_id`, `item_category`, `item_name`, `item_descri
 (80, 'food', 'SAFFORAN SHEMIYA KHEER', '', 210, '', '', '', 'desserts', 'veg', 'j14.jpg', 'active'),
 (81, 'food', 'MANGO SHRIKHAND', 'mildly sweetened yogurt is studded with mango pieces and served with a zesty mango salad.', 220, '', '', '', 'desserts', 'veg', 'j15.jpg', 'active'),
 (82, 'food', 'SHAHI TUKDA', 'Marut Sikka whips up a rich, saffron infused shahi tudka from Awadh. ', 210, '', '', '', 'desserts', 'veg', 'j16.jpg', ''),
-(83, 'food', 'KULFI', 'A popular frozen dessert that is sinfully rich, dense and creamy. Reduced milk flavoured with saffron, cardamom, pistachio and almonds, served chilled. ', 80, '', '', '', 'desserts', 'veg', 'j17.jpg', 'active');
+(83, 'food', 'KULFI', 'A popular frozen dessert that is sinfully rich, dense and creamy. Reduced milk flavoured with saffron, cardamom, pistachio and almonds, served chilled. ', 80, '', '', '', 'desserts', 'veg', 'j17.jpg', 'active'),
+(85, 'venues', 'GCC Hotel and Club', 'Since 1933, GCC Hotel and Club is amidst the 3-star hotels in the city of Mumbai which provides               best-in-class services to its clients.               GCC Hotel and Club is a spectacular place for all kinds of events. Whether it is a big fat Indian wedding               or a small cocktail party, its modern facilities and the sophisticated interiors will definitely impress               you. GCC Hotel and Club offers more than 90,000 sq. ft. lawn space to take your wedding party to the next               level. Its three spacious banquet halls can accommodate 50 to 500 people any time. With more than one               event space, they also provide you with guest accommodation and basic facilities like valet parking.', 87000, 'Mira Road,Mumbai', 'maharashtra', 'Mumbai', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(86, 'venues', 'Eskay Resorts', 'Since 1933, GCC Hotel and Club is amidst the 3-star hotels in the city of Mumbai which provides               best-in-class services to its clients.               GCC Hotel and Club is a spectacular place for all kinds of events. Whether it is a big fat Indian wedding               or a small cocktail party, its modern facilities and the sophisticated interiors will definitely impress               you. GCC Hotel and Club offers more than 90,000 sq. ft. lawn space to take your wedding party to the next               level. Its three spacious banquet halls can accommodate 50 to 500 people any time. With more than one               event space, they also provide you with guest accommodation and basic facilities like valet parking.', 110000, 'Borivali - Kandivali, Mumbai', 'maharashtra', 'Mumbai', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(87, 'mehendi', 'Mansi Bridal Mehndi Artist', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(88, 'mehendi', 'Heena Mehndi', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(89, 'mehendi', 'Arabic Mehndi', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(90, 'mehendi', 'Classic Heena', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(91, 'mehendi', 'Sneha Traditional Mehndi', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(92, 'mehendi', 'Payals Mehndi', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(93, 'mehendi', 'Nisha Bridal Mehndi', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(94, 'mehendi', 'Ayush Mehndi', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(95, 'mehendi', 'Sayali Mehndi', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(96, 'mehendi', 'Bridal Mehndi', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(97, 'venues', 'Novotel', 'They come up with a number of facilities and amenities to call your marriage ceremony the most luxurious               time of your life. With everything under one roof, it becomes really easy for you to book this venue for               your wedding night. Welcome to this paradise with open arms and celebrate each day and function in their               beautiful and full of splendid architecture in their wedding halls. With their in-house salon services,               half               of your burden of a makeup artist gets lowered down! A perfect venue with the best quality and everything               worth the price youve paid for your wedding.', 91000, 'Balraj Sahni Marg, RB Beach, Konkan', 'maharashtra', 'konkan', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(98, 'venues', 'The Tamarind Tree', 'The Tamarind Tree , is a place where the old, the new, and someplace magical are crafted into an exquisite               tapestry. Nestled in a five-acre garden of beautiful trees including the original tamarind tree after               which it was named, a natural pond, colonial Bandstand, elegant pavilions, and ample open spaces, The               Tamarind Tree is a place like none other. It is the perfect place for a celebration, your wedding. A               wedding is one of the best days of your life and you surely want to have a great time, since you are about               to start a new life ahead with your better half. You wish to look out for the best venue where you can               accommodate your guests, serve with awesome, lip-smacking food and yes, you surely look forward to a               location with a number of facilities.', 94000, '88, Kanakapura Road, Nashik', 'maharashtra', 'Nashik', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(99, 'venues', 'The Groves', 'The Groves is a stunning venue and can be a wonderful location for the biggest day of your life. It               presents an opportunity for a couple to hold a wedding at a romantic location without spending a fortune,               surrounded by lush green mango trees and thick vegetation. The venue harmoniously combines nature with               modernity, Swaggering voguish plushy rooms, each coming with its own balcony facing the pool and crisp air               from the verdure of trees. Delightful cocktail parties with the sunken bar in the pool for the guests, an               enclosed area connecting three main spaces together.', 99000, 'The Groves, Kada Agrahara Main Road, Rampura, Amravati', 'maharashtra', 'Amravati', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(100, 'venues', 'Arena100 Sports and Recreation', ' Arena100 Sports and Recreation is one of the most               sought-after banqueting facilities in the city. It was set up with a view to providing an elegant and               superior banqueting space to cater to the varied requirements of their clients. Whatever the celebration               may be, big or small, it is their endeavor to make each celebration, a grand success. They are perfect               when it comes to hosting wedding ceremonies as they offer heavenly views combined with lavish hospitality.               Their warm welcoming nature and hospitality make your wedding experience very special. The location adds               another level of desire to this venue as it is situated on the outskirts, away from the noise and bustle               of the city. The venue has outdoor spaces that can accommodate up to 800 people. They have a flexible               catering policy. They also provide ample parking space for the guests.', 100000, 'Arena100 Sports and Recreation City ,Bypass Road, Aurangabad', 'maharashtra', 'Aurangabad', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(102, 'venues', 'Conrad Pune', 'Conrad Pune is the Hilton companys first luxury hotel in               India. An iconic structure in the heart of Punes dynamic central business district, the striking Conrad               Pune is only minutes from major corporations, key government institutions and premier residential               neighborhoods. It is a place to stay inspired. They offer their guests one-of-a-kind experiences with               sophisticated, locally inspire the surroundings. Service offered is more than personal, its intuitive.               While your stay at hotel, your connections to people and places around the corner, and half way around the               world will be at best. The hotel takes the responsibility of meeting every couple need. The wedding at               this place will help you to pile memories bit by bit in an organised manner.', 89000, 'Conrad, 7, Mangaldas Road, Sangamvadi, Pune', 'maharashtra', 'Pune', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(103, 'venues', 'Dhepe Wada', 'Dhepe Wada is a banquet hall located in the city of Pune.               Choosing a venue for your wedding and all its other related events is not an easy decision to make. You               have to search for multiple options, visit them, compare everything. To ensure that all your wedding               functions area a successful one, Dhepe Wada offers all the facilities and services which you might require               to host your perfect wedding and forge happy and everlasting reminiscences with your loved ones. You will               get a whole set of services and facilities to make your function as a smooth one.', 120000, 'Erandwane, Pune', 'maharashtra', 'Pune', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(104, 'venues', 'Prathamesh Resorts', 'Nestled in the Sahyadri ranges Prathamesh Resorts is the               ideal destination for your fairytale wedding. Experience the magic of nature and wedding rituals with               breathtaking locale. We provide customized packages to make your wedding look like one dreamy affair. Your               Perfect wedding destination is just a click away!', 88500, 'Prathamesh Resorts, Khed Shivapur', 'maharashtra', 'Khed Shivapur', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(105, 'venues', 'TouchWood Resort', 'Located in the mystic hills of Igatpuri, surrounded by               green mountains; enriched with fog & waterfalls, Touchwood Bliss is a nature-inspired banquet hall and               wellness destination located in Igatpuri. With 6 Fully Equipped AC Glamping Tents and, 4 Courtyard               Villas,4 Farmside Villas, this venue hopes to bring you closer to nature while providing a comfortable               stay and a pure veg restaurant serving some delicious food, including Jain preparations. It is a venue               with a serene ambience and spacious interiors that one would need for events of all sizes. This venue is               perfect for grandly hosting your pre-wedding, wedding, and post-wedding functions.', 100000, 'Igatpuri, Nashik', 'maharashtra', 'Nashik', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ongoing_orders`
+--
+
+DROP TABLE IF EXISTS `ongoing_orders`;
+CREATE TABLE IF NOT EXISTS `ongoing_orders` (
+  `user_id` int(10) NOT NULL,
+  `item_id` int(10) NOT NULL,
+  `category` varchar(500) NOT NULL,
+  `name` varchar(500) NOT NULL,
+  `price` int(10) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `ongoing_orders`
+--
+
+INSERT INTO `ongoing_orders` (`user_id`, `item_id`, `category`, `name`, `price`) VALUES
+(12, 13, 'venues', 'ITC Rajputana', 500),
+(12, 47, 'photography', 'Suraj Studio', 500),
+(11, 1, 'venues', 'Umaid Bhawan Palace', 500),
+(11, 50, 'photography', 'Vijayeesam Photography', 500),
+(11, 87, 'mehendi', 'Mansi Bridal Mehndi Artist', 500);
 
 -- --------------------------------------------------------
 
@@ -293,29 +339,6 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
 (72, 'eeshan.vaidya.professional@gmail.com', 'eeshan.vaidya.professional@gmail.com', '51aca628cbc7bb656eebc7aace9d98a1'),
 (73, 'eeshan.vaidya.professional@gmail.com', 'eeshan.vaidya.professional@gmail.com', 'e2975ecce841ca98e5368e9471619cda'),
 (74, 'eeshanvaidya14@gmail.com', 'eeshanvaidya14@gmail.com', '741051f1929216889aefe84d2a15cffa');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `venue`
---
-
-DROP TABLE IF EXISTS `venue`;
-CREATE TABLE IF NOT EXISTS `venue` (
-  `venue_id` int(11) NOT NULL AUTO_INCREMENT,
-  `venue_name` text NOT NULL,
-  `price` int(11) NOT NULL,
-  `description` longtext NOT NULL,
-  `state_id` int(11) NOT NULL,
-  PRIMARY KEY (`venue_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COMMENT='Contains Venue Details';
-
---
--- Dumping data for table `venue`
---
-
-INSERT INTO `venue` (`venue_id`, `venue_name`, `price`, `description`, `state_id`) VALUES
-(1, 'taj hotel', 30000, ';sk;sajcjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjpodjpsdjalsd jdiilasjdkasbd lqwwidqiohdlqwdmqwldihqwid jsdlglmdlasihdbdnLSIPOWUIWDNaslk;ISHvba;kdkagdlsdk', 1);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

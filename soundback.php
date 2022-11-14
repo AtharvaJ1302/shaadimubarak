@@ -44,9 +44,9 @@ if(isset($_POST["select"]))
             if($result)
             {
                 echo "<script>
-            alert('Venue added to cart!');
+            alert('Sound and Lights added to cart!');
          
-            window.location.href='mehendi.php';
+            window.location.href='mehndi.php';
             </script>";
             }
             

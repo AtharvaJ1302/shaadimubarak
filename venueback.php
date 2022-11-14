@@ -47,7 +47,7 @@ if(isset($_POST["select"]))
                 echo "<script>
             alert('Venue added to cart!');
          
-            window.location.href='photography.php';
+            window.location.href='food.php';
             </script>";
             }
             
