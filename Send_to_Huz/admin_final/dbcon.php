@@ -11,9 +11,4 @@
     {
         die ( "Connection Failed : ".mysqli_connect_error);
     }
-
-    else
-    {
-        echo "Connection successful motherfucker! Now go fo!!!";
-    }
 ?>

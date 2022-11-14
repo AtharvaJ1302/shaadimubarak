@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Oct 12, 2022 at 11:37 AM
+-- Generation Time: Oct 31, 2022 at 09:37 AM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -123,28 +123,79 @@ INSERT INTO `food` (`food_id`, `food_name`, `food_price`, `type`) VALUES
 
 DROP TABLE IF EXISTS `master_list`;
 CREATE TABLE IF NOT EXISTS `master_list` (
+  `item_id` int(10) NOT NULL AUTO_INCREMENT,
   `item_category` varchar(500) NOT NULL,
   `item_name` varchar(500) NOT NULL,
-  `item_description` mediumtext NOT NULL,
-  `price` int(10) NOT NULL,
-  `venue` varchar(500) DEFAULT NULL,
+  `item_description` mediumtext,
+  `price` int(10) NOT NULL DEFAULT '1',
+  `location` varchar(500) DEFAULT NULL,
   `state` varchar(500) DEFAULT NULL,
   `city` varchar(500) DEFAULT NULL,
   `food_category` varchar(500) DEFAULT NULL,
   `food_type` varchar(500) DEFAULT NULL,
   `images` varchar(500) DEFAULT NULL,
-  `status` varchar(500) NOT NULL DEFAULT 'Active'
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+  `status` varchar(500) NOT NULL DEFAULT 'Active',
+  PRIMARY KEY (`item_id`) USING BTREE,
+  UNIQUE KEY `item_name` (`item_name`)
+) ENGINE=MyISAM AUTO_INCREMENT=84 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `master_list`
 --
 
-INSERT INTO `master_list` (`item_category`, `item_name`, `item_description`, `price`, `venue`, `state`, `city`, `food_category`, `food_type`, `images`, `status`) VALUES
-('', '', '', 1000, '', '', '', '', '', '', 'active'),
-('Food', 'Pizza', 'Delicious Italian Dish', 1000, '', '', '', 'Snacks', 'Veg', 'kdiosifposk', 'active'),
-('Food', 'Pizza', 'Delicious Italian Dish', -12, '', '', '', 'Snacks', 'Veg', 'kdiosifposk', 'active'),
-('Venue', 'JW Marriott', 'OIHoahdohcadncandc dp cdicoisjdocosdio cos dc oishdochosdpc osdh co sd ochiosd', 120000, 'SB Road', 'Maharashtra', 'Pune', '', '', 'https://epicgames.com', 'Active');
+INSERT INTO `master_list` (`item_id`, `item_category`, `item_name`, `item_description`, `price`, `location`, `state`, `city`, `food_category`, `food_type`, `images`, `status`) VALUES
+(17, 'food', 'Tandoori Chicken', 'Tender Chicken Marinated With Tandoori Spices.', 210, '', '', '', 'tandoori and grills', 'non veg', 'img.jpg', 'active'),
+(16, 'food', 'Mughlai Paneer Tikka', 'Shrimps Are Cooked In Traditional Iron Skillet With A Spicy Lemony Marinade.', 175, '', '', '', 'tandoori and grills', 'veg', 'img.jpg', 'active'),
+(14, 'food', 'Kurkuri Amchoori Bhindi Chaat', 'An All-Time Favorite Spiced Okra Fry Finished With Dry Mango Powder And Turned Into A Signature Chaat', 200, '', '', '', 'appetizers', 'veg', 'img.jpg', 'active'),
+(15, 'food', 'Tawa Shrimp Roast', 'Shrimps Are Cooked In Traditional Iron Skillet With A Spicy Lemony Marinade.', 180, '', '', '', 'appetizers', 'non veg', 'img.jpg', 'active'),
+(13, 'venues', 'ITC Rajputana', 'ITC Rajputana, an exotic and stylish red-brick heritage hotel in the capital city of Rajasthan, is symbolic of regal hospitality that harks back to a glorious past. The opulent hotel has many versatile venues, and the space can be further expanded for a large gathering by using a courtyard with the separate entrance. Siddhartha Chaturvedi, of Weddings by Event Crafter, shares, â€œITC Rajputana has a classic and authentic appeal which attracts a lot of millennial couples wanting to host a destination wedding in Jaipur. It has adequate rooms to accommodate large wedding groups.â€', 500, 'Dev Nagar, Jodhpur', 'rajasthan', 'Jodhpur', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(1, 'venues', 'Umaid Bhawan Palace', 'Home of Jodhpurâ€™s erstwhile royal family and currently the worldâ€™s sixth-largest private residence, the Umaid Bhawan Palace affords views of the historical Blue City, vast dunes, as well as the nearby Mehrangarh Fort. Known for its rich heritage, yellow sandstone architecture, and luxurious amenities, this property managed by the Taj Group, has become a hot spot for celebrity weddings such as that of Priyanka Chopra Jonas and Nick Jonas. Wedding designer Ashish Bohra, of Perfexion Events, shares, â€œStrolling through the lush, landscaped Baradari Lawns with dancing peacocks at Umaid Bhawan is a magical experience, and the property is perfect for those who have always envisioned a fairy tale wedding.â€', 500, 'Cantt Area, Jodhpur', 'rajasthan', 'Jodhpur', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(18, 'food', 'Moghul Signature Malai Kofta', 'Potato And Cheese Croquettes In A Mild Nutty Sauce', 210, '', '', '', 'main course', 'veg', 'img.jpg', 'active'),
+(19, 'food', 'Old Delhi Butter Chicken', 'A Classic Old Delhi Style Signature Recipe Of World-Famous Butter Chicken', 200, '', '', '', 'main course', 'non veg', 'img.jpg', 'active'),
+(20, 'food', 'Naan/Butter Naan/Roti', '', 25, '', '', '', 'rotis', 'veg', 'img.jpg', 'active'),
+(21, 'food', 'Aloo Paratha/Pudina Paratha/Kabuli Paratha', '', 30, '', '', '', 'rotis', 'veg', 'img.jpg', 'active'),
+(22, 'food', 'Plain Basmati', 'A Variety Of Long, Slender-Grained Aromatic Rice', 140, '', '', '', 'rice', 'veg', 'img.jpg', 'active'),
+(23, 'food', 'Lucknawi Murgh Dum Biryani', 'Lucknowi Biryani Is Cooked With The Dum Method In A Handi ,Where The Rice And Vegetables Are Cooked Separately And Then Layered In Alternate Layers With Marinated Chicken, Flavoured With Rose And Kera Essence (Ittars) And Cooked On Slow Flame With The Top Sealed Tightly.', 200, '', '', '', 'rice', 'non veg', 'img.jpg', 'active'),
+(24, 'food', 'Raita', 'Yoghurt Mix-Cucumber,Onion,Fresh Mint,Chopped Pineapple And Bhoondhi', 120, '', '', '', 'accompaniments', 'veg', 'img.jpg', 'active'),
+(25, 'food', 'Masala Papad', 'Fried Lentil Crispies,Topped With Choppen Onion,Tomato,Green Chili And Cilantro', 80, '', '', '', 'accompaniments', 'veg', 'img.jpg', 'active'),
+(26, 'food', 'Kulfi Falooda', 'Traditional Indian Ice Cream Flavored With Saffron And Pistachio Served With Falooda And Rabri', 90, '', '', '', 'desserts', 'veg', 'img.jpg', 'active'),
+(27, 'food', 'Gulab Jamun', 'Deep Fried Roundels Of Cottage Cheese And Flour Soaked In Saffron Flavored Sugar Syrup', 90, '', '', '', 'desserts', 'veg', 'img.jpg', 'active'),
+(50, 'photography', 'Vijayeesam Photography', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(48, 'photography', 'Technovision', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(49, 'photography', 'Varun Gavli Studio', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(46, 'photography', 'Photo by the Wedding Ties', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(47, 'photography', 'Suraj Studio', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(45, 'photography', 'Parak Studio', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(44, 'photography', 'Light Chamber', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(43, 'photography', 'Daas Photography', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(42, 'photography', 'Banga Studio', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(41, 'photography', '90sBlack', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(52, 'sound and lights', 'Absolut Lime', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(53, 'sound and lights', 'D&S Djs', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(54, 'sound and lights', 'Dj Ganesh', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(55, 'sound and lights', 'Dj Santosh', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(56, 'sound and lights', 'Dj Vibes', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(57, 'sound and lights', 'Dj Wale Babu', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(58, 'sound and lights', 'Elite Dj Planners', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(59, 'sound and lights', 'Miami Djs', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(60, 'sound and lights', 'Royal Djs', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(61, 'sound and lights', 'RP Dj Wale', '', 500, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(67, 'food', ' SWEET POTATO TIKKI', 'Boiled, mashed sweet potatoes are spiced with few Indian spices and shaped into tikki (patty) and shallow fried in the pan. ', 170, '', '', '', 'appetizers', 'veg', 'j3.jpg', 'active'),
+(76, 'food', 'PALAK CHAAT', 'Crispy spinach leaves are coated with gram flour batter and deep fried in the oil. Then topped with chutneys (green chutney and meethi chutney), yogurt, sev, chaat masala and coriander leaves.', 180, '', '', '', 'appetizers', 'veg', 'j4,jpg', 'active'),
+(69, 'food', 'VEG LOLLYPOP', 'Stuffing of veggies and mixed well with mashed potatoes, with spicy soya sauce dip.', 170, '', '', '', 'appetizers', 'veg', 'j2.jpg', 'active'),
+(70, 'food', 'BANG BANG CAULIFLOWER', 'Here panko breadcrumbs coated cauliflower florets are air-fried until crisp and tossed into sweet, spicy and creamy bang bang sauce. ', 175, '', '', '', 'appetizers', 'veg', 'j5.jpg', 'active'),
+(71, 'food', 'Saag Paneer', 'The perfect dish to liven up any meal, this traditional spinach and paneer recipe is simply delicious with the warming flavours of our Madras Spice Paste.', 210, '', '', '', 'main course', 'veg', 'j6.jpg', 'active'),
+(72, 'food', 'Tandoori Chicken Wings', 'Whether youâ€™re in the mood for a summer BBQ or a cozy baked meal, this recipe can be made in the oven or on the grill. Whichever method you choose will bring out the flavours of ginger, tamarind and tandoori spices in our Indian paste.', 195, '', '', '', 'tandoori and grills', 'non veg', 'j7.jpg', 'active'),
+(73, 'food', 'Tandoori Chicken Salad', 'Chicken cooked in aromatic Indian spices served along with strawberries on a bed of salad.', 200, '', '', '', 'accompaniments', 'non veg', 'j8.jpg', 'active'),
+(74, 'food', 'VEGETABLE KORMA', 'Korma is a perfect alternative to a mild Mango Chicken or a Pasanda Cooking Sauceâ€”sweet and flavoursome, with the flavours of Indian spice still really coming throughâ€”this is set to become a family favourite.', 200, '', '', '', 'main course', 'veg', 'j9.jpg', 'active'),
+(75, 'food', 'Tandoori Roasted Eggplant', 'njoy the mix of deliciously warm eggplants, with fresh mint and Greek yogurt, with a snap of pomegranate to finish.', 210, '', '', '', 'tandoori and grills', 'veg', 'j10.jpg', 'active'),
+(77, 'food', 'WARM LENTIL SALAD', '', 200, '', '', '', 'accompaniments', 'veg', 'j11.jpg', 'active'),
+(78, 'food', 'LAMB KEBABS', 'Our lovely versatile Mild Curry Spice Paste brings the flavours of wonderful Indian spices to juicy, tender lamb- in a way that is tantalizingly tasty.', 240, '', '', '', 'tandoori and grills', 'non veg', 'j12.jpg', 'active'),
+(79, 'food', 'MANGO CHUTNEY TOPPED SORBET', '', 210, '', '', '', 'desserts', 'veg', 'j13.jpg', 'active'),
+(80, 'food', 'SAFFORAN SHEMIYA KHEER', '', 210, '', '', '', 'desserts', 'veg', 'j14.jpg', 'active'),
+(81, 'food', 'MANGO SHRIKHAND', 'mildly sweetened yogurt is studded with mango pieces and served with a zesty mango salad.', 220, '', '', '', 'desserts', 'veg', 'j15.jpg', 'active'),
+(82, 'food', 'SHAHI TUKDA', 'Marut Sikka whips up a rich, saffron infused shahi tudka from Awadh. ', 210, '', '', '', 'desserts', 'veg', 'j16.jpg', ''),
+(83, 'food', 'KULFI', 'A popular frozen dessert that is sinfully rich, dense and creamy. Reduced milk flavoured with saffron, cardamom, pistachio and almonds, served chilled. ', 80, '', '', '', 'desserts', 'veg', 'j17.jpg', 'active');
 
 -- --------------------------------------------------------
 

@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <script>
+        var myfunc = function()
+        {
+            document.getElementById("menu-content").style.backgroundColor="red";
+        };
+
+        document.getElementById("dash").click();
+    </script>
+
     <style>
         *
         {
@@ -27,16 +36,17 @@
         {
             color: #E4D00A;
             width: 100%;
-            height: 50px;
+            height: 120px;
             margin: 0px;
             text-align: center;
             background-color: white;
             vertical-align: middle;
             border-radius: 2px;
-            font: 300 breeze sans;
+            font: 300 helvetica;
             margin-bottom: 50px;
             border: 0.5px solid black;
             cursor: pointer;
+            font-size: 1.7vw;
         }
 
         .menu-content:hover
@@ -44,6 +54,7 @@
             background-color: gold;
             transform:scaleY(1.05);
             transition-duration: 400ms;
+            color: white;
         }
 
         .foot
@@ -57,15 +68,20 @@
             color: white;
         }
 
+        .special:hover
+        {
+            cursor: grab;
+        }
+
     </style>
 </head>
 <body>
     <section class="menu">
         <nav class="nav">
             <h1 align="left"><a href="/">< Back</a></h1>
-            <h1 align="center">Shaadi Mubarak</h1>
+            <h1 class = "special" align="center">Shaadi Mubarak</h1>
             <a href="index.php">
-            <button class="menu-content">
+            <button class="menu-content" id="dash">
                 Dashboard
             </button>
             </a>
