@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
     <title>User Profile Form</title>
+    
+
+    
   <body>
+ 
   <style>
+    
 *{
   margin: 0;
   padding: 0;
@@ -68,7 +73,15 @@ form .user-details .input-box{
 }
 fieldset{border: 1px solid black; margin: 1px; font-size: 10px; background-color: whitesmoke;}
 h2{color: #000;;}
+
+.GTH{
+  text-decoration: none;
+  font-size: xx-large;
+  position: relative;
+  left: 15rem;
+}
 </style>
+
     <div class="container">
     <p>User Profile</p>
     <div class="content">
@@ -104,7 +117,14 @@ h2{color: #000;;}
   <fieldset>
     <h2><center>Purchase History</center></h2><br>
    <p><center><textarea name="text" id="text" cols="50" rows="2"></textarea></center></p><br><br>
+   
   </fieldset><br><br><br>
+  
+  <a href="../index.php" class="GTH">Go To Home</a>
+  
+  
+  
+
 </form>
 </body>
 </html>
