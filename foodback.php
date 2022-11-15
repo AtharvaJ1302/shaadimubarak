@@ -32,7 +32,8 @@ if(isset($_POST["submit"])){
                 $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
                 $name=$row["food_name"];
                 $price=$row["food_price"];
-                $sql="INSERT INTO ongoing_orders(user_id,item_id,category,name,price) VALUES('$user','00','food','$name','$price')";
+                $id=$row["food_id"];
+                $sql="INSERT INTO ongoing_orders(user_id,item_id,category,name,price) VALUES('$user','$id','food','$name','$price')";
                 $result=mysqli_query($conn,$sql);
             }
         }

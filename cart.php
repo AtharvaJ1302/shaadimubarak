@@ -181,9 +181,24 @@ $n=0;
                   echo "Cannot find";
                 }
                 $cnt=mysqli_num_rows($result);
+                if($cnt==0){?>
+                      <div class="row border-top py-3 mt-3">
+
+                        <div class="col-sm-8">
+                          <h3>FOOD </h3>
+                          <h4>THIS FIELD IS NOT SELECTED</h4>
+                          <br>
+
+                          
+                        </div>
+
+
+
+                        </div>
+
+                <?php }
                 while($row=mysqli_fetch_array($result,MYSQLI_ASSOC)){
                   $n++;
-                  //$row=mysqli_fetch_array($result,MYSQLI_ASSOC);
                   $total+=$row["price"];
             ?>
             
@@ -204,7 +219,7 @@ $n=0;
 
               <div class="col-sm-2 text-right">
                 <form method="post" action="removefood.php" >
-                  <input type="hidden" name="remove" value=<?php echo $row["name"]; ?>>
+                  <input type="hidden" name="remove" value=<?php echo $row["item_id"]; ?>>
               <button type="submit" name="submit" class="mt-3">Remove</button>
                 </form>
               </div>
@@ -222,7 +237,9 @@ $n=0;
               <h6 class=" text-success py-3"><i class="fas fa-check"></i> Order Status: Confirmed</h6>
               <div class="border-top py-4">
                 <h5>Subtotal (<?php echo $n;?> item):&nbsp; <span class="text-danger">Rs.<span class="text-danger" id="deal-price"><?php echo $total; ?></span> </span> </h5>
-                <button type="submit" class=" mt-3">Proceed to Buy</button>
+                <form method="post" action="final.php">
+                <button type="submit" name="submit" class=" mt-3">Proceed to Buy</button>
+              </form>
               </div>
             </div>
           </div>
