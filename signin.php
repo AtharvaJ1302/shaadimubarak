@@ -20,6 +20,7 @@ if(isset($_POST["signin"])){
 		$row=mysqli_fetch_array($result, MYSQLI_ASSOC);	
 		$_SESSION["myname"] = $row["name"];
 		$_SESSION["user_id"] = $row["id"];
+		$_SESSION["email"]=$row["email"];
 		header("Location: index.php");
 	} else {
 		echo "Username and or password incorrect. Check again";
