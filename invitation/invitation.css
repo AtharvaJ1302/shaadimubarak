@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #B00C46;
+  }
+  .card{
+    width: 700px;
+    height: 500px;
+    /* position: absolute; */
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-perspective: 1200px;
+    perspective: 1200px;
+    transition: 1s;
+    /* border: 2px solid red; */
+    margin-bottom: 120px;
+    box-shadow: none !important;
+    background-color: #B00C46 !important;
+
+  }
+  .card:hover {
+    transform: scale(1.05);
+   
+  }
+  .card:hover .outside {
+    transform: rotateY(-180deg);
+   
+  }
+   .outside,
+   .inside {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 50.1%;
+  
+  }
+   .inside {
+    background-color: #ffb6c1;
+    line-height: 3;
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    left: 50%;
+   
+    /* border: 2px solid red; */
+
+  }
+   .outside {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    z-index: 1;
+    transform-origin: left;
+    transition: 2s;
+    cursor: pointer;
+    margin-left: 10px;
+ 
+  }
+   .front,
+   .back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+  .front {
+    background-color: #ffb6c1;
+  }
+ .back {
+    transform: rotateY(180deg);
+    background-color: #ffb6c1;
+  }
+ .outside p {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #000046;
+  }
+
+ .front img{
+    width: 320px;
+    height: 460px;
+  }
+ .back img{
+    width: 320px;
+    height: 460px;
+  }
+   .inside img{
+    /* width: 320px;
+    height: 460px; */
+    width: 320px;
+    height: 380px;
+    
+  }
+   .btn{
+    border-radius: 25px;
+    background-color: rgb(246, 107, 130);
+    color: black;
+    padding: 10px;
+
+  }
+  .card-container{
+    display: flex;
+  }
+  .head h1{
+    display: inline;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    background-color: #ffb6c1;   
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    padding: 0px 100px;
+  }
+  .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  center{
+    text-align: center;
+  }
