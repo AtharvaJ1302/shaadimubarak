@@ -234,11 +234,11 @@ $n=0;
           <!-- subtotal section-->
           <div class="col-sm-3">
             <div class="sub-total border text-center mt-2">
-              <h6 class=" text-success py-3"><i class="fas fa-check"></i> Order Status: Confirmed</h6>
+              <h6 class=" text-success py-3"><i class="fas fa-check"></i> Order Status: </h6>
               <div class="border-top py-4">
                 <h5>Subtotal (<?php echo $n;?> item):&nbsp; <span class="text-danger">Rs.<span class="text-danger" id="deal-price"><?php echo $total; ?></span> </span> </h5>
                 <form method="post" action="final.php">
-                <button type="submit" name="submit" class=" mt-3">Proceed to Buy</button>
+                <button type="submit" name="cart" class=" mt-3">Proceed to Buy</button>
               </form>
               </div>
             </div>
