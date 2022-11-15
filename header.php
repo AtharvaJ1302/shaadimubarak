@@ -86,9 +86,9 @@
             <!-- /.navbar-nav -->
           </div>
           <!-- /.navbar-other -->
-          <?php } else{ echo "<span style=color:red;>"."Hello " .$_SESSION["myname"]."</span>";?>
+          <?php } else{ echo "<span style=color:red;width:19rem>"."Hello " .$_SESSION["myname"]."</span>";?>
 
-            <li class="nav-item dropdown"   style="list-style-type: none;"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> </a>
+            <li class="nav-item dropdown"   style="list-style-type: none;"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"  style="position: relative;right: 1rem;"> </a>
                   <ul class="dropdown-menu" >
                     <li class="nav-item"><a class="dropdown-item" href="./userprofile/Userprofile.php">Profile</a></li>
                     <li class="nav-item"><a class="dropdown-item" href="cart.php">Cart</a></li>
