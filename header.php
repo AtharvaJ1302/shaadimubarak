@@ -34,6 +34,8 @@
                       </li>
                       <li class="nav-item"><a class="dropdown-item" href="./photography.php">Photography</a></li>
                       <li class="nav-item"><a class="dropdown-item" href="./sound-light.php">Sound and Lights</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="./sound-light.php">Invitation Cards</a></li>
+                      <li class="nav-item"><a class="dropdown-item" href="./sound-light.php">Transport</a></li>
                   </ul>
                 </li>
                 
@@ -83,8 +85,17 @@
             <!-- /.navbar-nav -->
           </div>
           <!-- /.navbar-other -->
-          <?php } else{ echo "Hello " .$_SESSION["myname"];?>
-           <ul><li> <form action="logout.php"><input type="submit" name="logout" value="Logout" style="background-color:black;color:#fff;border-radius:2rem;"> </form></li></ul> 
+          <?php } else{ echo "<span style=color:red;>"."Hello " .$_SESSION["myname"]."</span>";?>
+
+            <li class="nav-item dropdown"   style="list-style-type: none;"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> </a>
+                  <ul class="dropdown-menu" >
+                    <li class="nav-item"><a class="dropdown-item" href="./userprofile/Userprofile.php">Profile</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="cart.php">Cart</a></li>
+                      
+                  </ul>
+                </li>
+
+           <ul style="list-style-type: none;"><li> <form action="logout.php"><input type="submit" name="logout" value="Logout" style="background-color:black;color:#fff;border-radius:2rem;"> </form></li></ul> 
         <?php }?>
           </div>
         <!-- /.container -->
