@@ -44,11 +44,7 @@ if(isset($_POST["select"]))
             $result=mysqli_query($conn,$sql);
             if($result)
             {
-                echo "<script>
-            alert('Venue added to cart!');
-         
-            window.location.href='food.php';
-            </script>";
+                header("Location:food.php");
             }
             
             

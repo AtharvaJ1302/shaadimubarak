@@ -37,11 +37,7 @@ if(isset($_POST["submit"])){
                 $result=mysqli_query($conn,$sql);
             }
         }
-                echo "<script>
-            alert('Food added to cart!');
-         
-            window.location.href='photography.php';
-            </script>";  
+                header("Location:photography.php"); 
         
     }
 

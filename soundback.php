@@ -43,11 +43,7 @@ if(isset($_POST["select"]))
             $result=mysqli_query($conn,$sql);
             if($result)
             {
-                echo "<script>
-            alert('Sound and Lights added to cart!');
-         
-            window.location.href='mehndi.php';
-            </script>";
+                header("Location:mehndi.php");
             }
             
             

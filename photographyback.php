@@ -43,11 +43,7 @@ if(isset($_POST["select"]))
             $result=mysqli_query($conn,$sql);
             if($result)
             {
-                echo "<script>
-            alert('Photgraphy added to cart!');
-         
-            window.location.href='sound-light.php';
-            </script>";
+                header("Location:sound-light.php");
             }
             
             
