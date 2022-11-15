@@ -70,6 +70,7 @@ if(isset($_POST["cart"])){
         $time=time();
         $receipt=$user.$time;
         $receipt_id=(int)$receipt;
+        $_SESSION["receipt"]=$receipt_id;
         $pending=0;
         
         $sql="INSERT INTO transactions(receipt_id,venue_name,venue_price,light_name,light_price,photo_name,photo_price,food_id,food_total,mehendi_name,mehendi_price,inv_card_name,inv_card_price,tran_name,tran_price,id_user,pending) VALUES('$receipt_id','$venue','$venue_price','$sound','$sound_price','$photo','$photo_price','$foodstr','$food_price','$mehendi','$mehendi_price','$invi','$invi_price','$tran','$tran_price','$user','$pending')";

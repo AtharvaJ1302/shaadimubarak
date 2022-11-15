@@ -8,8 +8,9 @@ $pdf->SetFont('Arial',"",15);
 $pdf->Image('logo.jpeg',10,10,30,30);
 $pdf->SETXY(100,23);
 $pdf->Cell(50,5,'INVOICE',0,0);
-
-$sql="SELECT * FROM users, transaction WHERE users.id = transaction.id_user AND users.id=14";
+$receipt=$_SESSION["receipt"];
+echo $receipt;
+$sql="SELECT * FROM transactions WHERE receipt_id='$receipt'";
 $result=mysqli_query($conn,$sql);
 if(!$result) {
     die('data not found.');
