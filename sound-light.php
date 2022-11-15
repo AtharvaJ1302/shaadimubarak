@@ -54,8 +54,9 @@ include("connection.php");
 
   .price{
     position:relative;
-    right:13rem;
+    right:18rem;
     bottom: 3.5rem;
+    margin-left: 15rem;
   }
 </style>
 

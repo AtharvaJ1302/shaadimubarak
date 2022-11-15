@@ -48,7 +48,7 @@ if (isset($_POST["submit"])) {
     }
 
     .front {
-      height: 25rem;
+      height: 30rem;
       width: 30rem;
     }
 
