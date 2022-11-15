@@ -83,8 +83,8 @@
             <!-- /.navbar-nav -->
           </div>
           <!-- /.navbar-other -->
-          <?php } else{ echo "Hello" .$_SESSION["myname"];?>
-           <ul><li> <form action="logout.php"><input type="submit" name="logout" value="Logout"> </form></li></ul> 
+          <?php } else{ echo "Hello " .$_SESSION["myname"];?>
+           <ul><li> <form action="logout.php"><input type="submit" name="logout" value="Logout" style="background-color:black;color:#fff;border-radius:2rem;"> </form></li></ul> 
         <?php }?>
           </div>
         <!-- /.container -->
