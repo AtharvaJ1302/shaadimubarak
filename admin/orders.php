@@ -193,19 +193,9 @@
 </div>
 
 <?php 
-    $sql = "SELECT * FROM `transaction`";
-
-    $row_count = 0;
-    
-    if($run = mysqli_query($con,$sql))
-    {
-        $row_count = mysqli_num_rows($run);
-    }
-
-if($row_count>0)
-    if($run = mysqli_query($con,$sql))
-    for($i=1; $i<=$row_count;$i++)
-        while ($row = $run->fetch_assoc()) {
+    $sql = "SELECT * FROM transactions WHERE pending=0";
+    $run = mysqli_query($con,$sql);
+    while ($row = mysqli_fetch_array($run,MYSQLI_ASSOC)) {
         $receipt = $row["receipt_id"];
         $venue_name = $row["venue_name"];
         $venue_price = $row["venue_price"];
@@ -214,11 +204,16 @@ if($row_count>0)
         $photo_name = $row["photo_name"];
         $photo_price = $row["photo_price"];
         $food_total = $row["food_total"];
+        $mehendi_name=$row["mehendi_name"];
+        $mehendi_price=$row["mehendi_price"];
+        $inc_name=$row["inv_card_name"];
+        $inc_price=$row["inv_card_price"];
+        $tran_name=$row["tran_name"];
+        $tran_price=$row["tran_price"];
 
+        $total=$venue_price+$sl_price+$food_total+$photo_price+$mehendi_price+$inc_price+$tran_price;
         $id = $row["id_user"];
-        $pending = $row["pending"];
-        if($pending == 1)
-        { ?>
+        ?>
         <div class="main_div">
         <h1 align="center"></h1>
         <button class="collapsible">Order no.: <?php echo $receipt?><?php echo ' for User ID: ',$id?></button>
@@ -254,25 +249,39 @@ if($row_count>0)
 
                         <tr>
                             <td><?php echo 'Food'?></td>
-                            <td> &nbsp </td>
-                            <td> <?php echo $food_total; ?> </td>
+                            <td> <?php echo $food_total; ?></td>
+                            <td> <?php echo '  '; ?> </td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $mehendi_name?></td>
+                            <td> <?php echo $mehendi_price; ?></td>
+                            <td> <?php echo '  '; ?> </td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $inc_name?></td>
+                            <td> <?php echo $inc_price; ?></td>
+                            <td> <?php echo '  '; ?> </td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $tran_name?></td>
+                            <td> <?php echo $tran_price; ?></td>
+                            <td> <?php echo '  '; ?> </td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td> </td>
+                            <td> <?php echo $total; ?> </td>
                         </tr>
                     </table>
-                    <form action="orders.php" method="post">
-                                <input type="text" name="add" id="" hidden>
+                    <form action="update.php" method="post">
+                                <input type="hidden" name="update" value=<?php echo $receipt?> >
                                 <input class = "accept-order-button" type="submit" value="Accept" name="sub"/>
                             </form>
                 </div>
             </div>
         </div>
-    <?php } }
-    else
-    {
-        ?>
-    <div class="no-result">
-        <h3>No orders found</h3>
-    </div>
-    <?php } ?>
+    <?php }?>
+  
 
     <script>
 var coll = document.getElementsByClassName("collapsible");
@@ -291,20 +300,6 @@ for (i = 0; i < coll.length; i++) {
 }
 </script>
 
-<?php 
-$getAdminInput = strip_tags($_POST['add']);
-
-if($getAdminInput=="")
-{
-    $query = "UPDATE transaction SET pending = '0'";
-
-    $runTheAcceptQuery = mysqli_query($con,$query);
-    if($runTheAcceptQuery)
-    {
-        echo 'Accepted!';
-    }
-}
-?>
 </body>
 
 </html>
