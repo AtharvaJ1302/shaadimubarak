@@ -110,7 +110,7 @@ color: #000;
     <div class="state state3">
         <h1>Jammu & Kashmir</h1>
         <form action="venue.php" method="post">
-        <input type="hidden" name="state" value="Jammu And Kashmir">
+        <input type="hidden" name="state" value="jammu kashmir">
         <button class="btn" name="submit"><span>More</span></button>
     </form>
     </div>
