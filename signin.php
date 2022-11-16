@@ -21,6 +21,7 @@ if(isset($_POST["signin"])){
 		$_SESSION["myname"] = $row["name"];
 		$_SESSION["user_id"] = $row["id"];
 		$_SESSION["email"]=$row["email"];
+		$_SESSION["guest_check"]=0;
 		header("Location: index.php");
 	} else {
 		echo "Username and or password incorrect. Check again";

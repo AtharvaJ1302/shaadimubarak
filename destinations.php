@@ -2,7 +2,8 @@
 session_start(); 
 //include("session_check.php")
 if(!empty($_SESSION)){
-    header("Location:guest.php");
+    if($_SESSION["guest_check"]!=1)
+        header("Location:guest.php");
 }
 ?>
 <!DOCTYPE html>
