@@ -87,7 +87,7 @@ input[type='checkbox']:checked+.card-container .card-flip {
 }
 
 .card-header {
-  background-color: #ff84be;
+  background-color: #f2c7dc;
   color: #000;
 }
 
@@ -194,8 +194,8 @@ top: -20px;
 /*photography button*/
 
 .card-body{
-  background-color: #ff84be;
-    border-radius: 0rem;
-    height: 0rem;
-    top: 0rem;
+  top: 4px;
+  width: 590px;
+  right: 5px;
+  background-color: #f2c7dc;
 }

@@ -45,7 +45,10 @@ if (isset($_POST["submit"])) {
     .price {
       position: relative;
       right: 13rem;
-    }
+      margin-left: 15rem;
+    left: -19rem;
+}
+    
 
     .front {
       height: 30rem;
@@ -60,6 +63,23 @@ if (isset($_POST["submit"])) {
       margin-top: 20px;
       margin-bottom: 20px;
     }
+
+    .card-body{
+      top: 4px;
+    width: 590px;
+    right: 5px;
+    background-color: #f2c7dc;
+    }
+
+    .card-header {
+  background-color: #f2c7dc;
+}
+
+.btn-state:hover{
+  background-color: white;
+  color: black;
+  border: none;
+}
   </style>
 
 </head>
