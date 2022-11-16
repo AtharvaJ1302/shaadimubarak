@@ -124,13 +124,19 @@
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">04</span></span>
+        <h4 class="mb-1 text-inversetowhite">PHOTOGRAPHY</h4>
+        <p class="mb-0">Capture as much as you can.</p>
+      </div>
+      <!--/column -->
+      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">05</span></span>
         <h4 class="mb-1 text-inversetowhite">SOUND AND LIGHT</h4>
         <p class="mb-0">Best beat for your event.</p>
       </div>
       <!--/column -->
-      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">05</span></span>
-        <h4 class="mb-1 text-inversetowhite">PHOTOGRAPHY</h4>
-        <p class="mb-0">Capture as much as you can.</p>
+      <!--/column -->
+      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">06</span></span>
+        <h4 class="mb-1 text-inversetowhite">Mehendi</h4>
+        <p class="mb-0">Beautify yourself</p>
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">06</span></span>
@@ -138,7 +144,13 @@
         <p class="mb-0">Share your day with your loved ones.</p>
       </div>
       <!--/column -->
+      <!--/column -->
       <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">07</span></span>
+        <h4 class="mb-1 text-inversetowhite">Transport</h4>
+        <p class="mb-0">Connecting you with the nearest</p>
+      </div>
+      <!--/column -->
+      <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary disabled mb-4"><span class="number">08</span></span>
         <h4 class="mb-1 text-inversetowhite">PAYMENT</h4>
         <p class="mb-0">Finalize with the best deal.</p>
       </div>
