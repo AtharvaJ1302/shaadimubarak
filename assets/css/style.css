@@ -49,7 +49,7 @@ Author:		Arun
   --bs-pink-rgb: 209, 107, 134;
   --bs-fuchsia-rgb: 230, 104, 179;
   --bs-red-rgb: 226, 98, 107;
-  --bs-darkpink-rgb: 176, 12, 70;
+  --bs-darkpink:#f2356c; /* homepage bg-color */
   --bs-orange-rgb: 247, 139, 119;
   --bs-yellow-rgb: 250, 183, 88;
   --bs-green-rgb: 69, 196, 160;
