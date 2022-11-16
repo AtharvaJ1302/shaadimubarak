@@ -93,25 +93,25 @@
             <div class="user-input-wrp">
 
                 <h4>For Transport</h4>
-                <input type="number" class="inputText" required min="10" name="forTransport"
-                    placeholder="                                       Minimum of 10" />
+                <input type="number" class="inputText" required min="10" name="Transport"
+                    placeholder="Minimum of 10" />
                 <span class="floating-label">Guests</span>
             </div>
 
             <div class="user-input-wrp">
                 <h4>For Food</h4>
-                <input type="number" class="inputText" required min="10" name="forFood"
-                    placeholder="                                       Minimum of 10" />
+                <input type="number" class="inputText" required min="10" name="Food"
+                    placeholder="Minimum of 10" />
                 <span class="floating-label">Guests</span>
             </div>
             <br>
 
-        </form>
+        
         <br><br><br>
         
             <input type="submit" id="btn-gst" value="Visit destinations" name="submit" />
         
-
+            </form>
     </div>
 
 </body>
