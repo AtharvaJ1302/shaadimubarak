@@ -33,7 +33,7 @@ include("connection.php");
 <?php
 $categories=array("venues","sound and lights","photography");
 //$food=$_SESSION["food"];
-$notman=array("mehendi","transport","invitation cards");
+$notman=array("mehendi","invitation cards");
 $total=0;
 $n=0;
 ?>
@@ -175,7 +175,7 @@ $n=0;
             <!-- !cart item -->
             <!--Food-->
             <?php
-                $sql="SELECT * FROM ongoing_orders WHERE category='food'";
+                $sql="SELECT * FROM ongoing_orders WHERE category='food' AND user_id='$user'";
                 $result=mysqli_query($conn,$sql);
                 if(!$result){
                   echo "Cannot find";
@@ -198,8 +198,12 @@ $n=0;
 
                 <?php }
                 while($row=mysqli_fetch_array($result,MYSQLI_ASSOC)){
+                  $sql="SELECT * FROM guest WHERE user_id='$user'";
+                  $res=mysqli_query($conn,$sql);
+                  $r=mysqli_fetch_array($res,MYSQLI_ASSOC);
+                  $g=$r["food_guest"];
                   $n++;
-                  $total+=$row["price"];
+                  $total+=($row["price"]*$g);
             ?>
             
             
@@ -213,7 +217,9 @@ $n=0;
                 <br>
 
                 <h5>Price:</h5>
-                <h6><?php echo $row["price"]; ?></h6>
+                <h6><?php echo $row["price"]*$g; ?></h6>
+                  <h5>No Of Guests:</h5>
+                <h6><?php echo $g; ?></h6>
 
               </div>
 
@@ -227,6 +233,74 @@ $n=0;
             </div>
             <?php 
                 }
+              
+            ?>
+            <!--Transport-->
+            <?php
+                $sql="SELECT * FROM ongoing_orders WHERE user_id='$user' AND category='Transport'";
+                
+                $result=mysqli_query($conn,$sql);
+                if(!$result){
+                  echo "Cannot find";
+                }
+                $cnt=mysqli_num_rows($result);
+                if($cnt==1){
+                  $s="SELECT * FROM guest WHERE user_id='$user'";
+                  $res=mysqli_query($conn,$s);
+                  $r=mysqli_fetch_array($res,MYSQLI_ASSOC);
+                  $t=$r["tran_guest"];
+                  $n++;
+                  $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
+                  $total+=($row["price"]*$t);
+            ?>
+            
+            
+            <!-- cart item -->
+            <div class="row border-top py-3 mt-3">
+
+              <div class="col-sm-8">
+                <h3>TRRANSPORT</h3>
+                <h5> Name:</h5>
+                <h6><?php echo $row["name"]; ?></h6>
+                <br>
+
+                <h5>Price:</h5>
+                <h6><?php echo $row["price"]; ?></h6>
+                
+                <h5>No of Guests: </h5>
+                <h6><?php echo $t; ?></h6>
+
+              </div>
+
+              <div class="col-sm-2 text-right">
+                <form method="post" action="remove.php" >
+                  <input type="hidden" name="remove" value=<?php echo $c; ?>>
+              <button type="submit" name="submit" class="mt-3">Remove</button>
+                </form>
+              </div>
+
+            </div>
+            <!-- !cart item -->
+            <?php 
+              } else{
+            
+            ?>
+            <!-- cart item -->
+            <div class="row border-top py-3 mt-3">
+
+              <div class="col-sm-8">
+                <h3>TRANSPORT</h3>
+                <h4>THIS FIELD IS NOT SELECTED</h4>
+                <br>
+
+                
+              </div>
+
+              
+
+            </div>
+            <?php
+              }
               
             ?>
 
