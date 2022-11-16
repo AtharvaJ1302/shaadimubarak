@@ -6,7 +6,7 @@ function check()
     {
         echo "<script>
         alert('Signin To Start Booking!');
-        window.location.href='transport.php';
+        window.location.href='invite.php';
         </script>";
 return false;
     }
@@ -15,35 +15,30 @@ return false;
         return true; 
     }
 }
-if(isset($_POST["select"]))
+if(isset($_POST["submit"]))
 {
     if(check()){
         include("connection.php");
         $user=$_SESSION["user_id"];
         $item=$_POST["photo"];
         //check venue is selected or not if no : redirect with alert if yes: fetch from master_list
-        $sql1="SELECT * FROM ongoing_orders WHERE user_id='$user' AND category='transport'";
+        $sql1="SELECT * FROM ongoing_orders WHERE user_id='$user' AND category='invitation cards'";
         $result1=mysqli_query($conn,$sql1);
         $cnt = mysqli_num_rows($result1);
         if($cnt>=1){
             echo "<script>
-        alert('Transport already selected, check in cart!');
+        alert('Invitation Card  already selected, check in cart!');
      
-        window.location.href='transport.php';
+        window.location.href='invite.php';
         </script>";
         }else{
-            $sql="SELECT * FROM master_list WHERE item_id='$item'";
-            $result=mysqli_query($conn,$sql);
-            $row=mysqli_fetch_array($result, MYSQLI_ASSOC);
-            $category=$row["item_category"];
-            $name=$row["item_name"];
-            $price=$row["price"];
+            $card=$_POST["card"];
             //insert into ongoing_order table
-            $sql="INSERT INTO ongoing_orders(user_id,item_id,category,name,price) VALUES('$user','$item','$category','$name','$price')";
+            $sql="INSERT INTO ongoing_orders(user_id,item_id,category,name,price) VALUES('$user','00','invitation cards','$card','500')";
             $result=mysqli_query($conn,$sql);
             if($result)
             {
-                header("Location:invite.php");
+                header("Location:cart.php");
             }
             
             

@@ -82,7 +82,7 @@ foreach($food_arr as $f){
         $n=$n+7;
         $food_name=$k["food_name"];
         $price=$k["food_price"];
-        $mc_array=array($food_name,$price,$price);
+        $mc_array=array($food_name,$price,$price*$g);
         $pdf->SetXY(10,$n);
         $pdf->Row($mc_array,0);
     }

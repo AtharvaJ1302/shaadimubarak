@@ -84,7 +84,10 @@ color: #000;
       </div>
       <div class="inside">
         <img src="./invitation/1.3.jpg" alt="">
-        <button class="btn">Add to cart</button>
+        <form action="inviteback.php" method="post">
+        <input type="hidden" name="card" value="Card 1">
+        <button class="btn" name="submit">Add to cart</button>
+        </form>
         <h6>Card 1</h6>
         <h6>Price:1500</h6>
       </div>
@@ -99,7 +102,10 @@ color: #000;
       </div>
       <div class="inside">
         <img src="./invitation/2.3.jpg" alt="">
-        <button class="btn">Add to cart</button>
+        <form action="inviteback.php" method="post">
+        <input type="hidden" name="card" value="Card 2">
+        <button class="btn" name="submit">Add to cart</button>
+        </form>
         <h6>Card 2</h6>
         <h6>Price:1500</h6>
       </div>
@@ -115,7 +121,10 @@ color: #000;
       </div>
       <div class="inside">
         <img src="./invitation/3.3.jpg" alt="">
-        <button class="btn">Add to cart</button>
+                <form action="inviteback.php" method="post">
+        <input type="hidden" name="card" value="Card 3">
+        <button class="btn" name="submit">Add to cart</button>
+        </form>
         <h6>Card 3</h6>
         <h6>Price:1500</h6>
       </div>
@@ -130,7 +139,10 @@ color: #000;
       </div>
       <div class="inside">
         <img src="./invitation/4.3.jpg" alt="">
-        <button class="btn">Add to cart</button>
+                <form action="inviteback.php" method="post">
+        <input type="hidden" name="card" value="Card 4">
+        <button class="btn" name="submit">Add to cart</button>
+        </form>
         <h6>Card 4</h6>
         <h6>Price:1500</h6>
       </div>
@@ -146,7 +158,10 @@ color: #000;
       </div>
       <div class="inside">
         <img src="./invitation/5.3.jpg" alt="">
-        <button class="btn">Add to cart</button>
+                <form action="inviteback.php" method="post">
+        <input type="hidden" name="card" value="Card 5">
+        <button class="btn" name="submit">Add to cart</button>
+        </form>
         <h6>Card 5</h6>
         <h6>Price:1500</h6>
       </div>
@@ -161,7 +176,10 @@ color: #000;
       </div>
       <div class="inside">
         <img src="./invitation/6.3.jpg" alt="">
-        <button class="btn">Add to cart</button>
+                <form action="inviteback.php" method="post">
+        <input type="hidden" name="card" value="Card 6">
+        <button class="btn" name="submit">Add to cart</button>
+        </form>
         <h6>Card 6</h6>
         <h6>Price:1500</h6>
       </div>
@@ -177,7 +195,10 @@ color: #000;
       </div>
       <div class="inside">
         <img src="./invitation/7.3.jpg" alt="">
-        <button class="btn">Add to cart</button>
+                <form action="inviteback.php" method="post">
+        <input type="hidden" name="card" value="Card 7">
+        <button class="btn" name="submit">Add to cart</button>
+        </form>
         <h6>Card 7</h6>
         <h6>Price:1500</h6>
       </div>
@@ -192,7 +213,10 @@ color: #000;
       </div>
       <div class="inside">
         <img src="./invitation/8.3.jpg" alt="">
-        <button class="btn">Add to cart</button>
+        <form action="inviteback.php" method="post">
+        <input type="hidden" name="card" value="Card 8">
+        <button class="btn" name="submit">Add to cart</button>
+        </form>
         <h6>Card 8</h6>
         <h6>Price:1500</h6>
       </div>
@@ -209,7 +233,10 @@ color: #000;
       </div>
       <div class="inside">
         <img src="./invitation/9.3.png" alt="">
-        <button class="btn">Add to cart</button>
+                <form action="inviteback.php" method="post">
+        <input type="hidden" name="card" value="Card 9">
+        <button class="btn" name="submit">Add to cart</button>
+        </form>
         <h6>Card 9</h6>
         <h6>Price:1500</h6>
       </div>
@@ -224,7 +251,10 @@ color: #000;
       </div>
       <div class="inside">
         <img src="./invitation/10.3.jpg" alt="">
-        <button class="btn">Add to cart</button>
+                <form action="inviteback.php" method="post">
+        <input type="hidden" name="card" value="Card 10">
+        <button class="btn" name="submit">Add to cart</button>
+        </form>
         <h6>Card 10</h6>
         <h6>Price:1500</h6>
       </div>
