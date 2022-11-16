@@ -10,6 +10,12 @@ $pdf->SETXY(100,23);
 $pdf->Cell(50,5,'INVOICE',0,0);
 $receipt=$_SESSION["receipt"];
 //echo $receipt;
+$user=$_SESSION["user_id"];
+$s="SELECT * FROM guest WHERE user_id='$user'";
+        $res=mysqli_query($conn,$s);
+        $r=mysqli_fetch_array($res,MYSQLI_ASSOC);
+        $t=$r["tran_guest"];
+        $g=$r["food_guest"];
 $sql="SELECT * FROM transactions WHERE receipt_id='$receipt'";
 $result=mysqli_query($conn,$sql);
 if(!$result) {
@@ -76,7 +82,7 @@ foreach($food_arr as $f){
         $n=$n+7;
         $food_name=$k["food_name"];
         $price=$k["food_price"];
-        $mc_array=array($food_name,$price,$price);
+        $mc_array=array($food_name,$price,$price*$g);
         $pdf->SetXY(10,$n);
         $pdf->Row($mc_array,0);
     }
@@ -91,7 +97,7 @@ $pdf->SetXY(10,$n);
 $pdf->Row($mc_array,0);
 
 $n=$n+7;
-$mc_array=array($tran_name,$tran_price,$tran_price);
+$mc_array=array($tran_name,$tran_price,$tran_price*$t);
 $pdf->SetXY(10,$n);
 $pdf->Row($mc_array,0);
 

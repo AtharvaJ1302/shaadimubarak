@@ -13,6 +13,11 @@ if(isset($_POST["cart"])){
     $cnt=mysqli_num_rows($result);
     if($cnt==3){
         $user=(int)$_SESSION["user_id"];
+        $s="SELECT * FROM guest WHERE user_id='$user'";
+        $res=mysqli_query($conn,$s);
+        $r=mysqli_fetch_array($res,MYSQLI_ASSOC);
+        $t=$r["tran_guest"];
+        $g=$r["food_guest"];
         //$food=$_SESSION["food"];
         $food_price=0;
         $venue=$photo=$sound=$mehendi=$invi=$tran="none";
@@ -51,6 +56,7 @@ if(isset($_POST["cart"])){
         if(is_array($row)){
             $tran=$row["name"];
             $tran_price=(int)$row["price"];
+            $tran_price=$tran_price*$t;
         }
         //invitation cards
         $sql="SELECT * FROM ongoing_orders WHERE user_id='$user' AND category='invitation cards'";
@@ -67,6 +73,7 @@ if(isset($_POST["cart"])){
             $foodstr.=$row["item_id"]."|";
             $food_price+=$row["price"];
         }
+        $food_price=$food_price*$g;
         $time=time();
         $receipt=$user.$time;
         $receipt_id=(int)$receipt;
