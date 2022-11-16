@@ -26,11 +26,15 @@ session_start();
     top: 1rem;
     left: 29rem;
 }
+
+.products-preview .preview{
+   background: rgba(230, 71, 158, 1);
+}
       
    </style>
 
 </head>
-<body style ="background-color: #C21E56";>
+<body style ="background-color: #FF4B7F";>
  <?php include("./header.php"); ?> 
 
     <form action="foodback.php" method="post" class="food-form">

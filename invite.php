@@ -45,10 +45,12 @@ color: #000;
     border: none;
     background-color: black;
 }
+
+
 </style>
 
 </head>
-<body>
+<body style="background-color: #FF4B7F;">
 <?php include("./header.php"); ?>
 
 
@@ -56,7 +58,7 @@ color: #000;
     <h1 class="center">INVITATION CARDS</h1>
   </div>
     <div class="card-container">
-    <div class="card" style="background-color: #B00C46;box-shadow:none;">
+    <div class="card" style="background-color: #FF4B7F;box-shadow:none;">
       <div class="outside">
         <div class="front">
         <img src="./invitation/1.1.jpg" alt="img">
@@ -69,7 +71,7 @@ color: #000;
       </div>
     </div>
 
-    <div class="card" style="background-color: #B00C46;box-shadow:none;">
+    <div class="card" style="background-color: #FF4B7F;box-shadow:none;">
       <div class="outside">
         <div class="front">
         <img src="./invitation/2.1.jpg" alt="img">
@@ -83,7 +85,7 @@ color: #000;
     </div>
   </div>
     <div class="card-container">
-    <div class="card" style="background-color: #B00C46;box-shadow:none;">
+    <div class="card" style="background-color: #FF4B7F;box-shadow:none;">
       <div class="outside">
         <div class="front">
         <img src="./invitation/3.1.jpg" alt="img">
@@ -96,7 +98,7 @@ color: #000;
       </div>
     </div>
 
-    <div class="card" style="background-color: #B00C46;box-shadow:none;">
+    <div class="card" style="background-color: #FF4B7F;box-shadow:none;">
       <div class="outside">
         <div class="front">
         <img src="./invitation/4.1.jpg" alt="img">
@@ -110,7 +112,7 @@ color: #000;
     </div>
   </div>
     <div class="card-container">
-    <div class="card" style="background-color: #B00C46;box-shadow:none;">
+    <div class="card" style="background-color: #FF4B7F;box-shadow:none;">
       <div class="outside">
         <div class="front">
         <img src="./invitation/5.1.jpg" alt="img">
@@ -123,7 +125,7 @@ color: #000;
       </div>
     </div>
 
-    <div class="card" style="background-color: #B00C46;box-shadow:none;">
+    <div class="card" style="background-color: #FF4B7F;box-shadow:none;">
       <div class="outside">
         <div class="front">
         <img src="./invitation/6.1.jpg" alt="img">
@@ -137,7 +139,7 @@ color: #000;
     </div>
   </div>
     <div class="card-container">
-    <div class="card" style="background-color: #B00C46;box-shadow:none;">
+    <div class="card" style="background-color: #FF4B7F;box-shadow:none;">
       <div class="outside">
         <div class="front">
         <img src="./invitation/7.1.jpg" alt="img">
@@ -150,7 +152,7 @@ color: #000;
       </div>
     </div>
 
-    <div class="card" style="background-color: #B00C46;box-shadow:none;">
+    <div class="card" style="background-color: #FF4B7F;box-shadow:none;">
       <div class="outside">
         <div class="front">
         <img src="./invitation/8.1.jpg" alt="img">
@@ -165,7 +167,7 @@ color: #000;
   </div>
 
     <div class="card-container">
-     <div class="card" style="background-color: #B00C46;box-shadow:none;">
+     <div class="card" style="background-color: #FF4B7F;box-shadow:none;">
       <div class="outside">
         <div class="front">
         <img src="./invitation/9.1.png" alt="img">
@@ -178,7 +180,7 @@ color: #000;
       </div>
     </div>
 
-    <div class="card" style="background-color: #B00C46;box-shadow:none;">
+    <div class="card" style="background-color: #FF4B7F;box-shadow:none;">
       <div class="outside">
         <div class="front">
         <img src="./invitation/10.1.jpg" alt="img">

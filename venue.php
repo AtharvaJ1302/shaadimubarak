@@ -84,15 +84,15 @@ if (isset($_POST["submit"])) {
 
 </head>
 
-<body>
+<body style="background-color: #FF4B7F;">
 
   <?php include("./header.php"); ?>
 
 
   <section id="container">
 
-    <div class="head">
-      <h1><?php echo $state; ?></h1>
+    <div class="head" >
+      <h1 style="background-color: #000;"><?php echo $state; ?></h1>
     </div>
     <?php
     $sql = "SELECT * FROM master_list WHERE item_category='venues' and state='$state'  and status='active'";

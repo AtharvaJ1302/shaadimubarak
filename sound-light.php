@@ -58,16 +58,20 @@ include("connection.php");
     bottom: 3.5rem;
     margin-left: 15rem;
   }
+
+  .card-body{
+    background-color: #f2c7dc  
+  }
 </style>
 
 </head>
 
-<body>
+<body style="background-color: #FF4B7F;">
 <?php include("./header.php"); ?>
   <section id="container">
 
     <div class="head">
-      <h1>SOUND AND LIGHTS</h1>
+      <h1 style="background-color: #000;">SOUND AND LIGHTS</h1>
     </div>
     <?php
     $sql="SELECT * FROM master_list WHERE item_category='sound and lights' and status='active'";
@@ -120,7 +124,7 @@ include("connection.php");
             <?php echo'<input type="hidden" name="photo" value='.$row["item_id"].'>'?>
             <button class="btn-photo btn-primary" name="select">Select</button>
             </form>
-            <div class="price"><?php echo $row["price"]; ?></div>
+            <div class="price" style="color: #000;font-weight:bold;"><?php echo $row["price"]; ?></div>
 
 
 
