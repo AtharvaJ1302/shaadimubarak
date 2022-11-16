@@ -1,6 +1,9 @@
 <?php
 session_start(); 
 //include("session_check.php")
+if(!empty($_SESSION)){
+    header("Location:guest.php");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

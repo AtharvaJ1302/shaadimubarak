@@ -89,7 +89,7 @@
 <body>
     <div class="container">
         <h1 align="center">Select the Number of Guests</h1>
-        <form action="" method="post">
+        <form action="guestback.php" method="post">
             <div class="user-input-wrp">
 
                 <h4>For Transport</h4>
@@ -108,9 +108,9 @@
 
         </form>
         <br><br><br>
-        <a href="./destinations.php">
-            <input type="button" id="btn-gst" value="Visit destinations" />
-        </a>
+        
+            <input type="submit" id="btn-gst" value="Visit destinations" name="submit" />
+        
 
     </div>
 
