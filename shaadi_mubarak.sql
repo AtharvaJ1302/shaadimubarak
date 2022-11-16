@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 15, 2022 at 03:26 PM
+-- Generation Time: Nov 16, 2022 at 03:55 AM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -118,6 +118,19 @@ INSERT INTO `food` (`food_id`, `food_name`, `food_price`, `type`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `guest`
+--
+
+DROP TABLE IF EXISTS `guest`;
+CREATE TABLE IF NOT EXISTS `guest` (
+  `user_id` int(10) NOT NULL,
+  `food_guest` int(10) NOT NULL,
+  `tran_guest` int(10) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `master_list`
 --
 
@@ -137,7 +150,7 @@ CREATE TABLE IF NOT EXISTS `master_list` (
   `status` varchar(500) NOT NULL DEFAULT 'Active',
   PRIMARY KEY (`item_id`) USING BTREE,
   UNIQUE KEY `item_name` (`item_name`)
-) ENGINE=MyISAM AUTO_INCREMENT=192 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=202 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `master_list`
@@ -301,7 +314,17 @@ INSERT INTO `master_list` (`item_id`, `item_category`, `item_name`, `item_descri
 (188, 'venues', 'Club Verde Vista', 'umped up to make D-day the most memorable day of your life, Club Verde Vista features among the top open air wedding venues in Kolkata. There are both indoor and outdoor venues, with in-house decorators and caterers. With the venue, you can also consider a stay for guests as you get rooms (4 rooms available) for an average cost of INR 4,000 per room (above the venue charges).', 500, 'Upohar, Kolkata', 'west bengal', 'Kolkata', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
 (189, 'venues', 'Mangalam Banquets', 'One of the excellent yet somewhat cheap banquet halls in Kolkata for weddings, Mangalam Banquets is among the mid-sized wedding halls in South Kolkata that can host up to 300 guests. Theres an open road parking available with complimentary valet. If it is a comparatively small affair, this is the best choice for your special day.', 500, 'Gobra, Kolkata', 'west bengal', 'Kolkata', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
 (190, 'venues', 'Royal Bengal Room', 'Whatever the theme be for your wedding, all you need to do is to tell the decorators and you can have it. Not kidding, these people are the best in business and the Royal Bengal Room is beautiful and very spacious and somewhere where you should plan your dream wedding at. If your tastes are subtle then this is the place for you.', 500, 'Bidhannagar, Kolkata', 'west bengal', 'Kolkata', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
-(191, 'venues', 'Smriti Banquets', 'If you wish to serve alcohol to guests because you are a good host then Smriti Banquets is your best bet and offers the best solution to all your wedding related queries and doubts. Be it decor, food or anything else this wedding venue in Kolkata does everything right and is tucked away from the bustling city, offering quaint settings for your big day.', 500, 'Newtown, Kolkata', 'west bengal', 'Kolkata', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active');
+(191, 'venues', 'Smriti Banquets', 'If you wish to serve alcohol to guests because you are a good host then Smriti Banquets is your best bet and offers the best solution to all your wedding related queries and doubts. Be it decor, food or anything else this wedding venue in Kolkata does everything right and is tucked away from the bustling city, offering quaint settings for your big day.', 500, 'Newtown, Kolkata', 'west bengal', 'Kolkata', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(192, 'transport', '14 Seater', '', 12000, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(193, 'transport', 'Audi', '', 10000, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(194, 'transport', 'Bmw', '', 13000, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(195, 'transport', 'Bus', '', 15000, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(196, 'transport', 'Ciaz', '', 9000, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(197, 'transport', 'Ford', '', 9000, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(198, 'transport', 'Kia SUV', '', 10000, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(199, 'transport', 'Limousine', '', 15000, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(200, 'transport', 'Tata City', '', 15000, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active'),
+(201, 'transport', 'Toyota Coaster', '', 18000, '', '', '', '', '', 'img1.jpg,img2.jpg,img3.jpg', 'active');
 
 -- --------------------------------------------------------
 
@@ -373,17 +396,6 @@ CREATE TABLE IF NOT EXISTS `transactions` (
   `id_user` int(10) NOT NULL,
   `pending` int(2) NOT NULL DEFAULT '0'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `transactions`
---
-
-INSERT INTO `transactions` (`receipt_id`, `venue_name`, `venue_price`, `light_name`, `light_price`, `photo_name`, `photo_price`, `food_id`, `food_total`, `mehendi_name`, `mehendi_price`, `inv_card_name`, `inv_card_price`, `tran_name`, `tran_price`, `id_user`, `pending`) VALUES
-(111668517156, 'Dhepe Wada', 120000, 'D&S Djs', 500, 'Suraj Studio', 500, '49|32|19|2|', 500, 'Nisha Bridal Mehndi', 500, 'none', 0, 'none', 0, 11, 1),
-(111668517513, 'The Groves', 99000, 'Dj Santosh', 500, 'Suraj Studio', 500, '25|8|', 360, 'Arabic Mehndi', 500, 'none', 0, 'none', 0, 11, 1),
-(111668520755, 'Yadu Greens', 320000, 'Dj Vibes', 500, 'Parak Studio', 500, '51|38|45|20|33|10|2|', 1005, 'Payals Mehndi', 500, 'none', 0, 'none', 0, 11, 1),
-(121668521794, 'The Raviz Kadavu', 180000, 'Absolut Lime', 500, 'Vijayeesam Photography', 500, '45|13|32|25|8|2|', 865, 'Heena Mehndi', 500, 'none', 0, 'none', 0, 12, 1),
-(111668522282, 'Fort Grand', 500, 'Absolut Lime', 500, 'Vijayeesam Photography', 500, '13|', 165, 'Mansi Bridal Mehndi Artist', 500, 'none', 0, 'none', 0, 11, 1);
 
 -- --------------------------------------------------------
 
