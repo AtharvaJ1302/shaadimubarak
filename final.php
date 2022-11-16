@@ -56,7 +56,6 @@ if(isset($_POST["cart"])){
         if(is_array($row)){
             $tran=$row["name"];
             $tran_price=(int)$row["price"];
-            $tran_price=$tran_price*$t;
         }
         //invitation cards
         $sql="SELECT * FROM ongoing_orders WHERE user_id='$user' AND category='invitation cards'";

@@ -251,7 +251,7 @@ $n=0;
                   $t=$r["tran_guest"];
                   $n++;
                   $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
-                  $total+=($row["price"]*$t);
+                  $total+=($row["price"]);
             ?>
             
             
@@ -259,7 +259,7 @@ $n=0;
             <div class="row border-top py-3 mt-3">
 
               <div class="col-sm-8">
-                <h3>TRRANSPORT</h3>
+                <h3>TRANSPORT</h3>
                 <h5> Name:</h5>
                 <h6><?php echo $row["name"]; ?></h6>
                 <br>
@@ -274,7 +274,7 @@ $n=0;
 
               <div class="col-sm-2 text-right">
                 <form method="post" action="remove.php" >
-                  <input type="hidden" name="remove" value=<?php echo $c; ?>>
+                  <input type="hidden" name="remove" value="transport">
               <button type="submit" name="submit" class="mt-3">Remove</button>
                 </form>
               </div>
